@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="button.css">
+	</head>
+	<body>
+		<div class="container">
+			<input type="checkbox" id="temporaryOff" name="temporaryOff">
+			<label for="temporaryOff">Doèasnì vypnout + refresh</label>
+			<br>
+
+			<input type="checkbox" id="bannedWebs" name="bannedWebs">
+			<label for="bannedWebs">Ignorovat na tomto webu</label>
+			<br>
+
+			<input type="checkbox" id="noFullVersion" name="noFullVersion">
+			<label for="noFullVersion">Ignorovat weby s dynamickým obsahem (FB, Twitter, ... - mùže zpomalovat prohlížeè)</label>
+			<br>
+
+			<input type="checkbox" id="noTooltips" name="noTooltips">
+			<label for="noTooltips">Nezobrazovat nápovìdu pøi najetí myši na jméno (život na obtížnost hard)</label>
+
+			<br>
+
+			<p>Ignorované fráze (citlivé na velká/malá písmena) - napø. pokud se jmenuješ "Ivan Bartoš": <span id="ignoredWordsList"></p>
+			<input type="text" id="ignoredWordsInput" name="ignoredWordsInput">
+			<button type="button" id="addIgnoredWord">Pøidat</button><button type="button" id="resetIgnoredWords">Vymazat</button>
+
+		</div>
+		<script src="popup.js"></script>
+	</body>
+</html>
