@@ -1,5 +1,11 @@
 // k tomuhle algoritmu mě přivedl chatgpt někdy v 11 večer, napsal jsem si ho sám ale kdybych o něm nevěděl, musel bych použít regex
 
+interface TrieNode {
+    prevChar: string,
+    char: string,
+    next: Set<TrieNode>
+}
+
 /*
 matches = he, she, him
 boundaries = ., !
@@ -11,11 +17,11 @@ trie =
     . -> ... -> !*
     ! -> ... -> !*
 */
-export function buildTrie(matches, boundaries) {
+export function buildTrie(matches: string[], boundaries: string[]) {
     matches = borderedMatches(matches, boundaries)
 }
 
-function borderedMatches(matches, boundaries) {
+function borderedMatches(matches: string[], boundaries: string[]) {
     const res = [];
     for (const prefix in boundaries) {
         for (const postfix in boundaries) {
@@ -27,7 +33,7 @@ function borderedMatches(matches, boundaries) {
     return res;
 }
 
-function newNode(prevChar, char) {
+function newNode(prevChar: string, char: string): TrieNode {
     return {
         prevChar: prevChar,
         char: char,
@@ -35,13 +41,13 @@ function newNode(prevChar, char) {
     }
 }
 
-function buildTrieTree(matches) {
+function buildTrieTree(matches: string[]) {
     const root = newNode('\0', '\0');
     buildTrieNodes(matches, [root], 0, Math.max(...matches.map(m => m.length)));
     return root;
 }
 
-function buildTrieNodes(matches, prevNodes, index, stop) {
+function buildTrieNodes(matches: string[], prevNodes: TrieNode[], index: number, stop: number) {
     if (index === stop) {
         return;
     }

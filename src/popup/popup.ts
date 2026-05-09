@@ -1,4 +1,4 @@
-import {getRandomItem} from "../utils.js";
+import {getRandomItem} from "../utils";
 
 const subtitles = [
     "Pro čtení Novinek bez zvýšeného tlaku...",
@@ -6,9 +6,11 @@ const subtitles = [
     "Pro čtení diskuzí bez újmy na zdraví"
 ]
 
-function registerCallback(id, fun) {
+function registerCallback(id: string, fun: () => void) {
     const element = document.getElementById(id);
-    element.addEventListener('change', fun);
+    if (element) {
+        element.addEventListener('change', fun);
+    }
 }
 
 function onTemporaryOffChanged() {
@@ -24,7 +26,7 @@ function onHideOriginalChanged() {
 }
 
 function init() {
-    document.getElementById("subtitle").innerText = getRandomItem(subtitles);
+    document.getElementById("subtitle")!.innerText = getRandomItem(subtitles);
     registerCallback("temporaryOff", onTemporaryOffChanged)
     registerCallback("webBanned", onWebBannedChanged)
     registerCallback("hideOriginal", onHideOriginalChanged)
