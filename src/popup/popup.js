@@ -3,6 +3,7 @@ import {getRandomItem} from "../utils.js";
 const subtitles = [
     "Pro čtení Novinek bez zvýšeného tlaku...",
     "Pro čtení příspěvků Miroslavy Tymlové",
+    "Pro čtení diskuzí bez újmy na zdraví"
 ]
 
 function registerCallback(id, fun) {

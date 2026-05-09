@@ -2,24 +2,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    margin: unset;
-}
-
 .content {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
+}
+
+.invisible-link {
+    text-decoration: none;
+    color: black;
+}
+
+#title {
+    margin: unset;
 }
 
 #subtitle {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 
