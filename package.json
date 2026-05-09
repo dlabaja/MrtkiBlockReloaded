@@ -4,11 +4,12 @@
   "description": "blokování hnoje na webu",
   "main": "main.js",
   "scripts": {
-    "build": "tsc",
-    "install-scripts": "npm install",
-    "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node scripts/clean.js && tsc && node scripts/build.js",
+    "install-deps": "npm install",
+    "webext-lint": "npm run build && web-ext lint --source-dir dist",
+    "webext-start": "npm run build && web-ext run --source-dir dist"
   },
+  "type": "module",
   "author": "dlabaja",
   "license": "ISC",
   "devDependencies": {
