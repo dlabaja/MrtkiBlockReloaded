@@ -27,15 +27,16 @@ function borderedMatches(matches, boundaries) {
     return res;
 }
 
-function newNode(charContent) {
+function newNode(prevChar, char) {
     return {
-        content: charContent,
+        prevChar: prevChar,
+        char: char,
         next: new Set()
     }
 }
 
 function buildTrieTree(matches) {
-    const root = newNode('\0');
+    const root = newNode('\0', '\0');
     buildTrieNodes(matches, [root], 0, Math.max(...matches.map(m => m.length)));
     return root;
 }
@@ -45,22 +46,32 @@ function buildTrieNodes(matches, prevNodes, index, stop) {
         return;
     }
     
-    const chars = new Set();
+    const charMap = new Map(); // prevChar, new Set()
     const nodes = []
     for (let i = 0; i < matches.length; i++) {
-        if (index < matches[i].length) {
-            chars.add(matches[i][index])
+        const match = matches[i]
+        const prevChar = index === 0 ? '\0' : match[index - 1];
+        if (!charMap.has(prevChar)) {
+            charMap.set(prevChar, new Set())
+        }
+        
+        if (index < match.length) {
+            charMap.get(prevChar).add(match[index])
         }
     }
     
     // k čemu je sakra for-of, iteruju 3 struktury a potřebuju 3 druhy cyklů
-    for (const char of chars) {
-        nodes.push(newNode(char))
+    for (const [prevChar, chars] of charMap.entries()) {
+        for (const char of chars) {
+            nodes.push(newNode(prevChar, char))
+        }
     }
 
     for (let i = 0; i < prevNodes.length; i++) {
         for (let j = 0; j < nodes.length; j++) {
-            prevNodes[i].next.add(nodes[j])
+            if (prevNodes[i].char === nodes[j].prevChar) {
+                prevNodes[i].next.add(nodes[j])
+            }
         }
     }
     
