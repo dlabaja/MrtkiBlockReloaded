@@ -3,52 +3,38 @@ import {TrieNode} from "./trie-node";
 export const EMPTY = "\0";
 
 export class Trie {
-    public readonly root = new TrieNode(EMPTY, EMPTY, false);
+    public readonly root = new TrieNode(EMPTY, null, false);
     public readonly words: string[];
 
     constructor(words: string[]) {
+        this.root.prev = this.root;
         this.words = words;
-        this.buildTrieNodes(words, [this.root], 0, Math.max(...words.map(m => m.length)))
+        this.buildTrie(words)
         this.traverseNodes(this.root, (node) => {
             node.next.set(EMPTY, this.root)
         })
     }
-
-    private buildTrieNodes(words: string[], prevNodes: TrieNode[], index: number, stop: number) {
-        if (index === stop) {
-            return;
+    
+    private buildTrie(words: string[]) {
+        for (const word of words) {
+            this.addWord(word, this.root, 0);
         }
-
-        const prevCharMap = new Map<char, Set<char>>();
-        const nodes: TrieNode[] = []
-        for (let i = 0; i < words.length; i++) {
-            const match = words[i]
-            const prevChar = index === 0 ? '\0' : match[index - 1];
-            if (!prevCharMap.has(prevChar)) {
-                prevCharMap.set(prevChar, new Set())
-            }
-
-            if (index < match.length) {
-                prevCharMap.get(prevChar)!.add(match[index])
-            }
+    }
+    
+    private addWord(word: string, prevNode: TrieNode, index: number) {
+        if (index >= word.length) {
+            return
         }
-
-        for (const [prevChar, chars] of prevCharMap.entries()) {
-            for (const char of chars) {
-                const node = new TrieNode(char, prevChar, false);
-                nodes.push(node);
-            }
+        
+        const char = word[index];
+        const isEnd = index == word.length - 1;
+        let node = prevNode.next.get(char);
+        if (!node) {
+            node = new TrieNode(char, prevNode, isEnd);
+            prevNode.next.set(char, node);
         }
-
-        for (let i = 0; i < prevNodes.length; i++) {
-            for (let j = 0; j < nodes.length; j++) {
-                if (prevNodes[i].char === nodes[j].prevChar) {
-                    prevNodes[i].next.set(nodes[j].char, nodes[j])
-                }
-            }
-        }
-
-        this.buildTrieNodes(words, nodes, index + 1, stop)
+        
+        this.addWord(word, node, index + 1);
     }
 
     public traverseNodes(root: TrieNode, fun: (node: TrieNode) => void) {
