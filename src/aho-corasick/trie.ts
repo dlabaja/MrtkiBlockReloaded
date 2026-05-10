@@ -1,6 +1,6 @@
 import {TrieNode} from "./trie-node";
 
-export const EMPTY = "\0";
+export const EMPTY = "";
 
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
@@ -10,15 +10,16 @@ export class Trie {
         this.root.prev = this.root;
         this.words = words;
         this.buildTrie(words)
-        this.traverseNodes(this.root, (node) => {
-            node.next.set(EMPTY, this.root)
-        })
     }
     
     private buildTrie(words: string[]) {
         for (const word of words) {
             this.addWord(word, this.root, 0);
         }
+
+        this.traverseNodes(this.root, (node) => {
+            node.next.set(EMPTY, this.root)
+        })
     }
     
     private addWord(word: string, prevNode: TrieNode, index: number) {
