@@ -3,7 +3,7 @@ import * as Path from "node:path";
 
 const extensions = ["html", "css", "json", "png", "svg"];
 const ignoredFolders = ["types"]
-const pathsToRemove = ["types"] // tady musí být celá cesta z dist, podporuje soubory i složky
+const pathsToRemove = ["types", "assets/icon.svg"] // tady musí být celá cesta z dist, podporuje soubory i složky
 
 export function build() {
     fs.cpSync("./src", "./dist", {
