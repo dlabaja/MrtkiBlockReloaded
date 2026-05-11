@@ -1,0 +1,33 @@
+[{
+  "name": "babis",
+  "cases": {
+    "1": {
+      "matches": ["Babiš", "Andrej Babiš"],
+      "replacements": ["Kuní ksicht", "Agent Bureš", "STBák"]
+    },
+    "2": {
+      "matches": ["Babiše","Andreje Babiše"],
+      "replacements": ["Kuního ksichtu", "Agenta Bureše", "STBáka"]
+    },
+    "3": {
+      "matches": ["Babišovi", "Andreji Babišovi"],
+      "replacements": ["Kunímu ksichtu", "Agentu Burešovi", "STBákovi"]
+    },
+    "4": {
+      "matches": ["Babiše","Andreje Babiše"],
+      "replacements": ["Kuního ksichta", "Agenta Bureše", "STBáka"]
+    },
+    "5": {
+      "matches": ["Babiši", "Andreji Babiši"],
+      "replacements": ["Kuní ksichte", "Agente Bureši", "STBáku"]
+    },
+    "6": {
+      "matches": ["Babišovi", "Andreji Babišovi"],
+      "replacements": ["Kuním ksichtu", "Agentu Burešovi", "STBákovi"]
+    },
+    "7": {
+      "matches": ["Babišem", "Andrejem Babišem"],
+      "replacements": ["Kuním ksichtem", "Agentem Burešem", "STBákem"]
+    }
+  }
+}]
