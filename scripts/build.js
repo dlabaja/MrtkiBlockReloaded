@@ -1,7 +1,9 @@
 import * as fs from "node:fs";
+import * as Path from "node:path";
 
 const extensions = ["html", "css", "json", "png", "svg"];
 const ignoredFolders = ["types"]
+const pathsToRemove = ["types"] // tady musí být celá cesta z dist, podporuje soubory i složky
 
 export function build() {
     fs.cpSync("./src", "./dist", {
@@ -22,6 +24,13 @@ export function build() {
             }
         }
     })
+
+    for (const removeFolder of pathsToRemove) {
+        try {
+            fs.rmSync(Path.join("./dist", removeFolder), {recursive: true})
+        }
+        catch (e) {}
+    }
 }
 
 build();
