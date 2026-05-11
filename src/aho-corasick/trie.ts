@@ -61,6 +61,11 @@ export class Trie {
         if (index >= text.length) {
             return;
         }
+
+        if (node.isEnd) {
+            result.push(ir.join(""));
+            ir = [];
+        }
         
         const char = text[index];
         let nextNode = node.next.get(char);
@@ -77,10 +82,6 @@ export class Trie {
         }
 
         ir.push(char);
-        if (node.isEnd) {
-            result.push(ir.join(""));
-            ir = [];
-        }
         this.searchRec(text, nextNode, index + 1, ir, result)
     }
     
@@ -125,7 +126,7 @@ export class Trie {
             return this.root;
         }
         
-        if (index == substring.length - 1) {
+        if (index == substring.length) {
             return node;
         }
         
