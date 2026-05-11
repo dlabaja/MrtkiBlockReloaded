@@ -64,11 +64,6 @@ export class Trie {
         
         const char = text[index];
         let nextNode = node.next.get(char);
-
-        if (node.isEnd) {
-            result.push(ir.join(""));
-            ir = [];
-        }
         
         if (!nextNode) { // jdu do failure linku
             nextNode = node.failureLinks.get(char);
@@ -76,11 +71,16 @@ export class Trie {
                 this.searchRec(text, this.root, index + 1, [], result);
                 return;
             }
-            ir = [...this.longestSuffixInTree(this.suffixes(node))];
+            ir = [...this.longestSuffixInTree(this.suffixes(node)) + char];
             this.searchRec(text, nextNode, index + 1, ir, result);
             return;
         }
 
+        ir.push(char);
+        if (node.isEnd) {
+            result.push(ir.join(""));
+            ir = [];
+        }
         this.searchRec(text, nextNode, index + 1, ir, result)
     }
     
