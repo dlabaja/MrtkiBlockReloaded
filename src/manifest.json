@@ -22,6 +22,10 @@
       "js": ["scripts/script.js"]
     }
   ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",
