@@ -8,10 +8,13 @@ export class StorageManager {
     
     public async get<T>(key: StorageKey): Promise<T | null> {
         // @ts-ignore
-        const item = await chrome.storage.sync.get(key);
-        if (!item) {
+        const result = await chrome.storage.sync.get(key);
+        const value = result[key];
+
+        if (!value) {
             return null;
         }
-        return JSON.parse(item) as T
+
+        return value as T;
     }
 }

@@ -32,9 +32,6 @@ export class DataManager {
 
     public async init() {
         this._data = await this.getData(this._storageManager);
-        if (!this._data.length) {
-            throw new Error("Cannot fetch data");
-        }
 
         for (const data of this._data) {
             this.matches.push(...this.getMatches(data));
@@ -51,14 +48,21 @@ export class DataManager {
     }
     
     private async getData(storageManager: StorageManager) {
-        const data = await storageManager.get<Data[]>(StorageKey.Data);
+        let data = await storageManager.get<Data[]>(StorageKey.Data);
         if (data) {
             return data;
         }
 
         const response = await fetch(
             "https://raw.githubusercontent.com/dlabaja/MrtkiBlockReloaded/refs/heads/master/data/data.json");
-        return await response.json() as Data[]
+
+        if (!response.ok) {
+            throw new Error("Failed to fetch data");
+        }
+        
+        data = await response.json() as Data[];
+        await storageManager.save(StorageKey.Data, data);
+        return data;
     }
 
     private getMatches(data: Data) {
