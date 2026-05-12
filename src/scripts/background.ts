@@ -1,3 +1,4 @@
-import {context} from "../context";
+import {getContext} from "./context";
 
-console.log("MBR started")
+// init contextu
+getContext().then();

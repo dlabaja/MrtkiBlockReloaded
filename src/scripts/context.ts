@@ -1,13 +1,15 @@
-import {ConfigManager} from "./scripts/managers/config-manager";
-import {DataManager} from "./scripts/managers/data-manager";
-import {StorageManager} from "./scripts/managers/storage-manager";
-import {TrieManager} from "./scripts/managers/trie-manager";
+import {ConfigManager} from "./managers/config-manager";
+import {DataManager} from "./managers/data-manager";
+import {TrieManager} from "./managers/trie-manager";
+import {StorageManager} from "./managers/storage-manager";
+import {DomManager} from "./managers/dom-manager";
 
 export interface Managers {
     configManager: ConfigManager;
     dataManager: DataManager;
     storageManager: StorageManager;
     trieManager: TrieManager;
+    domManager: DomManager;
 }
 
 export class Context {
@@ -15,24 +17,36 @@ export class Context {
     public dataManager: DataManager;
     public storageManager: StorageManager;
     public trieManager: TrieManager;
-    
+    public domManager: DomManager;
+
     constructor(managers: Managers) {
         this.configManager = managers.configManager;
         this.dataManager = managers.dataManager;
         this.storageManager = managers.storageManager;
         this.trieManager = managers.trieManager;
+        this.domManager = managers.domManager;
     }
 }
 
-export let context: Context;
-getContext().then(res => context = res);
+let context: Promise<Context> | null = null;
 
-async function getContext() {
+export async function getContext() {
+    if (!context) {
+        return await initContext();
+    }
+    return context;
+}
+
+async function initContext() {
     const configManager = new ConfigManager();
     const storageManager = new StorageManager();
     const dataManager = new DataManager(storageManager);
     await dataManager.init();
     const trieManager = new TrieManager(dataManager);
+    const domManager = new DomManager();
 
-    return new Context({configManager, storageManager, dataManager, trieManager});
+    return new Context({
+        configManager, storageManager, dataManager, trieManager,
+        domManager
+    });
 }

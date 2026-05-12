@@ -113,11 +113,11 @@ export class Trie {
     }
     
     // projde od rootu strom a vrátí nalezený substring
-    public findSubstring(substring: string, node: TrieNode) {
+    private findSubstring(substring: string, node: TrieNode) {
         return this.findSubstringRec(substring, node, 0);
     }
     
-    public containsSubstring(substring: string, node: TrieNode) {
+    private containsSubstring(substring: string, node: TrieNode) {
         return !!this.findSubstring(substring, node);
     }
     
@@ -148,7 +148,7 @@ export class Trie {
     }
 
     // preorder - nejdřív volá fn() na node a pak jde do potomků
-    public traverseNodes(root: TrieNode, fun: (node: TrieNode) => void) {
+    private traverseNodes(root: TrieNode, fun: (node: TrieNode) => void) {
         const visited = new Set<TrieNode>();
         this.traverseNodesRec(root, visited, fun);
     }
