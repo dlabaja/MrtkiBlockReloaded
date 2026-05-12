@@ -1,6 +1,5 @@
 import {getContext} from "./context";
 import {Trie} from "./aho-corasick/trie";
-import {intersectsInterval, Interval} from "./utils/interval-utils";
 import {DataManager} from "./managers/data-manager";
 
 const excludedTags = new Set(["SCRIPT", "STYLE"]);
@@ -33,32 +32,16 @@ function replaceText(node: Node, trie: Trie, dataManager: DataManager) {
         return;
     }
 
-    const matches = trie.search(node.textContent);
-    const occupied: Interval[] = [];
-    for (const match of matches) {
-        const intervals = intervalsOf(match, node.textContent)
-        for (const interval of intervals) {
-            if (!intersectsInterval(interval.start, interval.end, occupied)) {
-                node.textContent.replace(match, dataManager.getRandomReplacement(match))
-            }
-            occupied.push(interval);
-        }
+    const matches = trie.search(" " + node.textContent + ""); // mezery kvůli borderům
+    let tempText = node.textContent;
+    for (let match of matches) {
+        tempText = node.textContent.replaceAll(match, getReplacement(match, dataManager));
     }
+    node.textContent = tempText;
 }
 
-function intervalsOf(word: string, text: string): Interval[] {
-    const intervals: Interval[] = [];
-    
-    let current = 0;
-    const len = word.length;
-    let index = text.indexOf(word, current);
-    while (index != -1) {
-        current = index + len;
-        intervals.push({
-            start: index,
-            end: current
-        })
-        index = text.indexOf(word, current);
-    }
-    return intervals;
+function getReplacement(match: string, dataManager: DataManager) {
+    // match je bordered, replacement ho potřebuje unbordernout
+    // to co vrátí replacement potřebuje znovu bordernout
+    return `${match[0]}${dataManager.getRandomReplacement(match.slice(1, match.length - 1))}${match[match.length - 1]}`
 }
