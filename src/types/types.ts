@@ -1,1 +1,1 @@
-type char = string;
+export type char = string;

@@ -1,3 +1,5 @@
+import { char } from "../../types/types.js";
+
 export class TrieNode {
     public readonly char: char;
     public readonly next: Map<char, TrieNode>;

@@ -1,6 +1,6 @@
-import {getRandomItem} from "../utils/random-utils";
-import {StorageManager} from "./storage-manager";
-import {StorageKey} from "../enums/storage-key.enum";
+import {getRandomItem} from "../utils/random-utils.js";
+import {StorageManager} from "./storage-manager.js";
+import {StorageKey} from "../enums/storage-key.enum.js";
 
 export interface Data {
     name: string,

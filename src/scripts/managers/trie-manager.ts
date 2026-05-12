@@ -1,5 +1,5 @@
-import {DataManager} from "./data-manager";
-import {Trie} from "../aho-corasick/trie";
+import {DataManager} from "./data-manager.js";
+import {Trie} from "../aho-corasick/trie.js";
 
 export class TrieManager {
     private _dataManager: DataManager;

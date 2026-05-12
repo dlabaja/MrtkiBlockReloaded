@@ -1,4 +1,4 @@
-import {getRandomItem} from "../scripts/utils/random-utils";
+import {getRandomItem} from "../scripts/utils/random-utils.js";
 
 const subtitles = [
     "Pro čtení Novinek bez zvýšeného tlaku...",

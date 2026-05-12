@@ -1,4 +1,4 @@
-import {StorageKey} from "../enums/storage-key.enum";
+import {StorageKey} from "../enums/storage-key.enum.js";
 
 export class StorageManager {
     public async save<T>(key: StorageKey, data: T) {
@@ -8,7 +8,7 @@ export class StorageManager {
     
     public async get<T>(key: StorageKey): Promise<T | null> {
         // @ts-ignore
-        const item = await chrome.storage.managed.get(key);
+        const item = await chrome.storage.sync.get(key);
         if (!item) {
             return null;
         }
