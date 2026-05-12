@@ -1,5 +1,4 @@
-import {getContext} from "./context.js";
+import {getContext} from "./context";
 
 // init contextu
 getContext().then();
-console.log("MBR initialised")

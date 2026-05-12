@@ -1,8 +1,8 @@
-import {ConfigManager} from "./managers/config-manager.js";
-import {DataManager} from "./managers/data-manager.js";
-import {TrieManager} from "./managers/trie-manager.js";
-import {StorageManager} from "./managers/storage-manager.js";
-import {DomManager} from "./managers/dom-manager.js";
+import {ConfigManager} from "./managers/config-manager";
+import {DataManager} from "./managers/data-manager";
+import {TrieManager} from "./managers/trie-manager";
+import {StorageManager} from "./managers/storage-manager";
+import {DomManager} from "./managers/dom-manager";
 
 export interface Managers {
     configManager: ConfigManager;

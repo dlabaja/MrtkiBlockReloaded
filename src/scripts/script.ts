@@ -1,7 +1,7 @@
-import {getContext} from "./context.js";
-import {Trie} from "./aho-corasick/trie.js";
-import {intersectsInterval, Interval} from "./utils/interval-utils.js";
-import {DataManager} from "./managers/data-manager.js";
+import {getContext} from "./context";
+import {Trie} from "./aho-corasick/trie";
+import {intersectsInterval, Interval} from "./utils/interval-utils";
+import {DataManager} from "./managers/data-manager";
 
 const excludedTags = new Set(["SCRIPT", "STYLE"]);
 
@@ -10,7 +10,7 @@ getContext().then(context => {
     context.domManager.traverseNodes(
         NodeFilter.SHOW_TEXT,
         filterNodes,
-        (node: Node) => replaceText(node, trie, context.dataManager)
+        (node) => replaceText(node, trie, context.dataManager)
     )
 })
 
@@ -39,7 +39,7 @@ function replaceText(node: Node, trie: Trie, dataManager: DataManager) {
         const intervals = intervalsOf(match, node.textContent)
         for (const interval of intervals) {
             if (!intersectsInterval(interval.start, interval.end, occupied)) {
-                node.textContent = node.textContent.replace(match, dataManager.getRandomReplacement(match))
+                node.textContent.replace(match, dataManager.getRandomReplacement(match))
             }
             occupied.push(interval);
         }
