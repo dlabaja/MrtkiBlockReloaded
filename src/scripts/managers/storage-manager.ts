@@ -1,4 +1,4 @@
-import {StorageKey} from "../enums/storage-key.enum.js";
+import {StorageKey} from "../enums/storage-key.enum";
 
 export class StorageManager {
     public async save<T>(key: StorageKey, data: T) {
