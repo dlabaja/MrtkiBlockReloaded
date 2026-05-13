@@ -1,14 +1,13 @@
 import {StorageKey} from "../enums/storage-key.enum";
+import browser from "webextension-polyfill";
 
 export class StorageManager {
     public async save<T>(key: StorageKey, data: T) {
-        // @ts-ignore
-        await chrome.storage.sync.set({[key]: data });
+        await browser.storage.sync.set({[key]: data });
     }
     
     public async get<T>(key: StorageKey): Promise<T | null> {
-        // @ts-ignore
-        const result = await chrome.storage.sync.get(key);
+        const result = await browser.storage.sync.get(key);
         const value = result[key];
 
         if (!value) {
