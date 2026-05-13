@@ -8,6 +8,7 @@ export const EMPTY = "";
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
     public readonly words: string[];
+    public trieBuilt = false;
 
     constructor(words: string[]) {
         this.root.prev = this.root;
@@ -21,6 +22,7 @@ export class Trie {
         }
 
         this.traverseNodes(this.root, (node) => this.addFailureLinks(node))
+        this.trieBuilt = true;
     }
 
     private addWord(word: string, prevNode: TrieNode, index: number) {
