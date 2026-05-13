@@ -3,7 +3,7 @@ import * as Path from "node:path";
 
 const extensions = ["html", "css", "json", "png", "svg"];
 const ignoredFolders = ["types"]
-const pathsToRemove = ["types", "assets/icon.svg"] // tady musí být celá cesta z dist, podporuje soubory i složky
+const pathsToRemove = ["assets/icon.svg"] // tady musí být celá cesta z dist, podporuje soubory i složky
 
 export function build() {
     fs.cpSync("./src", "./dist", {
@@ -25,11 +25,34 @@ export function build() {
         }
     })
 
+    removeIgnored();
+    removeEmptyDirsRec("./dist");
+}
+
+function removeIgnored() {
     for (const removeFolder of pathsToRemove) {
         try {
             fs.rmSync(Path.join("./dist", removeFolder), {recursive: true})
         }
         catch (e) {}
+    }
+}
+
+function removeEmptyDirsRec(path) {
+    const isDir = fs.statSync(path).isDirectory();
+    if (!isDir) {
+        return;
+    }
+    let files = fs.readdirSync(path);
+    if (files.length) {
+        for (const file of files) {
+            removeEmptyDirsRec(Path.join(path, file));
+        }
+        files = fs.readdirSync(path);
+    }
+    
+    if (!files.length) {
+        fs.rmdirSync(path);
     }
 }
 
