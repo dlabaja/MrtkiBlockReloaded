@@ -2,6 +2,7 @@ export class TrieNode {
     public readonly char: char;
     public readonly next: Map<char, TrieNode>;
     public readonly failureLinks: Map<char, TrieNode>;
+    public failureLinksInit = false;
     public prev: TrieNode|null;
     public readonly isEnd: boolean;
     

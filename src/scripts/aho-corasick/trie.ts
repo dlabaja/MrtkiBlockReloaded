@@ -21,7 +21,6 @@ export class Trie {
             this.addWord(word, this.root, 0);
         }
 
-        this.traverseNodes(this.root, (node) => this.addFailureLinks(node))
         this.trieBuilt = true;
     }
 
@@ -73,6 +72,10 @@ export class Trie {
         let nextNode = node.next.get(char);
         
         if (!nextNode) { // jdu do failure linku
+            if (!node.failureLinksInit) {
+                this.addFailureLinks(node);
+                node.failureLinksInit = true;
+            }
             nextNode = node.failureLinks.get(char);
             if (!nextNode) { // jdu do rootu
                 this.searchRec(text, this.root, index + 1, [], result);
