@@ -3,6 +3,8 @@ type NodeFilterValue = (typeof NodeFilter)[keyof typeof NodeFilter]
 const excludedTags = new Set(["SCRIPT", "STYLE"]);
 
 export class DomManager {
+    public observerConfig = { attributes: false, childList: true, subtree: true };
+    
     public traverseNodes(fun: (node: Node) => void) {
         const walker = document.createTreeWalker(
             document.body,
@@ -16,6 +18,10 @@ export class DomManager {
         while (walker.nextNode()) {
             fun(walker.currentNode)
         }
+    }
+    
+    public getNewObserver(onMutation: (node: Node) => void) {
+        return new MutationObserver((mutations, observer) => observerCallback(mutations, onMutation));
     }
 }
 
@@ -31,4 +37,12 @@ function filterNodes(node: Node) {
     }
 
     return NodeFilter.FILTER_ACCEPT;
+}
+
+function observerCallback(mutations: MutationRecord[], onMutation: (node: Node) => void) {
+    for (const mutation of mutations) {
+        if (mutation.target.nodeType == Node.TEXT_NODE) {
+            onMutation(mutation.target);
+        }
+    }
 }
