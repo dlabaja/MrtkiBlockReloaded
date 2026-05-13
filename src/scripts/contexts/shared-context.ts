@@ -16,7 +16,7 @@ let context: SharedContext | null = null;
 
 export function getSharedContext() {
     if (!context) {
-        return initContext();
+        context = initContext();
     }
     return context;
 }

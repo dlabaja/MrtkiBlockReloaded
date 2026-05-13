@@ -5,7 +5,7 @@ import {processRequest} from "./router";
 import {getBackgroundContext} from "../contexts/background-context";
 
 // kód tady se spustí hned po zapnutí prohlížeče, dá se považovat za server
-getBackgroundContext().then(c => c.init());
+getBackgroundContext().then();
 
 browser.runtime.onConnect.addListener(onConnect);
 
@@ -16,8 +16,3 @@ function onConnect(port: Port) {
         })
     });
 }
-
-
-
-
-

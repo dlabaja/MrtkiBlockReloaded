@@ -22,20 +22,14 @@ export class BackgroundContext extends SharedContext {
         this.dataManager = managers.dataManager;
         this.trieManager = managers.trieManager;
     }
-    
-    public async init() {
-        await this.dataManager.init();
-    }
 }
 
-let context: Promise<BackgroundContext> | null = null;
+let context: BackgroundContext | null = null;
 
 export async function getBackgroundContext() {
     if (!context) {
-        console.log("dělám nový kontext")
-        return await initContext();
+        context = await initContext();
     }
-    console.log("kontext už existuje")
     return context;
 }
 
@@ -43,15 +37,13 @@ async function initContext() {
     const sharedContext = getSharedContext();
     const configManager = new ConfigManager();
     const dataManager = new DataManager(sharedContext.storageManager);
+    await dataManager.init();
     const trieManager = new TrieManager(dataManager);
-    
-    const backgroundContext = new BackgroundContext({
+
+    return new BackgroundContext({
         storageManager: sharedContext.storageManager,
-        configManager, 
-        dataManager, 
+        configManager,
+        dataManager,
         trieManager
     });
-    await backgroundContext.init();
-
-    return backgroundContext;
 }

@@ -20,7 +20,7 @@ let context: ContentScriptContext | null = null;
 
 export function getContentScriptContext() {
     if (!context) {
-        return initContext();
+        context = initContext();
     }
     return context;
 }
