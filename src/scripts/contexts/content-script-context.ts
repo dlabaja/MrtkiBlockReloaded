@@ -25,7 +25,7 @@ export function getContentScriptContext() {
     return context;
 }
 
-async function initContext() {
+function initContext() {
     const sharedContext = getSharedContext();
     const domManager = new DomManager();
 

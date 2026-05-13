@@ -8,7 +8,6 @@ export const EMPTY = "";
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
     public readonly words: string[];
-    public trieBuilt = false;
 
     constructor(words: string[]) {
         this.root.prev = this.root;
@@ -20,8 +19,6 @@ export class Trie {
         for (const word of words) {
             this.addWord(word, this.root, 0);
         }
-
-        this.trieBuilt = true;
     }
 
     private addWord(word: string, prevNode: TrieNode, index: number) {
