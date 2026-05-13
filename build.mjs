@@ -4,10 +4,10 @@ import esbuild from "esbuild";
 
 // CONTENT SCRIPT
 await esbuild.build({
-    entryPoints: ["src/scripts/script.ts"],
+    entryPoints: ["src/scripts/content-script/content-script.ts"],
     bundle: true,
     format: "iife",
-    outfile: "dist/scripts/script.js",
+    outfile: "dist/scripts/content-script/content-script.js",
     target: "es2022",
     platform: "browser",
     sourcemap: true,
@@ -15,10 +15,10 @@ await esbuild.build({
 
 // BACKGROUND
 await esbuild.build({
-    entryPoints: ["src/scripts/background.ts"],
+    entryPoints: ["src/scripts/background/background.ts"],
     bundle: true,
     format: "iife",
-    outfile: "dist/scripts/background.js",
+    outfile: "dist/scripts/background/background.js",
     target: "es2022",
     platform: "browser",
     sourcemap: true,
