@@ -19,10 +19,11 @@ function init() {
     updateNodes(nodes)
 }
 
-function updateNodes(nodes: Node[]) {
+function updateNodes(nodes: ProcessedNode[]) {
     const context = getContentScriptContext();
     const content: IMessageReplaceContent[] = [];
     for (const [index, node] of nodes.entries()) {
+        node.hasReplacedText = false; // zabraňuje nekonečným matchům -> [Babiš := Stbák Babiš] -> Stbák [Babiš := Stbák Babiš] -> Stbák Stbák Stbák ... Babiš
         content.push(nodeToObject(node, index));
     }
     context.domManager.processedNodes = nodes;

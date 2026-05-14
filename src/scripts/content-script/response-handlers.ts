@@ -10,10 +10,11 @@ export function handleReplaceResponse(message: IMessageReplace) {
     const nodes = context.domManager.processedNodes;
     for (const item of message.content.filter(x => x.changed)) {
         const node = item.id < nodes.length ? nodes[item.id] : null;
-        if (!node) {
+        if (!node || node.hasReplacedText) {
             continue;
         }
         
+        node.hasReplacedText = true;
         node.textContent = item.text;
     }
     

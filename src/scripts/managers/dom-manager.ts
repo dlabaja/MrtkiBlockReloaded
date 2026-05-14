@@ -4,7 +4,7 @@ const excludedTags = new Set(["SCRIPT", "STYLE"]);
 
 export class DomManager {
     public observerConfig = { attributes: false, childList: true, subtree: true };
-    public processedNodes: Node[] = [];
+    public processedNodes: ProcessedNode[] = [];
     public processingNodes = false;
     
     public traverseNodes(fun: (node: Node) => void) {
