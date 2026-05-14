@@ -130,16 +130,6 @@
           "Burešovy",
           "STBákovy"
         ]
-      },
-      "té": {
-        "matches": [
-          "Babišové"
-        ],
-        "replacements": [
-          "Kunoksichtové",
-          "Burešové",
-          "STBákové"
-        ]
       }
     }
   }

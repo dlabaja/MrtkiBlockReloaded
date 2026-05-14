@@ -50,10 +50,6 @@
     "ty": {
       "matches": ["Babišovy"],
       "replacements": ["Kunoksichtovy", "Burešovy", "STBákovy"]
-    },
-    "té": {
-      "matches": ["Babišové"],
-      "replacements": ["Kunoksichtové", "Burešové", "STBákové"]
     }
   }
 }

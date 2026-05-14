@@ -46,10 +46,9 @@
         "ta": {"$ref": "#/definitions/declension"},
         "ten": {"$ref": "#/definitions/declension"},
         "ti": {"$ref": "#/definitions/declension"},
-        "ty": {"$ref": "#/definitions/declension"},
-        "té": {"$ref": "#/definitions/declension"}
+        "ty": {"$ref": "#/definitions/declension"}
       },
-      "required": ["to", "ta", "ten", "ti", "ty", "té"]
+      "required": ["to", "ta", "ten", "ti", "ty"]
     }
   },
   "required": ["name", "cases", "adjectives"]

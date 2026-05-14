@@ -6,17 +6,24 @@ import {StorageType} from "../enums/storage-type.enum";
 export interface Data {
     name: string,
     cases: {
-        1: DataCase,
-        2: DataCase,
-        3: DataCase,
-        4: DataCase,
-        5: DataCase,
-        6: DataCase,
-        7: DataCase,
+        1: DataDeclension,
+        2: DataDeclension,
+        3: DataDeclension,
+        4: DataDeclension,
+        5: DataDeclension,
+        6: DataDeclension,
+        7: DataDeclension,
+    },
+    adjectives: {
+        to: DataDeclension,
+        ta: DataDeclension,
+        ten: DataDeclension,
+        ti: DataDeclension,
+        ty: DataDeclension,
     }
 }
 
-interface DataCase {
+interface DataDeclension {
     matches: string[],
     replacements: string[]
 }
@@ -74,7 +81,12 @@ export class DataManager {
             ...data.cases["4"].matches,
             ...data.cases["5"].matches,
             ...data.cases["6"].matches,
-            ...data.cases["7"].matches
+            ...data.cases["7"].matches,
+            ...data.adjectives.to.matches,
+            ...data.adjectives.ta.matches,
+            ...data.adjectives.ten.matches,
+            ...data.adjectives.ti.matches,
+            ...data.adjectives.ty.matches,
         ]
     }
     
@@ -87,6 +99,17 @@ export class DataManager {
                 }
                 // @ts-ignore
                 this.replacements.set(match, data.cases[item].replacements);
+            }
+        }
+
+        for (const item in data.adjectives) {
+            // @ts-ignore
+            for (const match of data.adjectives[item].matches) {
+                if (this.replacements.has(match)) {
+                    continue;
+                }
+                // @ts-ignore
+                this.replacements.set(match, data.adjectives[item].replacements);
             }
         }
     }
