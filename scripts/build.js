@@ -5,7 +5,7 @@ const extensions = ["html", "css", "json", "png", "svg"];
 const ignoredFolders = ["types"]
 const pathsToRemove = ["assets/icon.svg"] // tady musí být celá cesta z dist, podporuje soubory i složky
 
-export function build() {
+function build() {
     fs.cpSync("./src", "./dist", {
         recursive: true,
         filter: (path) => {
