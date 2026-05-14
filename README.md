@@ -1,3 +1,5 @@
+![icon128.png](src/assets/icon128.png)
+
 # MrtkiBlock Reloaded
 ## Rewrite původního rozšíření MrtkiBlock od [branik.v.akci](https://www.facebook.com/branikvakci)
 
