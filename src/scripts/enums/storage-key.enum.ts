@@ -1,3 +1,4 @@
 export enum StorageKey {
-    Data = "Data"
+    Data = "Data",
+    Config = "Config"
 }

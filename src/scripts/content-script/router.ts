@@ -1,11 +1,10 @@
-import {Message} from "../interfaces/messages";
+import {IMessageReplace, Message} from "../interfaces/messages";
 import {MessageType} from "../enums/message-type.enum";
 import {handleReplaceResponse} from "./response-handlers";
 
 export function processResponse(message: Message): void {
-    console.log(message)
     switch (message.type) {
         case MessageType.Replace:
-            handleReplaceResponse(message)
+            handleReplaceResponse(message as IMessageReplace)
     }
 }

@@ -21,7 +21,7 @@ export class DomManager {
     }
     
     public startNewObserver(target: Node, onDebounce: () => void) {
-        let timer: ReturnType<typeof setTimeout>;
+        let timer: ReturnType<typeof setTimeout>; // návratový typ funkce, teď je to multiplatformní
         const observer = new MutationObserver(() => {
             if (timer) clearTimeout(timer);
             timer = setTimeout(() => {

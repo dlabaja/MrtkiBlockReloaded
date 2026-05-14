@@ -5,6 +5,7 @@ import {TrieNode} from "./trie-node";
 
 export const EMPTY = "";
 
+// trie vypadá podle wikipedie trošičku jinak, ale v tom algoritmu to funguje stejně
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
     public readonly words: string[];

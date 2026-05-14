@@ -12,7 +12,8 @@ export class StorageManager {
         const result = await this.getStorageArea(storageType).get(key);
         const value = result[key];
 
-        if (!value) {
+        // může tam být false nebo 0
+        if (value === undefined) {
             return null;
         }
 
