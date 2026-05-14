@@ -1,0 +1,56 @@
+{
+  "definitions": {
+    "declension": {
+      "type": "object",
+      "properties": {
+        "matches": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "replacements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["matches", "replacements"]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "ID skupiny"
+    },
+    "cases": {
+      "type": "object",
+      "properties": {
+        "1": {"$ref": "#/definitions/declension"},
+        "2": {"$ref": "#/definitions/declension"},
+        "3": {"$ref": "#/definitions/declension"},
+        "4": {"$ref": "#/definitions/declension"},
+        "5": {"$ref": "#/definitions/declension"},
+        "6": {"$ref": "#/definitions/declension"},
+        "7": {"$ref": "#/definitions/declension"}
+      },
+      "required": ["1", "2", "3", "4", "5", "6", "7"]
+    },
+    "adjectives": {
+      "type": "object",
+      "properties": {
+        "to": {"$ref": "#/definitions/declension"},
+        "ta": {"$ref": "#/definitions/declension"},
+        "ten": {"$ref": "#/definitions/declension"},
+        "ti": {"$ref": "#/definitions/declension"},
+        "ty": {"$ref": "#/definitions/declension"},
+        "té": {"$ref": "#/definitions/declension"}
+      },
+      "required": ["to", "ta", "ten", "ti", "ty", "té"]
+    }
+  },
+  "required": ["name", "cases", "adjectives"]
+}
