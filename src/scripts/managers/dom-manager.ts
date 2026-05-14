@@ -1,5 +1,3 @@
-type NodeFilterValue = (typeof NodeFilter)[keyof typeof NodeFilter]
-
 const excludedTags = new Set(["SCRIPT", "STYLE"]);
 
 export class DomManager {
@@ -22,8 +20,15 @@ export class DomManager {
         }
     }
     
-    public getNewObserver(onMutation: (node: Node) => void) {
-        return new MutationObserver((mutations, observer) => observerCallback(mutations, onMutation));
+    public startNewObserver(target: Node, onDebounce: () => void) {
+        let timer: ReturnType<typeof setTimeout>;
+        const observer = new MutationObserver(() => {
+            if (timer) clearTimeout(timer);
+            timer = setTimeout(() => {
+                onDebounce();
+            }, 1000);
+        })
+        observer.observe(target, this.observerConfig);
     }
 }
 
@@ -39,12 +44,4 @@ function filterNodes(node: Node) {
     }
 
     return NodeFilter.FILTER_ACCEPT;
-}
-
-function observerCallback(mutations: MutationRecord[], onMutation: (node: Node) => void) {
-    for (const mutation of mutations) {
-        if (mutation.target.nodeType == Node.TEXT_NODE) {
-            onMutation(mutation.target);
-        }
-    }
 }

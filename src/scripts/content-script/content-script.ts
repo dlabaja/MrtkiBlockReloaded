@@ -12,8 +12,18 @@ function init() {
         processResponse(m as Message)
     })
     const context = getContentScriptContext();
+    context.domManager.startNewObserver(document.body, execute)
+    execute();
+}
+
+function execute() {
+    const context = getContentScriptContext();
     const nodes: Node[] = [];
     context.domManager.traverseNodes(node => {
+        // zabraňuje nekonečným matchům -> [Babiš := Stbák Babiš] -> Stbák [Babiš := Stbák Babiš] -> Stbák Stbák Stbák ... Babiš
+        if ((node as ProcessedNode).hasReplacedText) {
+            return;
+        }
         nodes.push(node);
     })
     updateNodes(nodes)
@@ -23,7 +33,7 @@ function updateNodes(nodes: ProcessedNode[]) {
     const context = getContentScriptContext();
     const content: IMessageReplaceContent[] = [];
     for (const [index, node] of nodes.entries()) {
-        node.hasReplacedText = false; // zabraňuje nekonečným matchům -> [Babiš := Stbák Babiš] -> Stbák [Babiš := Stbák Babiš] -> Stbák Stbák Stbák ... Babiš
+        node.hasReplacedText = false;
         content.push(nodeToObject(node, index));
     }
     context.domManager.processedNodes = nodes;
