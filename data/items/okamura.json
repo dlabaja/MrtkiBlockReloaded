@@ -1,0 +1,55 @@
+{
+  "name": "okamura",
+  "cases": {
+    "1": {
+      "matches": ["Okamura", "Tomio Okamura"],
+      "replacements": ["Pučmeloud", "Tomio Kazoo", "Vykuk"]
+    },
+    "2": {
+      "matches": ["Okamury", "Tomia Okamury"],
+      "replacements": ["Pučmelouda", "Tomia Kazoo", "Vykuka"]
+    },
+    "3": {
+      "matches": ["Okamurovi", "Tomiu Okamurovi"],
+      "replacements": ["Pučmeloudovi", "Tomiu Kazoo", "Vykukovi"]
+    },
+    "4": {
+      "matches": ["Okamuru", "Tomia Okamuru"],
+      "replacements": ["Pučmelouda", "Tomia Kazoo", "Vykuka"]
+    },
+    "5": {
+      "matches": ["Okamuro", "Tomio Okamuro"],
+      "replacements": ["Pučmeloude", "Tomio Kazoo", "Vykuku"]
+    },
+    "6": {
+      "matches": ["Okamurovi", "Tomiu Okamurovi"],
+      "replacements": ["Pučmeloudovi", "Tomiu Kazoo", "Vykukovi"]
+    },
+    "7": {
+      "matches": ["Okamurou", "Tomiem Okamurou"],
+      "replacements": ["Pučmeloudem", "Tomiem Kazoo", "Vykukem"]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": ["Okamurovo"],
+      "replacements": ["Pučmeloudovo", "Kazoovo", "Vykukovo"]
+    },
+    "ta": {
+      "matches": ["Okamurova"],
+      "replacements": ["Pučmeloudova", "Kazoova", "Vykukova"]
+    },
+    "ten": {
+      "matches": ["Okamurův"],
+      "replacements": ["Pučmeloudův", "Kazoův", "Vykukův"]
+    },
+    "ti": {
+      "matches": ["Okamurovi"],
+      "replacements": ["Pučmeloudovi", "Kazoovi", "Vykukovi"]
+    },
+    "ty": {
+      "matches": ["Okamurovy"],
+      "replacements": ["Pučmeloudovy", "Kazoovy", "Vykukovy"]
+    }
+  }
+}
