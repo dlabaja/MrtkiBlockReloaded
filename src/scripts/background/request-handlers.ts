@@ -1,14 +1,15 @@
-import {IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
+import {IMessageConfigChanged, IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
 import {BackgroundContext, getBackgroundContext} from "../contexts/background-context";
 import {pad, ZWSP} from "../utils/string-utils";
+import { Runtime } from "webextension-polyfill";
 
-export async function handleReplaceRequest(message: IMessageReplace) {
+export async function handleReplaceRequest(message: IMessageReplace, port: Runtime.Port) {
     const context = await getBackgroundContext();
     for (const content of message.content) {
         processText(content, context);
     }
     
-    return message
+    port.postMessage(message);
 }
 
 function processText(content: IMessageReplaceContent, context: BackgroundContext): void {
@@ -28,5 +29,10 @@ function processText(content: IMessageReplaceContent, context: BackgroundContext
     
     content.text = tempText;
     content.changed = true;
+}
+
+export async function handleConfigChangedRequest(message: IMessageConfigChanged) {
+    const context = await getBackgroundContext();
+    await context.configManager.loadConfig();
     return;
 }

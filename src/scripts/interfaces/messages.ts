@@ -1,6 +1,6 @@
 import {MessageType} from "../enums/message-type.enum";
 
-export type Message = IMessageReplace
+export type Message = IMessageReplace | IMessageConfigChanged
 
 export interface IMessage {
     type: MessageType
@@ -15,3 +15,5 @@ export interface IMessageReplaceContent {
     text: string,
     changed: boolean
 }
+
+export interface IMessageConfigChanged extends IMessage {}

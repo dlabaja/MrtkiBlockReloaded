@@ -10,9 +10,7 @@ getBackgroundContext().then();
 browser.runtime.onConnect.addListener(onConnect);
 
 function onConnect(port: Port) {
-    port.onMessage.addListener((m, p) => {
-        processRequest(m as Message).then(message => {
-            port.postMessage(message);
-        })
+    port.onMessage.addListener(async (m, p) => {
+        await processRequest(m as Message, p);
     });
 }
