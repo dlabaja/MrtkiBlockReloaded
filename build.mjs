@@ -24,15 +24,4 @@ await esbuild.build({
     sourcemap: true,
 });
 
-// POPUP
-await esbuild.build({
-    entryPoints: ["src/popup/popup.ts"],
-    bundle: true,
-    format: "iife",
-    outfile: "dist/popup/popup.js",
-    target: "es2022",
-    platform: "browser",
-    sourcemap: true,
-});
-
 console.log("Build done");
