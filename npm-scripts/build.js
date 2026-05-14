@@ -1,59 +1,73 @@
+import esbuild from "esbuild";
 import * as fs from "node:fs";
 import * as Path from "node:path";
 
-const extensions = ["html", "css", "json", "png", "svg"];
-const ignoredFolders = ["types"]
-const pathsToRemove = ["assets/icon.svg"] // tady musí být celá cesta z dist, podporuje soubory i složky
+// celej tenhle garbage javascript ekosystém je tak bloated, že sice dokážu celej kód napsat sám, ale s bundlingem mi musel pomoct chat jinak bych se z toho zbláznil
 
-function build() {
-    fs.cpSync("./src", "./dist", {
-        recursive: true,
-        filter: (path) => {
-            if (fs.statSync(path).isDirectory()) {
-                for (let i = 0; i < ignoredFolders.length; i++) {
-                    if (path.endsWith(`/${ignoredFolders[i]}`)) {
-                        return false;
-                    }
-                }
-                return true;
-            }
-            for (let i = 0; i < extensions.length; i++) {
-                if (path.endsWith(extensions[i])) {
-                    return true;
-                }
-            }
-        }
-    })
+const target = process.argv[2]; // chrome/firefox
 
-    removeIgnored();
-    removeEmptyDirsRec("./dist");
+if (target !== "firefox" && target !== "chrome") {
+    console.log(target)
+    process.exit(1);
 }
 
-function removeIgnored() {
-    for (const removeFolder of pathsToRemove) {
-        try {
-            fs.rmSync(Path.join("./dist", removeFolder), {recursive: true})
-        }
-        catch (e) {}
+// CONTENT SCRIPT
+await esbuild.build({
+    entryPoints: ["src/scripts/content-script/content-script.ts"],
+    bundle: true,
+    format: "iife",
+    outfile: `dist/${target}/scripts/content-script/content-script.js`,
+    target: "es2022",
+    platform: "browser",
+    sourcemap: true,
+});
+
+// BACKGROUND
+await esbuild.build({
+    entryPoints: ["src/scripts/background/background.ts"],
+    bundle: true,
+    format: "iife",
+    outfile: `dist/${target}/scripts/background/background.js`,
+    target: "es2022",
+    platform: "browser",
+    sourcemap: true,
+});
+
+// POPUP
+await esbuild.build({
+    entryPoints: ["src/popup/popup.ts"],
+    bundle: true,
+    format: "iife",
+    outfile: `dist/${target}/popup/popup.js`,
+    target: "es2022",
+    platform: "browser",
+    sourcemap: true,
+});
+
+const pathsToCopy = ["assets", "popup/popup.css", "popup/popup.html", "manifest.json"]
+const distPath = Path.join("./dist", target)
+const srcPath = "./src";
+
+function copyFiles() {
+    for (const path of pathsToCopy) {
+        fs.cpSync(Path.join(srcPath, path), Path.join(distPath, path), {
+            recursive: true
+        })
     }
 }
 
-function removeEmptyDirsRec(path) {
-    const isDir = fs.statSync(path).isDirectory();
-    if (!isDir) {
+function replaceManifest() {
+    if (target !== "chrome") {
         return;
     }
-    let files = fs.readdirSync(path);
-    if (files.length) {
-        for (const file of files) {
-            removeEmptyDirsRec(Path.join(path, file));
-        }
-        files = fs.readdirSync(path);
-    }
     
-    if (!files.length) {
-        fs.rmdirSync(path);
-    }
+    const path = Path.join(distPath, "manifest.json");
+    let content = fs.readFileSync(path, {encoding: "utf-8"})
+    content = content.replace("\"scripts\": [\"scripts/background/background.js\"]", "\"service_worker\": \"scripts/background/background.js\"")
+    fs.writeFileSync(path, content)
 }
 
-build();
+copyFiles();
+replaceManifest();
+
+console.log(`Build for ${target} done`);
