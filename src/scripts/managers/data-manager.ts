@@ -20,6 +20,7 @@ export interface Data {
         ten: DataDeclension,
         ti: DataDeclension,
         ty: DataDeclension,
+        te: DataDeclension
     }
 }
 
@@ -87,6 +88,7 @@ export class DataManager {
             ...data.adjectives.ten.matches,
             ...data.adjectives.ti.matches,
             ...data.adjectives.ty.matches,
+            ...data.adjectives.te.matches,
         ]
     }
     
