@@ -1,8 +1,8 @@
 import {IMessageReplace} from "../interfaces/messages";
 import {getContentScriptContext} from "../contexts/content-script-context";
 
-export function handleReplaceResponse(message: IMessageReplace) {
-    const context = getContentScriptContext();
+export async function handleReplaceResponse(message: IMessageReplace) {
+    const context = await getContentScriptContext();
     if (!context.domManager.processingNodes) {
         return;
     }
@@ -14,8 +14,12 @@ export function handleReplaceResponse(message: IMessageReplace) {
             continue;
         }
         
+        const original = node.textContent;
         node.hasReplacedText = true;
         node.textContent = item.text;
+        if (node.parentElement && original && !context.configManager.config?.disableTooltips) {
+            node.parentElement.title = original.trim();
+        }
     }
     
     context.domManager.processedNodes = [];
