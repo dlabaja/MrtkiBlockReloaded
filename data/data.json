@@ -10,7 +10,8 @@
         "replacements": [
           "Kuní ksicht",
           "Agent Bureš",
-          "STBák"
+          "STBák",
+          "Soráč"
         ]
       },
       "2": {
@@ -21,7 +22,8 @@
         "replacements": [
           "Kuního ksichtu",
           "Agenta Bureše",
-          "STBáka"
+          "STBáka",
+          "Soráče"
         ]
       },
       "3": {
@@ -32,7 +34,8 @@
         "replacements": [
           "Kunímu ksichtu",
           "Agentu Burešovi",
-          "STBákovi"
+          "STBákovi",
+          "Soráčovi"
         ]
       },
       "4": {
@@ -43,7 +46,8 @@
         "replacements": [
           "Kuního ksichta",
           "Agenta Bureše",
-          "STBáka"
+          "STBáka",
+          "Soráče"
         ]
       },
       "5": {
@@ -54,7 +58,8 @@
         "replacements": [
           "Kuní ksichte",
           "Agente Bureši",
-          "STBáku"
+          "STBáku",
+          "Soráči"
         ]
       },
       "6": {
@@ -65,7 +70,8 @@
         "replacements": [
           "Kuním ksichtu",
           "Agentu Burešovi",
-          "STBákovi"
+          "STBákovi",
+          "Soráčovi"
         ]
       },
       "7": {
@@ -76,7 +82,8 @@
         "replacements": [
           "Kuním ksichtem",
           "Agentem Burešem",
-          "STBákem"
+          "STBákem",
+          "Soráčem"
         ]
       }
     },
@@ -88,7 +95,8 @@
         "replacements": [
           "Kunoksichtovo",
           "Burešovo",
-          "STBákovo"
+          "STBákovo",
+          "Soráčovo"
         ]
       },
       "ta": {
@@ -98,7 +106,8 @@
         "replacements": [
           "Kunoksichtova",
           "Burešova",
-          "STBákova"
+          "STBákova",
+          "Soráčova"
         ]
       },
       "ten": {
@@ -108,7 +117,8 @@
         "replacements": [
           "Kunoksichtův",
           "Burešův",
-          "STBákův"
+          "STBákův",
+          "Soráčův"
         ]
       },
       "ti": {
@@ -118,7 +128,8 @@
         "replacements": [
           "Kunoksichtovi",
           "Burešovi",
-          "STBákovi"
+          "STBákovi",
+          "Soráčovi"
         ]
       },
       "ty": {
@@ -128,7 +139,120 @@
         "replacements": [
           "Kunoksichtovy",
           "Burešovy",
-          "STBákovy"
+          "STBákovy",
+          "Soráčovy"
+        ]
+      }
+    }
+  },
+  {
+    "name": "fiala",
+    "cases": {
+      "1": {
+        "matches": [
+          "Fiala",
+          "Petr Fiala"
+        ],
+        "replacements": [
+          "Nutelák"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Fialy",
+          "Petra Fialy"
+        ],
+        "replacements": [
+          "Nuteláka"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Fialovi",
+          "Petru Fialovi",
+          "Petrovi Fialovi"
+        ],
+        "replacements": [
+          "Nutelákovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Fialu",
+          "Petra Fialu"
+        ],
+        "replacements": [
+          "Nuteláka"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Fialo",
+          "Petře Fialo"
+        ],
+        "replacements": [
+          "Nuteláku"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Fialovi",
+          "Petru Fialovi",
+          "Petrovi Fialovi"
+        ],
+        "replacements": [
+          "Nutelákovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Fialou",
+          "Petrem Fialou"
+        ],
+        "replacements": [
+          "Nutelákem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Fialovo"
+        ],
+        "replacements": [
+          "Nutelákovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Fialova"
+        ],
+        "replacements": [
+          "Nutelákova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Fialův"
+        ],
+        "replacements": [
+          "Nutelákův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Fialovi"
+        ],
+        "replacements": [
+          "Nutelákovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Fialovy"
+        ],
+        "replacements": [
+          "Nutelákovy"
         ]
       }
     }
