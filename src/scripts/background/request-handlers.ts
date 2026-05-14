@@ -31,7 +31,7 @@ function processText(content: IMessageReplaceContent, context: BackgroundContext
     content.changed = true;
 }
 
-export async function handleConfigChangedRequest(message: IMessageConfigChanged) {
+export async function handleConfigChangedRequest() {
     const context = await getBackgroundContext();
     await context.configManager.loadConfig();
     return;

@@ -1,23 +1,20 @@
-import browser from "webextension-polyfill";
 import {processResponse} from "./router";
 import {IMessageReplaceContent, Message} from "../interfaces/messages";
 import {getContentScriptContext} from "../contexts/content-script-context";
 import {postMessage} from "../utils/port-utils";
 import {MessageType} from "../enums/message-type.enum";
 
-const port = browser.runtime.connect();
-
-function init() {
-    port.onMessage.addListener((m) => {
-        processResponse(m as Message)
+async function init() {
+    const context = await getContentScriptContext();
+    context.connectionManager.port.onMessage.addListener(async (m) => {
+        await processResponse(m as Message)
     })
-    const context = getContentScriptContext();
     context.domManager.startNewObserver(document.body, execute)
-    execute();
+    await execute();
 }
 
-function execute() {
-    const context = getContentScriptContext();
+async function execute() {
+    const context = await getContentScriptContext();
     const nodes: Node[] = [];
     context.domManager.traverseNodes(node => {
         // zabraňuje nekonečným matchům -> [Babiš := Stbák Babiš] -> Stbák [Babiš := Stbák Babiš] -> Stbák Stbák Stbák ... Babiš
@@ -26,11 +23,11 @@ function execute() {
         }
         nodes.push(node);
     })
-    updateNodes(nodes)
+    await updateNodes(nodes)
 }
 
-function updateNodes(nodes: ProcessedNode[]) {
-    const context = getContentScriptContext();
+async function updateNodes(nodes: ProcessedNode[]) {
+    const context = await getContentScriptContext();
     const content: IMessageReplaceContent[] = [];
     for (const [index, node] of nodes.entries()) {
         node.hasReplacedText = false;
@@ -38,7 +35,7 @@ function updateNodes(nodes: ProcessedNode[]) {
     }
     context.domManager.processedNodes = nodes;
     context.domManager.processingNodes = true;
-    postMessage(port, {
+    postMessage(context.connectionManager.port, {
         type: MessageType.Replace,
         content: content
     })
@@ -53,4 +50,6 @@ function nodeToObject(node: Node, index: number): IMessageReplaceContent {
     }
 }
 
-init()
+(async () => {
+    await init()
+})()

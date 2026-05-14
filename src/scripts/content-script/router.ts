@@ -2,9 +2,9 @@ import {IMessageReplace, Message} from "../interfaces/messages";
 import {MessageType} from "../enums/message-type.enum";
 import {handleReplaceResponse} from "./response-handlers";
 
-export function processResponse(message: Message): void {
+export async function processResponse(message: Message) {
     switch (message.type) {
         case MessageType.Replace:
-            handleReplaceResponse(message as IMessageReplace)
+            await handleReplaceResponse(message as IMessageReplace)
     }
 }
