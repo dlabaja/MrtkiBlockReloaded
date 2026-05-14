@@ -1,6 +1,7 @@
 import {getRandomItem} from "../utils/random-utils";
 import {StorageManager} from "./storage-manager";
 import {StorageKey} from "../enums/storage-key.enum";
+import {StorageType} from "../enums/storage-type.enum";
 
 export interface Data {
     name: string,
@@ -48,7 +49,7 @@ export class DataManager {
     }
     
     private async getData(storageManager: StorageManager) {
-        let data = await storageManager.get<Data[]>(StorageKey.Data);
+        let data = await storageManager.get<Data[]>(StorageType.Local, StorageKey.Data);
         if (data) {
             return data;
         }
@@ -61,7 +62,7 @@ export class DataManager {
         }
         
         data = await response.json() as Data[];
-        await storageManager.save(StorageKey.Data, data);
+        await storageManager.save(StorageType.Local, StorageKey.Data, data);
         return data;
     }
 
