@@ -1,22 +1,22 @@
-import {ConfigManager} from "../managers/config-manager";
 import {DataManager} from "../managers/data-manager";
 import {TrieManager} from "../managers/trie-manager";
-import {getSharedContext, SharedContext, SharedManagers} from "./shared-context";
+import {SharedContext, SharedManagers} from "./shared-context";
+import {ConfigManagerBackground} from "../managers/config-manager/config-manager.background";
+import {StorageManager} from "../managers/storage-manager";
 
 export interface BackgroundManagers extends SharedManagers {
-    configManager: ConfigManager;
     dataManager: DataManager;
     trieManager: TrieManager;
 }
 
 export class BackgroundContext extends SharedContext {
-    public configManager: ConfigManager;
     public dataManager: DataManager;
     public trieManager: TrieManager;
 
     constructor(managers: BackgroundManagers) {
         super({
-            storageManager: managers.storageManager
+            storageManager: managers.storageManager,
+            configManager: managers.configManager
         });
         this.configManager = managers.configManager;
         this.dataManager = managers.dataManager;
@@ -34,14 +34,18 @@ export async function getBackgroundContext() {
 }
 
 async function initContext() {
-    const sharedContext = getSharedContext();
-    const configManager = new ConfigManager();
-    const dataManager = new DataManager(sharedContext.storageManager);
+    const storageManager = new StorageManager();
+    
+    const configManager = new ConfigManagerBackground(storageManager);
+    await configManager.loadConfig();
+    
+    const dataManager = new DataManager(storageManager);
     await dataManager.init();
+    
     const trieManager = new TrieManager(dataManager);
 
     return new BackgroundContext({
-        storageManager: sharedContext.storageManager,
+        storageManager,
         configManager,
         dataManager,
         trieManager
