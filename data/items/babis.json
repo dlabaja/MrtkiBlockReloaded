@@ -3,53 +3,53 @@
   "cases": {
     "1": {
       "matches": ["Babiš", "Andrej Babiš"],
-      "replacements": ["Kuní ksicht", "Agent Bureš", "STBák"]
+      "replacements": ["Kuní ksicht", "Agent Bureš", "STBák", "Soráč"]
     },
     "2": {
       "matches": ["Babiše","Andreje Babiše"],
-      "replacements": ["Kuního ksichtu", "Agenta Bureše", "STBáka"]
+      "replacements": ["Kuního ksichtu", "Agenta Bureše", "STBáka", "Soráče"]
     },
     "3": {
       "matches": ["Babišovi", "Andreji Babišovi"],
-      "replacements": ["Kunímu ksichtu", "Agentu Burešovi", "STBákovi"]
+      "replacements": ["Kunímu ksichtu", "Agentu Burešovi", "STBákovi", "Soráčovi"]
     },
     "4": {
       "matches": ["Babiše","Andreje Babiše"],
-      "replacements": ["Kuního ksichta", "Agenta Bureše", "STBáka"]
+      "replacements": ["Kuního ksichta", "Agenta Bureše", "STBáka", "Soráče"]
     },
     "5": {
       "matches": ["Babiši", "Andreji Babiši"],
-      "replacements": ["Kuní ksichte", "Agente Bureši", "STBáku"]
+      "replacements": ["Kuní ksichte", "Agente Bureši", "STBáku", "Soráči"]
     },
     "6": {
       "matches": ["Babišovi", "Andreji Babišovi"],
-      "replacements": ["Kuním ksichtu", "Agentu Burešovi", "STBákovi"]
+      "replacements": ["Kuním ksichtu", "Agentu Burešovi", "STBákovi", "Soráčovi"]
     },
     "7": {
       "matches": ["Babišem", "Andrejem Babišem"],
-      "replacements": ["Kuním ksichtem", "Agentem Burešem", "STBákem"]
+      "replacements": ["Kuním ksichtem", "Agentem Burešem", "STBákem", "Soráčem"]
     }
   },
   "adjectives": {
     "to": {
       "matches": ["Babišovo"],
-      "replacements": ["Kunoksichtovo", "Burešovo", "STBákovo"]
+      "replacements": ["Kunoksichtovo", "Burešovo", "STBákovo", "Soráčovo"]
     },
     "ta": {
       "matches": ["Babišova"],
-      "replacements": ["Kunoksichtova", "Burešova", "STBákova"]
+      "replacements": ["Kunoksichtova", "Burešova", "STBákova", "Soráčova"]
     },
     "ten": {
       "matches": ["Babišův"],
-      "replacements": ["Kunoksichtův", "Burešův", "STBákův"]
+      "replacements": ["Kunoksichtův", "Burešův", "STBákův", "Soráčův"]
     },
     "ti": {
       "matches": ["Babišovi"],
-      "replacements": ["Kunoksichtovi", "Burešovi", "STBákovi"]
+      "replacements": ["Kunoksichtovi", "Burešovi", "STBákovi", "Soráčovi"]
     },
     "ty": {
       "matches": ["Babišovy"],
-      "replacements": ["Kunoksichtovy", "Burešovy", "STBákovy"]
+      "replacements": ["Kunoksichtovy", "Burešovy", "STBákovy", "Soráčovy"]
     }
   }
 }

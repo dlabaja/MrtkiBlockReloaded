@@ -1,0 +1,55 @@
+{
+  "name": "fiala",
+  "cases": {
+    "1": {
+      "matches": ["Fiala", "Petr Fiala"],
+      "replacements": ["Nutelák"]
+    },
+    "2": {
+      "matches": ["Fialy", "Petra Fialy"],
+      "replacements": ["Nuteláka"]
+    },
+    "3": {
+      "matches": ["Fialovi", "Petru Fialovi", "Petrovi Fialovi"],
+      "replacements": ["Nutelákovi"]
+    },
+    "4": {
+      "matches": ["Fialu", "Petra Fialu"],
+      "replacements": ["Nuteláka"]
+    },
+    "5": {
+      "matches": ["Fialo", "Petře Fialo"],
+      "replacements": ["Nuteláku"]
+    },
+    "6": {
+      "matches": ["Fialovi", "Petru Fialovi", "Petrovi Fialovi"],
+      "replacements": ["Nutelákovi"]
+    },
+    "7": {
+      "matches": ["Fialou", "Petrem Fialou"],
+      "replacements": ["Nutelákem"]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": ["Fialovo"],
+      "replacements": ["Nutelákovo"]
+    },
+    "ta": {
+      "matches": ["Fialova"],
+      "replacements": ["Nutelákova"]
+    },
+    "ten": {
+      "matches": ["Fialův"],
+      "replacements": ["Nutelákův"]
+    },
+    "ti": {
+      "matches": ["Fialovi"],
+      "replacements": ["Nutelákovi"]
+    },
+    "ty": {
+      "matches": ["Fialovy"],
+      "replacements": ["Nutelákovy"]
+    }
+  }
+}
