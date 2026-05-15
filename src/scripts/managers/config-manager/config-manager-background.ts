@@ -1,35 +1,30 @@
 import {StorageManager} from "../storage-manager";
 import {StorageType} from "../../enums/storage-type.enum";
 import {StorageKey} from "../../enums/storage-key.enum";
+import {Config} from "../../interfaces/config";
 
-export interface Config {
-    temporarilyDisabled: boolean,
-    disableTooltips: boolean,
-}
-
-export abstract class ConfigManager {
-    protected _storageManager: StorageManager;
+export class ConfigManagerBackground {
+    private _storageManager: StorageManager;
     public config: Config|null = null;
     
-    protected constructor(storageManager: StorageManager) {
+    constructor(storageManager: StorageManager) {
         this._storageManager = storageManager;
     }
-    
-    public async loadConfig() {
+
+    public async loadConfig() { // tady se to nesavuje
         let config = await this._storageManager.get<Config>(StorageType.Sync, StorageKey.Config);
         if (!config) {
             config = {
-                temporarilyDisabled: false,
-                disableTooltips: false
+                disableExtension: false,
+                disableTooltips: false,
+                disableUpdates: false,
+                ignoredWebsites: []
             }
-            await this.saveConfig(config);
         }
         this.config = config;
     }
-    
-    protected async saveConfig(config: Config) {
+
+    private async saveConfig(config: Config) {
         await this._storageManager.save(StorageType.Sync, StorageKey.Config, config)
     }
-    
-    public abstract setConfig<K extends keyof Config>(key: K, value: Config[K]): void;
 }
