@@ -2,8 +2,8 @@ export interface Config {
     disableExtension: boolean,
     disableTooltips: boolean,
     disableUpdates: boolean,
-    ignoredWebsites: string,
-    ignoredNames: string
+    ignoredWebsites: string[],
+    ignoredNames: string[]
 }
 
 export function defaultConfig(): Config {
@@ -11,7 +11,7 @@ export function defaultConfig(): Config {
         disableExtension: false,
         disableTooltips: false,
         disableUpdates: false,
-        ignoredWebsites: "",
-        ignoredNames: ""
+        ignoredWebsites: [],
+        ignoredNames: []
     }
 }

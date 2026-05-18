@@ -6,7 +6,7 @@ import {MessageType} from "../enums/message-type.enum";
 async function init() {
     const context = await getContentScriptContext();
     const config = context.configManager.config!;
-    if (config.disableExtension || context.configManager.isIgnoredWebsite(window.location.hostname)) {
+    if (config.disableExtension || config.ignoredWebsites.includes(window.location.hostname)) {
         return;
     }
     
@@ -27,6 +27,10 @@ async function execute() {
         }
         nodes.push(node);
     })
+    const title = document.head.getElementsByTagName("title").item(0);
+    if (title) {
+        nodes.push(title)
+    }
     await updateNodes(nodes)
 }
 

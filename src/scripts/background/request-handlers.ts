@@ -1,6 +1,6 @@
 import {IMessageNameIdsResponse, IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
 import {BackgroundContext, getBackgroundContext} from "../contexts/background-context";
-import {pad, ZWSP} from "../utils/string-utils";
+import {pad, trimOne, ZWSP} from "../utils/string-utils";
 import {Runtime} from "webextension-polyfill";
 import {MessageType} from "../enums/message-type.enum";
 import Port = Runtime.Port;
@@ -26,6 +26,9 @@ function processText(content: IMessageReplaceContent, context: BackgroundContext
     }
 
     for (let match of matches) {
+        if (context.dataManager.isIgnoredMatch(trimOne(match))) {
+            continue;
+        }
         tempText = tempText.replaceAll(match, context.trieManager.getRandomReplacement(match));
     }
     

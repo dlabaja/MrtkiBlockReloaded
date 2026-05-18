@@ -34,10 +34,11 @@ export class DataManager {
     private readonly _storageManager: StorageManager;
     private readonly _configManager: ConfigManager;
     private _data: Data[] = [];
-    public replacements = new Map<string, string[]>();
-    public matches: string[] = [];
     public nameIds: string[] = [];
-    
+    public matches: string[] = [];
+    public namesToMatches = new Map<string, string[]>; // name: matches:
+    public replacements = new Map<string, string[]>(); // match: replacements
+
     constructor(storageManager: StorageManager, configManager: ConfigManager) {
         this._storageManager = storageManager;
         this._configManager = configManager;
@@ -46,13 +47,15 @@ export class DataManager {
     public async init() {
         this._data = await this.getData();
         this.replacements = new Map<string, string[]>();
-        this.matches = [];
         this.nameIds = [];
+        this.matches = [];
 
         for (const data of this._data) {
             this.nameIds.push(data.name);
-            this.matches.push(...this.getMatches(data));
-            this.fillReplacements(data);
+            const matches = this.getMatches(data);
+            this.namesToMatches.set(data.name, matches)
+            this.matches.push(...matches);
+            this.fillFields(data);
         }
     }
     
@@ -62,6 +65,20 @@ export class DataManager {
             return match;
         }
         return getRandomItem(replacements);
+    }
+    
+    public isIgnoredMatch(match: string) {
+        const ignoredNames = this._configManager.config?.ignoredNames || [];
+        for (const ignoredName of ignoredNames) {
+            const matches = this.namesToMatches.get(ignoredName);
+            if (!matches) {
+                continue;
+            }
+            if (matches.includes(match)) {
+                return true;
+            }
+        }
+        return false;
     }
     
     private async getData() {
@@ -109,7 +126,7 @@ export class DataManager {
         ]
     }
     
-    private fillReplacements(data: Data) {
+    private fillFields(data: Data) {
         for (const item in data.cases) {
             // @ts-ignore
             for (const match of data.cases[item].matches) {

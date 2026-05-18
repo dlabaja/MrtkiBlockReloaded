@@ -10,6 +10,11 @@ const buttons = new Map([
     ["ignoredWebsitesButton", "ignoredWebsites"],
     ["ignoredNamesButton", "ignoredNames"]
 ]);
+const subtitles = [
+    "Pro čtení Novinek bez zvýšeného tlaku...",
+    "Pro čtení příspěvků Miroslavy Tymlové",
+    "Pro čtení diskuzí bez újmy na zdraví"
+]
 
 getPopupContext().then(async (context) => {
     async function onCheckboxChanged(key: keyof Config, event: Event) {
@@ -24,7 +29,7 @@ getPopupContext().then(async (context) => {
             return;
         }
         const textArea = document.getElementById(textAreaId) as HTMLInputElement;
-        await context.configManager.setConfig(key, textArea.value);
+        await context.configManager.setConfig(key, strToArray(textArea.value));
     }
     
     async function onDisableExtensionChanged(event: Event) {
@@ -97,15 +102,18 @@ getPopupContext().then(async (context) => {
     init();
 });
 
-const subtitles = [
-    "Pro čtení Novinek bez zvýšeného tlaku...",
-    "Pro čtení příspěvků Miroslavy Tymlové",
-    "Pro čtení diskuzí bez újmy na zdraví"
-]
-
 export function setNameIdsTextArea(nameIds: string[]) {
-    const element = document.getElementById("loadedNames") as HTMLInputElement;
-    element.value = nameIds.join(", ");
+    const element = document.getElementById("loadedNames");
+    if (!element) {
+        return;
+    }
+    element.innerText = nameIds.join(", ");
+}
+
+function strToArray(x: string) {
+    return x.split("\n")
+        .map(x => x.trim().toLowerCase())
+        .filter(x => x != "");
 }
 
 function registerCallback(id: string, event: keyof HTMLElementEventMap, callback: (event: Event) => void) {
