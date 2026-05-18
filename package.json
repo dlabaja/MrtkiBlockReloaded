@@ -4,9 +4,10 @@
   "description": "blokování hnoje na webu",
   "main": "main.js",
   "scripts": {
-    "build": "node npm-scripts/clean.js && node npm-scripts/build.js chrome && node npm-scripts/build.js firefox && node npm-scripts/build-data.js",
+    "build": "npm run lint && node npm-scripts/clean.js && node npm-scripts/build.js chrome && node npm-scripts/build.js firefox && node npm-scripts/build-data.js",
     "build-data": "node npm-scripts/build-data.js",
     "install-deps": "npm install",
+    "lint": "tsc --noEmit -p .",
     "webext-lint": "npm run build && web-ext lint --source-dir dist",
     "webext-start": "npm run build && web-ext run --source-dir dist/firefox --start-url /home/dlabaja/PhpstormProjects/MrtkiBlockReloaded/tests/test-file.html --devtools --verbose"
   },
