@@ -1,7 +1,6 @@
 import {processResponse} from "./router";
 import {IMessageReplaceContent, Message} from "../interfaces/messages";
 import {getContentScriptContext} from "../contexts/content-script-context";
-import {postMessage} from "../utils/port-utils";
 import {MessageType} from "../enums/message-type.enum";
 
 async function init() {
@@ -35,7 +34,7 @@ async function updateNodes(nodes: ProcessedNode[]) {
     }
     context.domManager.processedNodes = nodes;
     context.domManager.processingNodes = true;
-    postMessage(context.connectionManager.port, {
+    context.connectionManager.postMessage({
         type: MessageType.Replace,
         content: content
     })

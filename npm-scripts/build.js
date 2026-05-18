@@ -35,16 +35,16 @@ await esbuild.build({
 
 // POPUP
 await esbuild.build({
-    entryPoints: ["src/popup/popup.ts"],
+    entryPoints: ["src/scripts/popup/popup.ts"],
     bundle: true,
     format: "iife",
-    outfile: `dist/${target}/popup/popup.js`,
+    outfile: `dist/${target}/scripts/popup/popup.js`,
     target: "es2022",
     platform: "browser",
     sourcemap: true,
 });
 
-const pathsToCopy = ["assets", "popup/popup.css", "popup/popup.html", "manifest.json"]
+const pathsToCopy = ["assets", "scripts/popup/popup.css", "scripts/popup/popup.html", "manifest.json"]
 const distPath = Path.join("./dist", target)
 const srcPath = "./src";
 

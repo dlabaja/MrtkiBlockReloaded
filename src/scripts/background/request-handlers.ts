@@ -1,4 +1,4 @@
-import {IMessageConfigChanged, IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
+import {IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
 import {BackgroundContext, getBackgroundContext} from "../contexts/background-context";
 import {pad, ZWSP} from "../utils/string-utils";
 import { Runtime } from "webextension-polyfill";
