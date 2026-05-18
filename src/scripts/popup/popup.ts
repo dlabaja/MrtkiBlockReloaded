@@ -1,6 +1,9 @@
 import {getPopupContext} from "../contexts/popup-context";
 import {Config} from "../interfaces/config";
 import {getRandomItem} from "../utils/random-utils";
+import {Message} from "../interfaces/messages";
+import {processResponse} from "./router";
+import {MessageType} from "../enums/message-type.enum";
 
 const ids = ["disableExtension", "disableTooltips", "disableUpdates", "ignoredWebsites", "ignoredNames"];
 const buttons = new Map([
@@ -75,15 +78,22 @@ getPopupContext().then(async (context) => {
     }
     
     function init() {
+        context.connectionManager.port.onMessage.addListener(async (m) => {
+            await processResponse(m as Message)
+        });
+        
+        context.connectionManager.postMessage({type: MessageType.NameIds});
+        
         document.getElementById("subtitle")!.innerText = getRandomItem(subtitles);
         loadConfig();
+        
         registerCallback(ids[0], "change", onDisableExtensionChanged)
         registerCallback(ids[1], "change", onDisableTooltipsChanged)
         registerCallback(ids[2], "change", onDisableUpdatesChanged)
         registerCallback("ignoredWebsitesButton", "click", onIgnoredWebsitesChanged)
         registerCallback("ignoredNamesButton", "click", onIgnoredNamesChanged)
     }
-
+    
     init();
 });
 
@@ -92,6 +102,11 @@ const subtitles = [
     "Pro čtení příspěvků Miroslavy Tymlové",
     "Pro čtení diskuzí bez újmy na zdraví"
 ]
+
+export function setNameIdsTextArea(nameIds: string[]) {
+    const element = document.getElementById("loadedNames") as HTMLInputElement;
+    element.value = nameIds.join(", ");
+}
 
 function registerCallback(id: string, event: keyof HTMLElementEventMap, callback: (event: Event) => void) {
     const element = document.getElementById(id);

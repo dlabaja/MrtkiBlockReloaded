@@ -1,4 +1,5 @@
 export enum MessageType {
     Replace = "Replace",
-    ConfigChanged = "ConfigChanged"
+    ConfigChanged = "ConfigChanged",
+    NameIds = "NameIds"
 }

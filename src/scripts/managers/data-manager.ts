@@ -34,8 +34,9 @@ export class DataManager {
     private readonly _storageManager: StorageManager;
     private readonly _configManager: ConfigManager;
     private _data: Data[] = [];
-    public replacements = new Map<string, string[]>()
+    public replacements = new Map<string, string[]>();
     public matches: string[] = [];
+    public nameIds: string[] = [];
     
     constructor(storageManager: StorageManager, configManager: ConfigManager) {
         this._storageManager = storageManager;
@@ -44,8 +45,12 @@ export class DataManager {
 
     public async init() {
         this._data = await this.getData();
+        this.replacements = new Map<string, string[]>();
+        this.matches = [];
+        this.nameIds = [];
 
         for (const data of this._data) {
+            this.nameIds.push(data.name);
             this.matches.push(...this.getMatches(data));
             this.fillReplacements(data);
         }

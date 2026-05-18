@@ -1,7 +1,9 @@
-import {IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
+import {IMessageNameIdsResponse, IMessageReplace, IMessageReplaceContent} from "../interfaces/messages";
 import {BackgroundContext, getBackgroundContext} from "../contexts/background-context";
 import {pad, ZWSP} from "../utils/string-utils";
-import { Runtime } from "webextension-polyfill";
+import {Runtime} from "webextension-polyfill";
+import {MessageType} from "../enums/message-type.enum";
+import Port = Runtime.Port;
 
 export async function handleReplaceRequest(message: IMessageReplace, port: Runtime.Port) {
     const context = await getBackgroundContext();
@@ -35,4 +37,13 @@ export async function handleConfigChangedRequest() {
     const context = await getBackgroundContext();
     await context.configManager.loadConfig();
     return;
+}
+
+export async function handleNameIdsRequest(port: Port) {
+    const context = await getBackgroundContext();
+    const message: IMessageNameIdsResponse = {
+        type: MessageType.NameIds,
+        nameIds: context.dataManager.nameIds
+    };
+    port.postMessage(message);
 }

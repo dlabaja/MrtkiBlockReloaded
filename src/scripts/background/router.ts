@@ -1,6 +1,6 @@
 import {IMessageReplace, Message} from "../interfaces/messages";
 import {MessageType} from "../enums/message-type.enum";
-import {handleConfigChangedRequest, handleReplaceRequest} from "./request-handlers";
+import {handleConfigChangedRequest, handleNameIdsRequest, handleReplaceRequest} from "./request-handlers";
 import {Runtime} from "webextension-polyfill";
 import Port = Runtime.Port;
 
@@ -11,6 +11,9 @@ export async function processRequest(message: Message, port: Port): Promise<void
             break;
         case MessageType.ConfigChanged:
             await handleConfigChangedRequest();
+            break;
+        case MessageType.NameIds:
+            await handleNameIdsRequest(port);
             break;
     }
 }

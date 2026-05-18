@@ -17,3 +17,9 @@ export interface IMessageReplaceContent {
 }
 
 export interface IMessageConfigChanged extends IMessage {}
+
+
+export interface IMessageNameIdsRequest extends IMessage {}
+export interface IMessageNameIdsResponse extends IMessage {
+    nameIds: string[]
+}
