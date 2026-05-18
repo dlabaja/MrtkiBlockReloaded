@@ -3,7 +3,7 @@ import {Config, defaultConfig} from "../../interfaces/config";
 import {StorageType} from "../../enums/storage-type.enum";
 import {StorageKey} from "../../enums/storage-key.enum";
 
-// popup uloží config a pošle zprávu, content a background ji odchytí a aktualizjí config
+// popup uloží config a pošle zprávu, background ji odchytí a aktualizje config -> content se po reloadu už aktualizuje správně
 export abstract class ConfigManager {
     protected _storageManager: StorageManager;
     public config: Config|null = null;
