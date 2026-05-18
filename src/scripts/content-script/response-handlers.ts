@@ -3,6 +3,7 @@ import {getContentScriptContext} from "../contexts/content-script-context";
 
 export async function handleReplaceResponse(message: IMessageReplace) {
     const context = await getContentScriptContext();
+    const config = context.configManager.config!;
     if (!context.domManager.processingNodes) {
         return;
     }
@@ -17,7 +18,7 @@ export async function handleReplaceResponse(message: IMessageReplace) {
         const original = node.textContent;
         node.hasReplacedText = true;
         node.textContent = item.text;
-        if (node.parentElement && original && !context.configManager.config?.disableTooltips) {
+        if (node.parentElement && original && !config.disableTooltips) {
             node.parentElement.title = original.trim();
         }
     }

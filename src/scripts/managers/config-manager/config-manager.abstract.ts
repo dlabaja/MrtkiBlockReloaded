@@ -7,6 +7,7 @@ import {StorageKey} from "../../enums/storage-key.enum";
 export abstract class ConfigManager {
     protected _storageManager: StorageManager;
     public config: Config|null = null;
+    private _ignoredWebsites: string[] = [];
 
     protected constructor(storageManager: StorageManager) {
         this._storageManager = storageManager;
@@ -18,7 +19,12 @@ export abstract class ConfigManager {
             config = defaultConfig();
         }
         this.config = config;
+        this._ignoredWebsites = this.config.ignoredWebsites.split("\n").map(x => x.trim().toLowerCase());
     };
     
     public abstract setConfig<K extends keyof Config>(key: K, value: Config[K]): Promise<void>;
+    
+    public isIgnoredWebsite(hostname: string) {
+        return this._ignoredWebsites.includes(hostname.trim().toLowerCase());
+    }
 }

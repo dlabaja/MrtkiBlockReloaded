@@ -5,6 +5,11 @@ import {MessageType} from "../enums/message-type.enum";
 
 async function init() {
     const context = await getContentScriptContext();
+    const config = context.configManager.config!;
+    if (config.disableExtension || context.configManager.isIgnoredWebsite(window.location.hostname)) {
+        return;
+    }
+    
     context.connectionManager.port.onMessage.addListener(async (m) => {
         await processResponse(m as Message)
     })

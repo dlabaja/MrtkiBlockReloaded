@@ -2,6 +2,7 @@ import {getRandomItem} from "../utils/random-utils";
 import {StorageManager} from "./storage-manager";
 import {StorageKey} from "../enums/storage-key.enum";
 import {StorageType} from "../enums/storage-type.enum";
+import {ConfigManager} from "./config-manager/config-manager.abstract";
 
 export interface Data {
     name: string,
@@ -31,16 +32,18 @@ interface DataDeclension {
 
 export class DataManager {
     private readonly _storageManager: StorageManager;
+    private readonly _configManager: ConfigManager;
     private _data: Data[] = [];
     public replacements = new Map<string, string[]>()
     public matches: string[] = [];
     
-    constructor(storageManager: StorageManager) {
+    constructor(storageManager: StorageManager, configManager: ConfigManager) {
         this._storageManager = storageManager;
+        this._configManager = configManager;
     }
 
     public async init() {
-        this._data = await this.getData(this._storageManager);
+        this._data = await this.getData();
 
         for (const data of this._data) {
             this.matches.push(...this.getMatches(data));
@@ -56,22 +59,31 @@ export class DataManager {
         return getRandomItem(replacements);
     }
     
-    private async getData(storageManager: StorageManager) {
-        let data = await storageManager.get<Data[]>(StorageType.Local, StorageKey.Data);
+    private async getData() {
+        // po každém spuštění aktualizuju databázi
+        if (!this._configManager.config?.disableUpdates) {
+            return await this.fetchData();
+        }
+        
+        let data = await this._storageManager.get<Data[]>(StorageType.Local, StorageKey.Data);
         if (data) {
             return data;
         }
 
+        data = await this.fetchData();
+        await this._storageManager.save(StorageType.Local, StorageKey.Data, data);
+        return data;
+    }
+    
+    private async fetchData() {
         const response = await fetch(
             "https://raw.githubusercontent.com/dlabaja/MrtkiBlockReloaded/refs/heads/master/data/data.json");
 
         if (!response.ok) {
             throw new Error("Failed to fetch data");
         }
-        
-        data = await response.json() as Data[];
-        await storageManager.save(StorageType.Local, StorageKey.Data, data);
-        return data;
+
+        return await response.json() as Data[];
     }
 
     private getMatches(data: Data) {

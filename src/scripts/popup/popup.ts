@@ -2,6 +2,12 @@ import {getPopupContext} from "../contexts/popup-context";
 import {Config} from "../interfaces/config";
 import {getRandomItem} from "../utils/random-utils";
 
+const ids = ["disableExtension", "disableTooltips", "disableUpdates", "ignoredWebsites", "ignoredNames"];
+const buttons = new Map([
+    ["ignoredWebsitesButton", "ignoredWebsites"],
+    ["ignoredNamesButton", "ignoredNames"]
+]);
+
 getPopupContext().then(async (context) => {
     async function onCheckboxChanged(key: keyof Config, event: Event) {
         const checkbox = event.target as HTMLInputElement;
@@ -9,7 +15,12 @@ getPopupContext().then(async (context) => {
     }
     
     async function onTextAreaChanged(key: keyof Config, event: Event) {
-        const textArea = event.target as HTMLInputElement;
+        const button = event.target as HTMLInputElement;
+        const textAreaId = buttons.get(button.id);
+        if (!textAreaId) {
+            return;
+        }
+        const textArea = document.getElementById(textAreaId) as HTMLInputElement;
         await context.configManager.setConfig(key, textArea.value);
     }
     
@@ -32,14 +43,45 @@ getPopupContext().then(async (context) => {
     async function onIgnoredNamesChanged(event: Event) {
         await onTextAreaChanged("ignoredNames", event);
     }
+    
+    function loadConfig() {
+        const config = context.configManager.config;
+        if (!config) {
+            return
+        }
 
+        setConfigInDom(ids[0], "disableExtension");
+        setConfigInDom(ids[1], "disableTooltips");
+        setConfigInDom(ids[2], "disableUpdates");
+        setConfigInDom(ids[3], "ignoredWebsites");
+        setConfigInDom(ids[4], "ignoredNames");
+    }
+    
+    function setConfigInDom<K extends keyof Config>(id: string, key: K) {
+        const config = context.configManager.config;
+        if (!config) {
+            return;
+        }
+        
+        const value: Config[K] = config[key];
+        const element = document.getElementById(id) as HTMLInputElement;
+        if (element.type == "checkbox") {
+            // @ts-ignore
+            element.checked = value;
+            return;
+        }
+        // @ts-ignore
+        element.value = value;
+    }
+    
     function init() {
         document.getElementById("subtitle")!.innerText = getRandomItem(subtitles);
-        registerCallback("disableExtension", "change", onDisableExtensionChanged)
-        registerCallback("disableTooltips", "change", onDisableTooltipsChanged)
-        registerCallback("disableUpdates", "change", onDisableUpdatesChanged)
+        loadConfig();
+        registerCallback(ids[0], "change", onDisableExtensionChanged)
+        registerCallback(ids[1], "change", onDisableTooltipsChanged)
+        registerCallback(ids[2], "change", onDisableUpdatesChanged)
         registerCallback("ignoredWebsitesButton", "click", onIgnoredWebsitesChanged)
-        registerCallback("ignoredNames", "click", onIgnoredNamesChanged)
+        registerCallback("ignoredNamesButton", "click", onIgnoredNamesChanged)
     }
 
     init();
