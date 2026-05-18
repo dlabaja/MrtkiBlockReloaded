@@ -12,8 +12,8 @@ async function init() {
     
     context.connectionManager.port.onMessage.addListener(async (m) => {
         await processResponse(m as Message)
-    })
-    context.domManager.startNewObserver(document.body, execute)
+    });
+    context.domManager.startNewObserver(document.body, execute);
     await execute();
 }
 

@@ -37,7 +37,7 @@ async function initBackgroundContext() {
     const configManager = new ConfigManagerBackground(storageManager);
     await configManager.loadConfig();
     
-    const dataManager = new DataManager(storageManager);
+    const dataManager = new DataManager(storageManager, configManager);
     await dataManager.init();
     const trieManager = new TrieManager(dataManager);
 

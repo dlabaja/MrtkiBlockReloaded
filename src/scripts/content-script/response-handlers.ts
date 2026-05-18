@@ -26,4 +26,3 @@ export async function handleReplaceResponse(message: IMessageReplace) {
     context.domManager.processedNodes = [];
     context.domManager.processingNodes = false;
 }
-
