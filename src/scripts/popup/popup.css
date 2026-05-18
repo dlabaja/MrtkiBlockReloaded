@@ -8,10 +8,14 @@ body {
     gap: 16px;
 }
 
-.header {
+.flex-column {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.text-choices {
+    margin: 8px 0;
 }
 
 .invisible-link {
