@@ -2,19 +2,26 @@ import {processResponse} from "./router";
 import {IMessageReplaceContent, Message} from "../interfaces/messages";
 import {getContentScriptContext} from "../contexts/content-script-context";
 import {MessageType} from "../enums/message-type.enum";
+import {Config} from "../interfaces/config";
 
 async function init() {
     const context = await getContentScriptContext();
     const config = context.configManager.config!;
-    if (config.disableExtension || config.ignoredWebsites.includes(window.location.hostname)) {
+    if (!canRun(config)) {
         return;
     }
-    
+
     context.connectionManager.port.onMessage.addListener(async (m) => {
         await processResponse(m as Message)
     });
     context.domManager.startNewObserver(document.body, execute);
     await execute();
+}
+
+function canRun(config: Config) {
+    return !config.disableExtension
+        && !config.ignoredWebsites.includes(window.location.hostname)
+        && document.contentType == "text/html"
 }
 
 async function execute() {
