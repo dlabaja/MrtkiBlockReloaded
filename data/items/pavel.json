@@ -1,0 +1,101 @@
+{
+  "name": "pavel",
+  "cases": {
+    "1": {
+      "matches": [
+        "Petr Pavel"
+      ],
+      "replacements": [
+        "Gigachad",
+        "Daddy Pavel",
+        "Generál"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Petra Pavla"
+      ],
+      "replacements": [
+        "Gigachada",
+        "Daddy Pavla",
+        "Generála"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Petru Pavlovi"
+      ],
+      "replacements": [
+        "Gigachadovi",
+        "Daddy Pavlovi",
+        "Generálovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Petra Pavla"
+      ],
+      "replacements": [
+        "Gigachada",
+        "Daddy Pavla",
+        "Generála"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Petře Pavle"
+      ],
+      "replacements": [
+        "Gigachade",
+        "Daddy Pavle",
+        "Generále"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Petru Pavlovi"
+      ],
+      "replacements": [
+        "Gigachadovi",
+        "Daddy Pavlovi",
+        "Generálovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Petrem Pavlem"
+      ],
+      "replacements": [
+        "Gigachadem",
+        "Daddy Pavlem",
+        "Generálem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

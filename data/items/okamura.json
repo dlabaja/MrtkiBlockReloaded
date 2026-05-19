@@ -1,0 +1,160 @@
+{
+  "name": "okamura",
+  "cases": {
+    "1": {
+      "matches": [
+        "Okamura",
+        "Tomio Okamura"
+      ],
+      "replacements": [
+        "Japonský vlastenec",
+        "Pitomio",
+        "Syn maminky z Moravy",
+        "Ten, co mluví i za horečky",
+        "Bicák ohýbající realitu",
+        "Česko-japonský sumoraj"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Okamury",
+        "Tomia Okamury"
+      ],
+      "replacements": [
+        "Japonského vlastence",
+        "Pitomia",
+        "Syna maminky z Moravy",
+        "Toho, co mluví i za horečky",
+        "Bicáka ohýbajícího realitu",
+        "Česko-japonského sumoraje"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Okamurovi",
+        "Tomiu Okamurovi",
+        "Tomiovi Okamurovi"
+      ],
+      "replacements": [
+        "Japonskému vlastenci",
+        "Pitomiovi",
+        "Synu maminky z Moravy",
+        "Tomu, co mluví i za horečky",
+        "Bicáku ohýbajícímu realitu",
+        "Česko-japonskému sumorajovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Okamuru",
+        "Tomia Okamuru"
+      ],
+      "replacements": [
+        "Japonského vlastence",
+        "Pitomia",
+        "Syna maminky z Moravy",
+        "Toho, co mluví i za horečky",
+        "Bicáka ohýbajícího realitu",
+        "Česko-japonského sumoraje"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Okamuro",
+        "Tomio Okamuro"
+      ],
+      "replacements": [
+        "Japonský vlastenče",
+        "Pitomio",
+        "Synu maminky z Moravy",
+        "Ty, co mluvíš i za horečky",
+        "Bicáku ohýbající realitu",
+        "Česko-japonský sumoraji"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Okamurovi",
+        "Tomiu Okamurovi"
+      ],
+      "replacements": [
+        "Japonském vlastenci",
+        "Pitomiovi",
+        "Synu maminky z Moravy",
+        "Tom, co mluví i za horečky",
+        "Bicáku ohýbajícím realitu",
+        "Česko-japonském sumorajovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Okamurou",
+        "Tomiem Okamurou"
+      ],
+      "replacements": [
+        "Japonským vlastencem",
+        "Pitomiem",
+        "Synem maminky z Moravy",
+        "Tím, co mluví i za horečky",
+        "Bicákem ohýbajícím realitu",
+        "Česko-japonským sumorajem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Okamurovo"
+      ],
+      "replacements": [
+        "Pitomiovo",
+        "Sumorajovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Okamurova"
+      ],
+      "replacements": [
+        "Pitomiova",
+        "Sumorajova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Okamurův"
+      ],
+      "replacements": [
+        "Pitomiův",
+        "Sumorajův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Okamurovi"
+      ],
+      "replacements": [
+        "Pitomiovi",
+        "Sumorajovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Okamurovy"
+      ],
+      "replacements": [
+        "Pitomiovy",
+        "Sumorajovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Okamurově"
+      ],
+      "replacements": [
+        "Pitomiově",
+        "Sumorajově"
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "name": "rajchl",
+  "cases": {
+    "1": {
+      "matches": [
+        "Rajchl",
+        "Jindřich Rajchl"
+      ],
+      "replacements": [
+        "Pornoherec",
+        "Bezzubý prostitut",
+        "Předseda PoRnO"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Rajchla",
+        "Jindřicha Rajchla"
+      ],
+      "replacements": [
+        "Pornoherce",
+        "Bezzubého prostituta",
+        "Předsedy PoRnO"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Rajchlovi",
+        "Jindřichu Rajchlovi"
+      ],
+      "replacements": [
+        "Pornoherci",
+        "Bezzubému prostitutovi",
+        "Předsedovi PoRnO"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Rajchla",
+        "Jindřicha Rajchla"
+      ],
+      "replacements": [
+        "Pornoherce",
+        "Bezzubého prostituta",
+        "Předsedu PoRnO"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Rajchle",
+        "Jindřichu Rajchle"
+      ],
+      "replacements": [
+        "Pornoherče",
+        "Bezzubý prostitute",
+        "Předsedo PoRnO"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Rajchlovi",
+        "Jindřichu Rajchlovi"
+      ],
+      "replacements": [
+        "Pornoherci",
+        "Bezzubém prostitutovi",
+        "Předsedovi PoRnO"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Rajchlem",
+        "Jindřichem Rajchlem"
+      ],
+      "replacements": [
+        "Pornohercem",
+        "Bezzubým prostitutem",
+        "Předsedou PoRnO"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Rajchlovo"
+      ],
+      "replacements": [
+        "Pornohercovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Rajchlova"
+      ],
+      "replacements": [
+        "Pornohercova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Rajchlův"
+      ],
+      "replacements": [
+        "Pornohercův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Rajchlovi"
+      ],
+      "replacements": [
+        "Pornohercovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Rajchlovy"
+      ],
+      "replacements": [
+        "Pornohercovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Rajchlově"
+      ],
+      "replacements": [
+        "Pornohercově"
+      ]
+    }
+  }
+}

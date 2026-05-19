@@ -1,0 +1,112 @@
+{
+  "name": "feri",
+  "cases": {
+    "1": {
+      "matches": [
+        "Feri",
+        "Dominik Feri"
+      ],
+      "replacements": [
+        "Úplně nahej",
+        "Predátor z Teplic",
+        "Ten co neuhne"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Feriho",
+        "Dominika Feriho"
+      ],
+      "replacements": [
+        "Úplně nahýho",
+        "Predátora z Teplic",
+        "Toho co neuhne"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Ferihomu",
+        "Dominiku Ferihomu"
+      ],
+      "replacements": [
+        "Úplně nahýmu",
+        "Predátorovi z Teplic",
+        "Tomu co neuhne"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Feriho",
+        "Dominika Feriho"
+      ],
+      "replacements": [
+        "Úplně nahýho",
+        "Predátora z Teplic",
+        "Toho co neuhne"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Feri",
+        "Dominiku Feri"
+      ],
+      "replacements": [
+        "Úplně nahej",
+        "Predátore z Teplic",
+        "Ty co neuhneš"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Ferihom",
+        "Dominiku Ferihom"
+      ],
+      "replacements": [
+        "Úplně nahým",
+        "Predátorovi z Teplic",
+        "Tom co neuhne"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Ferihom",
+        "Dominikem Ferihom"
+      ],
+      "replacements": [
+        "Úplně nahým",
+        "Predátorem z Teplic",
+        "Tím co neuhne"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Feriho"
+      ],
+      "replacements": [
+        "Úplně nahýho"
+      ]
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "name": "zeman",
+  "cases": {
+    "1": {
+      "matches": [
+        "Zeman",
+        "Miloš Zeman"
+      ],
+      "replacements": [
+        "Vepřočlověk",
+        "Prognostický nekromancer",
+        "Pudinkový baron",
+        "Bubble bum",
+        "Starý jezevec",
+        "Ovar",
+        "Beznohý sprinter",
+        "Šáteček"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Zemana",
+        "Miloše Zemana"
+      ],
+      "replacements": [
+        "Vepřočlověka",
+        "Prognostického nekromancera",
+        "Pudinkového barona",
+        "Bubble buma",
+        "Starého jezevce",
+        "Ovara",
+        "Beznohého sprintera",
+        "Šátečka"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Zemanovi",
+        "Miloši Zemanovi"
+      ],
+      "replacements": [
+        "Vepřočlověku",
+        "Prognostickému nekromancerovi",
+        "Pudinkovému baronovi",
+        "Bubble bumovi",
+        "Starému jezevci",
+        "Ovarovi",
+        "Beznohému sprinterovi",
+        "Šátečku"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Zemana",
+        "Miloše Zemana"
+      ],
+      "replacements": [
+        "Vepřočlověka",
+        "Prognostického nekromancera",
+        "Pudinkového barona",
+        "Bubble buma",
+        "Starého jezevce",
+        "Ovara",
+        "Beznohého sprintera",
+        "Šátečka"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Zemane",
+        "Miloši Zemane"
+      ],
+      "replacements": [
+        "Vepřočlověče",
+        "Prognostický nekromancere",
+        "Pudinkový barone",
+        "Bubble bume",
+        "Starý jezevče",
+        "Ovare",
+        "Beznohý sprintere",
+        "Šátečku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Zemanovi",
+        "Miloši Zemanovi"
+      ],
+      "replacements": [
+        "Vepřočlověku",
+        "Prognostickém nekromancerovi",
+        "Pudinkovém baronovi",
+        "Bubble bumovi",
+        "Starém jezevci",
+        "Ovarovi",
+        "Beznohém sprinterovi",
+        "Šátečku"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Zemanem",
+        "Milošem Zemanem"
+      ],
+      "replacements": [
+        "Vepřočlověkem",
+        "Prognostickým nekromancerem",
+        "Pudinkovým baronem",
+        "Bubble bumem",
+        "Starým jezevcem",
+        "Ovarem",
+        "Beznohým sprinterem",
+        "Šátečkem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Zemanovo"
+      ],
+      "replacements": [
+        "Vepřočlověkovo",
+        "Nekromancerovo",
+        "Pudinkobaronovo",
+        "Jezevcovo",
+        "Ovarovo",
+        "Šátečkovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Zemanova"
+      ],
+      "replacements": [
+        "Vepřočlověkova",
+        "Nekromancerova",
+        "Pudinkobaronova",
+        "Jezevcova",
+        "Ovarova",
+        "Šátečkova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Zemanův"
+      ],
+      "replacements": [
+        "Vepřočlověkův",
+        "Nekromancerův",
+        "Pudinkobaronův",
+        "Jezevcův",
+        "Ovarův",
+        "Šátečkův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Zemanovi"
+      ],
+      "replacements": [
+        "Vepřočlověkovi",
+        "Nekromancerovi",
+        "Pudinkobaronovi",
+        "Jezevcovi",
+        "Ovarovi",
+        "Šátečkovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Zemanovy"
+      ],
+      "replacements": [
+        "Vepřočlověkovy",
+        "Nekromancerovy",
+        "Pudinkobaronovy",
+        "Jezevcovy",
+        "Ovarovy",
+        "Šátečkovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Zemanově"
+      ],
+      "replacements": [
+        "Vepřočlověkově",
+        "Nekromancerově",
+        "Pudinkobaronově",
+        "Jezevcově",
+        "Ovarově",
+        "Šátečkově"
+      ]
+    }
+  }
+}

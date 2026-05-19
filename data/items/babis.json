@@ -2,58 +2,204 @@
   "name": "babis",
   "cases": {
     "1": {
-      "matches": ["Babiš", "Andrej Babiš"],
-      "replacements": ["Kuní ksicht", "Agent Bureš", "STBák"]
+      "matches": [
+        "Babiš",
+        "Andrej Babiš"
+      ],
+      "replacements": [
+        "Kuní ksicht",
+        "Agent Bureš",
+        "STBák",
+        "25085",
+        "Manžel Motyky, které to dnes moc sluší",
+        "Král koblihových lidí",
+        "Nejlepší covid premiér",
+        "Řepkobaron",
+        "Zapírač",
+        "Logopedická hříčka"
+      ]
     },
     "2": {
-      "matches": ["Babiše","Andreje Babiše"],
-      "replacements": ["Kuního ksichtu", "Agenta Bureše", "STBáka"]
+      "matches": [
+        "Babiše",
+        "Andreje Babiše"
+      ],
+      "replacements": [
+        "Kuního ksichtu",
+        "Agenta Bureše",
+        "STBáka",
+        "25085",
+        "Manžela Motyky, které to dnes moc sluší",
+        "Krále koblihových lidí",
+        "Nejlepšího covid premiéra",
+        "Řepkobarona",
+        "Zapírače",
+        "Logopedické hříčky"
+      ]
     },
     "3": {
-      "matches": ["Babišovi", "Andreji Babišovi"],
-      "replacements": ["Kunímu ksichtu", "Agentu Burešovi", "STBákovi"]
+      "matches": [
+        "Babišovi",
+        "Andreji Babišovi"
+      ],
+      "replacements": [
+        "Kunímu ksichtu",
+        "Agentu Burešovi",
+        "STBákovi",
+        "25085",
+        "Manželovi Motyky, které to dnes moc sluší",
+        "Králi koblihových lidí",
+        "Nejlepšímu covid premiérovi",
+        "Řepkobaronovi",
+        "Zapíračovi",
+        "Logopedické hříčce"
+      ]
     },
     "4": {
-      "matches": ["Babiše","Andreje Babiše"],
-      "replacements": ["Kuního ksichta", "Agenta Bureše", "STBáka"]
+      "matches": [
+        "Babiše",
+        "Andreje Babiše"
+      ],
+      "replacements": [
+        "Kuního ksichta",
+        "Agenta Bureše",
+        "STBáka",
+        "25085",
+        "Manžela Motyky, které to dnes moc sluší",
+        "Krále koblihových lidí",
+        "Nejlepšího covid premiéra",
+        "Řepkobarona",
+        "Zapírače",
+        "Logopedickou hříčku"
+      ]
     },
     "5": {
-      "matches": ["Babiši", "Andreji Babiši"],
-      "replacements": ["Kuní ksichte", "Agente Bureši", "STBáku"]
+      "matches": [
+        "Babiši",
+        "Andreji Babiši"
+      ],
+      "replacements": [
+        "Kuní ksichte",
+        "Agente Bureši",
+        "STBáku",
+        "25085",
+        "Manželi Motyky, které to dnes moc sluší",
+        "Králi koblihových lidí",
+        "Nejlepší covid premiére",
+        "Řepkobarone",
+        "Zapírači",
+        "Logopedická hříčko"
+      ]
     },
     "6": {
-      "matches": ["Babišovi", "Andreji Babišovi"],
-      "replacements": ["Kuním ksichtu", "Agentu Burešovi", "STBákovi"]
+      "matches": [
+        "Babišovi",
+        "Andreji Babišovi"
+      ],
+      "replacements": [
+        "Kuním ksichtu",
+        "Agentu Burešovi",
+        "STBákovi",
+        "25085",
+        "Manželovi Motyky, které to dnes moc sluší",
+        "Králi koblihových lidí",
+        "Nejlepším covid premiérovi",
+        "Řepkobaronovi",
+        "Zapírači",
+        "Logopedické hříčce"
+      ]
     },
     "7": {
-      "matches": ["Babišem", "Andrejem Babišem"],
-      "replacements": ["Kuním ksichtem", "Agentem Burešem", "STBákem"]
+      "matches": [
+        "Babišem",
+        "Andrejem Babišem"
+      ],
+      "replacements": [
+        "Kuním ksichtem",
+        "Agentem Burešem",
+        "STBákem",
+        "25085",
+        "Manželem Motyky, které to dnes moc sluší",
+        "Králem koblihových lidí",
+        "Nejlepším covid premiérem",
+        "Řepkobaronem",
+        "Zapíračem",
+        "Logopedickou hříčkou"
+      ]
     }
   },
   "adjectives": {
     "to": {
-      "matches": ["Babišovo"],
-      "replacements": ["Kunoksichtovo", "Burešovo", "STBákovo"]
+      "matches": [
+        "Babišovo"
+      ],
+      "replacements": [
+        "Kunoksichtovo",
+        "Burešovo",
+        "STBákovo",
+        "Řepkobaronovo",
+        "Zapíračovo"
+      ]
     },
     "ta": {
-      "matches": ["Babišova"],
-      "replacements": ["Kunoksichtova", "Burešova", "STBákova"]
+      "matches": [
+        "Babišova"
+      ],
+      "replacements": [
+        "Kunoksichtova",
+        "Burešova",
+        "STBákova",
+        "Řepkobaronova",
+        "Zapíračova"
+      ]
     },
     "ten": {
-      "matches": ["Babišův"],
-      "replacements": ["Kunoksichtův", "Burešův", "STBákův"]
+      "matches": [
+        "Babišův"
+      ],
+      "replacements": [
+        "Kunoksichtův",
+        "Burešův",
+        "STBákův",
+        "Řepkobarův",
+        "Zapíračův"
+      ]
     },
     "ti": {
-      "matches": ["Babišovi"],
-      "replacements": ["Kunoksichtovi", "Burešovi", "STBákovi"]
+      "matches": [
+        "Babišovi"
+      ],
+      "replacements": [
+        "Kunoksichtovi",
+        "Burešovi",
+        "STBákovi",
+        "Řepkobaronovi",
+        "Zapíračovi"
+      ]
     },
     "ty": {
-      "matches": ["Babišovy"],
-      "replacements": ["Kunoksichtovy", "Burešovy", "STBákovy"]
+      "matches": [
+        "Babišovy"
+      ],
+      "replacements": [
+        "Kunoksichtovy",
+        "Burešovy",
+        "STBákovy",
+        "Řepkobaronovy",
+        "Zapíračovy"
+      ]
     },
     "te": {
-      "matches": ["Babišově"],
-      "replacements": ["Kunoksichtově", "Burešově", "STBákově"]
+      "matches": [
+        "Babišově"
+      ],
+      "replacements": [
+        "Kunoksichtově",
+        "Burešově",
+        "STBákově",
+        "Řepkobaronově",
+        "Zapíračově"
+      ]
     }
   }
 }

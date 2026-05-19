@@ -1,0 +1,142 @@
+{
+  "name": "schillerova",
+  "cases": {
+    "1": {
+      "matches": [
+        "Schillerová",
+        "Alena Schillerová"
+      ],
+      "replacements": [
+        "Ministryně Instagramu",
+        "Candy crush šampiónka",
+        "Miss Gerontia",
+        "Dluhový schodek",
+        "Tiktok tanečnice",
+        "Hranolka",
+        "Dlužena"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Schillerové",
+        "Aleny Schillerové"
+      ],
+      "replacements": [
+        "Ministryně Instagramu",
+        "Candy crush šampiónky",
+        "Miss Gerontie",
+        "Dluhového schodku",
+        "Tiktok tanečnice",
+        "Hranolky",
+        "Dluženy"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Schillerové",
+        "Aleně Schillerové"
+      ],
+      "replacements": [
+        "Ministryni Instagramu",
+        "Candy crush šampiónce",
+        "Miss Gerontii",
+        "Dluhovému schodku",
+        "Tiktok tanečnici",
+        "Hranolce",
+        "Dluženě"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Schillerovou",
+        "Alenu Schillerovou"
+      ],
+      "replacements": [
+        "Ministryni Instagramu",
+        "Candy crush šampiónku",
+        "Miss Gerontii",
+        "Dluhový schodek",
+        "Tiktok tanečnici",
+        "Hranolku",
+        "Dluženu"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Schillerová",
+        "Aleno Schillerová"
+      ],
+      "replacements": [
+        "Ministryně Instagramu",
+        "Candy crush šampiónko",
+        "Miss Gerontie",
+        "Dluhový schodku",
+        "Tiktok tanečnice",
+        "Hranolko",
+        "Dluženo"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Schillerové",
+        "Aleně Schillerové"
+      ],
+      "replacements": [
+        "Ministryni Instagramu",
+        "Candy crush šampiónce",
+        "Miss Gerontii",
+        "Dluhovém schodku",
+        "Tiktok tanečnici",
+        "Hranolce",
+        "Dluženě"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Schillerovou",
+        "Alenou Schillerovou"
+      ],
+      "replacements": [
+        "Ministryní Instagramu",
+        "Candy crush šampiónkou",
+        "Miss Gerontií",
+        "Dluhovým schodkem",
+        "Tiktok tanečnicí",
+        "Hranolkou",
+        "Dluženou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Schillerové",
+        "Aleny Schillerové"
+      ],
+      "replacements": [
+        "Candy crush šampiónky",
+        "Dluženy"
+      ]
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}
