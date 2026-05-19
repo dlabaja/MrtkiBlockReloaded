@@ -136,10 +136,10 @@ export class DataManager {
     }
 
     private getPrepositions(id: MatchGroupId) {
-        if (id == "2") {
+        if (id === "2") {
             return this._secondCasePrepositions;
         }
-        if (id == "6") {
+        if (id === "6") {
             return this._sixthCasePrepositions;
         }
         return [];

@@ -28,7 +28,7 @@ export class Trie {
         }
 
         const char = word[index];
-        const isEnd = index == word.length - 1;
+        const isEnd = index === word.length - 1;
         let node = prevNode.next.get(char);
         if (!node) {
             node = new TrieNode(char, prevNode, isEnd);
@@ -109,7 +109,7 @@ export class Trie {
     
     private suffixes(node: TrieNode) {
         const substrings = this.substrings(node);
-        if (substrings.length == 1) {
+        if (substrings.length === 1) {
             return substrings;
         }
         return substrings.slice(1);
@@ -125,11 +125,11 @@ export class Trie {
     }
     
     private findSubstringRec(substring: string, node: TrieNode, index: number): TrieNode|null {
-        if (substring == EMPTY) {
+        if (substring === EMPTY) {
             return this.root;
         }
         
-        if (index == substring.length) {
+        if (index === substring.length) {
             return node;
         }
         

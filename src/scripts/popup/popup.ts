@@ -73,7 +73,7 @@ getPopupContext().then(async (context) => {
         
         const value: Config[K] = config[key];
         const element = document.getElementById(id) as HTMLInputElement;
-        if (element.type == "checkbox") {
+        if (element.type === "checkbox") {
             // @ts-ignore
             element.checked = value;
             return;

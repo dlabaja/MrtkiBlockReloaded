@@ -21,7 +21,7 @@ async function init() {
 function canRun(config: Config) {
     return !config.disableExtension
         && !config.ignoredWebsites.includes(window.location.hostname)
-        && document.contentType == "text/html"
+        && document.contentType === "text/html"
 }
 
 async function execute() {
