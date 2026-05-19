@@ -23,9 +23,9 @@ export class TrieManager {
     private borderedMatches(matches: string[], boundaries: string[]) {
         const res = [];
         for (const prefix of boundaries) {
-            for (const postfix of boundaries) {
+            for (const suffix of boundaries) {
                 for (const match of matches) {
-                    res.push(`${prefix}${match}${postfix}`);
+                    res.push(`${prefix}${match}${suffix}`);
                 }
             }
         }
