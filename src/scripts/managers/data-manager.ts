@@ -30,10 +30,21 @@ interface DataDeclension {
     replacements: string[]
 }
 
+type MatchGroupId = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "to" | "ta" | "ten" | "ti" | "ty" | "te";
+
+interface MatchGroup {
+    groupId: MatchGroupId
+    matches: string[]
+    prepositions: string[],
+    replacements: string[]
+}
+
 export class DataManager {
     private readonly _storageManager: StorageManager;
     private readonly _configManager: ConfigManager;
     private _data: Data[] = [];
+    private _sixthCasePrepositions = ["O", "o", "V", "v", "Ve", "ve", "Na", "na", "Po", "po", "Při", "při"];
+    private _secondCasePrepositions = ["Bez", "bez", "Do", "do", "Od", "od", "Z", "z", "U", "u"]
     public nameIds: string[] = [];
     public matches: string[] = [];
     public namesToMatches = new Map<string, string[]>; // name: matches:
@@ -51,14 +62,15 @@ export class DataManager {
         this.matches = [];
 
         for (const data of this._data) {
+            const matchGroups = this.getMatchGroups(data);
+            const matches = this.getMatches(matchGroups);
             this.nameIds.push(data.name);
-            const matches = this.getMatches(data);
             this.namesToMatches.set(data.name, matches)
             this.matches.push(...matches);
-            this.fillFields(data);
+            this.fillReplacements(matchGroups);
         }
     }
-    
+
     public getRandomReplacement(match: string) {
         const replacements = this.replacements.get(match);
         if (!replacements) {
@@ -66,7 +78,7 @@ export class DataManager {
         }
         return getRandomItem(replacements);
     }
-    
+
     public isIgnoredMatch(match: string) {
         const ignoredNames = this._configManager.config?.ignoredNames || [];
         for (const ignoredName of ignoredNames) {
@@ -80,13 +92,13 @@ export class DataManager {
         }
         return false;
     }
-    
+
     private async getData() {
         // po každém spuštění aktualizuju databázi
         if (!this._configManager.config?.disableUpdates) {
             return await this.fetchData();
         }
-        
+
         let data = await this._storageManager.get<Data[]>(StorageType.Local, StorageKey.Data);
         if (data) {
             return data;
@@ -96,7 +108,7 @@ export class DataManager {
         await this._storageManager.save(StorageType.Local, StorageKey.Data, data);
         return data;
     }
-    
+
     private async fetchData() {
         const response = await fetch(
             "https://raw.githubusercontent.com/dlabaja/MrtkiBlockReloaded/refs/heads/master/data/data.json");
@@ -108,44 +120,67 @@ export class DataManager {
         return await response.json() as Data[];
     }
 
-    private getMatches(data: Data) {
-        return [
-            ...data.cases["1"].matches,
-            ...data.cases["2"].matches,
-            ...data.cases["3"].matches,
-            ...data.cases["4"].matches,
-            ...data.cases["5"].matches,
-            ...data.cases["6"].matches,
-            ...data.cases["7"].matches,
-            ...data.adjectives.to.matches,
-            ...data.adjectives.ta.matches,
-            ...data.adjectives.ten.matches,
-            ...data.adjectives.ti.matches,
-            ...data.adjectives.ty.matches,
-            ...data.adjectives.te.matches,
-        ]
+    private getMatchGroups(data: Data): MatchGroup[] {
+        const result: MatchGroup[] = [];
+        const entries = [...Object.entries(data.cases), ...Object.entries(data.adjectives)];
+        for (const entry of entries) {
+            const id = entry[0] as MatchGroupId;
+            result.push({
+                groupId: id,
+                matches: entry[1].matches,
+                replacements: entry[1].replacements,
+                prepositions: this.getPrepositions(id)
+            })
+        }
+        return result;
     }
-    
-    private fillFields(data: Data) {
-        for (const item in data.cases) {
-            // @ts-ignore
-            for (const match of data.cases[item].matches) {
-                if (this.replacements.has(match)) {
-                    continue;
-                }
-                // @ts-ignore
-                this.replacements.set(match, data.cases[item].replacements);
+
+    private getPrepositions(id: MatchGroupId) {
+        if (id == "2") {
+            return this._secondCasePrepositions;
+        }
+        if (id == "6") {
+            return this._sixthCasePrepositions;
+        }
+        return [];
+    }
+
+    private getWithPrepositions(words: string[], prepositions: string[]) {
+        const result = [];
+        for (const preposition of prepositions) {
+            result.push(...words.map(word => `${preposition} ${word}`))
+        }
+        return result;
+    }
+
+    private getMatches(matchGroups: MatchGroup[]): string[] {
+        const result = new Set<string>();
+        for (const matchGroup of matchGroups) {
+            const matchesWithPreps: string[] = [...matchGroup.matches, ...this.getWithPrepositions(matchGroup.matches, matchGroup.prepositions)];
+            for (const matchWithPrep of matchesWithPreps) {
+                result.add(matchWithPrep);
             }
         }
+        return [...result];
+    }
 
-        for (const item in data.adjectives) {
-            // @ts-ignore
-            for (const match of data.adjectives[item].matches) {
-                if (this.replacements.has(match)) {
-                    continue;
+    private fillReplacements(matchGroups: MatchGroup[]) {
+        // 4. pád se plní první kvůli konfliktům s 2. pádem. U 3./6. pádu už to je v pořádku
+        const _matchGroups: MatchGroup[] = [
+            matchGroups.find(x => x.groupId === "4")!,
+            ...matchGroups.filter(x => x.groupId !== "4"),
+        ]
+        for (const matchGroup of _matchGroups) {
+            for (const match of matchGroup.matches) {
+                if (!this.replacements.has(match)) {
+                    this.replacements.set(match, matchGroup.replacements);
                 }
-                // @ts-ignore
-                this.replacements.set(match, data.adjectives[item].replacements);
+                for (const prep of matchGroup.prepositions) {
+                    const matchWithPrep = `${prep} ${match}`;
+                    if (!this.replacements.has(matchWithPrep)) {
+                        this.replacements.set(matchWithPrep, matchGroup.replacements.map(x => `${prep} ${x}`));
+                    }
+                }
             }
         }
     }
