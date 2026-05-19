@@ -1,9 +1,10 @@
 ![icon128.png](src/assets/icon128.png)
 
-[![discord logo](https://camo.githubusercontent.com/8c0fca73564f21d7a6f235747eb4d739a2e4aaa348b8e074904127baeb944b9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d3538363546323f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465)](https://discord.gg/6nWXgvEZJF)
+<a href="https://discord.gg/6nWXgvEZJF"><img src="https://camo.githubusercontent.com/8c0fca73564f21d7a6f235747eb4d739a2e4aaa348b8e074904127baeb944b9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d3538363546323f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465" alt="Discord link" style="height: 28px; border-radius: 4px;"></a>
+<a href="https://buymeacoffee.com/dlabaja"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 28px;"></a>
 
 # MrtkiBlock Reloaded
-## Rewrite původního rozšíření MrtkiBlock od [branik.v.akci](https://www.facebook.com/branikvakci)
+## Rewrite původního rozšíření [MrtkiBlock](https://addons.mozilla.org/cs/firefox/addon/mrtkiblock/) od [branik.v.akci](https://www.facebook.com/branikvakci)
 
 Blokování hnoje na webu - přepisuje jména (nejen) politiků na jejich přezdívky, aby vám při čtení Novinek nestoupal tlak...
 
@@ -18,7 +19,7 @@ Rozšíření se skládá ze tří částí - Background skript (běží od star
 ## Jak přispět:
 **Všechna data jsou v souborech data/items/*jmeno*.json**. Stačí vytvořit soubor s novým jménem podle schématu nebo aktualizovat již existující. Potom vyplníte kolonky pro všechny pády a přídavná jména.
 
-Nápady na jména a přezdívky můžete psát i na [Discord](https://discord.gg/6nWXgvEZJF)
+Nápady na jména a přezdívky můžete psát i na [Discord](https://discord.gg/6nWXgvEZJF).
 
 Matches = co se nahrazuje, Replacements = za co se to nahradí. Pozor na mezery a velká/malá písmena!
 
