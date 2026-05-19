@@ -1,0 +1,4 @@
+Toto rozšíření nesbírá žádná data a ani to v budoucnu neplánuje. Pokud mi nevěříte, přečtěte si zdroják: 
+https://github.com/dlabaja/MrtkiBlockReloaded
+
+Sbírání dat je cringe.
