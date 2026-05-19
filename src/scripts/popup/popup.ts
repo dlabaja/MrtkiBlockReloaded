@@ -13,7 +13,10 @@ const buttons = new Map([
 const subtitles = [
     "Pro čtení Novinek bez zvýšeného tlaku...",
     "Pro čtení příspěvků Miroslavy Tymlové",
-    "Pro čtení diskuzí bez újmy na zdraví"
+    "Pro čtení diskuzí bez újmy na zdraví",
+    "Pro blokování hnoje na webu",
+    "Pro sledování porna bez zmínky Rajchlova jména",
+    
 ]
 
 getPopupContext().then(async (context) => {
@@ -29,7 +32,7 @@ getPopupContext().then(async (context) => {
             return;
         }
         const textArea = document.getElementById(textAreaId) as HTMLInputElement;
-        await context.configManager.setConfig(key, strToArray(textArea.value));
+        await context.configManager.setConfig(key, textAreaToArray(textArea.value));
     }
     
     async function onDisableExtensionChanged(event: Event) {
@@ -72,6 +75,7 @@ getPopupContext().then(async (context) => {
         }
         
         const value: Config[K] = config[key];
+        console.log(value)
         const element = document.getElementById(id) as HTMLInputElement;
         if (element.type === "checkbox") {
             // @ts-ignore
@@ -110,9 +114,9 @@ export function setNameIdsTextArea(nameIds: string[]) {
     element.innerText = nameIds.join(", ");
 }
 
-function strToArray(x: string) {
-    return x.split("\n")
-        .map(x => x.trim().toLowerCase())
+function textAreaToArray(x: string) {
+    return x.split(",")
+        .map(x => x.trim().toLowerCase().replaceAll("\n", ""))
         .filter(x => x != "");
 }
 
