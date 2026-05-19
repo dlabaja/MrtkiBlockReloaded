@@ -481,7 +481,9 @@
     "cases": {
       "1": {
         "matches": [
-          "Petr Pavel"
+          "Petr Pavel",
+          "Prezident Pavel",
+          "prezident Pavel"
         ],
         "replacements": [
           "Gigachad",
@@ -491,7 +493,9 @@
       },
       "2": {
         "matches": [
-          "Petra Pavla"
+          "Petra Pavla",
+          "Prezidenta Pavla",
+          "prezidenta Pavla"
         ],
         "replacements": [
           "Gigachada",
@@ -501,7 +505,11 @@
       },
       "3": {
         "matches": [
-          "Petru Pavlovi"
+          "Petru Pavlovi",
+          "Prezidentu Pavlovi",
+          "prezidentu Pavlovi",
+          "Prezidentovi Pavlovi",
+          "prezidentovi Pavlovi"
         ],
         "replacements": [
           "Gigachadovi",
@@ -511,7 +519,9 @@
       },
       "4": {
         "matches": [
-          "Petra Pavla"
+          "Petra Pavla",
+          "Prezidenta Pavla",
+          "prezidenta Pavla"
         ],
         "replacements": [
           "Gigachada",
@@ -521,7 +531,9 @@
       },
       "5": {
         "matches": [
-          "Petře Pavle"
+          "Petře Pavle",
+          "Prezidente Pavle",
+          "prezidente Pavle"
         ],
         "replacements": [
           "Gigachade",
@@ -531,7 +543,11 @@
       },
       "6": {
         "matches": [
-          "Petru Pavlovi"
+          "Petru Pavlovi",
+          "Prezidentu Pavlovi",
+          "prezidentu Pavlovi",
+          "Prezidentovi Pavlovi",
+          "prezidentovi Pavlovi"
         ],
         "replacements": [
           "Gigachadovi",
@@ -541,7 +557,9 @@
       },
       "7": {
         "matches": [
-          "Petrem Pavlem"
+          "Petrem Pavlem",
+          "Prezidentem Pavlem",
+          "prezidentem Pavlem"
         ],
         "replacements": [
           "Gigachadem",
