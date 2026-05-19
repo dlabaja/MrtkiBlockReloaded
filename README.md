@@ -12,7 +12,7 @@ Původní rozšíření bylo naposledy aktualizováno v roce 2021, politická si
 
 Pro debugging jsem použil [web-ext](https://www.npmjs.com/package/web-ext?activeTab=readme).
 
-Pro hledání používám [Aho-Corasick](https://www.youtube.com/watch?v=O7_w001f58c&t=282s&pp=ygUMYWhvIGNvcmFzaWNr) algoritmus s bounding znaky na začátku a konci matche. Zároveň se podle předložek snažím uhodnout správný pád jména.
+Pro hledání používám [Aho-Corasick](https://www.youtube.com/watch?v=O7_w001f58c&t=282s&pp=ygUMYWhvIGNvcmFzaWNr) algoritmus s boundary znaky na začátku a konci matche. Zároveň se podle předložek snažím uhodnout správný pád jména.
 
 Rozšíření se skládá ze tří částí - Background skript (běží od startu prohlížeče, uchovává trie a data), Content skript (per-page, má přístup k DOMu) a Popup (konfigurace). Mezi sebou komunikují pomocí zpráv (Popup -> Background <-> Content), každý má oddělený kontext.
 
