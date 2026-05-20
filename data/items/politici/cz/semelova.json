@@ -1,0 +1,136 @@
+{
+  "name": "semelova",
+  "cases": {
+    "1": {
+      "matches": [
+        "Semelová",
+        "Marta Semelová"
+      ],
+      "replacements": [
+        "Kuřba za pade",
+        "Rudá Marta",
+        "Krvavá Mary",
+        "Red Widow",
+        "Jsem Váš hlas",
+        "Zhouba Horákové",
+        "Gulagmamá"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Semelové",
+        "Marty Semelové"
+      ],
+      "replacements": [
+        "Kuřby za pade",
+        "Rudé Marty",
+        "Krvavé Mary",
+        "Red Widow",
+        "Jsem Váš hlasu",
+        "Zhouby Horákové",
+        "Gulagmamá"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Semelové",
+        "Martě Semelové"
+      ],
+      "replacements": [
+        "Kuřbě za pade",
+        "Rudé Martě",
+        "Krvavé Mary",
+        "Red Widow",
+        "Jsem Váš hlasu",
+        "Zhoubě Horákové",
+        "Gulagmamá"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Semelovou",
+        "Martu Semelovou"
+      ],
+      "replacements": [
+        "Kuřbu za pade",
+        "Rudou Martu",
+        "Krvavou Mary",
+        "Red Widow",
+        "Jsem Váš hlas",
+        "Zhoubu Horákové",
+        "Gulagmamá"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Semelová",
+        "Marto Semelová"
+      ],
+      "replacements": [
+        "Kuřbo za pade",
+        "Rudá Marto",
+        "Krvavá Mary",
+        "Red Widow",
+        "Jsem Váš hlase",
+        "Zhoubo Horákové",
+        "Gulagmamá"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Semelové",
+        "Martě Semelové"
+      ],
+      "replacements": [
+        "Kuřbě za pade",
+        "Rudé Martě",
+        "Krvavé Mary",
+        "Red Widow",
+        "Jsem Váš hlasu",
+        "Zhoubě Horákové",
+        "Gulagmamá"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Semelovou",
+        "Martou Semelovou"
+      ],
+      "replacements": [
+        "Kuřbou za pade",
+        "Rudou Martou",
+        "Krvavou Mary",
+        "Red Widow",
+        "Jsem Váš hlasem",
+        "Zhoubou Horákové",
+        "Gulagmamá"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

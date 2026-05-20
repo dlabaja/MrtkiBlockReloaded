@@ -1,0 +1,124 @@
+{
+  "name": "vojtech",
+  "cases": {
+    "1": {
+      "matches": [
+        "Adam Vojtěch"
+      ],
+      "replacements": [
+        "Ken",
+        "Bezpohlavní partner Barbie",
+        "Hvězdná pěchota ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revival",
+        "Zpívající ministr"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Adama Vojtěcha"
+      ],
+      "replacements": [
+        "Kena",
+        "Bezpohlavního partnera Barbie",
+        "Hvězdné pěchoty ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revivalu",
+        "Zpívajícího ministra"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Adamu Vojtěchovi",
+        "Adamovi Vojtěchovi"
+      ],
+      "replacements": [
+        "Kenovi",
+        "Bezpohlavnímu partnerovi Barbie",
+        "Hvězdné pěchotě ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revivalu",
+        "Zpívajícímu ministrovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Adama Vojtěcha"
+      ],
+      "replacements": [
+        "Kena",
+        "Bezpohlavního partnera Barbie",
+        "Hvězdnou pěchotu ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revival",
+        "Zpívajícího ministra"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Adame Vojtěchu"
+      ],
+      "replacements": [
+        "Kene",
+        "Bezpohlavní partnere Barbie",
+        "Hvězdná pěchoto ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revivale",
+        "Zpívající ministře"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Adamu Vojtěchovi",
+        "Adamovi Vojtěchovi"
+      ],
+      "replacements": [
+        "Kenovi",
+        "Bezpohlavním partnerovi Barbie",
+        "Hvězdné pěchotě ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revivalu",
+        "Zpívajícím ministrovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Adamem Vojtěchem"
+      ],
+      "replacements": [
+        "Kenem",
+        "Bezpohlavním partnerem Barbie",
+        "Hvězdnou pěchotou ministerstva zdravotnictví",
+        "Řekněte jméno",
+        "ABBA revivalem",
+        "Zpívajícím ministrem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

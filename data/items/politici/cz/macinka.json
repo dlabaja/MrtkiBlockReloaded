@@ -1,0 +1,159 @@
+{
+  "name": "macinka",
+  "cases": {
+    "1": {
+      "matches": [
+        "Petr Macinka",
+        "Macinka"
+      ],
+      "replacements": [
+        "Metr Pacinka",
+        "Petr Prcinka",
+        "Petr Micinka",
+        "Petr Nacinka"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Petra Macinky",
+        "Macinky"
+      ],
+      "replacements": [
+        "Metra Pacinky",
+        "Petra Prcinky",
+        "Petra Micinky",
+        "Petra Nacinky"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Petru Macinkovi",
+        "Macinkovi"
+      ],
+      "replacements": [
+        "Metru Pacinkovi",
+        "Petru Prcinkovi",
+        "Petru Micinkovi",
+        "Petru Nacinkovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Petra Macinku",
+        "Macinku"
+      ],
+      "replacements": [
+        "Metra Pacinku",
+        "Petra Prcinku",
+        "Petra Micinku",
+        "Petra Nacinku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Petře Macinko",
+        "Macinko"
+      ],
+      "replacements": [
+        "Metře Pacinko",
+        "Petře Prcinko",
+        "Petře Micinko",
+        "Petře Nacinko"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Petru Macinkovi",
+        "Macinkovi",
+        "Petru Macinkovi",
+        "Macinkovi"
+      ],
+      "replacements": [
+        "Metru Pacinkovi",
+        "Petru Prcinkovi",
+        "Petru Micinkovi",
+        "Petru Nacinkovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Petrem Macinkou",
+        "Macinkou"
+      ],
+      "replacements": [
+        "Metrem Pacinkou",
+        "Petrem Prcinkou",
+        "Petrem Micinkou",
+        "Petrem Nacinkou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Macinkovo"
+      ],
+      "replacements": [
+        "Pacinkovo",
+        "Prcinkovo",
+        "Micinkovo",
+        "Nacinkovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Macinkova"
+      ],
+      "replacements": [
+        "Pacinkova",
+        "Prcinkova",
+        "Micinkova",
+        "Nacinkova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Macinkův"
+      ],
+      "replacements": [
+        "Pacinkův",
+        "Prcinkův",
+        "Micinkův",
+        "Nacinkův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Macinkovi"
+      ],
+      "replacements": [
+        "Pacinkovi",
+        "Prcinkovi",
+        "Micinkovi",
+        "Nacinkovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Macinkovy"
+      ],
+      "replacements": [
+        "Pacinkovy",
+        "Prcinkovy",
+        "Micinkovy",
+        "Nacinkovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Macinkově"
+      ],
+      "replacements": [
+        "Pacinkově",
+        "Prcinkově",
+        "Micinkově",
+        "Nacinkově"
+      ]
+    }
+  }
+}

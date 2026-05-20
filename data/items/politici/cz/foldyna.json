@@ -1,0 +1,115 @@
+{
+  "name": "foldyna",
+  "cases": {
+    "1": {
+      "matches": [
+        "Jaroslav Foldyna",
+        "Foldyna"
+      ],
+      "replacements": [
+        "Koštěm obránce tradiční rodiny",
+        "Noční vlk na prdeli",
+        "Bouchač na mopedu",
+        "Zapařená řiť"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Jaroslava Foldyny",
+        "Foldyny"
+      ],
+      "replacements": [
+        "Koštěte obránce tradiční rodiny",
+        "Nočního vlka na prdeli",
+        "Bouchače na mopedu",
+        "Zapařené řiti"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Jaroslavu Foldynovi",
+        "Foldynovi"
+      ],
+      "replacements": [
+        "Koštěti obránce tradiční rodiny",
+        "Nočnímu vlku na prdeli",
+        "Bouchači na mopedu",
+        "Zapařené řiti"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Jaroslava Foldynu",
+        "Foldynu"
+      ],
+      "replacements": [
+        "Koště obránce tradiční rodiny",
+        "Nočního vlka na prdeli",
+        "Bouchače na mopedu",
+        "Zapařenou řiť"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Jaroslave Foldyno",
+        "Foldyno"
+      ],
+      "replacements": [
+        "Koště obránce tradiční rodiny",
+        "Noční vlku na prdeli",
+        "Bouchači na mopedu",
+        "Zapařená řiti"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Jaroslavu Foldynovi",
+        "Foldynovi"
+      ],
+      "replacements": [
+        "Koštěti obránce tradiční rodiny",
+        "Nočním vlku na prdeli",
+        "Bouchači na mopedu",
+        "Zapařené řiti"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Jaroslavem Foldynou",
+        "Foldynou"
+      ],
+      "replacements": [
+        "Koštětem obránce tradiční rodiny",
+        "Nočním vlkem na prdeli",
+        "Bouchačem na mopedu",
+        "Zapařenou řití"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

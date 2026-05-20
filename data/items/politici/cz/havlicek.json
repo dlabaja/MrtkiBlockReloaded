@@ -1,0 +1,186 @@
+{
+  "name": "havlicek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Havlíček",
+        "Karel Havlíček"
+      ],
+      "replacements": [
+        "Chodící insomnie",
+        "Sony",
+        "Prdel na dvou židlích",
+        "Ten, co vstává ve čtyři ráno",
+        "Párátko v očích",
+        "Ministr nádražek a lokálek",
+        "Ministr vlakových srážek",
+        "Slepejš",
+        "Nudný Borovský"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Havlíčka",
+        "Karla Havlíčka"
+      ],
+      "replacements": [
+        "Chodící insomnie",
+        "Sonyho",
+        "Prdele na dvou židlích",
+        "Toho, co vstává ve čtyři ráno",
+        "Párátka v očích",
+        "Ministra nádražek a lokálek",
+        "Ministra vlakových srážek",
+        "Slepejše",
+        "Nudného Borovského"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Havlíčkovi",
+        "Karlu Havlíčkovi"
+      ],
+      "replacements": [
+        "Chodící insomnii",
+        "Sonymu",
+        "Prdeli na dvou židlích",
+        "Tomu, co vstává ve čtyři ráno",
+        "Párátku v očích",
+        "Ministru nádražek a lokálek",
+        "Ministru vlakových srážek",
+        "Slepejšovi",
+        "Nudnému Borovskému"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Havlíčka",
+        "Karla Havlíčka"
+      ],
+      "replacements": [
+        "Chodící insomnii",
+        "Sonyho",
+        "Prdel na dvou židlích",
+        "Toho, co vstává ve čtyři ráno",
+        "Párátko v očích",
+        "Ministra nádražek a lokálek",
+        "Ministra vlakových srážek",
+        "Slepejše",
+        "Nudného Borovského"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Havlíčku",
+        "Karle Havlíčku"
+      ],
+      "replacements": [
+        "Chodící insomnie",
+        "Sony",
+        "Prdeli na dvou židlích",
+        "Ty, co vstáváš ve čtyři ráno",
+        "Párátko v očích",
+        "Ministře nádražek a lokálek",
+        "Ministře vlakových srážek",
+        "Slepejši",
+        "Nudný Borovský"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Havlíčkovi",
+        "Karlu Havlíčkovi"
+      ],
+      "replacements": [
+        "Chodící insomnii",
+        "Sonymu",
+        "Prdeli na dvou židlích",
+        "Tom, co vstává ve čtyři ráno",
+        "Párátku v očích",
+        "Ministru nádražek a lokálek",
+        "Ministru vlakových srážek",
+        "Slepejšovi",
+        "Nudném Borovském"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Havlíčkem",
+        "Karlem Havlíčkem"
+      ],
+      "replacements": [
+        "Chodící insomnií",
+        "Sonym",
+        "Prdelí na dvou židlích",
+        "Tím, co vstává ve čtyři ráno",
+        "Párátkem v očích",
+        "Ministrem nádražek a lokálek",
+        "Ministrem vlakových srážek",
+        "Slepejšem",
+        "Nudným Borovským"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Havlíčkovo"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovo",
+        "Slepejšovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Havlíčkova"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniova",
+        "Slepejšova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Havlíčkův"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniův",
+        "Slepejšův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Havlíčkovi"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovi",
+        "Slepejšovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Havlíčkovy"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovy",
+        "Slepejšovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Havlíčkově"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniově",
+        "Slepejšově"
+      ]
+    }
+  }
+}

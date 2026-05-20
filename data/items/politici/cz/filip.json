@@ -1,0 +1,101 @@
+{
+  "name": "filip",
+  "cases": {
+    "1": {
+      "matches": [
+        "Vojtěch Filip"
+      ],
+      "replacements": [
+        "Agent Falmer",
+        "Rudý nok",
+        "Třešňová stolice"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Vojtěcha Filipa"
+      ],
+      "replacements": [
+        "Agenta Falmera",
+        "Rudého noka",
+        "Třešňové stolice"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Vojtěchu Filipovi"
+      ],
+      "replacements": [
+        "Agentu Falmerovi",
+        "Rudému noku",
+        "Třešňové stolici"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Vojtěcha Filipa"
+      ],
+      "replacements": [
+        "Agenta Falmera",
+        "Rudého noka",
+        "Třešňovou stolici"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Vojtěchu Filipe"
+      ],
+      "replacements": [
+        "Agente Falmere",
+        "Rudý noku",
+        "Třešňová stolice"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Vojtěchu Filipovi"
+      ],
+      "replacements": [
+        "Agentu Falmerovi",
+        "Rudém noku",
+        "Třešňové stolici"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Vojtěchem Filipem"
+      ],
+      "replacements": [
+        "Agentem Falmerem",
+        "Rudým nokem",
+        "Třešňovou stolicí"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "gambrinus",
+  "cases": {
+    "1": {
+      "matches": [
+        "Gambrinus"
+      ],
+      "replacements": [
+        "Gambrihnus"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Gambrinuse"
+      ],
+      "replacements": [
+        "Gambrihnuse"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Gambrinusu"
+      ],
+      "replacements": [
+        "Gambrihnusu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Gambrinuse"
+      ],
+      "replacements": [
+        "Gambrihnuse"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Gambrinuse"
+      ],
+      "replacements": [
+        "Gambrihnuse"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Gambrinusu"
+      ],
+      "replacements": [
+        "Gambrihnusu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Gambrinusem"
+      ],
+      "replacements": [
+        "Gambrihnusem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

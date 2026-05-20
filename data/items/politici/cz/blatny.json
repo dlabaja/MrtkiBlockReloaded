@@ -1,0 +1,109 @@
+{
+  "name": "blatny",
+  "cases": {
+    "1": {
+      "matches": [
+        "Blatný",
+        "Jan Blatný"
+      ],
+      "replacements": [
+        "Gargamel",
+        "Zlatonka s ušima",
+        "Ministr zdravotnictví číslo 14855"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Blatného",
+        "Jana Blatného"
+      ],
+      "replacements": [
+        "Gargamela",
+        "Zlatonky s ušima",
+        "Ministra zdravotnictví číslo 14855"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Blatnému",
+        "Janu Blatnému"
+      ],
+      "replacements": [
+        "Gargamelovi",
+        "Zlatonce s ušima",
+        "Ministru zdravotnictví číslo 14855"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Blatného",
+        "Jana Blatného"
+      ],
+      "replacements": [
+        "Gargamela",
+        "Zlatonku s ušima",
+        "Ministra zdravotnictví číslo 14855"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Blatný",
+        "Jane Blatný"
+      ],
+      "replacements": [
+        "Gargamele",
+        "Zlatonko s ušima",
+        "Ministře zdravotnictví číslo 14855"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Blatném",
+        "Janu Blatném",
+        "Janovi Blatném"
+      ],
+      "replacements": [
+        "Gargamelovi",
+        "Zlatonce s ušima",
+        "Ministru zdravotnictví číslo 14855"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Blatným",
+        "Janem Blatným"
+      ],
+      "replacements": [
+        "Gargamelem",
+        "Zlatonkou s ušima",
+        "Ministrem zdravotnictví číslo 14855"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

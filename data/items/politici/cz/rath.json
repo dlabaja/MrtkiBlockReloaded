@@ -1,0 +1,101 @@
+{
+  "name": "rath",
+  "cases": {
+    "1": {
+      "matches": [
+        "Rath",
+        "David Rath"
+      ],
+      "replacements": [
+        "Sedmička v krabici",
+        "Fackovací panák"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Ratha",
+        "Davida Ratha"
+      ],
+      "replacements": [
+        "Sedmičky v krabici",
+        "Fackovacího panáka"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Rathovi",
+        "Davidu Rathovi"
+      ],
+      "replacements": [
+        "Sedmičce v krabici",
+        "Fackovacímu panákovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Ratha",
+        "Davida Ratha"
+      ],
+      "replacements": [
+        "Sedmičku v krabici",
+        "Fackovacího panáka"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Rathe",
+        "Davide Rathe"
+      ],
+      "replacements": [
+        "Sedmičko v krabici",
+        "Fackovací panáku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Rathovi",
+        "Davidu Rathovi"
+      ],
+      "replacements": [
+        "Sedmičce v krabici",
+        "Fackovacím panákovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Rathem",
+        "Davidem Rathem"
+      ],
+      "replacements": [
+        "Sedmičkou v krabici",
+        "Fackovacím panákem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

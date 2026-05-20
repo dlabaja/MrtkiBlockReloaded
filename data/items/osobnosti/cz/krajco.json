@@ -1,0 +1,110 @@
+{
+  "name": "krajco",
+  "cases": {
+    "1": {
+      "matches": [
+        "Richard Krajčo",
+        "Krajčo"
+      ],
+      "replacements": [
+        "Generátor náhodných slov",
+        "Písmenková polévka",
+        "Ten co prdí do hrnce"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Richarda Krajča",
+        "Krajča"
+      ],
+      "replacements": [
+        "Generátoru náhodných slov",
+        "Písmenkové polévky",
+        "Toho co prdí do hrnce"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Richardu Krajčovi",
+        "Richardovi Krajčovi",
+        "Krajčovi"
+      ],
+      "replacements": [
+        "Generátoru náhodných slov",
+        "Písmenkové polévce",
+        "Tomu co prdí do hrnce"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Richarda Krajča",
+        "Krajča"
+      ],
+      "replacements": [
+        "Generátoru náhodných slov",
+        "Písmenkovou polévku",
+        "Toho co prdí do hrnce"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Richarde Krajčo",
+        "Krajčo"
+      ],
+      "replacements": [
+        "Generátore náhodných slov",
+        "Písmenková polévko",
+        "Ty co prdíš do hrnce"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Richardu Krajčovi",
+        "Richardovi Krajčovi",
+        "Krajčovi"
+      ],
+      "replacements": [
+        "Generátoru náhodných slov",
+        "Písmenkové polévce",
+        "Tom co prdí do hrnce"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Richardem Krajčem",
+        "Krajčem"
+      ],
+      "replacements": [
+        "Generátorem náhodných slov",
+        "Písmenkovou polévkou",
+        "Tím co prdí do hrnce"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

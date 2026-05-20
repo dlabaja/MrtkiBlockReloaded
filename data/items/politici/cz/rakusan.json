@@ -1,0 +1,142 @@
+{
+  "name": "rakusan",
+  "cases": {
+    "1": {
+      "matches": [
+        "Rakušan",
+        "Vít Rakušan"
+      ],
+      "replacements": [
+        "Český Steve Buscemi",
+        "Gordon Freeman",
+        "Bohatá nevěsta",
+        "Kup jim ty kalhoty"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Rakušana",
+        "Víta Rakušana"
+      ],
+      "replacements": [
+        "Českého Steva Buscemiho",
+        "Gordona Freemana",
+        "Bohaté nevěsty",
+        "Kup jim ty kalhoty"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Rakušanovi",
+        "Vítu Rakušanovi",
+        "Vítovi Rakušanovi"
+      ],
+      "replacements": [
+        "Českému Stevu Buscemiemu",
+        "Gordonu Freemanovi",
+        "Bohaté nevěstě",
+        "Kup jim ty kalhoty"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Rakušana",
+        "Víta Rakušana"
+      ],
+      "replacements": [
+        "Českého Steva Buscemiho",
+        "Gordona Freemana",
+        "Bohatou nevěstu",
+        "Kup jim ty kalhoty"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Rakušane",
+        "Víte Rakušane"
+      ],
+      "replacements": [
+        "Český Steve Buscemi",
+        "Gordone Freemane",
+        "Bohatá nevěsto",
+        "Kup jim ty kalhoty"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Rakušanovi",
+        "Vítu Rakušanovi",
+        "Vítovi Rakušanovi"
+      ],
+      "replacements": [
+        "Českém Stevu Buscemiho",
+        "Gordonu Freemanovi",
+        "Bohaté nevěstě",
+        "Kup jim ty kalhoty"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Rakušanem",
+        "Vítem Rakušanem"
+      ],
+      "replacements": [
+        "Českým Stevem Buscemim",
+        "Gordonem Freemanem",
+        "Bohatou nevěstou",
+        "Kup jim ty kalhoty"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Rakušanovo"
+      ],
+      "replacements": [
+        "Gordonovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Rakušanova"
+      ],
+      "replacements": [
+        "Gordonova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Rakušanův"
+      ],
+      "replacements": [
+        "Gordonův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Rakušanovi"
+      ],
+      "replacements": [
+        "Gordonovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Rakušany",
+        "Rakušanovy"
+      ],
+      "replacements": [
+        "Gordonovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Rakušanově"
+      ],
+      "replacements": [
+        "Gordonově"
+      ]
+    }
+  }
+}

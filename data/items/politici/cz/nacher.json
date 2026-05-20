@@ -1,0 +1,178 @@
+{
+  "name": "nacher",
+  "cases": {
+    "1": {
+      "matches": [
+        "Nacher",
+        "Patrik Nacher"
+      ],
+      "replacements": [
+        "Krysí žokej",
+        "Leprikón",
+        "Jeho maličkost osobně",
+        "Pražský krysařík",
+        "Hobit",
+        "Sádrový trpaslík",
+        "Schumacher z angličáku"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Nachera",
+        "Patrika Nachera"
+      ],
+      "replacements": [
+        "Krysího žokeje",
+        "Leprikóna",
+        "Jeho maličkosti osobně",
+        "Pražského krysaříka",
+        "Hobita",
+        "Sádrového trpaslíka",
+        "Schumachera z angličáku"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Nacherovi",
+        "Patriku Nacherovi"
+      ],
+      "replacements": [
+        "Krysímu žokejovi",
+        "Leprikónovi",
+        "Jeho maličkosti osobně",
+        "Pražskému krysaříkovi",
+        "Hobitovi",
+        "Sádrovému trpaslíkovi",
+        "Schumacherovi z angličáku"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Nachera",
+        "Patrika Nachera"
+      ],
+      "replacements": [
+        "Krysího žokeje",
+        "Leprikóna",
+        "Jeho maličkost osobně",
+        "Pražského krysaříka",
+        "Hobita",
+        "Sádrového trpaslíka",
+        "Schumachera z angličáku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Nachere",
+        "Patriku Nachere"
+      ],
+      "replacements": [
+        "Krysí žokeji",
+        "Leprikóne",
+        "Vaše maličkosti osobně",
+        "Pražský krysaříku",
+        "Hobite",
+        "Sádrový trpaslíku",
+        "Schumachere z angličáku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Nacherovi",
+        "Patriku Nacherovi"
+      ],
+      "replacements": [
+        "Krysím žokejovi",
+        "Leprikónovi",
+        "Jeho maličkosti osobně",
+        "Pražském krysaříkovi",
+        "Hobitovi",
+        "Sádrovém trpaslíkovi",
+        "Schumacherovi z angličáku"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Nacherem",
+        "Patrikem Nacherem"
+      ],
+      "replacements": [
+        "Krysím žokejem",
+        "Leprikónem",
+        "Jeho maličkostí osobně",
+        "Pražským krysaříkem",
+        "Hobitem",
+        "Sádrovým trpaslíkem",
+        "Schumacherem z angličáku"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Nacherovo"
+      ],
+      "replacements": [
+        "Leprikónovo",
+        "Krysaříkovo",
+        "Hobitovo",
+        "Trpaslíkovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Nacherova"
+      ],
+      "replacements": [
+        "Leprikónova",
+        "Krysaříkova",
+        "Hobitova",
+        "Trpaslíkova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Nacherův"
+      ],
+      "replacements": [
+        "Leprikónův",
+        "Krysaříkův",
+        "Hobitův",
+        "Trpaslíkův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Nacherovi"
+      ],
+      "replacements": [
+        "Leprikónovi",
+        "Krysaříkovi",
+        "Hobitovi",
+        "Trpaslíkovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Nacherovy"
+      ],
+      "replacements": [
+        "Leprikónovy",
+        "Krysaříkovy",
+        "Hobitovy",
+        "Trpaslíkovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Nacherově"
+      ],
+      "replacements": [
+        "Leprikónově",
+        "Krysaříkově",
+        "Hobitově",
+        "Trpaslíkově"
+      ]
+    }
+  }
+}

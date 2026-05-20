@@ -1,0 +1,173 @@
+{
+  "name": "klaus",
+  "cases": {
+    "1": {
+      "matches": [
+        "Klaus",
+        "Václav Klaus"
+      ],
+      "replacements": [
+        "Kikina",
+        "Latentní teplouš",
+        "Sběratel propisek",
+        "Národní ostuda",
+        "Čuchač k hovnu",
+        "Růžový jednorožec",
+        "Důkaz globálního oteplování",
+        "Turkova chůva"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Klause",
+        "Václava Klause"
+      ],
+      "replacements": [
+        "Kikiny",
+        "Latentního teplouše",
+        "Sběratele propisek",
+        "Národní ostudy",
+        "Čuchače k hovnu",
+        "Růžového jednorožce",
+        "Důkazu globálního oteplování",
+        "Turkovy chůvy"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Klausovi",
+        "Václavu Klausovi"
+      ],
+      "replacements": [
+        "Kikině",
+        "Latentnímu teploušovi",
+        "Sběrateli propisek",
+        "Národní ostudě",
+        "Čuchači k hovnu",
+        "Růžovému jednorožci",
+        "Důkazu globálního oteplování",
+        "Turkově chůvě"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Klause",
+        "Václava Klause"
+      ],
+      "replacements": [
+        "Kikinu",
+        "Latentního teplouše",
+        "Sběratele propisek",
+        "Národní ostudu",
+        "Čuchače k hovnu",
+        "Růžového jednorožce",
+        "Důkaz globálního oteplování",
+        "Turkovu chůvu"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Klausi",
+        "Václave Klausi"
+      ],
+      "replacements": [
+        "Kikino",
+        "Latentní teplouši",
+        "Sběrateli propisek",
+        "Národní ostudo",
+        "Čuchači k hovnu",
+        "Růžový jednorožci",
+        "Důkaze globálního oteplování",
+        "Turkova chůvo"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Klausovi",
+        "Václavu Klausovi"
+      ],
+      "replacements": [
+        "Kikině",
+        "Latentním teploušovi",
+        "Sběrateli propisek",
+        "Národní ostudě",
+        "Čuchači k hovnu",
+        "Růžovém jednorožci",
+        "Důkazu globálního oteplování",
+        "Turkově chůvě"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Klausem",
+        "Václavem Klausem"
+      ],
+      "replacements": [
+        "Kikinou",
+        "Latentním teploušem",
+        "Sběratelem propisek",
+        "Národní ostudou",
+        "Čuchačem k hovnu",
+        "Růžovým jednorožcem",
+        "Důkazem globálního oteplování",
+        "Turkovou chůvou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Klausovo"
+      ],
+      "replacements": [
+        "Kikinovo",
+        "Teploušovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Klausova"
+      ],
+      "replacements": [
+        "Kikinova",
+        "Teploušova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Klausův"
+      ],
+      "replacements": [
+        "Kikinův",
+        "Teploušův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Klausovi"
+      ],
+      "replacements": [
+        "Kikinovi",
+        "Teploušovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Klausovy"
+      ],
+      "replacements": [
+        "Kikinovy",
+        "Teploušovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Klausově"
+      ],
+      "replacements": [
+        "Kikinově",
+        "Teploušově"
+      ]
+    }
+  }
+}

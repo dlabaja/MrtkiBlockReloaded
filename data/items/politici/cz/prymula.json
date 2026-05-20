@@ -1,0 +1,172 @@
+{
+  "name": "prymula",
+  "cases": {
+    "1": {
+      "matches": [
+        "Prymula",
+        "Roman Prymula"
+      ],
+      "replacements": [
+        "Generál zdravotnictví",
+        "Promořovatel republiky",
+        "Hradfest partylife",
+        "Předloha pro kuželkářskou kouli",
+        "Zavírač",
+        "Návštěvník restaurací",
+        "Prymalex"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Prymuly",
+        "Romana Prymuly"
+      ],
+      "replacements": [
+        "Generála zdravotnictví",
+        "Promořovatele republiky",
+        "Hradfest partylife",
+        "Předlohy pro kuželkářskou kouli",
+        "Zavírače",
+        "Návštěvníka restaurací",
+        "Prymalexu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Prymulovi",
+        "Romanu Prymulovi"
+      ],
+      "replacements": [
+        "Generálovi zdravotnictví",
+        "Promořovateli republiky",
+        "Hradfest partylife",
+        "Předloze pro kuželkářskou kouli",
+        "Zavírači",
+        "Návštěvníkovi restaurací",
+        "Prymalexu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Prymulu",
+        "Romana Prymulu"
+      ],
+      "replacements": [
+        "Generála zdravotnictví",
+        "Promořovatele republiky",
+        "Hradfest partylife",
+        "Předlohu pro kuželkářskou kouli",
+        "Zavírače",
+        "Návštěvníka restaurací",
+        "Prymalex"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Prymulo",
+        "Romane Prymulo"
+      ],
+      "replacements": [
+        "Generále zdravotnictví",
+        "Promořovateli republiky",
+        "Hradfest partylife",
+        "Předloho pro kuželkářskou kouli",
+        "Zavírači",
+        "Návštěvníku restaurací",
+        "Prymalexi"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Prymulovi",
+        "Romanu Prymulovi"
+      ],
+      "replacements": [
+        "Generálovi zdravotnictví",
+        "Promořovateli republiky",
+        "Hradfest partylife",
+        "Předloze pro kuželkářskou kouli",
+        "Zavírači",
+        "Návštěvníkovi restaurací",
+        "Prymalexu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Prymulou",
+        "Romanem Prymulou"
+      ],
+      "replacements": [
+        "Generálem zdravotnictví",
+        "Promořovatelem republiky",
+        "Hradfest partylife",
+        "Předlohou pro kuželkářskou kouli",
+        "Zavíračem",
+        "Návštěvníkem restaurací",
+        "Prymalexem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Prymulovo"
+      ],
+      "replacements": [
+        "Promořovatelovo",
+        "Zavíračovo",
+        "Prymalexovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Prymulova"
+      ],
+      "replacements": [
+        "Promořovatelova",
+        "Zavíračova",
+        "Prymalexova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Prymulův"
+      ],
+      "replacements": [
+        "Promořovatelův",
+        "Zavíračův",
+        "Prymalexův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Prymulovi"
+      ],
+      "replacements": [
+        "Promořovatelovi",
+        "Zavíračovi",
+        "Prymalexovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Prymulovy"
+      ],
+      "replacements": [
+        "Promořovatelovy",
+        "Zavíračovy",
+        "Prymalexovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Prymulově"
+      ],
+      "replacements": [
+        "Promořovatelově",
+        "Zavíračově",
+        "Prymalexově"
+      ]
+    }
+  }
+}
