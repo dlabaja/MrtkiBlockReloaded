@@ -17,7 +17,8 @@
           "Nejlepší covid premiér",
           "Řepkobaron",
           "Zapírač",
-          "Logopedická hříčka"
+          "Logopedická hříčka",
+          "Makake"
         ]
       },
       "2": {
@@ -35,7 +36,8 @@
           "Nejlepšího covid premiéra",
           "Řepkobarona",
           "Zapírače",
-          "Logopedické hříčky"
+          "Logopedické hříčky",
+          "Makake"
         ]
       },
       "3": {
@@ -53,7 +55,8 @@
           "Nejlepšímu covid premiérovi",
           "Řepkobaronovi",
           "Zapíračovi",
-          "Logopedické hříčce"
+          "Logopedické hříčce",
+          "Makake"
         ]
       },
       "4": {
@@ -71,7 +74,8 @@
           "Nejlepšího covid premiéra",
           "Řepkobarona",
           "Zapírače",
-          "Logopedickou hříčku"
+          "Logopedickou hříčku",
+          "Makake"
         ]
       },
       "5": {
@@ -89,7 +93,8 @@
           "Nejlepší covid premiére",
           "Řepkobarone",
           "Zapírači",
-          "Logopedická hříčko"
+          "Logopedická hříčko",
+          "Makake"
         ]
       },
       "6": {
@@ -107,7 +112,8 @@
           "Nejlepším covid premiérovi",
           "Řepkobaronovi",
           "Zapírači",
-          "Logopedické hříčce"
+          "Logopedické hříčce",
+          "Makake"
         ]
       },
       "7": {
@@ -125,7 +131,8 @@
           "Nejlepším covid premiérem",
           "Řepkobaronem",
           "Zapíračem",
-          "Logopedickou hříčkou"
+          "Logopedickou hříčkou",
+          "Makake"
         ]
       }
     },
@@ -200,6 +207,152 @@
           "STBákově",
           "Řepkobaronově",
           "Zapíračově"
+        ]
+      }
+    }
+  },
+  {
+    "name": "bartos",
+    "cases": {
+      "1": {
+        "matches": [
+          "Bartoš",
+          "Ivan Bartoš"
+        ],
+        "replacements": [
+          "Král diskoték",
+          "Ten s drony na hlavě",
+          "Zkuřka",
+          "Harmonikář od Rakušana"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Bartoše",
+          "Ivana Bartoše"
+        ],
+        "replacements": [
+          "Krále diskoték",
+          "Toho s drony na hlavě",
+          "Zkuřky",
+          "Harmonikáře od Rakušana"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Bartošovi",
+          "Ivanu Bartošovi"
+        ],
+        "replacements": [
+          "Králi diskoték",
+          "Tomu s drony na hlavě",
+          "Zkuřce",
+          "Harmonikáři od Rakušana"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Bartoše",
+          "Ivana Bartoše"
+        ],
+        "replacements": [
+          "Krále diskoték",
+          "Toho s drony na hlavě",
+          "Zkuřku",
+          "Harmonikáře od Rakušana"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Bartoši",
+          "Ivane Bartoši"
+        ],
+        "replacements": [
+          "Králi diskoték",
+          "Ty s drony na hlavě",
+          "Zkuřko",
+          "Harmonikáři od Rakušana"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Bartošovi",
+          "Ivanu Bartošovi",
+          "Ivanovi Bartošovi"
+        ],
+        "replacements": [
+          "Králi diskoték",
+          "Tom s drony na hlavě",
+          "Zkuřce",
+          "Harmonikáři od Rakušana"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Bartošem",
+          "Ivanem Bartošem"
+        ],
+        "replacements": [
+          "Králem diskoték",
+          "Tím s drony na hlavě",
+          "Zkuřkou",
+          "Harmonikářem od Rakušana"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Bartošovo"
+        ],
+        "replacements": [
+          "Zkuřkovo",
+          "Harmonikářovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Bartošova"
+        ],
+        "replacements": [
+          "Zkuřkova",
+          "Harmonikářova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Bartošův"
+        ],
+        "replacements": [
+          "Zkuřkův",
+          "Harmonikářův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Bartošovi"
+        ],
+        "replacements": [
+          "Zkuřkovi",
+          "Harmonikářovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Bartošovy"
+        ],
+        "replacements": [
+          "Zkuřkovy",
+          "Harmonikářovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Bartošově"
+        ],
+        "replacements": [
+          "Zkuřkově",
+          "Harmonikářově"
         ]
       }
     }
@@ -313,6 +466,350 @@
       "te": {
         "matches": [],
         "replacements": []
+      }
+    }
+  },
+  {
+    "name": "hamacek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Hamáček",
+          "Jan Hamáček"
+        ],
+        "replacements": [
+          "Zbytečný šéf zbytečné strany",
+          "Babišův patolízal",
+          "Rohožka",
+          "Věšák na červené svetry",
+          "Kapitán Možná",
+          "Jan Klauňáček",
+          "Jan Haháček",
+          "Červený svetr"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Hamáčka",
+          "Jana Hamáčka"
+        ],
+        "replacements": [
+          "Zbytečného šéfa zbytečné strany",
+          "Babišova patolízala",
+          "Rohožky",
+          "Věšáku na červené svetry",
+          "Kapitána Možná",
+          "Jana Klauňáčka",
+          "Jana Haháčka",
+          "Červeného svetru"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Hamáčkovi",
+          "Janu Hamáčkovi"
+        ],
+        "replacements": [
+          "Zbytečnému šéfovi zbytečné strany",
+          "Babišovu patolízalovi",
+          "Rohožce",
+          "Věšáku na červené svetry",
+          "Kapitánu Možná",
+          "Janu Klauňáčkovi",
+          "Janu Haháčkovi",
+          "Červenému svetru"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Hamáčka",
+          "Jana Hamáčka"
+        ],
+        "replacements": [
+          "Zbytečného šéfa zbytečné strany",
+          "Babišova patolízala",
+          "Rohožku",
+          "Věšák na červené svetry",
+          "Kapitána Možná",
+          "Jana Klauňáčka",
+          "Jana Haháčka",
+          "Červený svetr"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Hamáčku",
+          "Jane Hamáčku"
+        ],
+        "replacements": [
+          "Zbytečný šéfe zbytečné strany",
+          "Babišův patolízale",
+          "Rohožko",
+          "Věšáku na červené svetry",
+          "Kapitáne Možná",
+          "Jane Klauňáčku",
+          "Jane Haháčku",
+          "Červený svetře"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Hamáčkovi",
+          "Janu Hamáčkovi"
+        ],
+        "replacements": [
+          "Zbytečném šéfovi zbytečné strany",
+          "Babišovu patolízalovi",
+          "Rohožce",
+          "Věšáku na červené svetry",
+          "Kapitánu Možná",
+          "Janu Klauňáčkovi",
+          "Janu Haháčkovi",
+          "Červeném svetru"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Hamáčkem",
+          "Janem Hamáčkem"
+        ],
+        "replacements": [
+          "Zbytečným šéfem zbytečné strany",
+          "Babišovým patolízalem",
+          "Rohožkou",
+          "Věšákem na červené svetry",
+          "Kapitánem Možná",
+          "Janem Klauňáčkem",
+          "Janem Haháčkem",
+          "Červeným svetrem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Hamáčkovo"
+        ],
+        "replacements": [
+          "Rohožkovo",
+          "Klauňáčkovo",
+          "Haháčkovo",
+          "Svetrovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Hamáčkova"
+        ],
+        "replacements": [
+          "Rohožkova",
+          "Klauňáčkova",
+          "Haháčkova",
+          "Svetrova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Hamáčkův"
+        ],
+        "replacements": [
+          "Rohožkův",
+          "Klauňáčkův",
+          "Haháčkův",
+          "Svetrův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Hamáčkovi"
+        ],
+        "replacements": [
+          "Rohožkovi",
+          "Klauňáčkovi",
+          "Haháčkovi",
+          "Svetrovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Hamáčkovy"
+        ],
+        "replacements": [
+          "Rohožkovy",
+          "Klauňáčkovy",
+          "Haháčkovy",
+          "Svetrovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Hamáčkově"
+        ],
+        "replacements": [
+          "Rohožkově",
+          "Klauňáčkově",
+          "Haháčkově",
+          "Svetrově"
+        ]
+      }
+    }
+  },
+  {
+    "name": "mynar",
+    "cases": {
+      "1": {
+        "matches": [
+          "Mynář",
+          "Vratislav Mynář"
+        ],
+        "replacements": [
+          "Prase, které mělo hlad",
+          "Sjezdovkář z Osvětimi",
+          "Šéf hradní divize tunelářů",
+          "Čínský vyjednavač",
+          "Cuntcléř Mynář",
+          "Řezník z Osvětiman"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Mynáře",
+          "Vratislava Mynáře"
+        ],
+        "replacements": [
+          "Prasete, které mělo hlad",
+          "Sjezdovkáře z Osvětimi",
+          "Šéfa hradní divize tunelářů",
+          "Čínského vyjednavače",
+          "Cuntcléře Mynáře",
+          "Řezníka z Osvětiman"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Mynářovi",
+          "Vratislavu Mynářovi"
+        ],
+        "replacements": [
+          "Praseti, které mělo hlad",
+          "Sjezdovkáři z Osvětimi",
+          "Šéfovi hradní divize tunelářů",
+          "Čínskému vyjednavači",
+          "Cuntcléři Mynářovi",
+          "Řezníkovi z Osvětiman"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Mynáře",
+          "Vratislava Mynáře"
+        ],
+        "replacements": [
+          "Prase, které mělo hlad",
+          "Sjezdovkáře z Osvětimi",
+          "Šéfa hradní divize tunelářů",
+          "Čínského vyjednavače",
+          "Cuntcléře Mynáře",
+          "Řezníka z Osvětiman"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Mynáři",
+          "Vratislave Mynáři"
+        ],
+        "replacements": [
+          "Prase, které mělo hlad",
+          "Sjezdovkáři z Osvětimi",
+          "Šéfe hradní divize tunelářů",
+          "Čínský vyjednavači",
+          "Cuntcléři Mynáři",
+          "Řezníku z Osvětiman"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Mynářovi",
+          "Vratislavu Mynářovi"
+        ],
+        "replacements": [
+          "Praseti, které mělo hlad",
+          "Sjezdovkáři z Osvětimi",
+          "Šéfovi hradní divize tunelářů",
+          "Čínském vyjednavači",
+          "Cuntcléři Mynářovi",
+          "Řezníkovi z Osvětiman"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Mynářem",
+          "Vratislavem Mynářem"
+        ],
+        "replacements": [
+          "Prasetem, které mělo hlad",
+          "Sjezdovkářem z Osvětimi",
+          "Šéfem hradní divize tunelářů",
+          "Čínským vyjednavačem",
+          "Cuntcléřem Mynářem",
+          "Řezníkem z Osvětiman"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Mynářovo"
+        ],
+        "replacements": [
+          "Sjezdovkářovo",
+          "Cuntcléřovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Mynářova"
+        ],
+        "replacements": [
+          "Sjezdovkářova",
+          "Cuntcléřova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Mynářův"
+        ],
+        "replacements": [
+          "Sjezdovkářův",
+          "Cuntcléřův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Mynářovi"
+        ],
+        "replacements": [
+          "Sjezdovkáři",
+          "Cuntcléřovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Mynářovy"
+        ],
+        "replacements": [
+          "Sjezdovkářovy",
+          "Cuntcléřovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Mynářově"
+        ],
+        "replacements": [
+          "Sjezdovkářově",
+          "Cuntcléřově"
+        ]
       }
     }
   },
@@ -473,125 +970,6 @@
           "Pitomiově",
           "Sumorajově"
         ]
-      }
-    }
-  },
-  {
-    "name": "pavel",
-    "cases": {
-      "1": {
-        "matches": [
-          "Petr Pavel",
-          "Prezident Pavel",
-          "prezident Pavel"
-        ],
-        "replacements": [
-          "Gigachad",
-          "Daddy Pavel",
-          "Generál"
-        ]
-      },
-      "2": {
-        "matches": [
-          "Petra Pavla",
-          "Prezidenta Pavla",
-          "prezidenta Pavla"
-        ],
-        "replacements": [
-          "Gigachada",
-          "Daddy Pavla",
-          "Generála"
-        ]
-      },
-      "3": {
-        "matches": [
-          "Petru Pavlovi",
-          "Prezidentu Pavlovi",
-          "prezidentu Pavlovi",
-          "Prezidentovi Pavlovi",
-          "prezidentovi Pavlovi"
-        ],
-        "replacements": [
-          "Gigachadovi",
-          "Daddy Pavlovi",
-          "Generálovi"
-        ]
-      },
-      "4": {
-        "matches": [
-          "Petra Pavla",
-          "Prezidenta Pavla",
-          "prezidenta Pavla"
-        ],
-        "replacements": [
-          "Gigachada",
-          "Daddy Pavla",
-          "Generála"
-        ]
-      },
-      "5": {
-        "matches": [
-          "Petře Pavle",
-          "Prezidente Pavle",
-          "prezidente Pavle"
-        ],
-        "replacements": [
-          "Gigachade",
-          "Daddy Pavle",
-          "Generále"
-        ]
-      },
-      "6": {
-        "matches": [
-          "Petru Pavlovi",
-          "Prezidentu Pavlovi",
-          "prezidentu Pavlovi",
-          "Prezidentovi Pavlovi",
-          "prezidentovi Pavlovi"
-        ],
-        "replacements": [
-          "Gigachadovi",
-          "Daddy Pavlovi",
-          "Generálovi"
-        ]
-      },
-      "7": {
-        "matches": [
-          "Petrem Pavlem",
-          "Prezidentem Pavlem",
-          "prezidentem Pavlem"
-        ],
-        "replacements": [
-          "Gigachadem",
-          "Daddy Pavlem",
-          "Generálem"
-        ]
-      }
-    },
-    "adjectives": {
-      "to": {
-        "matches": [],
-        "replacements": []
-      },
-      "ta": {
-        "matches": [],
-        "replacements": []
-      },
-      "ten": {
-        "matches": [],
-        "replacements": []
-      },
-      "ti": {
-        "matches": [],
-        "replacements": []
-      },
-      "ty": {
-        "matches": [],
-        "replacements": []
-      },
-      "te": {
-        "matches": [],
-        "replacements": []
       }
     }
   },
@@ -845,6 +1223,177 @@
         "replacements": [
           "Candy crush šampiónky",
           "Dluženy"
+        ]
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "volny",
+    "cases": {
+      "1": {
+        "matches": [
+          "Volný",
+          "Lubomír Volný"
+        ],
+        "replacements": [
+          "Mgr. Parakotoul vzad",
+          "Obchodník s chudobou",
+          "Výtržník a taky trochu prase",
+          "Medvídek",
+          "Král makaků",
+          "Lízátkový baron",
+          "Flákanec",
+          "Volný radikál",
+          "DHL práškovací letadlo",
+          "Vepřový tělocvikář",
+          "Obyvatel SleZka"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Volného",
+          "Lubomíra Volného"
+        ],
+        "replacements": [
+          "Mgr. Parakotoulu vzad",
+          "Obchodníka s chudobou",
+          "Výtržníka a taky trochu prase",
+          "Medvídka",
+          "Krále makaků",
+          "Lízátkového barona",
+          "Flákance",
+          "Volného radikálu",
+          "DHL práškovacího letadla",
+          "Vepřového tělocvikáře",
+          "Obyvatele SleZka"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Volnému",
+          "Lubomíru Volnému"
+        ],
+        "replacements": [
+          "Mgr. Parakotoulu vzad",
+          "Obchodníkovi s chudobou",
+          "Výtržníkovi a taky trochu praseti",
+          "Medvídkovi",
+          "Králi makaků",
+          "Lízátkovému baronovi",
+          "Flákanci",
+          "Volnému radikálu",
+          "DHL práškovacímu letadlu",
+          "Vepřovému tělocvikáři",
+          "Obyvateli SleZka"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Volného",
+          "Lubomíra Volného"
+        ],
+        "replacements": [
+          "Mgr. Parakotoula vzad",
+          "Obchodníka s chudobou",
+          "Výtržníka a taky trochu prase",
+          "Medvídka",
+          "Krále makaků",
+          "Lízátkového barona",
+          "Flákanec",
+          "Volný radikál",
+          "DHL práškovací letadlo",
+          "Vepřového tělocvikáře",
+          "Obyvatele SleZka"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Volný",
+          "Lubomíre Volný"
+        ],
+        "replacements": [
+          "Mgr. Parakotoule vzad",
+          "Obchodníku s chudobou",
+          "Výtržníku a taky trochu prase",
+          "Medvídku",
+          "Králi makaků",
+          "Lízátkový barone",
+          "Flákance",
+          "Volný radikále",
+          "DHL práškovací letadlo",
+          "Vepřový tělocvikáři",
+          "Obyvateli SleZka"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Volném",
+          "Lubomíru Volném",
+          "Lubomírovi Volném"
+        ],
+        "replacements": [
+          "Mgr. Parakotouli vzad",
+          "Obchodníkovi s chudobou",
+          "Výtržníkovi a taky trochu praseti",
+          "Medvídkovi",
+          "Králi makaků",
+          "Lízátkovém baronovi",
+          "Flákanci",
+          "Volném radikálu",
+          "DHL práškovacím letadle",
+          "Vepřovém tělocvikáři",
+          "Obyvateli SleZka"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Volným",
+          "Lubomírem Volným"
+        ],
+        "replacements": [
+          "Mgr. Parakotoulem vzad",
+          "Obchodníkem s chudobou",
+          "Výtržníkem a taky trochu prasetem",
+          "Medvídkem",
+          "Králem makaků",
+          "Lízátkovým baronem",
+          "Flákancem",
+          "Volným radikálem",
+          "DHL práškovacím letadlem",
+          "Vepřovým tělocvikářem",
+          "Obyvatelem SleZka"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Volného"
+        ],
+        "replacements": [
+          "Medvídkovo",
+          "Flákancovo",
+          "Volnoradikálové"
         ]
       },
       "ta": {

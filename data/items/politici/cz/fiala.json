@@ -1,0 +1,160 @@
+{
+  "name": "fiala",
+  "cases": {
+    "1": {
+      "matches": [
+        "Fiala",
+        "Petr Fiala"
+      ],
+      "replacements": [
+        "Psí suchar",
+        "Ztělesnění nudy",
+        "Reklama na Ferrero",
+        "Profesor \"Jedu poprvé na eskalátoru\"",
+        "Skejťák v saku"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Fialy",
+        "Petra Fialy"
+      ],
+      "replacements": [
+        "Psího suchara",
+        "Ztělesnění nudy",
+        "Reklamy na Ferrero",
+        "Profesora \"Jedu poprvé na eskalátoru\"",
+        "Skejťáka v saku"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Fialovi",
+        "Petru Fialovi",
+        "Petrovi Fialovi"
+      ],
+      "replacements": [
+        "Psímu sucharovi",
+        "Ztělesnění nudy",
+        "Reklamě na Ferrero",
+        "Profesorovi \"Jedu poprvé na eskalátoru\"",
+        "Skejťákovi v saku"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Fialu",
+        "Petra Fialu"
+      ],
+      "replacements": [
+        "Psího suchara",
+        "Ztělesnění nudy",
+        "Reklamu na Ferrero",
+        "Profesora \"Jedu poprvé na eskalátoru\"",
+        "Skejťáka v saku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Fialo",
+        "Petře Fialo"
+      ],
+      "replacements": [
+        "Psí suchare",
+        "Ztělesnění nudy",
+        "Reklamo na Ferrero",
+        "Profesore \"Jedu poprvé na eskalátoru\"",
+        "Skejťáku v saku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Fialovi",
+        "Petru Fialovi",
+        "Petrovi Fialovi"
+      ],
+      "replacements": [
+        "Psím sucharovi",
+        "Ztělesnění nudy",
+        "Reklamě na Ferrero",
+        "Profesorovi \"Jedu poprvé na eskalátoru\"",
+        "Skejťákovi v saku"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Fialou",
+        "Petrem Fialou"
+      ],
+      "replacements": [
+        "Psím sucharem",
+        "Ztělesněním nudy",
+        "Reklamou na Ferrero",
+        "Profesorem \"Jedu poprvé na eskalátoru\"",
+        "Skejťákem v saku"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Fialovo"
+      ],
+      "replacements": [
+        "Sucharovo",
+        "Nutellovo",
+        "Skejťákovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Fialova"
+      ],
+      "replacements": [
+        "Sucharova",
+        "Nutellova",
+        "Skejťákova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Fialův"
+      ],
+      "replacements": [
+        "Sucharův",
+        "Nutellův",
+        "Skejťákův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Fialovi"
+      ],
+      "replacements": [
+        "Sucharovi",
+        "Nutellovi",
+        "Skejťákovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Fialovy"
+      ],
+      "replacements": [
+        "Sucharovy",
+        "Nutellovy",
+        "Skejťákovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Fialově"
+      ],
+      "replacements": [
+        "Sucharově",
+        "Nutellově",
+        "Skejťákově"
+      ]
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "name": "bartos",
+  "cases": {
+    "1": {
+      "matches": [
+        "Bartoš",
+        "Ivan Bartoš"
+      ],
+      "replacements": [
+        "Král diskoték",
+        "Ten s drony na hlavě",
+        "Zkuřka",
+        "Harmonikář od Rakušana"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Bartoše",
+        "Ivana Bartoše"
+      ],
+      "replacements": [
+        "Krále diskoték",
+        "Toho s drony na hlavě",
+        "Zkuřky",
+        "Harmonikáře od Rakušana"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Bartošovi",
+        "Ivanu Bartošovi"
+      ],
+      "replacements": [
+        "Králi diskoték",
+        "Tomu s drony na hlavě",
+        "Zkuřce",
+        "Harmonikáři od Rakušana"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Bartoše",
+        "Ivana Bartoše"
+      ],
+      "replacements": [
+        "Krále diskoték",
+        "Toho s drony na hlavě",
+        "Zkuřku",
+        "Harmonikáře od Rakušana"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Bartoši",
+        "Ivane Bartoši"
+      ],
+      "replacements": [
+        "Králi diskoték",
+        "Ty s drony na hlavě",
+        "Zkuřko",
+        "Harmonikáři od Rakušana"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Bartošovi",
+        "Ivanu Bartošovi",
+        "Ivanovi Bartošovi"
+      ],
+      "replacements": [
+        "Králi diskoték",
+        "Tom s drony na hlavě",
+        "Zkuřce",
+        "Harmonikáři od Rakušana"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Bartošem",
+        "Ivanem Bartošem"
+      ],
+      "replacements": [
+        "Králem diskoték",
+        "Tím s drony na hlavě",
+        "Zkuřkou",
+        "Harmonikářem od Rakušana"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Bartošovo"
+      ],
+      "replacements": [
+        "Zkuřkovo",
+        "Harmonikářovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Bartošova"
+      ],
+      "replacements": [
+        "Zkuřkova",
+        "Harmonikářova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Bartošův"
+      ],
+      "replacements": [
+        "Zkuřkův",
+        "Harmonikářův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Bartošovi"
+      ],
+      "replacements": [
+        "Zkuřkovi",
+        "Harmonikářovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Bartošovy"
+      ],
+      "replacements": [
+        "Zkuřkovy",
+        "Harmonikářovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Bartošově"
+      ],
+      "replacements": [
+        "Zkuřkově",
+        "Harmonikářově"
+      ]
+    }
+  }
+}

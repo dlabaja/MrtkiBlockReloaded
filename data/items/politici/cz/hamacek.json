@@ -1,0 +1,185 @@
+{
+  "name": "hamacek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Hamáček",
+        "Jan Hamáček"
+      ],
+      "replacements": [
+        "Zbytečný šéf zbytečné strany",
+        "Babišův patolízal",
+        "Rohožka",
+        "Věšák na červené svetry",
+        "Kapitán Možná",
+        "Jan Klauňáček",
+        "Jan Haháček",
+        "Červený svetr"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Hamáčka",
+        "Jana Hamáčka"
+      ],
+      "replacements": [
+        "Zbytečného šéfa zbytečné strany",
+        "Babišova patolízala",
+        "Rohožky",
+        "Věšáku na červené svetry",
+        "Kapitána Možná",
+        "Jana Klauňáčka",
+        "Jana Haháčka",
+        "Červeného svetru"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Hamáčkovi",
+        "Janu Hamáčkovi"
+      ],
+      "replacements": [
+        "Zbytečnému šéfovi zbytečné strany",
+        "Babišovu patolízalovi",
+        "Rohožce",
+        "Věšáku na červené svetry",
+        "Kapitánu Možná",
+        "Janu Klauňáčkovi",
+        "Janu Haháčkovi",
+        "Červenému svetru"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Hamáčka",
+        "Jana Hamáčka"
+      ],
+      "replacements": [
+        "Zbytečného šéfa zbytečné strany",
+        "Babišova patolízala",
+        "Rohožku",
+        "Věšák na červené svetry",
+        "Kapitána Možná",
+        "Jana Klauňáčka",
+        "Jana Haháčka",
+        "Červený svetr"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Hamáčku",
+        "Jane Hamáčku"
+      ],
+      "replacements": [
+        "Zbytečný šéfe zbytečné strany",
+        "Babišův patolízale",
+        "Rohožko",
+        "Věšáku na červené svetry",
+        "Kapitáne Možná",
+        "Jane Klauňáčku",
+        "Jane Haháčku",
+        "Červený svetře"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Hamáčkovi",
+        "Janu Hamáčkovi"
+      ],
+      "replacements": [
+        "Zbytečném šéfovi zbytečné strany",
+        "Babišovu patolízalovi",
+        "Rohožce",
+        "Věšáku na červené svetry",
+        "Kapitánu Možná",
+        "Janu Klauňáčkovi",
+        "Janu Haháčkovi",
+        "Červeném svetru"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Hamáčkem",
+        "Janem Hamáčkem"
+      ],
+      "replacements": [
+        "Zbytečným šéfem zbytečné strany",
+        "Babišovým patolízalem",
+        "Rohožkou",
+        "Věšákem na červené svetry",
+        "Kapitánem Možná",
+        "Janem Klauňáčkem",
+        "Janem Haháčkem",
+        "Červeným svetrem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Hamáčkovo"
+      ],
+      "replacements": [
+        "Rohožkovo",
+        "Klauňáčkovo",
+        "Haháčkovo",
+        "Svetrovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Hamáčkova"
+      ],
+      "replacements": [
+        "Rohožkova",
+        "Klauňáčkova",
+        "Haháčkova",
+        "Svetrova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Hamáčkův"
+      ],
+      "replacements": [
+        "Rohožkův",
+        "Klauňáčkův",
+        "Haháčkův",
+        "Svetrův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Hamáčkovi"
+      ],
+      "replacements": [
+        "Rohožkovi",
+        "Klauňáčkovi",
+        "Haháčkovi",
+        "Svetrovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Hamáčkovy"
+      ],
+      "replacements": [
+        "Rohožkovy",
+        "Klauňáčkovy",
+        "Haháčkovy",
+        "Svetrovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Hamáčkově"
+      ],
+      "replacements": [
+        "Rohožkově",
+        "Klauňáčkově",
+        "Haháčkově",
+        "Svetrově"
+      ]
+    }
+  }
+}

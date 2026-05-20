@@ -1,0 +1,171 @@
+{
+  "name": "volny",
+  "cases": {
+    "1": {
+      "matches": [
+        "Volný",
+        "Lubomír Volný"
+      ],
+      "replacements": [
+        "Mgr. Parakotoul vzad",
+        "Obchodník s chudobou",
+        "Výtržník a taky trochu prase",
+        "Medvídek",
+        "Král makaků",
+        "Lízátkový baron",
+        "Flákanec",
+        "Volný radikál",
+        "DHL práškovací letadlo",
+        "Vepřový tělocvikář",
+        "Obyvatel SleZka"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Volného",
+        "Lubomíra Volného"
+      ],
+      "replacements": [
+        "Mgr. Parakotoulu vzad",
+        "Obchodníka s chudobou",
+        "Výtržníka a taky trochu prase",
+        "Medvídka",
+        "Krále makaků",
+        "Lízátkového barona",
+        "Flákance",
+        "Volného radikálu",
+        "DHL práškovacího letadla",
+        "Vepřového tělocvikáře",
+        "Obyvatele SleZka"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Volnému",
+        "Lubomíru Volnému"
+      ],
+      "replacements": [
+        "Mgr. Parakotoulu vzad",
+        "Obchodníkovi s chudobou",
+        "Výtržníkovi a taky trochu praseti",
+        "Medvídkovi",
+        "Králi makaků",
+        "Lízátkovému baronovi",
+        "Flákanci",
+        "Volnému radikálu",
+        "DHL práškovacímu letadlu",
+        "Vepřovému tělocvikáři",
+        "Obyvateli SleZka"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Volného",
+        "Lubomíra Volného"
+      ],
+      "replacements": [
+        "Mgr. Parakotoula vzad",
+        "Obchodníka s chudobou",
+        "Výtržníka a taky trochu prase",
+        "Medvídka",
+        "Krále makaků",
+        "Lízátkového barona",
+        "Flákanec",
+        "Volný radikál",
+        "DHL práškovací letadlo",
+        "Vepřového tělocvikáře",
+        "Obyvatele SleZka"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Volný",
+        "Lubomíre Volný"
+      ],
+      "replacements": [
+        "Mgr. Parakotoule vzad",
+        "Obchodníku s chudobou",
+        "Výtržníku a taky trochu prase",
+        "Medvídku",
+        "Králi makaků",
+        "Lízátkový barone",
+        "Flákance",
+        "Volný radikále",
+        "DHL práškovací letadlo",
+        "Vepřový tělocvikáři",
+        "Obyvateli SleZka"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Volném",
+        "Lubomíru Volném",
+        "Lubomírovi Volném"
+      ],
+      "replacements": [
+        "Mgr. Parakotouli vzad",
+        "Obchodníkovi s chudobou",
+        "Výtržníkovi a taky trochu praseti",
+        "Medvídkovi",
+        "Králi makaků",
+        "Lízátkovém baronovi",
+        "Flákanci",
+        "Volném radikálu",
+        "DHL práškovacím letadle",
+        "Vepřovém tělocvikáři",
+        "Obyvateli SleZka"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Volným",
+        "Lubomírem Volným"
+      ],
+      "replacements": [
+        "Mgr. Parakotoulem vzad",
+        "Obchodníkem s chudobou",
+        "Výtržníkem a taky trochu prasetem",
+        "Medvídkem",
+        "Králem makaků",
+        "Lízátkovým baronem",
+        "Flákancem",
+        "Volným radikálem",
+        "DHL práškovacím letadlem",
+        "Vepřovým tělocvikářem",
+        "Obyvatelem SleZka"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Volného"
+      ],
+      "replacements": [
+        "Medvídkovo",
+        "Flákancovo",
+        "Volnoradikálové"
+      ]
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

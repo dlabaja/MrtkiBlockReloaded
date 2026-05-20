@@ -1,0 +1,95 @@
+{
+  "name": "agrofert",
+  "cases": {
+    "1": {
+      "matches": [
+        "Agrofert"
+      ],
+      "replacements": [
+        "ANOfert",
+        "Agrofent"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Agrofertu"
+      ],
+      "replacements": [
+        "ANOfertu",
+        "Agrofentu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Agrofertu"
+      ],
+      "replacements": [
+        "ANOfertu",
+        "Agrofentu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Agrofert"
+      ],
+      "replacements": [
+        "ANOfert",
+        "Agrofent"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Agroferte"
+      ],
+      "replacements": [
+        "ANOferte",
+        "Agrofente"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Agrofertu",
+        "Agrofertě"
+      ],
+      "replacements": [
+        "ANOfertu",
+        "Agrofentu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Agrofertem"
+      ],
+      "replacements": [
+        "ANOfertem",
+        "Agrofentem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

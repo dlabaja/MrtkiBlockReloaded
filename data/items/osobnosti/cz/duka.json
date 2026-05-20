@@ -1,0 +1,141 @@
+{
+  "name": "duka",
+  "cases": {
+    "1": {
+      "matches": [
+        "Duka",
+        "Dominik Duka"
+      ],
+      "replacements": [
+        "Pedofilní arcibiskup",
+        "Církevní zatajovač",
+        "Arciprasman Duka",
+        "Ztělesnění obžerství"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Duky",
+        "Dominika Duky"
+      ],
+      "replacements": [
+        "Pedofilního arcibiskupa",
+        "Církevního zatajovače",
+        "Arciprasmana Duky",
+        "Ztělesnění obžerství"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Dukovi",
+        "Dominiku Dukovi",
+        "Dominikovi Dukovi"
+      ],
+      "replacements": [
+        "Pedofilnímu arcibiskupovi",
+        "Církevnímu zatajovači",
+        "Arciprasmanu Dukovi",
+        "Ztělesnění obžerství"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Duku",
+        "Dominika Duku"
+      ],
+      "replacements": [
+        "Pedofilního arcibiskupa",
+        "Církevního zatajovače",
+        "Arciprasmana Duku",
+        "Ztělesnění obžerství"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Duko",
+        "Dominiku Duko"
+      ],
+      "replacements": [
+        "Pedofilní arcibiskupe",
+        "Církevní zatajovači",
+        "Arciprasmane Duko",
+        "Ztělesnění obžerství"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Dukovi",
+        "Dominiku Dukovi",
+        "Dominikovi Dukovi"
+      ],
+      "replacements": [
+        "Pedofilním arcibiskupovi",
+        "Církevním zatajovači",
+        "Arciprasmanu Dukovi",
+        "Ztělesnění obžerství"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Dukou",
+        "Dominikem Dukou"
+      ],
+      "replacements": [
+        "Pedofilním arcibiskupem",
+        "Církevním zatajovačem",
+        "Arciprasmanem Dukou",
+        "Ztělesněním obžerství"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Dukovo"
+      ],
+      "replacements": [
+        "Arciprasmanovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Dukova"
+      ],
+      "replacements": [
+        "Arciprasmanova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Dukův"
+      ],
+      "replacements": [
+        "Arciprasmanův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Dukovi"
+      ],
+      "replacements": [
+        "Arciprasmanovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Dukovy"
+      ],
+      "replacements": [
+        "Arciprasmanovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Dukově"
+      ],
+      "replacements": [
+        "Arciprasmanově"
+      ]
+    }
+  }
+}

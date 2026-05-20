@@ -10,12 +10,17 @@ const validator = new Validator();
 
 function buildData() {
     const resultObjects = [];
-    fs.readdirSync(itemsPath).forEach(name => {
+    fs.readdirSync(itemsPath, {recursive: true}).forEach(name => {
         if (!name.endsWith(".json")) {
             return;
         }
         
-        processJson(Path.join(itemsPath, name), resultObjects);
+        try {
+            processJson(Path.join(itemsPath, name), resultObjects);
+        }
+        catch (e) {
+            throw new Error(`Cannot process ${name}`)
+        }
     })
     
     fs.writeFileSync(outputPath, JSON.stringify(resultObjects, null, 2));

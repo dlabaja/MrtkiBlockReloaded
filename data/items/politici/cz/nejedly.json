@@ -1,0 +1,121 @@
+{
+  "name": "nejedly",
+  "cases": {
+    "1": {
+      "matches": [
+        "Nejedlý",
+        "Martin Nejedlý"
+      ],
+      "replacements": [
+        "Pumpař",
+        "Lánský gangster",
+        "Obchoďák Lukoilu",
+        "Ruský vyjednavač"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Nejedlého",
+        "Martina Nejedlého"
+      ],
+      "replacements": [
+        "Pumpaře",
+        "Lánského gangstera",
+        "Obchoďáka Lukoilu",
+        "Ruského vyjednavače"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Nejedlému",
+        "Martinu Nejedlému"
+      ],
+      "replacements": [
+        "Pumpařovi",
+        "Lánskému gangsterovi",
+        "Obchoďákovi Lukoilu",
+        "Ruskému vyjednavači"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Nejedlého",
+        "Martina Nejedlého"
+      ],
+      "replacements": [
+        "Pumpaře",
+        "Lánského gangstera",
+        "Obchoďáka Lukoilu",
+        "Ruského vyjednavače"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Nejedlý",
+        "Martine Nejedlý"
+      ],
+      "replacements": [
+        "Pumpaři",
+        "Lánský gangstere",
+        "Obchoďáku Lukoilu",
+        "Ruský vyjednavači"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Nejedlém",
+        "Martinu Nejedlém",
+        "Martinovi Nejedlém"
+      ],
+      "replacements": [
+        "Pumpařovi",
+        "Lánském gangsterovi",
+        "Obchoďákovi Lukoilu",
+        "Ruském vyjednavači"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Nejedlým",
+        "Martinem Nejedlým"
+      ],
+      "replacements": [
+        "Pumpařem",
+        "Lánským gangsterem",
+        "Obchoďákem Lukoilu",
+        "Ruským vyjednavačem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Nejedlého"
+      ],
+      "replacements": [
+        "Pumpařovo",
+        "Gangsterovo",
+      ]
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

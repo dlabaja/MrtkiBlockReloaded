@@ -1,0 +1,120 @@
+{
+  "name": "koudelka",
+  "cases": {
+    "1": {
+      "matches": [
+        "Koudelka",
+        "Michal Koudelka"
+      ],
+      "replacements": [
+        "Vrchní čučkař"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Koudelky",
+        "Michala Koudelky"
+      ],
+      "replacements": [
+        "Vrchního čučkaře"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Koudelkovi",
+        "Michalu Koudelkovi",
+        "Michalovi Koudelkovi"
+      ],
+      "replacements": [
+        "Vrchnímu čučkaři"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Koudelku",
+        "Michala Koudelku"
+      ],
+      "replacements": [
+        "Vrchního čučkaře"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Koudelko",
+        "Michale Koudelko"
+      ],
+      "replacements": [
+        "Vrchní čučkaři"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Koudelkovi",
+        "Michalu Koudelkovi",
+        "Michalovi Koudelkovi"
+      ],
+      "replacements": [
+        "Vrchním čučkaři"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Koudelkou",
+        "Michalem Koudelkou"
+      ],
+      "replacements": [
+        "Vrchním čučkařem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Koudelkovo"
+      ],
+      "replacements": [
+        "Čučkařovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Koudelkova"
+      ],
+      "replacements": [
+        "Čučkařova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Koudelkův"
+      ],
+      "replacements": [
+        "Čučkařův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Koudelkovi"
+      ],
+      "replacements": [
+        "Čučkařovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Koudelkovy"
+      ],
+      "replacements": [
+        "Čučkařovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Koudelkově"
+      ],
+      "replacements": [
+        "Čučkařově"
+      ]
+    }
+  }
+}

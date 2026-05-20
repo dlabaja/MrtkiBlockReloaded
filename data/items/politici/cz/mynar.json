@@ -1,0 +1,159 @@
+{
+  "name": "mynar",
+  "cases": {
+    "1": {
+      "matches": [
+        "Mynář",
+        "Vratislav Mynář"
+      ],
+      "replacements": [
+        "Prase, které mělo hlad",
+        "Sjezdovkář z Osvětimi",
+        "Šéf hradní divize tunelářů",
+        "Čínský vyjednavač",
+        "Cuntcléř Mynář",
+        "Řezník z Osvětiman"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Mynáře",
+        "Vratislava Mynáře"
+      ],
+      "replacements": [
+        "Prasete, které mělo hlad",
+        "Sjezdovkáře z Osvětimi",
+        "Šéfa hradní divize tunelářů",
+        "Čínského vyjednavače",
+        "Cuntcléře Mynáře",
+        "Řezníka z Osvětiman"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Mynářovi",
+        "Vratislavu Mynářovi"
+      ],
+      "replacements": [
+        "Praseti, které mělo hlad",
+        "Sjezdovkáři z Osvětimi",
+        "Šéfovi hradní divize tunelářů",
+        "Čínskému vyjednavači",
+        "Cuntcléři Mynářovi",
+        "Řezníkovi z Osvětiman"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Mynáře",
+        "Vratislava Mynáře"
+      ],
+      "replacements": [
+        "Prase, které mělo hlad",
+        "Sjezdovkáře z Osvětimi",
+        "Šéfa hradní divize tunelářů",
+        "Čínského vyjednavače",
+        "Cuntcléře Mynáře",
+        "Řezníka z Osvětiman"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Mynáři",
+        "Vratislave Mynáři"
+      ],
+      "replacements": [
+        "Prase, které mělo hlad",
+        "Sjezdovkáři z Osvětimi",
+        "Šéfe hradní divize tunelářů",
+        "Čínský vyjednavači",
+        "Cuntcléři Mynáři",
+        "Řezníku z Osvětiman"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Mynářovi",
+        "Vratislavu Mynářovi"
+      ],
+      "replacements": [
+        "Praseti, které mělo hlad",
+        "Sjezdovkáři z Osvětimi",
+        "Šéfovi hradní divize tunelářů",
+        "Čínském vyjednavači",
+        "Cuntcléři Mynářovi",
+        "Řezníkovi z Osvětiman"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Mynářem",
+        "Vratislavem Mynářem"
+      ],
+      "replacements": [
+        "Prasetem, které mělo hlad",
+        "Sjezdovkářem z Osvětimi",
+        "Šéfem hradní divize tunelářů",
+        "Čínským vyjednavačem",
+        "Cuntcléřem Mynářem",
+        "Řezníkem z Osvětiman"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Mynářovo"
+      ],
+      "replacements": [
+        "Sjezdovkářovo",
+        "Cuntcléřovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Mynářova"
+      ],
+      "replacements": [
+        "Sjezdovkářova",
+        "Cuntcléřova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Mynářův"
+      ],
+      "replacements": [
+        "Sjezdovkářův",
+        "Cuntcléřův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Mynářovi"
+      ],
+      "replacements": [
+        "Sjezdovkáři",
+        "Cuntcléřovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Mynářovy"
+      ],
+      "replacements": [
+        "Sjezdovkářovy",
+        "Cuntcléřovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Mynářově"
+      ],
+      "replacements": [
+        "Sjezdovkářově",
+        "Cuntcléřově"
+      ]
+    }
+  }
+}

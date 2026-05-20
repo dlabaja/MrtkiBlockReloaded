@@ -1,0 +1,147 @@
+{
+  "name": "rozner",
+  "cases": {
+    "1": {
+      "matches": [
+        "Rozner",
+        "Miroslav Rozner"
+      ],
+      "replacements": [
+        "Ministr zabrušování",
+        "Úplně jakoby nesouhlasitel",
+        "Stínový ministr kultury",
+        "Vesnický manažer",
+        "Generátor náhodných slov"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Roznera",
+        "Miroslava Roznera"
+      ],
+      "replacements": [
+        "Ministra zabrušování",
+        "Úplně jakoby nesouhlasitele",
+        "Stínového ministra kultury",
+        "Vesnického manažera",
+        "Generátoru náhodných slov"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Roznerovi",
+        "Miroslavu Roznerovi"
+      ],
+      "replacements": [
+        "Ministru zabrušování",
+        "Úplně jakoby nesouhlasiteli",
+        "Stínovému ministru kultury",
+        "Vesnickému manažerovi",
+        "Generátoru náhodných slov"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Roznera",
+        "Miroslava Roznera"
+      ],
+      "replacements": [
+        "Ministra zabrušování",
+        "Úplně jakoby nesouhlasitele",
+        "Stínového ministra kultury",
+        "Vesnického manažera",
+        "Generátor náhodných slov"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Roznere",
+        "Miroslave Roznere"
+      ],
+      "replacements": [
+        "Ministře zabrušování",
+        "Úplně jakoby nesouhlasiteli",
+        "Stínový ministře kultury",
+        "Vesnický manažere",
+        "Generátore náhodných slov"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Roznerovi",
+        "Miroslavu Roznerovi",
+        "Miroslavovi Roznerovi"
+      ],
+      "replacements": [
+        "Ministru zabrušování",
+        "Úplně jakoby nesouhlasiteli",
+        "Stínovém ministru kultury",
+        "Vesnickém manažerovi",
+        "Generátoru náhodných slov"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Roznerem",
+        "Miroslavem Roznerem"
+      ],
+      "replacements": [
+        "Ministrem zabrušování",
+        "Úplně jakoby nesouhlasitelem",
+        "Stínovým ministrem kultury",
+        "Vesnickým manažerem",
+        "Generátorem náhodných slov"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Roznerovo"
+      ],
+      "replacements": [
+        "Zabrušovačovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Roznerova"
+      ],
+      "replacements": [
+        "Zabrušovačova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Roznerův"
+      ],
+      "replacements": [
+        "Zabrušovačův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Roznerovi"
+      ],
+      "replacements": [
+        "Zabrušovačovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Roznerovy"
+      ],
+      "replacements": [
+        "Zabrušovačovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Roznerově"
+      ],
+      "replacements": [
+        "Zabrušovačově"
+      ]
+    }
+  }
+}
