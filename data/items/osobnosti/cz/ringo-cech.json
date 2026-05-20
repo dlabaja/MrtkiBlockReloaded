@@ -1,0 +1,115 @@
+{
+  "name": "ringo-cech",
+  "cases": {
+    "1": {
+      "matches": [
+        "Ringo Čech",
+        "František Ringo Čech"
+      ],
+      "replacements": [
+        "Ten co držel pero, ale nepodepsal",
+        "Autor obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringo",
+        "Milošův simp"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Ringa Čecha",
+        "Františka Ringa Čecha"
+      ],
+      "replacements": [
+        "Toho co držel pero, ale nepodepsal",
+        "Autora obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringa",
+        "Milošova simpa"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Ringovi Čechovi",
+        "Františku Ringovi Čechovi"
+      ],
+      "replacements": [
+        "Tomu co držel pero, ale nepodepsal",
+        "Autorovi obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringovi",
+        "Milošovu simpovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Ringa Čecha",
+        "Františka Ringa Čecha"
+      ],
+      "replacements": [
+        "Toho co držel pero, ale nepodepsal",
+        "Autora obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringa",
+        "Milošova simpa"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Ringo Čechu",
+        "Františku Ringo Čechu"
+      ],
+      "replacements": [
+        "Ty co držel pero, ale nepodepsal",
+        "Autore obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringo",
+        "Milošův simpe"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Ringovi Čechovi",
+        "Františku Ringovi Čechovi"
+      ],
+      "replacements": [
+        "Tom co držel pero, ale nepodepsal",
+        "Autorovi obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringovi",
+        "Milošově simpovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Ringem Čechem",
+        "Františkem Ringem Čechem"
+      ],
+      "replacements": [
+        "Tím co držel pero, ale nepodepsal",
+        "Autorem obrázku Zvířatka obdivují autoportrét",
+        "Vepřo knedlo Ringem",
+        "Milošovým simpem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

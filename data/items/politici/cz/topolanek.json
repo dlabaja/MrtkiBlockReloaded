@@ -1,0 +1,120 @@
+{
+  "name": "topolanek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Topolánek",
+        "Mirek Topolánek"
+      ],
+      "replacements": [
+        "Buran po Toskánsku",
+        "Dalíkova amnestie",
+        "Švédská trojka"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Topolánka",
+        "Mirka Topolánka"
+      ],
+      "replacements": [
+        "Burana po Toskánsku",
+        "Dalíkovy amnestie",
+        "Švédské trojky"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Topolánkovi",
+        "Mirkovi Topolánkovi"
+      ],
+      "replacements": [
+        "Buranovi po Toskánsku",
+        "Dalíkově amnestii",
+        "Švédské trojce"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Topolánka",
+        "Mirka Topolánka"
+      ],
+      "replacements": [
+        "Burana po Toskánsku",
+        "Dalíkovu amnestii",
+        "Švédskou trojku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Topolánku",
+        "Mirku Topolánku"
+      ],
+      "replacements": [
+        "Burane po Toskánsku",
+        "Dalíkova amnestie",
+        "Švédská trojko"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Topolánkovi",
+        "Mirkovi Topolánkovi"
+      ],
+      "replacements": [
+        "Buranovi po Toskánsku",
+        "Dalíkově amnestii",
+        "Švédské trojce"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Topolánkem",
+        "Mirkem Topolánkem"
+      ],
+      "replacements": [
+        "Buranem po Toskánsku",
+        "Dalíkovou amnestií",
+        "Švédskou trojkou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Topolánkovo"
+      ],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [
+        "Topolánkova"
+      ],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [
+        "Topolánkův"
+      ],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [
+        "Topolánkovi"
+      ],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [
+        "Topolánkovy"
+      ],
+      "replacements": []
+    },
+    "te": {
+      "matches": [
+        "Topolánkově"
+      ],
+      "replacements": []
+    }
+  }
+}

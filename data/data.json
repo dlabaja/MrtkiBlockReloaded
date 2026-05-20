@@ -642,6 +642,388 @@
     }
   },
   {
+    "name": "ringo-cech",
+    "cases": {
+      "1": {
+        "matches": [
+          "Ringo Čech",
+          "František Ringo Čech"
+        ],
+        "replacements": [
+          "Ten co držel pero, ale nepodepsal",
+          "Autor obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringo",
+          "Milošův simp"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Ringa Čecha",
+          "Františka Ringa Čecha"
+        ],
+        "replacements": [
+          "Toho co držel pero, ale nepodepsal",
+          "Autora obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringa",
+          "Milošova simpa"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Ringovi Čechovi",
+          "Františku Ringovi Čechovi"
+        ],
+        "replacements": [
+          "Tomu co držel pero, ale nepodepsal",
+          "Autorovi obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringovi",
+          "Milošovu simpovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Ringa Čecha",
+          "Františka Ringa Čecha"
+        ],
+        "replacements": [
+          "Toho co držel pero, ale nepodepsal",
+          "Autora obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringa",
+          "Milošova simpa"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Ringo Čechu",
+          "Františku Ringo Čechu"
+        ],
+        "replacements": [
+          "Ty co držel pero, ale nepodepsal",
+          "Autore obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringo",
+          "Milošův simpe"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Ringovi Čechovi",
+          "Františku Ringovi Čechovi"
+        ],
+        "replacements": [
+          "Tom co držel pero, ale nepodepsal",
+          "Autorovi obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringovi",
+          "Milošově simpovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Ringem Čechem",
+          "Františkem Ringem Čechem"
+        ],
+        "replacements": [
+          "Tím co držel pero, ale nepodepsal",
+          "Autorem obrázku Zvířatka obdivují autoportrét",
+          "Vepřo knedlo Ringem",
+          "Milošovým simpem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "soukup",
+    "cases": {
+      "1": {
+        "matches": [
+          "Soukup",
+          "Jaromír Soukup"
+        ],
+        "replacements": [
+          "Větroplach",
+          "Debatér sám se sebou",
+          "Dvouprocentní premiér",
+          "Oportunistická svině",
+          "Majitel největší čínské investice v ČR",
+          "Hvězda ČSFD"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Soukupa",
+          "Jaromíra Soukupa"
+        ],
+        "replacements": [
+          "Větroplacha",
+          "Debatéra sama se sebou",
+          "Dvouprocentního premiéra",
+          "Oportunistické svině",
+          "Majitele největší čínské investice v ČR",
+          "Hvězdy ČSFD"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Soukupovi",
+          "Jaromíru Soukupovi"
+        ],
+        "replacements": [
+          "Větroplachovi",
+          "Debatérovi sám se sebou",
+          "Dvouprocentnímu premiérovi",
+          "Oportunistické svini",
+          "Majiteli největší čínské investice v ČR",
+          "Hvězdě ČSFD"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Soukupa",
+          "Jaromíra Soukupa"
+        ],
+        "replacements": [
+          "Větroplacha",
+          "Debatéra sama se sebou",
+          "Dvouprocentního premiéra",
+          "Oportunistickou svini",
+          "Majitele největší čínské investice v ČR",
+          "Hvězdu ČSFD"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Soukupe",
+          "Jaromíre Soukupe"
+        ],
+        "replacements": [
+          "Větroplachu",
+          "Debatére sám se sebou",
+          "Dvouprocentní premiére",
+          "Oportunistická svině",
+          "Majiteli největší čínské investice v ČR",
+          "Hvězdo ČSFD"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Soukupovi",
+          "Jaromíru Soukupovi"
+        ],
+        "replacements": [
+          "Větroplachovi",
+          "Debatérovi sám se sebou",
+          "Dvouprocentním premiérovi",
+          "Oportunistické svini",
+          "Majiteli největší čínské investice v ČR",
+          "Hvězdě ČSFD"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Soukupem",
+          "Jaromírem Soukupem"
+        ],
+        "replacements": [
+          "Větroplachem",
+          "Debatérem sám se sebou",
+          "Dvouprocentním premiérem",
+          "Oportunistickou sviní",
+          "Majitelem největší čínské investice v ČR",
+          "Hvězdou ČSFD"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Soukupovo"
+        ],
+        "replacements": [
+          "Větroplachovo",
+          "Oportunistovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Soukupova"
+        ],
+        "replacements": [
+          "Větroplachova",
+          "Oportunistova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Soukupův"
+        ],
+        "replacements": [
+          "Větroplachův",
+          "Oportunistův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Soukupovi"
+        ],
+        "replacements": [
+          "Větroplachovi",
+          "Oportunistovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Soukupovy"
+        ],
+        "replacements": [
+          "Větroplachovy",
+          "Oportunistovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Soukupově"
+        ],
+        "replacements": [
+          "Větroplachově",
+          "Oportunistově"
+        ]
+      }
+    }
+  },
+  {
+    "name": "vavra",
+    "cases": {
+      "1": {
+        "matches": [
+          "Vávra",
+          "Daniel Vávra"
+        ],
+        "replacements": [
+          "CEO sebereflexe",
+          "Gibon v Bentley",
+          "Frý Spíč Mafia"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Vávry",
+          "Daniela Vávry"
+        ],
+        "replacements": [
+          "CEO sebereflexe",
+          "Gibona v Bentley",
+          "Frý Spíč Mafie"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Vávrovi",
+          "Danielu Vávrovi"
+        ],
+        "replacements": [
+          "CEO sebereflexi",
+          "Gibonovi v Bentley",
+          "Frý Spíč Mafii"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Vávru",
+          "Daniela Vávru"
+        ],
+        "replacements": [
+          "CEO sebereflexe",
+          "Gibona v Bentley",
+          "Frý Spíč Mafii"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Vávro",
+          "Danieli Vávro"
+        ],
+        "replacements": [
+          "CEO sebereflexe",
+          "Gibone v Bentley",
+          "Frý Spíč Mafie"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Vávrovi",
+          "Danielu Vávrovi"
+        ],
+        "replacements": [
+          "CEO sebereflexi",
+          "Gibonovi v Bentley",
+          "Frý Spíč Mafii"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Vávrou",
+          "Danielem Vávrou"
+        ],
+        "replacements": [
+          "CEO sebereflexí",
+          "Gibonem v Bentley",
+          "Frý Spíč Mafií"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
     "name": "babis",
     "cases": {
       "1": {
@@ -660,7 +1042,8 @@
           "Řepkobaron",
           "Zapírač",
           "Logopedická hříčka",
-          "Makake"
+          "Makake",
+          "Český Trump"
         ]
       },
       "2": {
@@ -679,7 +1062,8 @@
           "Řepkobarona",
           "Zapírače",
           "Logopedické hříčky",
-          "Makake"
+          "Makake",
+          "Českého Trumpa"
         ]
       },
       "3": {
@@ -698,7 +1082,8 @@
           "Řepkobaronovi",
           "Zapíračovi",
           "Logopedické hříčce",
-          "Makake"
+          "Makake",
+          "Českému Trumpovi"
         ]
       },
       "4": {
@@ -717,7 +1102,8 @@
           "Řepkobarona",
           "Zapírače",
           "Logopedickou hříčku",
-          "Makake"
+          "Makake",
+          "Českého Trumpa"
         ]
       },
       "5": {
@@ -736,7 +1122,8 @@
           "Řepkobarone",
           "Zapírači",
           "Logopedická hříčko",
-          "Makake"
+          "Makake",
+          "Český Trumpe"
         ]
       },
       "6": {
@@ -755,7 +1142,8 @@
           "Řepkobaronovi",
           "Zapírači",
           "Logopedické hříčce",
-          "Makake"
+          "Makake",
+          "Českém Trumpovi"
         ]
       },
       "7": {
@@ -774,7 +1162,8 @@
           "Řepkobaronem",
           "Zapíračem",
           "Logopedickou hříčkou",
-          "Makake"
+          "Makake",
+          "Českým Trumpem"
         ]
       }
     },
@@ -1109,6 +1498,158 @@
     }
   },
   {
+    "name": "cibulka",
+    "cases": {
+      "1": {
+        "matches": [
+          "Cibulka",
+          "Petr Cibulka"
+        ],
+        "replacements": [
+          "Agent KGB/GRU",
+          "Pravý BLOK na Facebooku",
+          "Siderické kyvadélko",
+          "Psychotronik",
+          "Ruský fízl"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Cibulky",
+          "Petra Cibulky"
+        ],
+        "replacements": [
+          "Agenta KGB/GRU",
+          "Pravého BLOKu na Facebooku",
+          "Siderického kyvadélka",
+          "Psychotronika",
+          "Ruského fízla"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Cibulkovi",
+          "Petru Cibulkovi"
+        ],
+        "replacements": [
+          "Agentovi KGB/GRU",
+          "Pravému BLOKu na Facebooku",
+          "Siderickému kyvadélku",
+          "Psychotronikovi",
+          "Ruskému fízlovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Cibulku",
+          "Petra Cibulku"
+        ],
+        "replacements": [
+          "Agenta KGB/GRU",
+          "Pravý BLOK na Facebooku",
+          "Siderické kyvadélko",
+          "Psychotronika",
+          "Ruského fízla"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Cibulko",
+          "Petře Cibulko"
+        ],
+        "replacements": [
+          "Agente KGB/GRU",
+          "Pravý BLOKu na Facebooku",
+          "Siderické kyvadélko",
+          "Psychotroniku",
+          "Ruský fízle"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Cibulkovi",
+          "Petru Cibulkovi"
+        ],
+        "replacements": [
+          "Agentovi KGB/GRU",
+          "Pravém BLOKu na Facebooku",
+          "Siderickém kyvadélku",
+          "Psychotronikovi",
+          "Ruském fízlovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Cibulkou",
+          "Petrem Cibulkou"
+        ],
+        "replacements": [
+          "Agentem KGB/GRU",
+          "Pravým BLOKem na Facebooku",
+          "Siderickým kyvadélkem",
+          "Psychotronikem",
+          "Ruským fízlem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Cibulkovo"
+        ],
+        "replacements": [
+          "Kyvadélkovo",
+          "Fízlovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Cibulkova"
+        ],
+        "replacements": [
+          "Kyvadélkova",
+          "Fízlova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Cibulkův"
+        ],
+        "replacements": [
+          "Kyvadélkův",
+          "Fízlův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Cibulkovi"
+        ],
+        "replacements": [
+          "Kyvadélkovi",
+          "Fízlovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Cibulkovy"
+        ],
+        "replacements": [
+          "Kyvadélkovy",
+          "Fízlovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Cibulkově"
+        ],
+        "replacements": [
+          "Kyvadélkově",
+          "Fízlově"
+        ]
+      }
+    }
+  },
+  {
     "name": "feri",
     "cases": {
       "1": {
@@ -1197,6 +1738,107 @@
         "replacements": [
           "Úplně nahýho"
         ]
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "ferjencik",
+    "cases": {
+      "1": {
+        "matches": [
+          "Ferjenčík",
+          "Mikuláš Ferjenčík"
+        ],
+        "replacements": [
+          "Ježíš Torrentus",
+          "Piratebay admin"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Ferjenčíka",
+          "Mikuláše Ferjenčíka"
+        ],
+        "replacements": [
+          "Ježíše Torrentuse",
+          "Piratebay admina"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Ferjenčíkovi",
+          "Mikuláši Ferjenčíkovi"
+        ],
+        "replacements": [
+          "Ježíši Torrentusovi",
+          "Piratebay adminovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Ferjenčíka",
+          "Mikuláše Ferjenčíka"
+        ],
+        "replacements": [
+          "Ježíše Torrentuse",
+          "Piratebay admina"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Ferjenčíku",
+          "Mikuláši Ferjenčíku"
+        ],
+        "replacements": [
+          "Ježíši Torrente",
+          "Piratebay admine"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Ferjenčíkovi",
+          "Mikuláši Ferjenčíkovi"
+        ],
+        "replacements": [
+          "Ježíši Torrentusovi",
+          "Piratebay adminovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Ferjenčíkem",
+          "Mikulášem Ferjenčíkem"
+        ],
+        "replacements": [
+          "Ježíšem Torrentusem",
+          "Piratebay adminem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
       },
       "ta": {
         "matches": [],
@@ -1968,6 +2610,280 @@
     }
   },
   {
+    "name": "hrib",
+    "cases": {
+      "1": {
+        "matches": [
+          "Hřib",
+          "Zdeněk Hřib"
+        ],
+        "replacements": [
+          "Mykologický zázrak",
+          "Pražská zácpa",
+          "Mám plán"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Hřiba",
+          "Zdeňka Hřiba"
+        ],
+        "replacements": [
+          "Mykologického zázraku",
+          "Pražské zácpy",
+          "Mám plánu"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Hřibovi",
+          "Zdeňku Hřibovi"
+        ],
+        "replacements": [
+          "Mykologickému zázraku",
+          "Pražské zácpě",
+          "Mám plánu"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Hřiba",
+          "Zdeňka Hřiba"
+        ],
+        "replacements": [
+          "Mykologický zázrak",
+          "Pražskou zácpu",
+          "Mám plán"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Hřibe",
+          "Zdeňku Hřibe"
+        ],
+        "replacements": [
+          "Mykologický zázraku",
+          "Pražská zácpo",
+          "Mám pláne"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Hřibovi",
+          "Zdeňku Hřibovi"
+        ],
+        "replacements": [
+          "Mykologickém zázraku",
+          "Pražské zácpě",
+          "Mám plánu"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Hřibem",
+          "Zdeňkem Hřibem"
+        ],
+        "replacements": [
+          "Mykologickým zázrakem",
+          "Pražskou zácpou",
+          "Mám plánem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "kalousek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Kalousek",
+          "Miroslav Kalousek"
+        ],
+        "replacements": [
+          "Arcikacíř Mirek",
+          "Kalůsek",
+          "Ňajvětšej kreminálník",
+          "Zloděj zlodějský",
+          "Těn ožrala",
+          "Padákový zabiják",
+          "Viník našich posraných životů"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Kalouska",
+          "Miroslava Kalouska"
+        ],
+        "replacements": [
+          "Arcikacíře Mirka",
+          "Kalůska",
+          "Ňajvětšeho kreminálníka",
+          "Zloděje zlodějského",
+          "Těho ožraly",
+          "Padákového zabijáka",
+          "Viníka našich posraných životů"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Kalouskovi",
+          "Miroslavu Kalouskovi"
+        ],
+        "replacements": [
+          "Arcikacíři Mirkovi",
+          "Kalůskovi",
+          "Ňajvětšemu kreminálníkovi",
+          "Zloději zlodějskému",
+          "Těmu ožralovi",
+          "Padákovému zabijákovi",
+          "Viníku našich posraných životů"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Kalouska",
+          "Miroslava Kalouska"
+        ],
+        "replacements": [
+          "Arcikacíře Mirka",
+          "Kalůska",
+          "Ňajvětšeho kreminálníka",
+          "Zloděje zlodějského",
+          "Těho ožralu",
+          "Padákového zabijáka",
+          "Viníka našich posraných životů"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Kalousku",
+          "Miroslave Kalousku"
+        ],
+        "replacements": [
+          "Arcikacíři Mirku",
+          "Kalůsku",
+          "Ňajvětšej kreminálníku",
+          "Zloději zlodějský",
+          "Ty ožralo",
+          "Padákový zabijáku",
+          "Viníku našich posraných životů"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Kalouskovi",
+          "Miroslavu Kalouskovi"
+        ],
+        "replacements": [
+          "Arcikacíři Mirkovi",
+          "Kalůskovi",
+          "Ňajvětšemu kreminálníkovi",
+          "Zloději zlodějském",
+          "Ťom ožralovi",
+          "Padákovém zabijákovi",
+          "Viníku našich posraných životů"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Kalouskem",
+          "Miroslavem Kalouskem"
+        ],
+        "replacements": [
+          "Arcikacířem Mirkem",
+          "Kalůskem",
+          "Ňajvětšejm kreminálníkem",
+          "Zlodějem zlodějským",
+          "Tím ožralou",
+          "Padákovým zabijákem",
+          "Viníkem našich posraných životů"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Kalouskovo"
+        ],
+        "replacements": [
+          "Kalůskovo",
+          "Ožralovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Kalouskova"
+        ],
+        "replacements": [
+          "Kalůskova",
+          "Ožralova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Kalouskův"
+        ],
+        "replacements": [
+          "Kalůskův",
+          "Ožralův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Kalouskovi"
+        ],
+        "replacements": [
+          "Kalůskovi",
+          "Ožralovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Kalouskovy"
+        ],
+        "replacements": [
+          "Kalůskovy",
+          "Ožralovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Kalouskově"
+        ],
+        "replacements": [
+          "Kalůskově",
+          "Ožralově"
+        ]
+      }
+    }
+  },
+  {
     "name": "klaus",
     "cases": {
       "1": {
@@ -2141,6 +3057,121 @@
     }
   },
   {
+    "name": "konecna",
+    "cases": {
+      "1": {
+        "matches": [
+          "Konečná",
+          "Kateřina Konečná"
+        ],
+        "replacements": [
+          "Blonďatý krtek",
+          "Putinova děvka",
+          "Šilhavá rachejtle",
+          "Skřítek Racochejl"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Konečné",
+          "Kateřiny Konečné"
+        ],
+        "replacements": [
+          "Blonďatého krtka",
+          "Putinovy děvky",
+          "Šilhavé rachejtle",
+          "Skřítka Racochejla"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Konečné",
+          "Kateřině Konečné"
+        ],
+        "replacements": [
+          "Blonďatému krtkovi",
+          "Putinově děvce",
+          "Šilhavé rachejtli",
+          "Skřítkovi Racochejlovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Konečnou",
+          "Kateřinu Konečnou"
+        ],
+        "replacements": [
+          "Blonďatého krtka",
+          "Putinovu děvku",
+          "Šilhavou rachejtli",
+          "Skřítka Racochejla"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Konečná",
+          "Kateřino Konečná"
+        ],
+        "replacements": [
+          "Blonďatý krtku",
+          "Putinova děvko",
+          "Šilhavá rachejtle",
+          "Skřítku Racochejle"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Konečné",
+          "Kateřině Konečné"
+        ],
+        "replacements": [
+          "Blonďatém krtkovi",
+          "Putinově děvce",
+          "Šilhavé rachejtli",
+          "Skřítkovi Racochejlovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Konečnou",
+          "Kateřinou Konečnou"
+        ],
+        "replacements": [
+          "Blonďatým krtkem",
+          "Putinovou děvkou",
+          "Šilhavou rachejtlí",
+          "Skřítkem Racochejlem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
     "name": "macinka",
     "cases": {
       "1": {
@@ -2296,6 +3327,121 @@
           "Micinkově",
           "Nacinkově"
         ]
+      }
+    }
+  },
+  {
+    "name": "malacova",
+    "cases": {
+      "1": {
+        "matches": [
+          "Maláčová",
+          "Jana Maláčová"
+        ],
+        "replacements": [
+          "Venezuela",
+          "Dluhová spirála",
+          "Předloha Věstonické Venuše",
+          "Předsedkyně Twinků"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Maláčové",
+          "Jany Maláčové"
+        ],
+        "replacements": [
+          "Venezuely",
+          "Dluhové spirály",
+          "Předlohy Věstonické Venuše",
+          "Předsedkyně Twinků"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Maláčové",
+          "Janě Maláčové"
+        ],
+        "replacements": [
+          "Venezuele",
+          "Dluhové spirále",
+          "Předloze Věstonické Venuše",
+          "Předsedkyni Twinků"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Maláčovou",
+          "Janu Maláčovou"
+        ],
+        "replacements": [
+          "Venezuelu",
+          "Dluhovou spirálu",
+          "Předlohu Věstonické Venuše",
+          "Předsedkyni Twinků"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Maláčová",
+          "Jano Maláčová"
+        ],
+        "replacements": [
+          "Venezuelo",
+          "Dluhová spirálo",
+          "Předloho Věstonické Venuše",
+          "Předsedkyně Twinků"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Maláčové",
+          "Janě Maláčové"
+        ],
+        "replacements": [
+          "Venezuele",
+          "Dluhové spirále",
+          "Předloze Věstonické Venuše",
+          "Předsedkyni Twinků"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Maláčovou",
+          "Janou Maláčovou"
+        ],
+        "replacements": [
+          "Venezuelou",
+          "Dluhovou spirálou",
+          "Předlohou Věstonické Venuše",
+          "Předsedkyní Twinků"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
       }
     }
   },
@@ -2637,6 +3783,164 @@
     }
   },
   {
+    "name": "necas",
+    "cases": {
+      "1": {
+        "matches": [
+          "Nečas",
+          "Petr Nečas"
+        ],
+        "replacements": [
+          "Trafikant",
+          "Petr Nagy",
+          "Nákupčí kabelek ze státního rozpočtu",
+          "Kočkopes",
+          "Kočkopsoidní kočkopes"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Nečase",
+          "Petra Nečase"
+        ],
+        "replacements": [
+          "Trafikanta",
+          "Petra Nagye",
+          "Nákupčího kabelek ze státního rozpočtu",
+          "Kočkopsa",
+          "Kočkopsoidního kočkopsa"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Nečasovi",
+          "Petru Nečasovi"
+        ],
+        "replacements": [
+          "Trafikantovi",
+          "Petru Nagyovi",
+          "Nákupčímu kabelek ze státního rozpočtu",
+          "Kočkopsovi",
+          "Kočkopsoidnímu kočkopsovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Nečase",
+          "Petra Nečase"
+        ],
+        "replacements": [
+          "Trafikanta",
+          "Petra Nagye",
+          "Nákupčího kabelek ze státního rozpočtu",
+          "Kočkopsa",
+          "Kočkopsoidního kočkopsa"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Nečasi",
+          "Petře Nečasi"
+        ],
+        "replacements": [
+          "Trafikante",
+          "Petře Nagyi",
+          "Nákupčí kabelek ze státního rozpočtu",
+          "Kočkopsi",
+          "Kočkopsoidní kočkopsi"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Nečasovi",
+          "Petru Nečasovi"
+        ],
+        "replacements": [
+          "Trafikantovi",
+          "Petru Nagyovi",
+          "Nákupčím kabelek ze státního rozpočtu",
+          "Kočkopsovi",
+          "Kočkopsoidním kočkopsovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Nečasem",
+          "Petrem Nečasem"
+        ],
+        "replacements": [
+          "Trafikantem",
+          "Petrem Nagyem",
+          "Nákupčím kabelkami ze státního rozpočtu",
+          "Kočkopsem",
+          "Kočkopsoidním kočkopsem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Nečasovo"
+        ],
+        "replacements": [
+          "Nagyho",
+          "Trafikantovo",
+          "Kočkopsovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Nečasova"
+        ],
+        "replacements": [
+          "Nagyho",
+          "Trafikantova",
+          "Kočkopsova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Nečasův"
+        ],
+        "replacements": [
+          "Nagyho",
+          "Trafikantův",
+          "Kočkopsův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Nečasovi"
+        ],
+        "replacements": [
+          "Nagyho",
+          "Trafikantovi",
+          "Kočkopsovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Nečasovy"
+        ],
+        "replacements": [
+          "Nagyho",
+          "Trafikantovy",
+          "Kočkopsovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Nečasově"
+        ],
+        "replacements": [
+          "Nagyho",
+          "Trafikantově",
+          "Kočkopsově"
+        ]
+      }
+    }
+  },
+  {
     "name": "nejedly",
     "cases": {
       "1": {
@@ -2734,6 +4038,142 @@
           "Pumpařovo",
           "Gangsterovo"
         ]
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "novotny",
+    "cases": {
+      "1": {
+        "matches": [
+          "Novotný",
+          "Pavel Novotný"
+        ],
+        "replacements": [
+          "Nesplněný cíl GRU",
+          "Zhouba Koněva",
+          "Mistr rýsování bez pravítka",
+          "Vorvaň z Řeporyjí",
+          "Vokální kulomet",
+          "Degustátor novičoku",
+          "Hrochodýl"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Novotného",
+          "Pavla Novotného"
+        ],
+        "replacements": [
+          "Nesplněného cíle GRU",
+          "Zhouby Koněva",
+          "Mistra rýsování bez pravítka",
+          "Vorvaně z Řeporyjí",
+          "Vokálního kulometu",
+          "Degustátora novičoku",
+          "Hrochodýla"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Novotnému",
+          "Pavlu Novotnému"
+        ],
+        "replacements": [
+          "Nesplněnému cíli GRU",
+          "Zhoubě Koněva",
+          "Mistrovi rýsování bez pravítka",
+          "Vorvani z Řeporyjí",
+          "Vokálnímu kulometu",
+          "Degustátorovi novičoku",
+          "Hrochodýlovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Novotného",
+          "Pavla Novotného"
+        ],
+        "replacements": [
+          "Nesplněný cíl GRU",
+          "Zhoubu Koněva",
+          "Mistra rýsování bez pravítka",
+          "Vorvaně z Řeporyjí",
+          "Vokální kulomet",
+          "Degustátora novičoku",
+          "Hrochodýla"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Novotný",
+          "Pavle Novotný"
+        ],
+        "replacements": [
+          "Nesplněný cíli GRU",
+          "Zhoubo Koněva",
+          "Mistře rýsování bez pravítka",
+          "Vorvani z Řeporyjí",
+          "Vokální kulomete",
+          "Degustátore novičoku",
+          "Hrochodýle"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Novotném",
+          "Pavlu Novotném"
+        ],
+        "replacements": [
+          "Nesplněném cíli GRU",
+          "Zhoubě Koněva",
+          "Mistrovi rýsování bez pravítka",
+          "Vorvani z Řeporyjí",
+          "Vokálním kulometu",
+          "Degustátorovi novičoku",
+          "Hrochodýlovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Novotným",
+          "Pavlem Novotným"
+        ],
+        "replacements": [
+          "Nesplněným cílem GRU",
+          "Zhoubou Koněva",
+          "Mistrem rýsování bez pravítka",
+          "Vorvaněm z Řeporyjí",
+          "Vokálním kulometem",
+          "Degustátorem novičoku",
+          "Hrochodýlem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
       },
       "ta": {
         "matches": [],
@@ -2913,6 +4353,253 @@
         "replacements": [
           "Pitomiově",
           "Sumorajově"
+        ]
+      }
+    }
+  },
+  {
+    "name": "ovcacek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Ovčáček",
+          "Jiří Ovčáček"
+        ],
+        "replacements": [
+          "Buzerant s kabelkou",
+          "Zaměstnanec hospicu Lány",
+          "Twitterový terrorista"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Ovčáčka",
+          "Jiřího Ovčáčka"
+        ],
+        "replacements": [
+          "Buzeranta s kabelkou",
+          "Zaměstnance hospicu Lány",
+          "Twitterového terroristy"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Ovčáčkovi",
+          "Jiřímu Ovčáčkovi"
+        ],
+        "replacements": [
+          "Buzerantovi s kabelkou",
+          "Zaměstnanci hospicu Lány",
+          "Twitterovému terroristovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Ovčáčka",
+          "Jiřího Ovčáčka"
+        ],
+        "replacements": [
+          "Buzeranta s kabelkou",
+          "Zaměstnance hospicu Lány",
+          "Twitterového terroristu"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Ovčáčku",
+          "Jiří Ovčáčku"
+        ],
+        "replacements": [
+          "Buzerante s kabelkou",
+          "Zaměstnanče hospicu Lány",
+          "Twitterový terroristo"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Ovčáčkovi",
+          "Jiřím Ovčáčkovi"
+        ],
+        "replacements": [
+          "Buzerantovi s kabelkou",
+          "Zaměstnanci hospicu Lány",
+          "Twitterovém terroristovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Ovčáčkem",
+          "Jiřím Ovčáčkem"
+        ],
+        "replacements": [
+          "Buzerantem s kabelkou",
+          "Zaměstnancem hospicu Lány",
+          "Twitterovým terroristou"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "paroubek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Paroubek",
+          "Jiří Paroubek"
+        ],
+        "replacements": [
+          "Sexy mozek",
+          "Mistr dechových cvičení s černým páskem",
+          "Prase bradavičnaté",
+          "Halíře dělaj talíře"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Paroubka",
+          "Jiřího Paroubka"
+        ],
+        "replacements": [
+          "Sexy mozku",
+          "Mistra dechových cvičení s černým páskem",
+          "Prasete bradavičnatého",
+          "Halířů co dělaj talíře"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Paroubkovi",
+          "Jiřímu Paroubkovi"
+        ],
+        "replacements": [
+          "Sexy mozku",
+          "Mistrovi dechových cvičení s černým páskem",
+          "Praseti bradavičnatému",
+          "Halířům co dělaj talíře"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Paroubka",
+          "Jiřího Paroubka"
+        ],
+        "replacements": [
+          "Sexy mozek",
+          "Mistra dechových cvičení s černým páskem",
+          "Prase bradavičnaté",
+          "Halíře co dělaj talíře"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Paroubku",
+          "Jiří Paroubku"
+        ],
+        "replacements": [
+          "Sexy mozku",
+          "Mistře dechových cvičení s černým páskem",
+          "Prase bradavičnaté",
+          "Halíře dělaj talíře"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Paroubkovi",
+          "Jiřím Paroubkovi"
+        ],
+        "replacements": [
+          "Sexy mozku",
+          "Mistrovi dechových cvičení s černým páskem",
+          "Praseti bradavičnatém",
+          "Halířích co dělaj talíře"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Paroubkem",
+          "Jiřím Paroubkem"
+        ],
+        "replacements": [
+          "Sexy mozkem",
+          "Mistrem dechových cvičení s černým páskem",
+          "Prasetem bradavičnatým",
+          "Halíři co dělaj talíře"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Paroubkovo"
+        ],
+        "replacements": [
+          "Sexymozkovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Paroubkova"
+        ],
+        "replacements": [
+          "Sexymozkova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Paroubkův"
+        ],
+        "replacements": [
+          "Sexymozkův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Paroubkovi"
+        ],
+        "replacements": [
+          "Sexymozkovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Paroubkovy"
+        ],
+        "replacements": [
+          "Sexymozkovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Paroubkově"
+        ],
+        "replacements": [
+          "Sexymozkově"
         ]
       }
     }
@@ -3890,6 +5577,273 @@
     }
   },
   {
+    "name": "sobotka",
+    "cases": {
+      "1": {
+        "matches": [
+          "Bohuslav Sobotka",
+          "Sobotka"
+        ],
+        "replacements": [
+          "Dluhoslav Nedělej",
+          "Zubopleš z OKD",
+          "Žalud s brýlemi",
+          "Der frenc"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Bohuslava Sobotky",
+          "Sobotky"
+        ],
+        "replacements": [
+          "Dluhoslava Neděleje",
+          "Zubopleše z OKD",
+          "Žaluda s brýlemi",
+          "Der frenca"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Bohuslavu Sobotkovi",
+          "Bohuslavovi Sobotkovi",
+          "Sobotkovi"
+        ],
+        "replacements": [
+          "Dluhoslavu Nedělejovi",
+          "Zubopleši z OKD",
+          "Žaludu s brýlemi",
+          "Der frencovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Bohuslava Sobotku",
+          "Sobotku"
+        ],
+        "replacements": [
+          "Dluhoslava Neděleje",
+          "Zubopleše z OKD",
+          "Žaluda s brýlemi",
+          "Der frenca"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Bohuslave Sobotko",
+          "Sobotko"
+        ],
+        "replacements": [
+          "Dluhoslave Neděleji",
+          "Zubopleši z OKD",
+          "Žalude s brýlemi",
+          "Der frencu"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Bohuslavu Sobotkovi",
+          "Bohuslavovi Sobotkovi",
+          "Sobotkovi"
+        ],
+        "replacements": [
+          "Dluhoslavu Nedělejovi",
+          "Zubopleši z OKD",
+          "Žaludu s brýlemi",
+          "Der frencovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Bohuslavem Sobotkou",
+          "Sobotkou"
+        ],
+        "replacements": [
+          "Dluhoslavem Nedělejem",
+          "Zuboplešem z OKD",
+          "Žaludem s brýlemi",
+          "Der frencem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Sobotkovo"
+        ],
+        "replacements": [
+          "Dluhoslavovo",
+          "Zuboplešovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Sobotkova"
+        ],
+        "replacements": [
+          "Dluhoslavova",
+          "Zuboplešova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Sobotkův"
+        ],
+        "replacements": [
+          "Dluhoslavův",
+          "Zuboplešův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Sobotkovi"
+        ],
+        "replacements": [
+          "Dluhoslavovi",
+          "Zuboplešovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Sobotkovy"
+        ],
+        "replacements": [
+          "Dluhoslavovy",
+          "Zuboplešovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Sobotkově"
+        ],
+        "replacements": [
+          "Dluhoslavově",
+          "Zuboplešově"
+        ]
+      }
+    }
+  },
+  {
+    "name": "topolanek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Topolánek",
+          "Mirek Topolánek"
+        ],
+        "replacements": [
+          "Buran po Toskánsku",
+          "Dalíkova amnestie",
+          "Švédská trojka"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Topolánka",
+          "Mirka Topolánka"
+        ],
+        "replacements": [
+          "Burana po Toskánsku",
+          "Dalíkovy amnestie",
+          "Švédské trojky"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Topolánkovi",
+          "Mirkovi Topolánkovi"
+        ],
+        "replacements": [
+          "Buranovi po Toskánsku",
+          "Dalíkově amnestii",
+          "Švédské trojce"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Topolánka",
+          "Mirka Topolánka"
+        ],
+        "replacements": [
+          "Burana po Toskánsku",
+          "Dalíkovu amnestii",
+          "Švédskou trojku"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Topolánku",
+          "Mirku Topolánku"
+        ],
+        "replacements": [
+          "Burane po Toskánsku",
+          "Dalíkova amnestie",
+          "Švédská trojko"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Topolánkovi",
+          "Mirkovi Topolánkovi"
+        ],
+        "replacements": [
+          "Buranovi po Toskánsku",
+          "Dalíkově amnestii",
+          "Švédské trojce"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Topolánkem",
+          "Mirkem Topolánkem"
+        ],
+        "replacements": [
+          "Buranem po Toskánsku",
+          "Dalíkovou amnestií",
+          "Švédskou trojkou"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Topolánkovo"
+        ],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [
+          "Topolánkova"
+        ],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [
+          "Topolánkův"
+        ],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [
+          "Topolánkovi"
+        ],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [
+          "Topolánkovy"
+        ],
+        "replacements": []
+      },
+      "te": {
+        "matches": [
+          "Topolánkově"
+        ],
+        "replacements": []
+      }
+    }
+  },
+  {
     "name": "vojtech",
     "cases": {
       "1": {
@@ -4181,6 +6135,253 @@
       "te": {
         "matches": [],
         "replacements": []
+      }
+    }
+  },
+  {
+    "name": "vondracek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Vondráček",
+          "Radek Vondráček"
+        ],
+        "replacements": [
+          "Burešův marigold",
+          "Majitel nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinový lezec po lavicích sněmovny",
+          "Bard bez talentu"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Vondráčka",
+          "Radka Vondráčka"
+        ],
+        "replacements": [
+          "Burešova marigoldu",
+          "Majitele nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinového lezce po lavicích sněmovny",
+          "Barda bez talentu"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Vondráčkovi",
+          "Radku Vondráčkovi"
+        ],
+        "replacements": [
+          "Burešovu marigoldu",
+          "Majiteli nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinovému lezci po lavicích sněmovny",
+          "Bardovi bez talentu"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Vondráčka",
+          "Radka Vondráčka"
+        ],
+        "replacements": [
+          "Burešův marigold",
+          "Majitele nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinového lezce po lavicích sněmovny",
+          "Barda bez talentu"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Vondráčku",
+          "Radku Vondráčku"
+        ],
+        "replacements": [
+          "Burešův marigolde",
+          "Majiteli nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinový lezče po lavicích sněmovny",
+          "Barde bez talentu"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Vondráčkovi",
+          "Radku Vondráčkovi"
+        ],
+        "replacements": [
+          "Burešově marigoldu",
+          "Majiteli nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinovém lezci po lavicích sněmovny",
+          "Bardovi bez talentu"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Vondráčkem",
+          "Radkem Vondráčkem"
+        ],
+        "replacements": [
+          "Burešovým marigoldem",
+          "Majitelem nejhezčího prostředníčku ve sněmovně",
+          "Adrenalinovým lezcem po lavicích sněmovny",
+          "Bardem bez talentu"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "vystrcil",
+    "cases": {
+      "1": {
+        "matches": [
+          "Vystrčil",
+          "Miloš Vystrčil"
+        ],
+        "replacements": [
+          "Agresivní sysel",
+          "Taiwanský simp",
+          "Kubera light"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Vystrčila",
+          "Miloše Vystrčila"
+        ],
+        "replacements": [
+          "Agresivního sysla",
+          "Taiwanského simpa",
+          "Kubery light"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Vystrčilovi",
+          "Miloši Vystrčilovi"
+        ],
+        "replacements": [
+          "Agresivnímu syslovi",
+          "Taiwanskému simpovi",
+          "Kuberovi light"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Vystrčila",
+          "Miloše Vystrčila"
+        ],
+        "replacements": [
+          "Agresivního sysla",
+          "Taiwanského simpa",
+          "Kuberu light"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Vystrčile",
+          "Miloši Vystrčile"
+        ],
+        "replacements": [
+          "Agresivní sysle",
+          "Taiwanský simpe",
+          "Kubero light"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Vystrčilovi",
+          "Miloši Vystrčilovi"
+        ],
+        "replacements": [
+          "Agresivním syslovi",
+          "Taiwanském simpovi",
+          "Kuberovi light"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Vystrčilem",
+          "Milošem Vystrčilem"
+        ],
+        "replacements": [
+          "Agresivním syslem",
+          "Taiwanským simpem",
+          "Kuberou light"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Vystrčilovo"
+        ],
+        "replacements": [
+          "Syslovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Vystrčilova"
+        ],
+        "replacements": [
+          "Syslova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Vystrčilův"
+        ],
+        "replacements": [
+          "Syslův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Vystrčilovi"
+        ],
+        "replacements": [
+          "Syslovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Vystrčilovy"
+        ],
+        "replacements": [
+          "Syslovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Vystrčilově"
+        ],
+        "replacements": [
+          "Syslově"
+        ]
       }
     }
   },

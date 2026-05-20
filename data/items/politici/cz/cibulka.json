@@ -1,0 +1,152 @@
+{
+  "name": "cibulka",
+  "cases": {
+    "1": {
+      "matches": [
+        "Cibulka",
+        "Petr Cibulka"
+      ],
+      "replacements": [
+        "Agent KGB/GRU",
+        "Pravý BLOK na Facebooku",
+        "Siderické kyvadélko",
+        "Psychotronik",
+        "Ruský fízl"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Cibulky",
+        "Petra Cibulky"
+      ],
+      "replacements": [
+        "Agenta KGB/GRU",
+        "Pravého BLOKu na Facebooku",
+        "Siderického kyvadélka",
+        "Psychotronika",
+        "Ruského fízla"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Cibulkovi",
+        "Petru Cibulkovi"
+      ],
+      "replacements": [
+        "Agentovi KGB/GRU",
+        "Pravému BLOKu na Facebooku",
+        "Siderickému kyvadélku",
+        "Psychotronikovi",
+        "Ruskému fízlovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Cibulku",
+        "Petra Cibulku"
+      ],
+      "replacements": [
+        "Agenta KGB/GRU",
+        "Pravý BLOK na Facebooku",
+        "Siderické kyvadélko",
+        "Psychotronika",
+        "Ruského fízla"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Cibulko",
+        "Petře Cibulko"
+      ],
+      "replacements": [
+        "Agente KGB/GRU",
+        "Pravý BLOKu na Facebooku",
+        "Siderické kyvadélko",
+        "Psychotroniku",
+        "Ruský fízle"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Cibulkovi",
+        "Petru Cibulkovi"
+      ],
+      "replacements": [
+        "Agentovi KGB/GRU",
+        "Pravém BLOKu na Facebooku",
+        "Siderickém kyvadélku",
+        "Psychotronikovi",
+        "Ruském fízlovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Cibulkou",
+        "Petrem Cibulkou"
+      ],
+      "replacements": [
+        "Agentem KGB/GRU",
+        "Pravým BLOKem na Facebooku",
+        "Siderickým kyvadélkem",
+        "Psychotronikem",
+        "Ruským fízlem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Cibulkovo"
+      ],
+      "replacements": [
+        "Kyvadélkovo",
+        "Fízlovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Cibulkova"
+      ],
+      "replacements": [
+        "Kyvadélkova",
+        "Fízlova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Cibulkův"
+      ],
+      "replacements": [
+        "Kyvadélkův",
+        "Fízlův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Cibulkovi"
+      ],
+      "replacements": [
+        "Kyvadélkovi",
+        "Fízlovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Cibulkovy"
+      ],
+      "replacements": [
+        "Kyvadélkovy",
+        "Fízlovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Cibulkově"
+      ],
+      "replacements": [
+        "Kyvadélkově",
+        "Fízlově"
+      ]
+    }
+  }
+}

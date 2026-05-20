@@ -1,0 +1,136 @@
+{
+  "name": "novotny",
+  "cases": {
+    "1": {
+      "matches": [
+        "Novotný",
+        "Pavel Novotný"
+      ],
+      "replacements": [
+        "Nesplněný cíl GRU",
+        "Zhouba Koněva",
+        "Mistr rýsování bez pravítka",
+        "Vorvaň z Řeporyjí",
+        "Vokální kulomet",
+        "Degustátor novičoku",
+        "Hrochodýl"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Novotného",
+        "Pavla Novotného"
+      ],
+      "replacements": [
+        "Nesplněného cíle GRU",
+        "Zhouby Koněva",
+        "Mistra rýsování bez pravítka",
+        "Vorvaně z Řeporyjí",
+        "Vokálního kulometu",
+        "Degustátora novičoku",
+        "Hrochodýla"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Novotnému",
+        "Pavlu Novotnému"
+      ],
+      "replacements": [
+        "Nesplněnému cíli GRU",
+        "Zhoubě Koněva",
+        "Mistrovi rýsování bez pravítka",
+        "Vorvani z Řeporyjí",
+        "Vokálnímu kulometu",
+        "Degustátorovi novičoku",
+        "Hrochodýlovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Novotného",
+        "Pavla Novotného"
+      ],
+      "replacements": [
+        "Nesplněný cíl GRU",
+        "Zhoubu Koněva",
+        "Mistra rýsování bez pravítka",
+        "Vorvaně z Řeporyjí",
+        "Vokální kulomet",
+        "Degustátora novičoku",
+        "Hrochodýla"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Novotný",
+        "Pavle Novotný"
+      ],
+      "replacements": [
+        "Nesplněný cíli GRU",
+        "Zhoubo Koněva",
+        "Mistře rýsování bez pravítka",
+        "Vorvani z Řeporyjí",
+        "Vokální kulomete",
+        "Degustátore novičoku",
+        "Hrochodýle"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Novotném",
+        "Pavlu Novotném"
+      ],
+      "replacements": [
+        "Nesplněném cíli GRU",
+        "Zhoubě Koněva",
+        "Mistrovi rýsování bez pravítka",
+        "Vorvani z Řeporyjí",
+        "Vokálním kulometu",
+        "Degustátorovi novičoku",
+        "Hrochodýlovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Novotným",
+        "Pavlem Novotným"
+      ],
+      "replacements": [
+        "Nesplněným cílem GRU",
+        "Zhoubou Koněva",
+        "Mistrem rýsování bez pravítka",
+        "Vorvaněm z Řeporyjí",
+        "Vokálním kulometem",
+        "Degustátorem novičoku",
+        "Hrochodýlem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

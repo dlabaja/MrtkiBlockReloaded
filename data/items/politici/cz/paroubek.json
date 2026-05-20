@@ -1,0 +1,139 @@
+{
+  "name": "paroubek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Paroubek",
+        "Jiří Paroubek"
+      ],
+      "replacements": [
+        "Sexy mozek",
+        "Mistr dechových cvičení s černým páskem",
+        "Prase bradavičnaté",
+        "Halíře dělaj talíře"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Paroubka",
+        "Jiřího Paroubka"
+      ],
+      "replacements": [
+        "Sexy mozku",
+        "Mistra dechových cvičení s černým páskem",
+        "Prasete bradavičnatého",
+        "Halířů co dělaj talíře"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Paroubkovi",
+        "Jiřímu Paroubkovi"
+      ],
+      "replacements": [
+        "Sexy mozku",
+        "Mistrovi dechových cvičení s černým páskem",
+        "Praseti bradavičnatému",
+        "Halířům co dělaj talíře"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Paroubka",
+        "Jiřího Paroubka"
+      ],
+      "replacements": [
+        "Sexy mozek",
+        "Mistra dechových cvičení s černým páskem",
+        "Prase bradavičnaté",
+        "Halíře co dělaj talíře"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Paroubku",
+        "Jiří Paroubku"
+      ],
+      "replacements": [
+        "Sexy mozku",
+        "Mistře dechových cvičení s černým páskem",
+        "Prase bradavičnaté",
+        "Halíře dělaj talíře"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Paroubkovi",
+        "Jiřím Paroubkovi"
+      ],
+      "replacements": [
+        "Sexy mozku",
+        "Mistrovi dechových cvičení s černým páskem",
+        "Praseti bradavičnatém",
+        "Halířích co dělaj talíře"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Paroubkem",
+        "Jiřím Paroubkem"
+      ],
+      "replacements": [
+        "Sexy mozkem",
+        "Mistrem dechových cvičení s černým páskem",
+        "Prasetem bradavičnatým",
+        "Halíři co dělaj talíře"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Paroubkovo"
+      ],
+      "replacements": [
+        "Sexymozkovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Paroubkova"
+      ],
+      "replacements": [
+        "Sexymozkova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Paroubkův"
+      ],
+      "replacements": [
+        "Sexymozkův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Paroubkovi"
+      ],
+      "replacements": [
+        "Sexymozkovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Paroubkovy"
+      ],
+      "replacements": [
+        "Sexymozkovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Paroubkově"
+      ],
+      "replacements": [
+        "Sexymozkově"
+      ]
+    }
+  }
+}

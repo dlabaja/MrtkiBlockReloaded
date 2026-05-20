@@ -1,0 +1,158 @@
+{
+  "name": "necas",
+  "cases": {
+    "1": {
+      "matches": [
+        "Nečas",
+        "Petr Nečas"
+      ],
+      "replacements": [
+        "Trafikant",
+        "Petr Nagy",
+        "Nákupčí kabelek ze státního rozpočtu",
+        "Kočkopes",
+        "Kočkopsoidní kočkopes"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Nečase",
+        "Petra Nečase"
+      ],
+      "replacements": [
+        "Trafikanta",
+        "Petra Nagye",
+        "Nákupčího kabelek ze státního rozpočtu",
+        "Kočkopsa",
+        "Kočkopsoidního kočkopsa"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Nečasovi",
+        "Petru Nečasovi"
+      ],
+      "replacements": [
+        "Trafikantovi",
+        "Petru Nagyovi",
+        "Nákupčímu kabelek ze státního rozpočtu",
+        "Kočkopsovi",
+        "Kočkopsoidnímu kočkopsovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Nečase",
+        "Petra Nečase"
+      ],
+      "replacements": [
+        "Trafikanta",
+        "Petra Nagye",
+        "Nákupčího kabelek ze státního rozpočtu",
+        "Kočkopsa",
+        "Kočkopsoidního kočkopsa"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Nečasi",
+        "Petře Nečasi"
+      ],
+      "replacements": [
+        "Trafikante",
+        "Petře Nagyi",
+        "Nákupčí kabelek ze státního rozpočtu",
+        "Kočkopsi",
+        "Kočkopsoidní kočkopsi"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Nečasovi",
+        "Petru Nečasovi"
+      ],
+      "replacements": [
+        "Trafikantovi",
+        "Petru Nagyovi",
+        "Nákupčím kabelek ze státního rozpočtu",
+        "Kočkopsovi",
+        "Kočkopsoidním kočkopsovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Nečasem",
+        "Petrem Nečasem"
+      ],
+      "replacements": [
+        "Trafikantem",
+        "Petrem Nagyem",
+        "Nákupčím kabelkami ze státního rozpočtu",
+        "Kočkopsem",
+        "Kočkopsoidním kočkopsem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Nečasovo"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovo",
+        "Kočkopsovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Nečasova"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantova",
+        "Kočkopsova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Nečasův"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantův",
+        "Kočkopsův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Nečasovi"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovi",
+        "Kočkopsovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Nečasovy"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovy",
+        "Kočkopsovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Nečasově"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantově",
+        "Kočkopsově"
+      ]
+    }
+  }
+}

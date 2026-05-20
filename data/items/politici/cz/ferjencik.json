@@ -1,0 +1,101 @@
+{
+  "name": "ferjencik",
+  "cases": {
+    "1": {
+      "matches": [
+        "Ferjenčík",
+        "Mikuláš Ferjenčík"
+      ],
+      "replacements": [
+        "Ježíš Torrentus",
+        "Piratebay admin"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Ferjenčíka",
+        "Mikuláše Ferjenčíka"
+      ],
+      "replacements": [
+        "Ježíše Torrentuse",
+        "Piratebay admina"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Ferjenčíkovi",
+        "Mikuláši Ferjenčíkovi"
+      ],
+      "replacements": [
+        "Ježíši Torrentusovi",
+        "Piratebay adminovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Ferjenčíka",
+        "Mikuláše Ferjenčíka"
+      ],
+      "replacements": [
+        "Ježíše Torrentuse",
+        "Piratebay admina"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Ferjenčíku",
+        "Mikuláši Ferjenčíku"
+      ],
+      "replacements": [
+        "Ježíši Torrente",
+        "Piratebay admine"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Ferjenčíkovi",
+        "Mikuláši Ferjenčíkovi"
+      ],
+      "replacements": [
+        "Ježíši Torrentusovi",
+        "Piratebay adminovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Ferjenčíkem",
+        "Mikulášem Ferjenčíkem"
+      ],
+      "replacements": [
+        "Ježíšem Torrentusem",
+        "Piratebay adminem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

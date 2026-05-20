@@ -1,0 +1,115 @@
+{
+  "name": "vondracek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Vondráček",
+        "Radek Vondráček"
+      ],
+      "replacements": [
+        "Burešův marigold",
+        "Majitel nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinový lezec po lavicích sněmovny",
+        "Bard bez talentu"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Vondráčka",
+        "Radka Vondráčka"
+      ],
+      "replacements": [
+        "Burešova marigoldu",
+        "Majitele nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinového lezce po lavicích sněmovny",
+        "Barda bez talentu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Vondráčkovi",
+        "Radku Vondráčkovi"
+      ],
+      "replacements": [
+        "Burešovu marigoldu",
+        "Majiteli nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinovému lezci po lavicích sněmovny",
+        "Bardovi bez talentu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Vondráčka",
+        "Radka Vondráčka"
+      ],
+      "replacements": [
+        "Burešův marigold",
+        "Majitele nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinového lezce po lavicích sněmovny",
+        "Barda bez talentu"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Vondráčku",
+        "Radku Vondráčku"
+      ],
+      "replacements": [
+        "Burešův marigolde",
+        "Majiteli nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinový lezče po lavicích sněmovny",
+        "Barde bez talentu"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Vondráčkovi",
+        "Radku Vondráčkovi"
+      ],
+      "replacements": [
+        "Burešově marigoldu",
+        "Majiteli nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinovém lezci po lavicích sněmovny",
+        "Bardovi bez talentu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Vondráčkem",
+        "Radkem Vondráčkem"
+      ],
+      "replacements": [
+        "Burešovým marigoldem",
+        "Majitelem nejhezčího prostředníčku ve sněmovně",
+        "Adrenalinovým lezcem po lavicích sněmovny",
+        "Bardem bez talentu"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

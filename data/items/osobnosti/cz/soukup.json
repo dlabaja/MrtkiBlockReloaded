@@ -1,0 +1,159 @@
+{
+  "name": "soukup",
+  "cases": {
+    "1": {
+      "matches": [
+        "Soukup",
+        "Jaromír Soukup"
+      ],
+      "replacements": [
+        "Větroplach",
+        "Debatér sám se sebou",
+        "Dvouprocentní premiér",
+        "Oportunistická svině",
+        "Majitel největší čínské investice v ČR",
+        "Hvězda ČSFD"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Soukupa",
+        "Jaromíra Soukupa"
+      ],
+      "replacements": [
+        "Větroplacha",
+        "Debatéra sama se sebou",
+        "Dvouprocentního premiéra",
+        "Oportunistické svině",
+        "Majitele největší čínské investice v ČR",
+        "Hvězdy ČSFD"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Soukupovi",
+        "Jaromíru Soukupovi"
+      ],
+      "replacements": [
+        "Větroplachovi",
+        "Debatérovi sám se sebou",
+        "Dvouprocentnímu premiérovi",
+        "Oportunistické svini",
+        "Majiteli největší čínské investice v ČR",
+        "Hvězdě ČSFD"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Soukupa",
+        "Jaromíra Soukupa"
+      ],
+      "replacements": [
+        "Větroplacha",
+        "Debatéra sama se sebou",
+        "Dvouprocentního premiéra",
+        "Oportunistickou svini",
+        "Majitele největší čínské investice v ČR",
+        "Hvězdu ČSFD"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Soukupe",
+        "Jaromíre Soukupe"
+      ],
+      "replacements": [
+        "Větroplachu",
+        "Debatére sám se sebou",
+        "Dvouprocentní premiére",
+        "Oportunistická svině",
+        "Majiteli největší čínské investice v ČR",
+        "Hvězdo ČSFD"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Soukupovi",
+        "Jaromíru Soukupovi"
+      ],
+      "replacements": [
+        "Větroplachovi",
+        "Debatérovi sám se sebou",
+        "Dvouprocentním premiérovi",
+        "Oportunistické svini",
+        "Majiteli největší čínské investice v ČR",
+        "Hvězdě ČSFD"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Soukupem",
+        "Jaromírem Soukupem"
+      ],
+      "replacements": [
+        "Větroplachem",
+        "Debatérem sám se sebou",
+        "Dvouprocentním premiérem",
+        "Oportunistickou sviní",
+        "Majitelem největší čínské investice v ČR",
+        "Hvězdou ČSFD"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Soukupovo"
+      ],
+      "replacements": [
+        "Větroplachovo",
+        "Oportunistovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Soukupova"
+      ],
+      "replacements": [
+        "Větroplachova",
+        "Oportunistova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Soukupův"
+      ],
+      "replacements": [
+        "Větroplachův",
+        "Oportunistův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Soukupovi"
+      ],
+      "replacements": [
+        "Větroplachovi",
+        "Oportunistovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Soukupovy"
+      ],
+      "replacements": [
+        "Větroplachovy",
+        "Oportunistovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Soukupově"
+      ],
+      "replacements": [
+        "Větroplachově",
+        "Oportunistově"
+      ]
+    }
+  }
+}

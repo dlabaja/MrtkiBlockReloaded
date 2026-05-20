@@ -1,0 +1,166 @@
+{
+  "name": "kalousek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Kalousek",
+        "Miroslav Kalousek"
+      ],
+      "replacements": [
+        "Arcikacíř Mirek",
+        "Kalůsek",
+        "Ňajvětšej kreminálník",
+        "Zloděj zlodějský",
+        "Těn ožrala",
+        "Padákový zabiják",
+        "Viník našich posraných životů"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Kalouska",
+        "Miroslava Kalouska"
+      ],
+      "replacements": [
+        "Arcikacíře Mirka",
+        "Kalůska",
+        "Ňajvětšeho kreminálníka",
+        "Zloděje zlodějského",
+        "Těho ožraly",
+        "Padákového zabijáka",
+        "Viníka našich posraných životů"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Kalouskovi",
+        "Miroslavu Kalouskovi"
+      ],
+      "replacements": [
+        "Arcikacíři Mirkovi",
+        "Kalůskovi",
+        "Ňajvětšemu kreminálníkovi",
+        "Zloději zlodějskému",
+        "Těmu ožralovi",
+        "Padákovému zabijákovi",
+        "Viníku našich posraných životů"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Kalouska",
+        "Miroslava Kalouska"
+      ],
+      "replacements": [
+        "Arcikacíře Mirka",
+        "Kalůska",
+        "Ňajvětšeho kreminálníka",
+        "Zloděje zlodějského",
+        "Těho ožralu",
+        "Padákového zabijáka",
+        "Viníka našich posraných životů"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Kalousku",
+        "Miroslave Kalousku"
+      ],
+      "replacements": [
+        "Arcikacíři Mirku",
+        "Kalůsku",
+        "Ňajvětšej kreminálníku",
+        "Zloději zlodějský",
+        "Ty ožralo",
+        "Padákový zabijáku",
+        "Viníku našich posraných životů"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Kalouskovi",
+        "Miroslavu Kalouskovi"
+      ],
+      "replacements": [
+        "Arcikacíři Mirkovi",
+        "Kalůskovi",
+        "Ňajvětšemu kreminálníkovi",
+        "Zloději zlodějském",
+        "Ťom ožralovi",
+        "Padákovém zabijákovi",
+        "Viníku našich posraných životů"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Kalouskem",
+        "Miroslavem Kalouskem"
+      ],
+      "replacements": [
+        "Arcikacířem Mirkem",
+        "Kalůskem",
+        "Ňajvětšejm kreminálníkem",
+        "Zlodějem zlodějským",
+        "Tím ožralou",
+        "Padákovým zabijákem",
+        "Viníkem našich posraných životů"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Kalouskovo"
+      ],
+      "replacements": [
+        "Kalůskovo",
+        "Ožralovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Kalouskova"
+      ],
+      "replacements": [
+        "Kalůskova",
+        "Ožralova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Kalouskův"
+      ],
+      "replacements": [
+        "Kalůskův",
+        "Ožralův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Kalouskovi"
+      ],
+      "replacements": [
+        "Kalůskovi",
+        "Ožralovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Kalouskovy"
+      ],
+      "replacements": [
+        "Kalůskovy",
+        "Ožralovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Kalouskově"
+      ],
+      "replacements": [
+        "Kalůskově",
+        "Ožralově"
+      ]
+    }
+  }
+}

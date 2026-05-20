@@ -1,0 +1,108 @@
+{
+  "name": "hrib",
+  "cases": {
+    "1": {
+      "matches": [
+        "Hřib",
+        "Zdeněk Hřib"
+      ],
+      "replacements": [
+        "Mykologický zázrak",
+        "Pražská zácpa",
+        "Mám plán"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Hřiba",
+        "Zdeňka Hřiba"
+      ],
+      "replacements": [
+        "Mykologického zázraku",
+        "Pražské zácpy",
+        "Mám plánu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Hřibovi",
+        "Zdeňku Hřibovi"
+      ],
+      "replacements": [
+        "Mykologickému zázraku",
+        "Pražské zácpě",
+        "Mám plánu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Hřiba",
+        "Zdeňka Hřiba"
+      ],
+      "replacements": [
+        "Mykologický zázrak",
+        "Pražskou zácpu",
+        "Mám plán"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Hřibe",
+        "Zdeňku Hřibe"
+      ],
+      "replacements": [
+        "Mykologický zázraku",
+        "Pražská zácpo",
+        "Mám pláne"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Hřibovi",
+        "Zdeňku Hřibovi"
+      ],
+      "replacements": [
+        "Mykologickém zázraku",
+        "Pražské zácpě",
+        "Mám plánu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Hřibem",
+        "Zdeňkem Hřibem"
+      ],
+      "replacements": [
+        "Mykologickým zázrakem",
+        "Pražskou zácpou",
+        "Mám plánem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

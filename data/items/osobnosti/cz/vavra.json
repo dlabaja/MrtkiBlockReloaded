@@ -1,0 +1,108 @@
+{
+  "name": "vavra",
+  "cases": {
+    "1": {
+      "matches": [
+        "Vávra",
+        "Daniel Vávra"
+      ],
+      "replacements": [
+        "CEO sebereflexe",
+        "Gibon v Bentley",
+        "Frý Spíč Mafia"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Vávry",
+        "Daniela Vávry"
+      ],
+      "replacements": [
+        "CEO sebereflexe",
+        "Gibona v Bentley",
+        "Frý Spíč Mafie"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Vávrovi",
+        "Danielu Vávrovi"
+      ],
+      "replacements": [
+        "CEO sebereflexi",
+        "Gibonovi v Bentley",
+        "Frý Spíč Mafii"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Vávru",
+        "Daniela Vávru"
+      ],
+      "replacements": [
+        "CEO sebereflexe",
+        "Gibona v Bentley",
+        "Frý Spíč Mafii"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Vávro",
+        "Danieli Vávro"
+      ],
+      "replacements": [
+        "CEO sebereflexe",
+        "Gibone v Bentley",
+        "Frý Spíč Mafie"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Vávrovi",
+        "Danielu Vávrovi"
+      ],
+      "replacements": [
+        "CEO sebereflexi",
+        "Gibonovi v Bentley",
+        "Frý Spíč Mafii"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Vávrou",
+        "Danielem Vávrou"
+      ],
+      "replacements": [
+        "CEO sebereflexí",
+        "Gibonem v Bentley",
+        "Frý Spíč Mafií"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

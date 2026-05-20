@@ -1,0 +1,132 @@
+{
+  "name": "vystrcil",
+  "cases": {
+    "1": {
+      "matches": [
+        "Vystrčil",
+        "Miloš Vystrčil"
+      ],
+      "replacements": [
+        "Agresivní sysel",
+        "Taiwanský simp",
+        "Kubera light"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Vystrčila",
+        "Miloše Vystrčila"
+      ],
+      "replacements": [
+        "Agresivního sysla",
+        "Taiwanského simpa",
+        "Kubery light"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Vystrčilovi",
+        "Miloši Vystrčilovi"
+      ],
+      "replacements": [
+        "Agresivnímu syslovi",
+        "Taiwanskému simpovi",
+        "Kuberovi light"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Vystrčila",
+        "Miloše Vystrčila"
+      ],
+      "replacements": [
+        "Agresivního sysla",
+        "Taiwanského simpa",
+        "Kuberu light"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Vystrčile",
+        "Miloši Vystrčile"
+      ],
+      "replacements": [
+        "Agresivní sysle",
+        "Taiwanský simpe",
+        "Kubero light"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Vystrčilovi",
+        "Miloši Vystrčilovi"
+      ],
+      "replacements": [
+        "Agresivním syslovi",
+        "Taiwanském simpovi",
+        "Kuberovi light"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Vystrčilem",
+        "Milošem Vystrčilem"
+      ],
+      "replacements": [
+        "Agresivním syslem",
+        "Taiwanským simpem",
+        "Kuberou light"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Vystrčilovo"
+      ],
+      "replacements": [
+        "Syslovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Vystrčilova"
+      ],
+      "replacements": [
+        "Syslova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Vystrčilův"
+      ],
+      "replacements": [
+        "Syslův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Vystrčilovi"
+      ],
+      "replacements": [
+        "Syslovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Vystrčilovy"
+      ],
+      "replacements": [
+        "Syslovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Vystrčilově"
+      ],
+      "replacements": [
+        "Syslově"
+      ]
+    }
+  }
+}

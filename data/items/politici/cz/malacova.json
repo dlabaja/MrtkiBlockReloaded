@@ -1,0 +1,115 @@
+{
+  "name": "malacova",
+  "cases": {
+    "1": {
+      "matches": [
+        "Maláčová",
+        "Jana Maláčová"
+      ],
+      "replacements": [
+        "Venezuela",
+        "Dluhová spirála",
+        "Předloha Věstonické Venuše",
+        "Předsedkyně Twinků"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Maláčové",
+        "Jany Maláčové"
+      ],
+      "replacements": [
+        "Venezuely",
+        "Dluhové spirály",
+        "Předlohy Věstonické Venuše",
+        "Předsedkyně Twinků"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Maláčové",
+        "Janě Maláčové"
+      ],
+      "replacements": [
+        "Venezuele",
+        "Dluhové spirále",
+        "Předloze Věstonické Venuše",
+        "Předsedkyni Twinků"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Maláčovou",
+        "Janu Maláčovou"
+      ],
+      "replacements": [
+        "Venezuelu",
+        "Dluhovou spirálu",
+        "Předlohu Věstonické Venuše",
+        "Předsedkyni Twinků"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Maláčová",
+        "Jano Maláčová"
+      ],
+      "replacements": [
+        "Venezuelo",
+        "Dluhová spirálo",
+        "Předloho Věstonické Venuše",
+        "Předsedkyně Twinků"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Maláčové",
+        "Janě Maláčové"
+      ],
+      "replacements": [
+        "Venezuele",
+        "Dluhové spirále",
+        "Předloze Věstonické Venuše",
+        "Předsedkyni Twinků"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Maláčovou",
+        "Janou Maláčovou"
+      ],
+      "replacements": [
+        "Venezuelou",
+        "Dluhovou spirálou",
+        "Předlohou Věstonické Venuše",
+        "Předsedkyní Twinků"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

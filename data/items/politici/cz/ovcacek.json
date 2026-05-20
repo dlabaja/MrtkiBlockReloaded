@@ -1,0 +1,108 @@
+{
+  "name": "ovcacek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Ovčáček",
+        "Jiří Ovčáček"
+      ],
+      "replacements": [
+        "Buzerant s kabelkou",
+        "Zaměstnanec hospicu Lány",
+        "Twitterový terrorista"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Ovčáčka",
+        "Jiřího Ovčáčka"
+      ],
+      "replacements": [
+        "Buzeranta s kabelkou",
+        "Zaměstnance hospicu Lány",
+        "Twitterového terroristy"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Ovčáčkovi",
+        "Jiřímu Ovčáčkovi"
+      ],
+      "replacements": [
+        "Buzerantovi s kabelkou",
+        "Zaměstnanci hospicu Lány",
+        "Twitterovému terroristovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Ovčáčka",
+        "Jiřího Ovčáčka"
+      ],
+      "replacements": [
+        "Buzeranta s kabelkou",
+        "Zaměstnance hospicu Lány",
+        "Twitterového terroristu"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Ovčáčku",
+        "Jiří Ovčáčku"
+      ],
+      "replacements": [
+        "Buzerante s kabelkou",
+        "Zaměstnanče hospicu Lány",
+        "Twitterový terroristo"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Ovčáčkovi",
+        "Jiřím Ovčáčkovi"
+      ],
+      "replacements": [
+        "Buzerantovi s kabelkou",
+        "Zaměstnanci hospicu Lány",
+        "Twitterovém terroristovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Ovčáčkem",
+        "Jiřím Ovčáčkem"
+      ],
+      "replacements": [
+        "Buzerantem s kabelkou",
+        "Zaměstnancem hospicu Lány",
+        "Twitterovým terroristou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

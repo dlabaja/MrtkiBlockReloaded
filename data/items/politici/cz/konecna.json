@@ -1,0 +1,115 @@
+{
+  "name": "konecna",
+  "cases": {
+    "1": {
+      "matches": [
+        "Konečná",
+        "Kateřina Konečná"
+      ],
+      "replacements": [
+        "Blonďatý krtek",
+        "Putinova děvka",
+        "Šilhavá rachejtle",
+        "Skřítek Racochejl"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Konečné",
+        "Kateřiny Konečné"
+      ],
+      "replacements": [
+        "Blonďatého krtka",
+        "Putinovy děvky",
+        "Šilhavé rachejtle",
+        "Skřítka Racochejla"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Konečné",
+        "Kateřině Konečné"
+      ],
+      "replacements": [
+        "Blonďatému krtkovi",
+        "Putinově děvce",
+        "Šilhavé rachejtli",
+        "Skřítkovi Racochejlovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Konečnou",
+        "Kateřinu Konečnou"
+      ],
+      "replacements": [
+        "Blonďatého krtka",
+        "Putinovu děvku",
+        "Šilhavou rachejtli",
+        "Skřítka Racochejla"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Konečná",
+        "Kateřino Konečná"
+      ],
+      "replacements": [
+        "Blonďatý krtku",
+        "Putinova děvko",
+        "Šilhavá rachejtle",
+        "Skřítku Racochejle"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Konečné",
+        "Kateřině Konečné"
+      ],
+      "replacements": [
+        "Blonďatém krtkovi",
+        "Putinově děvce",
+        "Šilhavé rachejtli",
+        "Skřítkovi Racochejlovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Konečnou",
+        "Kateřinou Konečnou"
+      ],
+      "replacements": [
+        "Blonďatým krtkem",
+        "Putinovou děvkou",
+        "Šilhavou rachejtlí",
+        "Skřítkem Racochejlem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

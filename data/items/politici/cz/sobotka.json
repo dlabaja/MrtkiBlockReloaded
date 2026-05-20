@@ -1,0 +1,147 @@
+{
+  "name": "sobotka",
+  "cases": {
+    "1": {
+      "matches": [
+        "Bohuslav Sobotka",
+        "Sobotka"
+      ],
+      "replacements": [
+        "Dluhoslav Nedělej",
+        "Zubopleš z OKD",
+        "Žalud s brýlemi",
+        "Der frenc"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Bohuslava Sobotky",
+        "Sobotky"
+      ],
+      "replacements": [
+        "Dluhoslava Neděleje",
+        "Zubopleše z OKD",
+        "Žaluda s brýlemi",
+        "Der frenca"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Bohuslavu Sobotkovi",
+        "Bohuslavovi Sobotkovi",
+        "Sobotkovi"
+      ],
+      "replacements": [
+        "Dluhoslavu Nedělejovi",
+        "Zubopleši z OKD",
+        "Žaludu s brýlemi",
+        "Der frencovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Bohuslava Sobotku",
+        "Sobotku"
+      ],
+      "replacements": [
+        "Dluhoslava Neděleje",
+        "Zubopleše z OKD",
+        "Žaluda s brýlemi",
+        "Der frenca"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Bohuslave Sobotko",
+        "Sobotko"
+      ],
+      "replacements": [
+        "Dluhoslave Neděleji",
+        "Zubopleši z OKD",
+        "Žalude s brýlemi",
+        "Der frencu"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Bohuslavu Sobotkovi",
+        "Bohuslavovi Sobotkovi",
+        "Sobotkovi"
+      ],
+      "replacements": [
+        "Dluhoslavu Nedělejovi",
+        "Zubopleši z OKD",
+        "Žaludu s brýlemi",
+        "Der frencovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Bohuslavem Sobotkou",
+        "Sobotkou"
+      ],
+      "replacements": [
+        "Dluhoslavem Nedělejem",
+        "Zuboplešem z OKD",
+        "Žaludem s brýlemi",
+        "Der frencem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Sobotkovo"
+      ],
+      "replacements": [
+        "Dluhoslavovo",
+        "Zuboplešovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Sobotkova"
+      ],
+      "replacements": [
+        "Dluhoslavova",
+        "Zuboplešova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Sobotkův"
+      ],
+      "replacements": [
+        "Dluhoslavův",
+        "Zuboplešův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Sobotkovi"
+      ],
+      "replacements": [
+        "Dluhoslavovi",
+        "Zuboplešovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Sobotkovy"
+      ],
+      "replacements": [
+        "Dluhoslavovy",
+        "Zuboplešovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Sobotkově"
+      ],
+      "replacements": [
+        "Dluhoslavově",
+        "Zuboplešově"
+      ]
+    }
+  }
+}
