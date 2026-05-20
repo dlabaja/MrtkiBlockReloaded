@@ -24,3 +24,6 @@ Nápady na jména a přezdívky můžete psát i na [Discord](https://discord.gg
 Matches = co se nahrazuje, Replacements = za co se to nahradí. Pozor na mezery a velká/malá písmena!
 
 Rozšíření si bere data z data/data.json. Ten generuji automaticky ze souborů v items, proto ho prosím neupravujte. Rozšíření si ho po startu umí samo stáhnout z GitHubu.
+
+<img width="712" height="709" alt="2026-05-19_23-45" src="https://github.com/user-attachments/assets/d060c0f3-0c8d-42c8-90a5-04fd37060a13" />
+
