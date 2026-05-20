@@ -3,5 +3,8 @@ export function getRandomInt(max: number) {
 }
 
 export function getRandomItem<T>(list: T[]) {
+    if (!list.length) {
+        return undefined;
+    }
     return list[getRandomInt(list.length)];
 }

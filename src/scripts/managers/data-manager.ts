@@ -71,12 +71,12 @@ export class DataManager {
         }
     }
 
-    public getRandomReplacement(match: string) {
+    public getRandomReplacement(match: string): string {
         const replacements = this.replacements.get(match);
         if (!replacements) {
             return match;
         }
-        return getRandomItem(replacements);
+        return getRandomItem(replacements) || match;
     }
 
     public isIgnoredMatch(match: string) {

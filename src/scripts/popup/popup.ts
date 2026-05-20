@@ -93,7 +93,7 @@ getPopupContext().then(async (context) => {
         
         context.connectionManager.postMessage({type: MessageType.NameIds});
         
-        document.getElementById("subtitle")!.innerText = getRandomItem(subtitles);
+        document.getElementById("subtitle")!.innerText = getRandomItem(subtitles)!;
         loadConfig();
         
         registerCallback(ids[0], "change", onDisableExtensionChanged)
