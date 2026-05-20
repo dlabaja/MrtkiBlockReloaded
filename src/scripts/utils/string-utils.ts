@@ -13,15 +13,28 @@ export function pad(text: string, padding: string) {
 }
 
 export function firstChar(text: string) {
-    if (text.length == 0) {
+    if (text.length === 0) {
         return "";
     }
     return text[0];
 }
 
 export function lastChar(text: string) {
-    if (text.length == 0) {
+    if (text.length === 0) {
         return "";
     }
     return text[text.length - 1];
+}
+
+export function toSwappedCase(text: string) {
+    const result = [];
+    for (const char of text) {
+        const upper = char.toUpperCase();
+        if (char === upper) {
+            result.push(char.toLowerCase());
+            continue;
+        }
+        result.push(upper);
+    }
+    return result.join();
 }
