@@ -23,7 +23,7 @@ function buildData() {
         }
     })
     
-    fs.writeFileSync(outputPath, JSON.stringify(resultObjects, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(resultObjects));
 }
 
 function processJson(path, resultObjects) {
