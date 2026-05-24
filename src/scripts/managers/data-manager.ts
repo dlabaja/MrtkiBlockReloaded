@@ -35,8 +35,8 @@ interface DataDeclension {
 type MatchGroupId = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "to" | "ta" | "ten" | "ti" | "ty" | "te";
 
 interface MatchGroup {
-    groupId: MatchGroupId
-    matches: string[]
+    groupId: MatchGroupId,
+    matches: string[],
     prepositions: string[],
     replacements: string[]
 }
@@ -66,13 +66,6 @@ export class DataManager {
         for (const data of this._data) {
             const matchGroups = this.getMatchGroups(data);
             const matches = this.getMatches(matchGroups);
-            if (data.matchUpperCase) {
-                matches.push(...matches.map(x => x.toUpperCase()));
-            }
-            if (data.matchLowerCase) {
-                matches.push(...matches.map(x => x.toLowerCase()));
-            }
-            
             this.nameIds.push(data.name);
             this.namesToMatches.set(data.name, matches)
             this.matches.push(...matches);
@@ -134,9 +127,15 @@ export class DataManager {
         const entries = [...Object.entries(data.cases), ...Object.entries(data.adjectives)];
         for (const entry of entries) {
             const id = entry[0] as MatchGroupId;
+            const _matches = entry[1].matches;
+            const matches: string[] = [
+                ..._matches,
+                ...(data.matchUpperCase ? _matches.map(x => x.toUpperCase()) : []),
+                ...(data.matchLowerCase ? _matches.map(x => x.toLowerCase()) : [])
+            ]
             result.push({
                 groupId: id,
-                matches: entry[1].matches,
+                matches: matches,
                 replacements: entry[1].replacements,
                 prepositions: this.getPrepositions(id)
             })
