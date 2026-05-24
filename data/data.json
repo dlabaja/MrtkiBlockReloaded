@@ -1,6 +1,8 @@
 [
   {
     "name": "agrofert",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -96,6 +98,8 @@
   },
   {
     "name": "gambrinus",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -183,6 +187,8 @@
   },
   {
     "name": "starobrno",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -272,6 +278,8 @@
   },
   {
     "name": "duka",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -413,6 +421,8 @@
   },
   {
     "name": "koudelka",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -533,6 +543,8 @@
   },
   {
     "name": "krajco",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -643,6 +655,8 @@
   },
   {
     "name": "ringo-cech",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -758,6 +772,8 @@
   },
   {
     "name": "soukup",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -917,6 +933,8 @@
   },
   {
     "name": "vavra",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -1025,6 +1043,8 @@
   },
   {
     "name": "babis",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -1244,6 +1264,8 @@
   },
   {
     "name": "bartos",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -1390,6 +1412,8 @@
   },
   {
     "name": "blatny",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -1499,6 +1523,8 @@
   },
   {
     "name": "cibulka",
+    "matchUpperCase": false,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -1651,6 +1677,8 @@
   },
   {
     "name": "feri",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -1763,6 +1791,8 @@
   },
   {
     "name": "ferjencik",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -1864,6 +1894,8 @@
   },
   {
     "name": "fiala",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -2024,6 +2056,8 @@
   },
   {
     "name": "filip",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -2125,6 +2159,8 @@
   },
   {
     "name": "foldyna",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -2240,6 +2276,8 @@
   },
   {
     "name": "hamacek",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -2425,6 +2463,8 @@
   },
   {
     "name": "havlicek",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -2611,6 +2651,8 @@
   },
   {
     "name": "hrib",
+    "matchUpperCase": false,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -2719,6 +2761,8 @@
   },
   {
     "name": "kalousek",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -2885,6 +2929,8 @@
   },
   {
     "name": "klaus",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -3058,6 +3104,8 @@
   },
   {
     "name": "konecna",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -3173,6 +3221,8 @@
   },
   {
     "name": "macinka-long",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -3281,6 +3331,8 @@
   },
   {
     "name": "macinka-short",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -3432,6 +3484,8 @@
   },
   {
     "name": "malacova",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -3547,6 +3601,8 @@
   },
   {
     "name": "mynar",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -3706,6 +3762,8 @@
   },
   {
     "name": "nacher",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -3884,6 +3942,8 @@
   },
   {
     "name": "necas",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -4042,6 +4102,8 @@
   },
   {
     "name": "nejedly",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -4163,10 +4225,11 @@
   },
   {
     "name": "novotny",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
-          "Novotný",
           "Pavel Novotný"
         ],
         "replacements": [
@@ -4181,7 +4244,6 @@
       },
       "2": {
         "matches": [
-          "Novotného",
           "Pavla Novotného"
         ],
         "replacements": [
@@ -4196,7 +4258,6 @@
       },
       "3": {
         "matches": [
-          "Novotnému",
           "Pavlu Novotnému"
         ],
         "replacements": [
@@ -4211,7 +4272,6 @@
       },
       "4": {
         "matches": [
-          "Novotného",
           "Pavla Novotného"
         ],
         "replacements": [
@@ -4226,7 +4286,6 @@
       },
       "5": {
         "matches": [
-          "Novotný",
           "Pavle Novotný"
         ],
         "replacements": [
@@ -4241,7 +4300,6 @@
       },
       "6": {
         "matches": [
-          "Novotném",
           "Pavlu Novotném"
         ],
         "replacements": [
@@ -4256,7 +4314,6 @@
       },
       "7": {
         "matches": [
-          "Novotným",
           "Pavlem Novotným"
         ],
         "replacements": [
@@ -4299,6 +4356,8 @@
   },
   {
     "name": "okamura",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -4459,6 +4518,8 @@
   },
   {
     "name": "ovcacek",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -4567,6 +4628,8 @@
   },
   {
     "name": "paroubek",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -4706,6 +4769,8 @@
   },
   {
     "name": "prymula",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -4878,6 +4943,8 @@
   },
   {
     "name": "rajchl",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5010,6 +5077,8 @@
   },
   {
     "name": "rakusan",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -5152,6 +5221,8 @@
   },
   {
     "name": "rath",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5253,6 +5324,8 @@
   },
   {
     "name": "rozner",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5400,6 +5473,8 @@
   },
   {
     "name": "schillerova",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5542,6 +5617,8 @@
   },
   {
     "name": "semelova",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5678,6 +5755,8 @@
   },
   {
     "name": "sobotka",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5825,6 +5904,8 @@
   },
   {
     "name": "topolanek",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -5945,6 +6026,8 @@
   },
   {
     "name": "turek",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -6145,6 +6228,8 @@
   },
   {
     "name": "vojtech",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -6269,6 +6354,8 @@
   },
   {
     "name": "volny",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -6440,6 +6527,8 @@
   },
   {
     "name": "vondracek",
+    "matchUpperCase": true,
+    "matchLowerCase": true,
     "cases": {
       "1": {
         "matches": [
@@ -6555,6 +6644,8 @@
   },
   {
     "name": "vystrcil",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -6687,6 +6778,8 @@
   },
   {
     "name": "zeman",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -6891,10 +6984,13 @@
   },
   {
     "name": "motoriste",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
-          "Motoristé sobě"
+          "Motoristé sobě",
+          "Motoristé"
         ],
         "replacements": [
           "Motoristé v sobě",
@@ -6903,7 +6999,8 @@
       },
       "2": {
         "matches": [
-          "Motoristů sobě"
+          "Motoristů sobě",
+          "Motoristů"
         ],
         "replacements": [
           "Motoristů v sobě",
@@ -6912,7 +7009,8 @@
       },
       "3": {
         "matches": [
-          "Motoristům sobě"
+          "Motoristům sobě",
+          "Motoristům"
         ],
         "replacements": [
           "Motoristům v sobě",
@@ -6921,7 +7019,8 @@
       },
       "4": {
         "matches": [
-          "Motoristy sobě"
+          "Motoristy sobě",
+          "Motoristy"
         ],
         "replacements": [
           "Motoristy v sobě",
@@ -6930,7 +7029,8 @@
       },
       "5": {
         "matches": [
-          "Motoristé sobě"
+          "Motoristé sobě",
+          "Motoristé"
         ],
         "replacements": [
           "Motoristé v sobě",
@@ -6939,7 +7039,8 @@
       },
       "6": {
         "matches": [
-          "Motoristech sobě"
+          "Motoristech sobě",
+          "Motoristech"
         ],
         "replacements": [
           "Motoristech v sobě",
@@ -6948,7 +7049,8 @@
       },
       "7": {
         "matches": [
-          "Motoristy sobě"
+          "Motoristy sobě",
+          "Motoristy"
         ],
         "replacements": [
           "Motoristy v sobě",
@@ -6985,6 +7087,8 @@
   },
   {
     "name": "spd",
+    "matchUpperCase": false,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
@@ -7079,6 +7183,8 @@
   },
   {
     "name": "stacilo",
+    "matchUpperCase": true,
+    "matchLowerCase": false,
     "cases": {
       "1": {
         "matches": [
