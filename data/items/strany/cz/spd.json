@@ -1,5 +1,7 @@
 {
   "name": "spd",
+  "matchUpperCase": false,
+  "matchLowerCase": false,
   "cases": {
     "1": {
       "matches": [

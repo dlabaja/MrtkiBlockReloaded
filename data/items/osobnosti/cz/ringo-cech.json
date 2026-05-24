@@ -1,5 +1,7 @@
 {
   "name": "ringo-cech",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
   "cases": {
     "1": {
       "matches": [

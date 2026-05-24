@@ -1,5 +1,7 @@
 {
   "name": "agrofert",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
   "cases": {
     "1": {
       "matches": [

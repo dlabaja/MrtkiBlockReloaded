@@ -26,6 +26,14 @@
       "type": "string",
       "description": "ID skupiny"
     },
+    "matchUpperCase": {
+      "type": "boolean",
+      "description": "True pokud mají být matchovány i matche psané velkými písmeny (Babiš -> BABIŠ)"
+    },
+    "matchLowerCase": {
+      "type": "boolean",
+      "description": "True pokud mají být matchovány i matche psané malými písmeny (Babiš -> babiš)"
+    },
     "cases": {
       "type": "object",
       "properties": {
@@ -52,5 +60,5 @@
       "required": ["to", "ta", "ten", "ti", "ty", "te"]
     }
   },
-  "required": ["name", "cases", "adjectives"]
+  "required": ["name", "matchUpperCase", "matchLowerCase", "cases", "adjectives"]
 }

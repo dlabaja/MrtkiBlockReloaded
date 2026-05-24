@@ -1,5 +1,7 @@
 {
   "name": "konecna",
+  "matchUpperCase": true,
+  "matchLowerCase": false,
   "cases": {
     "1": {
       "matches": [

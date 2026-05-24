@@ -1,5 +1,7 @@
 {
   "name": "macinka-long",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
   "cases": {
     "1": {
       "matches": [

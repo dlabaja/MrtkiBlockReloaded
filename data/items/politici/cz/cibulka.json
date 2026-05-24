@@ -1,5 +1,7 @@
 {
   "name": "cibulka",
+  "matchUpperCase": false,
+  "matchLowerCase": false,
   "cases": {
     "1": {
       "matches": [

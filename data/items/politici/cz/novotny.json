@@ -1,9 +1,10 @@
 {
   "name": "novotny",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
   "cases": {
     "1": {
       "matches": [
-        "Novotný",
         "Pavel Novotný"
       ],
       "replacements": [
@@ -18,7 +19,6 @@
     },
     "2": {
       "matches": [
-        "Novotného",
         "Pavla Novotného"
       ],
       "replacements": [
@@ -33,7 +33,6 @@
     },
     "3": {
       "matches": [
-        "Novotnému",
         "Pavlu Novotnému"
       ],
       "replacements": [
@@ -48,7 +47,6 @@
     },
     "4": {
       "matches": [
-        "Novotného",
         "Pavla Novotného"
       ],
       "replacements": [
@@ -63,7 +61,6 @@
     },
     "5": {
       "matches": [
-        "Novotný",
         "Pavle Novotný"
       ],
       "replacements": [
@@ -78,7 +75,6 @@
     },
     "6": {
       "matches": [
-        "Novotném",
         "Pavlu Novotném"
       ],
       "replacements": [
@@ -93,7 +89,6 @@
     },
     "7": {
       "matches": [
-        "Novotným",
         "Pavlem Novotným"
       ],
       "replacements": [

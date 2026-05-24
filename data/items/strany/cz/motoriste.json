@@ -1,9 +1,12 @@
 {
   "name": "motoriste",
+  "matchUpperCase": true,
+  "matchLowerCase": false,
   "cases": {
     "1": {
       "matches": [
-        "Motoristé sobě"
+        "Motoristé sobě",
+        "Motoristé"
       ],
       "replacements": [
         "Motoristé v sobě",
@@ -12,7 +15,8 @@
     },
     "2": {
       "matches": [
-        "Motoristů sobě"
+        "Motoristů sobě",
+        "Motoristů"
       ],
       "replacements": [
         "Motoristů v sobě",
@@ -21,7 +25,8 @@
     },
     "3": {
       "matches": [
-        "Motoristům sobě"
+        "Motoristům sobě",
+        "Motoristům"
       ],
       "replacements": [
         "Motoristům v sobě",
@@ -30,7 +35,8 @@
     },
     "4": {
       "matches": [
-        "Motoristy sobě"
+        "Motoristy sobě",
+        "Motoristy"
       ],
       "replacements": [
         "Motoristy v sobě",
@@ -39,7 +45,8 @@
     },
     "5": {
       "matches": [
-        "Motoristé sobě"
+        "Motoristé sobě",
+        "Motoristé"
       ],
       "replacements": [
         "Motoristé v sobě",
@@ -48,7 +55,8 @@
     },
     "6": {
       "matches": [
-        "Motoristech sobě"
+        "Motoristech sobě",
+        "Motoristech"
       ],
       "replacements": [
         "Motoristech v sobě",
@@ -57,7 +65,8 @@
     },
     "7": {
       "matches": [
-        "Motoristy sobě"
+        "Motoristy sobě",
+        "Motoristy"
       ],
       "replacements": [
         "Motoristy v sobě",

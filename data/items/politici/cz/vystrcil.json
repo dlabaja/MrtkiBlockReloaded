@@ -1,5 +1,7 @@
 {
   "name": "vystrcil",
+  "matchUpperCase": true,
+  "matchLowerCase": false,
   "cases": {
     "1": {
       "matches": [
