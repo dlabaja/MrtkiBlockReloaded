@@ -6,6 +6,8 @@ import {ConfigManager} from "./config-manager/config-manager.abstract";
 
 export interface Data {
     name: string,
+    matchUpperCase: boolean,
+    matchLowerCase: boolean,
     cases: {
         1: DataDeclension,
         2: DataDeclension,
@@ -64,6 +66,13 @@ export class DataManager {
         for (const data of this._data) {
             const matchGroups = this.getMatchGroups(data);
             const matches = this.getMatches(matchGroups);
+            if (data.matchUpperCase) {
+                matches.push(...matches.map(x => x.toUpperCase()));
+            }
+            if (data.matchLowerCase) {
+                matches.push(...matches.map(x => x.toLowerCase()));
+            }
+            
             this.nameIds.push(data.name);
             this.namesToMatches.set(data.name, matches)
             this.matches.push(...matches);
