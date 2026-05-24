@@ -1200,7 +1200,7 @@
           "Kunoksichtův",
           "Burešův",
           "STBákův",
-          "Řepkobarův",
+          "Řepkobaronův",
           "Zapíračův"
         ]
       },
@@ -3172,12 +3172,11 @@
     }
   },
   {
-    "name": "macinka",
+    "name": "macinka-long",
     "cases": {
       "1": {
         "matches": [
-          "Petr Macinka",
-          "Macinka"
+          "Petr Macinka"
         ],
         "replacements": [
           "Metr Pacinka",
@@ -3188,8 +3187,7 @@
       },
       "2": {
         "matches": [
-          "Petra Macinky",
-          "Macinky"
+          "Petra Macinky"
         ],
         "replacements": [
           "Metra Pacinky",
@@ -3200,8 +3198,7 @@
       },
       "3": {
         "matches": [
-          "Petru Macinkovi",
-          "Macinkovi"
+          "Petru Macinkovi"
         ],
         "replacements": [
           "Metru Pacinkovi",
@@ -3212,8 +3209,7 @@
       },
       "4": {
         "matches": [
-          "Petra Macinku",
-          "Macinku"
+          "Petra Macinku"
         ],
         "replacements": [
           "Metra Pacinku",
@@ -3224,8 +3220,7 @@
       },
       "5": {
         "matches": [
-          "Petře Macinko",
-          "Macinko"
+          "Petře Macinko"
         ],
         "replacements": [
           "Metře Pacinko",
@@ -3236,10 +3231,7 @@
       },
       "6": {
         "matches": [
-          "Petru Macinkovi",
-          "Macinkovi",
-          "Petru Macinkovi",
-          "Macinkovi"
+          "Petru Macinkovi"
         ],
         "replacements": [
           "Metru Pacinkovi",
@@ -3250,14 +3242,122 @@
       },
       "7": {
         "matches": [
-          "Petrem Macinkou",
-          "Macinkou"
+          "Petrem Macinkou"
         ],
         "replacements": [
           "Metrem Pacinkou",
           "Petrem Prcinkou",
           "Petrem Micinkou",
           "Petrem Nacinkou"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "macinka-short",
+    "cases": {
+      "1": {
+        "matches": [
+          "Macinka"
+        ],
+        "replacements": [
+          "Pacinka",
+          "Prcinka",
+          "Micinka",
+          "Nacinka"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Macinky"
+        ],
+        "replacements": [
+          "Pacinky",
+          "Prcinky",
+          "Micinky",
+          "Nacinky"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Macinkovi"
+        ],
+        "replacements": [
+          "Pacinkovi",
+          "Prcinkovi",
+          "Micinkovi",
+          "Nacinkovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Macinku"
+        ],
+        "replacements": [
+          "Pacinku",
+          "Prcinku",
+          "Micinku",
+          "Nacinku"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Macinko"
+        ],
+        "replacements": [
+          "Pacinko",
+          "Prcinko",
+          "Micinko",
+          "Nacinko"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Macinkovi",
+          "Macinkovi"
+        ],
+        "replacements": [
+          "Pacinkovi",
+          "Prcinkovi",
+          "Micinkovi",
+          "Nacinkovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Macinkou"
+        ],
+        "replacements": [
+          "Pacinkou",
+          "Prcinkou",
+          "Micinkou",
+          "Nacinkou"
         ]
       }
     },
@@ -5844,6 +5944,206 @@
     }
   },
   {
+    "name": "turek",
+    "cases": {
+      "1": {
+        "matches": [
+          "Turek",
+          "Filip Turek"
+        ],
+        "replacements": [
+          "Tutůrek",
+          "Automat na zvedání pravice",
+          "Postrach dětských závodů",
+          "Předepisovatel pití Sava",
+          "Sběratel zahnutých křížů",
+          "Iránský agent",
+          "Schumacher mezi páťáky",
+          "Hranatý parazit",
+          "Adolf Driftler",
+          "CEO damage controlu",
+          "SSchumacher"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Turka",
+          "Filipa Turka"
+        ],
+        "replacements": [
+          "Tutůrka",
+          "Automatu na zvedání pravice",
+          "Postrachu dětských závodů",
+          "Předepisovatele pití Sava",
+          "Sběratele zahnutých křížů",
+          "Iránského agenta",
+          "Schumachera mezi páťáky",
+          "Hranatého parazita",
+          "Adolfa Driftlera",
+          "CEO damage controlu",
+          "SSchumachera"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Turkovi",
+          "Filipu Turkovi"
+        ],
+        "replacements": [
+          "Tutůrkovi",
+          "Automatu na zvedání pravice",
+          "Postrachu dětských závodů",
+          "Předepisovateli pití Sava",
+          "Sběrateli zahnutých křížů",
+          "Iránskému agentovi",
+          "Schumacherovi mezi páťáky",
+          "Hranatému parazitovi",
+          "Adolfu Driftlerovi",
+          "CEO damage controlu",
+          "SSchumacherovi"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Turka",
+          "Filipa Turka"
+        ],
+        "replacements": [
+          "Tutůrka",
+          "Automat na zvedání pravice",
+          "Postrach dětských závodů",
+          "Předepisovatele pití Sava",
+          "Sběratele zahnutých křížů",
+          "Iránského agenta",
+          "Schumachera mezi páťáky",
+          "Hranatého parazita",
+          "Adolfa Driftlera",
+          "CEO damage controlu",
+          "SSchumachera"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Turku",
+          "Filipe Turku"
+        ],
+        "replacements": [
+          "Tutůrku",
+          "Automate na zvedání pravice",
+          "Postrachu dětských závodů",
+          "Předepisovateli pití Sava",
+          "Sběrateli zahnutých křížů",
+          "Iránský agente",
+          "Schumachere mezi páťáky",
+          "Hranatý parazite",
+          "Adolfe Driftlere",
+          "CEO damage controlu",
+          "SSchumachere"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Turkovi",
+          "Filipu Turkovi"
+        ],
+        "replacements": [
+          "Tutůrkovi",
+          "Automatu na zvedání pravice",
+          "Postrachu dětských závodů",
+          "Předepisovateli pití Sava",
+          "Sběrateli zahnutých křížů",
+          "Iránském agentovi",
+          "Schumacherovi mezi páťáky",
+          "Hranatém parazitovi",
+          "Adolfu Driftlerovi",
+          "CEO damage controlu",
+          "SSchumacherovi"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Turkem",
+          "Filipem Turkem"
+        ],
+        "replacements": [
+          "Tutůrkem",
+          "Automatem na zvedání pravice",
+          "Postrachem dětských závodů",
+          "Předepisovatelem pití Sava",
+          "Sběratelem zahnutých křížů",
+          "Iránským agentem",
+          "Schumacherem mezi páťáky",
+          "Hranatým parazitem",
+          "Adolfem Driftlerem",
+          "CEO damage controlem",
+          "SSchumacherem"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [
+          "Turkovo",
+          "Filipa Turkovo"
+        ],
+        "replacements": [
+          "Tutůrkovo",
+          "SSchumacherovo"
+        ]
+      },
+      "ta": {
+        "matches": [
+          "Turkova",
+          "Filipa Turkova"
+        ],
+        "replacements": [
+          "Tutůrkova",
+          "SSchumacherova"
+        ]
+      },
+      "ten": {
+        "matches": [
+          "Turkův",
+          "Filipa Turkův"
+        ],
+        "replacements": [
+          "Tutůrkův",
+          "SSchumacherův"
+        ]
+      },
+      "ti": {
+        "matches": [
+          "Turkovi",
+          "Filipa Turkovi"
+        ],
+        "replacements": [
+          "Tutůrkovi",
+          "SSchumacherovi"
+        ]
+      },
+      "ty": {
+        "matches": [
+          "Turkovy",
+          "Filipa Turkovy"
+        ],
+        "replacements": [
+          "Tutůrkovy",
+          "SSchumacherovy"
+        ]
+      },
+      "te": {
+        "matches": [
+          "Turkově",
+          "Filipa Turkově"
+        ],
+        "replacements": [
+          "Tutůrkově",
+          "SSchumacherově"
+        ]
+      }
+    }
+  },
+  {
     "name": "vojtech",
     "cases": {
       "1": {
@@ -6401,7 +6701,8 @@
           "Starý jezevec",
           "Ovar",
           "Beznohý sprinter",
-          "Šáteček"
+          "Šáteček",
+          "Suchozemský plaz"
         ]
       },
       "2": {
@@ -6417,7 +6718,8 @@
           "Starého jezevce",
           "Ovara",
           "Beznohého sprintera",
-          "Šátečka"
+          "Šátečka",
+          "Suchozemského plaza"
         ]
       },
       "3": {
@@ -6433,7 +6735,8 @@
           "Starému jezevci",
           "Ovarovi",
           "Beznohému sprinterovi",
-          "Šátečku"
+          "Šátečku",
+          "Suchozemskému plazu"
         ]
       },
       "4": {
@@ -6449,7 +6752,8 @@
           "Starého jezevce",
           "Ovara",
           "Beznohého sprintera",
-          "Šátečka"
+          "Šátečka",
+          "Suchozemského plaza"
         ]
       },
       "5": {
@@ -6465,7 +6769,8 @@
           "Starý jezevče",
           "Ovare",
           "Beznohý sprintere",
-          "Šátečku"
+          "Šátečku",
+          "Suchozemský plaze"
         ]
       },
       "6": {
@@ -6481,7 +6786,8 @@
           "Starém jezevci",
           "Ovarovi",
           "Beznohém sprinterovi",
-          "Šátečku"
+          "Šátečku",
+          "Suchozemském plazu"
         ]
       },
       "7": {
@@ -6497,7 +6803,8 @@
           "Starým jezevcem",
           "Ovarem",
           "Beznohým sprinterem",
-          "Šátečkem"
+          "Šátečkem",
+          "Suchozemským plazem"
         ]
       }
     },
@@ -6579,6 +6886,258 @@
           "Ovarově",
           "Šátečkově"
         ]
+      }
+    }
+  },
+  {
+    "name": "motoriste",
+    "cases": {
+      "1": {
+        "matches": [
+          "Motoristé sobě"
+        ],
+        "replacements": [
+          "Motoristé v sobě",
+          "Šalinisté sobě"
+        ]
+      },
+      "2": {
+        "matches": [
+          "Motoristů sobě"
+        ],
+        "replacements": [
+          "Motoristů v sobě",
+          "Šalinistů sobě"
+        ]
+      },
+      "3": {
+        "matches": [
+          "Motoristům sobě"
+        ],
+        "replacements": [
+          "Motoristům v sobě",
+          "Šalinistům sobě"
+        ]
+      },
+      "4": {
+        "matches": [
+          "Motoristy sobě"
+        ],
+        "replacements": [
+          "Motoristy v sobě",
+          "Šalinisty sobě"
+        ]
+      },
+      "5": {
+        "matches": [
+          "Motoristé sobě"
+        ],
+        "replacements": [
+          "Motoristé v sobě",
+          "Šalinisté sobě"
+        ]
+      },
+      "6": {
+        "matches": [
+          "Motoristech sobě"
+        ],
+        "replacements": [
+          "Motoristech v sobě",
+          "Šalinistech sobě"
+        ]
+      },
+      "7": {
+        "matches": [
+          "Motoristy sobě"
+        ],
+        "replacements": [
+          "Motoristy v sobě",
+          "Šalinisty sobě"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "spd",
+    "cases": {
+      "1": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Strana Pomocných Dělníků"
+        ]
+      },
+      "2": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Strany Pomocných Dělníků"
+        ]
+      },
+      "3": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Straně Pomocných Dělníků"
+        ]
+      },
+      "4": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Stranu Pomocných Dělníků"
+        ]
+      },
+      "5": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Strano Pomocných Dělníků"
+        ]
+      },
+      "6": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Straně Pomocných Dělníků"
+        ]
+      },
+      "7": {
+        "matches": [
+          "SPD"
+        ],
+        "replacements": [
+          "SSPD",
+          "Stranou Pomocných Dělníků"
+        ]
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
+      }
+    }
+  },
+  {
+    "name": "stacilo",
+    "cases": {
+      "1": {
+        "matches": [
+          "Stačilo!"
+        ],
+        "replacements": [
+          "4% NeStačilo!",
+          "40 let Stačilo!"
+        ]
+      },
+      "2": {
+        "matches": [],
+        "replacements": []
+      },
+      "3": {
+        "matches": [],
+        "replacements": []
+      },
+      "4": {
+        "matches": [],
+        "replacements": []
+      },
+      "5": {
+        "matches": [],
+        "replacements": []
+      },
+      "6": {
+        "matches": [],
+        "replacements": []
+      },
+      "7": {
+        "matches": [],
+        "replacements": []
+      }
+    },
+    "adjectives": {
+      "to": {
+        "matches": [],
+        "replacements": []
+      },
+      "ta": {
+        "matches": [],
+        "replacements": []
+      },
+      "ten": {
+        "matches": [],
+        "replacements": []
+      },
+      "ti": {
+        "matches": [],
+        "replacements": []
+      },
+      "ty": {
+        "matches": [],
+        "replacements": []
+      },
+      "te": {
+        "matches": [],
+        "replacements": []
       }
     }
   }
