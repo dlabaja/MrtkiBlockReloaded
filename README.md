@@ -17,7 +17,7 @@ Pro hledání používám [Aho-Corasick](https://www.youtube.com/watch?v=O7_w001
 Rozšíření se skládá ze tří částí - Background skript (běží od startu prohlížeče, uchovává trie a data), Content skript (per-page, má přístup k DOMu) a Popup (konfigurace). Mezi sebou komunikují pomocí zpráv (Popup -> Background <-> Content), každý má oddělený kontext.
 
 ## Jak přispět:
-**Všechna data jsou v souborech data/items/*jmeno*.json**. Stačí vytvořit soubor s novým jménem podle schématu nebo aktualizovat již existující. Potom vyplníte kolonky pro všechny pády a přídavná jména.
+**Všechna data jsou v souborech data/items/.../jmeno.json**. Stačí vytvořit soubor s novým jménem podle schématu nebo aktualizovat již existující. Potom vyplníte kolonky pro všechny pády a přídavná jména.
 
 Nápady na jména a přezdívky můžete psát i na [Discord](https://discord.gg/6nWXgvEZJF).
 
