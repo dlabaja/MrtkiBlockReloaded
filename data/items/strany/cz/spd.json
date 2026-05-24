@@ -1,0 +1,94 @@
+{
+  "name": "spd",
+  "cases": {
+    "1": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Strana Pomocných Dělníků"
+      ]
+    },
+    "2": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Strany Pomocných Dělníků"
+      ]
+    },
+    "3": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Straně Pomocných Dělníků"
+      ]
+    },
+    "4": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Stranu Pomocných Dělníků"
+      ]
+    },
+    "5": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Strano Pomocných Dělníků"
+      ]
+    },
+    "6": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Straně Pomocných Dělníků"
+      ]
+    },
+    "7": {
+      "matches": [
+        "SPD"
+      ],
+      "replacements": [
+        "SSPD",
+        "Stranou Pomocných Dělníků"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

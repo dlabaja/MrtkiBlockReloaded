@@ -1,0 +1,108 @@
+{
+  "name": "macinka-long",
+  "cases": {
+    "1": {
+      "matches": [
+        "Petr Macinka"
+      ],
+      "replacements": [
+        "Metr Pacinka",
+        "Petr Prcinka",
+        "Petr Micinka",
+        "Petr Nacinka"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Petra Macinky"
+      ],
+      "replacements": [
+        "Metra Pacinky",
+        "Petra Prcinky",
+        "Petra Micinky",
+        "Petra Nacinky"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Petru Macinkovi"
+      ],
+      "replacements": [
+        "Metru Pacinkovi",
+        "Petru Prcinkovi",
+        "Petru Micinkovi",
+        "Petru Nacinkovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Petra Macinku"
+      ],
+      "replacements": [
+        "Metra Pacinku",
+        "Petra Prcinku",
+        "Petra Micinku",
+        "Petra Nacinku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Petře Macinko"
+      ],
+      "replacements": [
+        "Metře Pacinko",
+        "Petře Prcinko",
+        "Petře Micinko",
+        "Petře Nacinko"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Petru Macinkovi"
+      ],
+      "replacements": [
+        "Metru Pacinkovi",
+        "Petru Prcinkovi",
+        "Petru Micinkovi",
+        "Petru Nacinkovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Petrem Macinkou"
+      ],
+      "replacements": [
+        "Metrem Pacinkou",
+        "Petrem Prcinkou",
+        "Petrem Micinkou",
+        "Petrem Nacinkou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

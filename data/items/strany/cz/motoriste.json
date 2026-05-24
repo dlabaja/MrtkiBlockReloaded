@@ -1,0 +1,94 @@
+{
+  "name": "motoriste",
+  "cases": {
+    "1": {
+      "matches": [
+        "Motoristé sobě"
+      ],
+      "replacements": [
+        "Motoristé v sobě",
+        "Šalinisté sobě"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Motoristů sobě"
+      ],
+      "replacements": [
+        "Motoristů v sobě",
+        "Šalinistů sobě"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Motoristům sobě"
+      ],
+      "replacements": [
+        "Motoristům v sobě",
+        "Šalinistům sobě"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Motoristy sobě"
+      ],
+      "replacements": [
+        "Motoristy v sobě",
+        "Šalinisty sobě"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Motoristé sobě"
+      ],
+      "replacements": [
+        "Motoristé v sobě",
+        "Šalinisté sobě"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Motoristech sobě"
+      ],
+      "replacements": [
+        "Motoristech v sobě",
+        "Šalinistech sobě"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Motoristy sobě"
+      ],
+      "replacements": [
+        "Motoristy v sobě",
+        "Šalinisty sobě"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

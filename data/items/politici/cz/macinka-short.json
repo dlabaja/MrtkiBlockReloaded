@@ -1,90 +1,82 @@
 {
-  "name": "macinka",
+  "name": "macinka-short",
   "cases": {
     "1": {
       "matches": [
-        "Petr Macinka",
         "Macinka"
       ],
       "replacements": [
-        "Metr Pacinka",
-        "Petr Prcinka",
-        "Petr Micinka",
-        "Petr Nacinka"
+        "Pacinka",
+        "Prcinka",
+        "Micinka",
+        "Nacinka"
       ]
     },
     "2": {
       "matches": [
-        "Petra Macinky",
         "Macinky"
       ],
       "replacements": [
-        "Metra Pacinky",
-        "Petra Prcinky",
-        "Petra Micinky",
-        "Petra Nacinky"
+        "Pacinky",
+        "Prcinky",
+        "Micinky",
+        "Nacinky"
       ]
     },
     "3": {
       "matches": [
-        "Petru Macinkovi",
         "Macinkovi"
       ],
       "replacements": [
-        "Metru Pacinkovi",
-        "Petru Prcinkovi",
-        "Petru Micinkovi",
-        "Petru Nacinkovi"
+        "Pacinkovi",
+        "Prcinkovi",
+        "Micinkovi",
+        "Nacinkovi"
       ]
     },
     "4": {
       "matches": [
-        "Petra Macinku",
         "Macinku"
       ],
       "replacements": [
-        "Metra Pacinku",
-        "Petra Prcinku",
-        "Petra Micinku",
-        "Petra Nacinku"
+        "Pacinku",
+        "Prcinku",
+        "Micinku",
+        "Nacinku"
       ]
     },
     "5": {
       "matches": [
-        "Petře Macinko",
         "Macinko"
       ],
       "replacements": [
-        "Metře Pacinko",
-        "Petře Prcinko",
-        "Petře Micinko",
-        "Petře Nacinko"
+        "Pacinko",
+        "Prcinko",
+        "Micinko",
+        "Nacinko"
       ]
     },
     "6": {
       "matches": [
-        "Petru Macinkovi",
         "Macinkovi",
-        "Petru Macinkovi",
         "Macinkovi"
       ],
       "replacements": [
-        "Metru Pacinkovi",
-        "Petru Prcinkovi",
-        "Petru Micinkovi",
-        "Petru Nacinkovi"
+        "Pacinkovi",
+        "Prcinkovi",
+        "Micinkovi",
+        "Nacinkovi"
       ]
     },
     "7": {
       "matches": [
-        "Petrem Macinkou",
         "Macinkou"
       ],
       "replacements": [
-        "Metrem Pacinkou",
-        "Petrem Prcinkou",
-        "Petrem Micinkou",
-        "Petrem Nacinkou"
+        "Pacinkou",
+        "Prcinkou",
+        "Micinkou",
+        "Nacinkou"
       ]
     }
   },

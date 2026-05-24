@@ -1,0 +1,200 @@
+{
+  "name": "turek",
+  "cases": {
+    "1": {
+      "matches": [
+        "Turek",
+        "Filip Turek"
+      ],
+      "replacements": [
+        "Tutůrek",
+        "Automat na zvedání pravice",
+        "Postrach dětských závodů",
+        "Předepisovatel pití Sava",
+        "Sběratel zahnutých křížů",
+        "Iránský agent",
+        "Schumacher mezi páťáky",
+        "Hranatý parazit",
+        "Adolf Driftler",
+        "CEO damage controlu",
+        "SSchumacher"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Turka",
+        "Filipa Turka"
+      ],
+      "replacements": [
+        "Tutůrka",
+        "Automatu na zvedání pravice",
+        "Postrachu dětských závodů",
+        "Předepisovatele pití Sava",
+        "Sběratele zahnutých křížů",
+        "Iránského agenta",
+        "Schumachera mezi páťáky",
+        "Hranatého parazita",
+        "Adolfa Driftlera",
+        "CEO damage controlu",
+        "SSchumachera"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Turkovi",
+        "Filipu Turkovi"
+      ],
+      "replacements": [
+        "Tutůrkovi",
+        "Automatu na zvedání pravice",
+        "Postrachu dětských závodů",
+        "Předepisovateli pití Sava",
+        "Sběrateli zahnutých křížů",
+        "Iránskému agentovi",
+        "Schumacherovi mezi páťáky",
+        "Hranatému parazitovi",
+        "Adolfu Driftlerovi",
+        "CEO damage controlu",
+        "SSchumacherovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Turka",
+        "Filipa Turka"
+      ],
+      "replacements": [
+        "Tutůrka",
+        "Automat na zvedání pravice",
+        "Postrach dětských závodů",
+        "Předepisovatele pití Sava",
+        "Sběratele zahnutých křížů",
+        "Iránského agenta",
+        "Schumachera mezi páťáky",
+        "Hranatého parazita",
+        "Adolfa Driftlera",
+        "CEO damage controlu",
+        "SSchumachera"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Turku",
+        "Filipe Turku"
+      ],
+      "replacements": [
+        "Tutůrku",
+        "Automate na zvedání pravice",
+        "Postrachu dětských závodů",
+        "Předepisovateli pití Sava",
+        "Sběrateli zahnutých křížů",
+        "Iránský agente",
+        "Schumachere mezi páťáky",
+        "Hranatý parazite",
+        "Adolfe Driftlere",
+        "CEO damage controlu",
+        "SSchumachere"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Turkovi",
+        "Filipu Turkovi"
+      ],
+      "replacements": [
+        "Tutůrkovi",
+        "Automatu na zvedání pravice",
+        "Postrachu dětských závodů",
+        "Předepisovateli pití Sava",
+        "Sběrateli zahnutých křížů",
+        "Iránském agentovi",
+        "Schumacherovi mezi páťáky",
+        "Hranatém parazitovi",
+        "Adolfu Driftlerovi",
+        "CEO damage controlu",
+        "SSchumacherovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Turkem",
+        "Filipem Turkem"
+      ],
+      "replacements": [
+        "Tutůrkem",
+        "Automatem na zvedání pravice",
+        "Postrachem dětských závodů",
+        "Předepisovatelem pití Sava",
+        "Sběratelem zahnutých křížů",
+        "Iránským agentem",
+        "Schumacherem mezi páťáky",
+        "Hranatým parazitem",
+        "Adolfem Driftlerem",
+        "CEO damage controlem",
+        "SSchumacherem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Turkovo",
+        "Filipa Turkovo"
+      ],
+      "replacements": [
+        "Tutůrkovo",
+        "SSchumacherovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Turkova",
+        "Filipa Turkova"
+      ],
+      "replacements": [
+        "Tutůrkova",
+        "SSchumacherova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Turkův",
+        "Filipa Turkův"
+      ],
+      "replacements": [
+        "Tutůrkův",
+        "SSchumacherův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Turkovi",
+        "Filipa Turkovi"
+      ],
+      "replacements": [
+        "Tutůrkovi",
+        "SSchumacherovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Turkovy",
+        "Filipa Turkovy"
+      ],
+      "replacements": [
+        "Tutůrkovy",
+        "SSchumacherovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Turkově",
+        "Filipa Turkově"
+      ],
+      "replacements": [
+        "Tutůrkově",
+        "SSchumacherově"
+      ]
+    }
+  }
+}
