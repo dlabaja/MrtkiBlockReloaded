@@ -1,7 +1,20 @@
 ![icon128.png](src/assets/icon128.png)
 
-<a href="https://discord.gg/6nWXgvEZJF"><img src="https://camo.githubusercontent.com/8c0fca73564f21d7a6f235747eb4d739a2e4aaa348b8e074904127baeb944b9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d3538363546323f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465" alt="Discord link" style="height: 28px; border-radius: 4px;"></a>
-<a href="https://buymeacoffee.com/dlabaja"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 28px;"></a>
+<a href="https://addons.mozilla.org/cs/firefox/addon/mrtkiblock-reloaded/">
+    <img src="https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png" alt="Get on Firefox" style="height: 50px;">
+</a>
+<a href="https://chromewebstore.google.com/detail/mrtkiblock-reloaded/lajcfghpocpfakbioegkpebfaocfiool">
+    <img src="https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png" alt="Get on Chrome" style="height: 50px; border-radius: 4px;">
+</a>
+<div>
+<a href="https://discord.gg/6nWXgvEZJF">
+    <img src="https://camo.githubusercontent.com/8c0fca73564f21d7a6f235747eb4d739a2e4aaa348b8e074904127baeb944b9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d3538363546323f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465" alt="Discord link" style="height: 38px; border-radius: 4px;">
+</a>
+<a href="https://buymeacoffee.com/dlabaja">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 39px;">
+</a>
+</div>
+
 
 # MrtkiBlock Reloaded
 ## Rewrite původního rozšíření [MrtkiBlock](https://addons.mozilla.org/cs/firefox/addon/mrtkiblock/) od [branik.v.akci](https://www.facebook.com/branikvakci)
