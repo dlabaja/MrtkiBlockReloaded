@@ -4,7 +4,7 @@ import {firstChar, lastChar, trimOne, ZWSP} from "../utils/string-utils";
 
 export class TrieManager {
     private _dataManager: DataManager;
-    private _boundaries = [" ", ".", ",", ":", "!", "?", "\n", "\t", ZWSP];
+    private _boundaries = [" ", ".", ",", ":", "!", "?", "„", "“", "\"", "\n", "\t", ZWSP];
     public trie: Trie;
 
     constructor(dataManager: DataManager) {
