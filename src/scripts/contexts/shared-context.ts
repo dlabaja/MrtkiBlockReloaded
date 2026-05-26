@@ -1,5 +1,4 @@
 import {StorageManager} from "../managers/storage-manager";
-import {ConnectionManager} from "../managers/connection-manager";
 import {ConfigManager} from "../managers/config-manager/config-manager.abstract";
 
 export interface SharedManagers {

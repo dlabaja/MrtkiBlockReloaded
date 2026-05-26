@@ -23,13 +23,15 @@ export class BackgroundContext extends SharedContext {
     }
 }
 
-let context: BackgroundContext | null = null;
+let contextPromise: Promise<BackgroundContext> | null = null;
 
-export async function getBackgroundContext() {
-    if (!context) {
-        context = await initBackgroundContext();
+// promise je sdílenej, když se jednou awaitne bude už vyřešenej
+export function getBackgroundContext(): Promise<BackgroundContext> {
+    if (!contextPromise) {
+        contextPromise = initBackgroundContext();
     }
-    return context;
+
+    return contextPromise;
 }
 
 async function initBackgroundContext() {

@@ -3,6 +3,7 @@ import {SharedContext, SharedManagers} from "./shared-context";
 import {StorageManager} from "../managers/storage-manager";
 import {ConnectionManager} from "../managers/connection-manager";
 import {ConfigManagerPopup} from "../managers/config-manager/config-manager-popup";
+import {BackgroundContext} from "./background-context";
 
 export interface PopupManagers extends SharedManagers {
     connectionManager: ConnectionManager
@@ -20,16 +21,16 @@ export class PopupContext extends SharedContext {
     }
 }
 
-let context: PopupContext | null = null;
+let contextPromise: Promise<PopupContext> | null = null;
 
-export async function getPopupContext() {
-    if (!context) {
-        context = await initPopupContext();
+export function getPopupContext() {
+    if (!contextPromise) {
+        contextPromise = initPopupContext();
     }
-    return context;
+    return contextPromise;
 }
 
-export async function initPopupContext() {
+async function initPopupContext() {
     const storageManager = new StorageManager();
     const connectionManager = new ConnectionManager(ConnectionName.Popup);
     const configManager = new ConfigManagerPopup(storageManager);

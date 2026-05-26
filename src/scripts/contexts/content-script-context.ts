@@ -4,6 +4,7 @@ import {ConnectionManager} from "../managers/connection-manager";
 import {StorageManager} from "../managers/storage-manager";
 import {ConfigManagerContent} from "../managers/config-manager/config-manager-content";
 import {ConnectionName} from "../enums/connection-name.enum";
+import {BackgroundContext} from "./background-context";
 
 export interface ContentScriptManagers extends SharedManagers {
     domManager: DomManager,
@@ -24,16 +25,16 @@ export class ContentScriptContext extends SharedContext {
     }
 }
 
-let context: ContentScriptContext | null = null;
+let contextPromise: Promise<ContentScriptContext> | null = null;
 
-export async function getContentScriptContext() {
-    if (!context) {
-        context = await initContentScriptContext();
+export function getContentScriptContext() {
+    if (!contextPromise) {
+        contextPromise = initContentScriptContext();
     }
-    return context;
+    return contextPromise;
 }
 
-export async function initContentScriptContext() {
+async function initContentScriptContext() {
     const storageManager = new StorageManager();
     const connectionManager = new ConnectionManager(ConnectionName.ContentScript);
     const configManager = new ConfigManagerContent(storageManager);
