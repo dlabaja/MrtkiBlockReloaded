@@ -1,4 +1,5 @@
 export const ZWSP = "\u200B";
+export const NBSP = " ";
 
 // ořeže string z obou stran
 export function trimOne(text: string) {

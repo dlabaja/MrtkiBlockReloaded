@@ -1,10 +1,10 @@
 import {DataManager} from "./data-manager";
 import {Trie} from "../aho-corasick/trie";
-import {firstChar, lastChar, trimOne, ZWSP} from "../utils/string-utils";
+import {firstChar, lastChar, NBSP, trimOne, ZWSP} from "../utils/string-utils";
 
 export class TrieManager {
     private _dataManager: DataManager;
-    private _boundaries = [" ", ".", ",", ":", "!", "?", "„", "“", "\"", "\n", "\t", ZWSP];
+    private _boundaries = [" ", ".", ",", ":", "!", "?", "„", "“", "\"", "\n", "\t", NBSP, ZWSP];
     public trie: Trie;
 
     constructor(dataManager: DataManager) {
