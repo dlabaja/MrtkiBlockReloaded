@@ -1,0 +1,140 @@
+{
+  "name": "gross",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Stanislav Gross",
+        "Gross"
+      ],
+      "replacements": [
+        "Křišťálově čistý",
+        "Ofina",
+        "Myslím to upřímně"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Stanislava Grosse",
+        "Grosse"
+      ],
+      "replacements": [
+        "Křišťálově čistého",
+        "Ofiny",
+        "Myslím to upřímně"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Stanislavu Grossovi",
+        "Grossovi"
+      ],
+      "replacements": [
+        "Křišťálově čistému",
+        "Ofinovi",
+        "Myslím to upřímně"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Stanislava Grosse",
+        "Grosse"
+      ],
+      "replacements": [
+        "Křišťálově čistého",
+        "Ofinu",
+        "Myslím to upřímně"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Stanislave Grossi",
+        "Grossi"
+      ],
+      "replacements": [
+        "Křišťálově čistý",
+        "Ofino",
+        "Myslím to upřímně"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Stanislavu Grossovi",
+        "Grossovi"
+      ],
+      "replacements": [
+        "Křišťálově čistém",
+        "Ofinovi",
+        "Myslím to upřímně"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Stanislavem Grossem",
+        "Grossem"
+      ],
+      "replacements": [
+        "Křišťálově čistým",
+        "Ofinou",
+        "Myslím to upřímně"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Grossovo"
+      ],
+      "replacements": [
+        "Křišťálovo",
+        "Ofinovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Grossova"
+      ],
+      "replacements": [
+        "Křišťálova",
+        "Ofinova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Grossův"
+      ],
+      "replacements": [
+        "Křišťálův",
+        "Ofinův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Grossovi"
+      ],
+      "replacements": [
+        "Křišťálovi",
+        "Ofinovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Grossovy"
+      ],
+      "replacements": [
+        "Křišťálovy",
+        "Ofinovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Grossově"
+      ],
+      "replacements": [
+        "Křišťálově",
+        "Ofinově"
+      ]
+    }
+  }
+}

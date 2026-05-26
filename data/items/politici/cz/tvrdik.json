@@ -1,0 +1,129 @@
+{
+  "name": "tvrdik",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Tvrdík",
+        "Jaroslav Tvrdík"
+      ],
+      "replacements": [
+        "Luftjarda",
+        "Je mi z vás na blití"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Tvrdíka",
+        "Jaroslava Tvrdíka"
+      ],
+      "replacements": [
+        "Luftjardy",
+        "Je mi z vás na blití"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Tvrdíkovi",
+        "Tvrdíku",
+        "Jaroslavu Tvrdíkovi",
+        "Jaroslavu Tvrdíku"
+      ],
+      "replacements": [
+        "Luftjardovi",
+        "Je mi z vás na blití"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Tvrdíka",
+        "Jaroslava Tvrdíka"
+      ],
+      "replacements": [
+        "Luftjardu",
+        "Je mi z vás na blití"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Tvrdíku",
+        "Jaroslave Tvrdíku"
+      ],
+      "replacements": [
+        "Luftjardo",
+        "Je mi z vás na blití"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Tvrdíkovi",
+        "Jaroslavu Tvrdíkovi"
+      ],
+      "replacements": [
+        "Luftjardovi",
+        "Je mi z vás na blití"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Tvrdíkem",
+        "Jaroslavem Tvrdíkem"
+      ],
+      "replacements": [
+        "Luftjardou",
+        "Je mi z vás na blití"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Tvrdíkovo"
+      ],
+      "replacements": [
+        "Luftjardovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Tvrdíkova"
+      ],
+      "replacements": [
+        "Luftjardova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Tvrdíkův"
+      ],
+      "replacements": [
+        "Luftjardův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Tvrdíkovi"
+      ],
+      "replacements": [
+        "Luftjardovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Tvrdíkovy"
+      ],
+      "replacements": [
+        "Luftjardovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Tvrdíkově"
+      ],
+      "replacements": [
+        "Luftjardově"
+      ]
+    }
+  }
+}
