@@ -8,6 +8,7 @@
     "build-data": "node npm-scripts/build-data.js",
     "install-deps": "npm install",
     "lint": "tsc --noEmit -p .",
+    "test": "tsx ./tests/tests.ts",
     "webext-lint": "npm run build && web-ext lint --source-dir dist",
     "webext-start": "npm run build && web-ext run --source-dir dist/firefox --start-url /home/dlabaja/PhpstormProjects/MrtkiBlockReloaded/tests/test-file.html --devtools --verbose"
   },
@@ -19,6 +20,7 @@
     "@types/webextension-polyfill": "^0.12.5",
     "esbuild": "^0.28.0",
     "jsonschema": "^1.5.0",
+    "tsx": "^4.22.3",
     "typescript": "^6.0.3"
   },
   "dependencies": {
