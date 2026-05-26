@@ -3,10 +3,12 @@ import * as Path from "node:path";
 import {Validator} from "jsonschema";
 
 const itemsPath = "./data/items";
-const outputPath = "./data/data.json"
-const schemaPath = "./data/items.schema.json"
+const outputPath = "./data/data.json";
+const schemaPath = "./data/items.schema.json";
+const nameListPath = "./data/name-list.txt";
 const schema = JSON.parse(fs.readFileSync(schemaPath, { encoding: 'utf8', flag: 'r' }))
 const validator = new Validator();
+const matchesAndReplacements = [];
 
 function buildData() {
     const resultObjects = [];
@@ -24,6 +26,7 @@ function buildData() {
     })
     
     fs.writeFileSync(outputPath, JSON.stringify(resultObjects));
+    fs.writeFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0].join(", ")} - ${x[1].join(", ")}`).join("\n"))
 }
 
 function processJson(path, resultObjects) {
@@ -32,6 +35,7 @@ function processJson(path, resultObjects) {
     if (!result.valid) {
         console.error(`${path} is not valid against schema`);
     }
+    matchesAndReplacements.push([instance.cases["1"].matches, instance.cases["1"].replacements])
     resultObjects.push(instance)
 }
 
