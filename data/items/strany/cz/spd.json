@@ -13,40 +13,20 @@
       ]
     },
     "2": {
-      "matches": [
-        "SPD"
-      ],
-      "replacements": [
-        "SSPD",
-        "Strany Pomocných Dělníků"
-      ]
+      "matches": [],
+      "replacements": []
     },
     "3": {
-      "matches": [
-        "SPD"
-      ],
-      "replacements": [
-        "SSPD",
-        "Straně Pomocných Dělníků"
-      ]
+      "matches": [],
+      "replacements": []
     },
     "4": {
-      "matches": [
-        "SPD"
-      ],
-      "replacements": [
-        "SSPD",
-        "Stranu Pomocných Dělníků"
-      ]
+      "matches": [],
+      "replacements": []
     },
     "5": {
-      "matches": [
-        "SPD"
-      ],
-      "replacements": [
-        "SSPD",
-        "Strano Pomocných Dělníků"
-      ]
+      "matches": [],
+      "replacements": []
     },
     "6": {
       "matches": [
@@ -58,13 +38,8 @@
       ]
     },
     "7": {
-      "matches": [
-        "SPD"
-      ],
-      "replacements": [
-        "SSPD",
-        "Stranou Pomocných Dělníků"
-      ]
+      "matches": [],
+      "replacements": []
     }
   },
   "adjectives": {
