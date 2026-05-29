@@ -25,8 +25,8 @@ function buildData() {
         }
     })
     
-    fs.writeFileSync(outputPath, JSON.stringify(resultObjects));
-    fs.writeFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0].join(", ")} - ${x[1].join(", ")}`).join("\n"))
+    fs.writeFileSync(outputPath, JSON.stringify(resultObjects), {encoding: "utf-8"});
+    fs.writeFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0].join(", ")} - ${x[1].join(", ")}`).join("\n"), {encoding: "utf-8"})
 }
 
 function processJson(path, resultObjects) {
