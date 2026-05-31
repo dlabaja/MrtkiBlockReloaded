@@ -1,0 +1,152 @@
+{
+  "name": "lipovska",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Hana Lipovská",
+        "Lipovská"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutist",
+        "Ošklivka Betty",
+        "Strašidlo z České Televize",
+        "Reklama na bouřku",
+        "Wednesday Addamsová",
+        "Frankensteinova nevěsta",
+        "Požíračka duší",
+        "La Muerte",
+        "Carol Pifková"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Hany Lipovské",
+        "Lipovské"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutistky",
+        "Ošklivky Betty",
+        "Strašidla z České Televize",
+        "Reklamy na bouřku",
+        "Wednesday Addamsové",
+        "Frankensteinovy nevěsty",
+        "Požíračky duší",
+        "La Muerte",
+        "Carol Pifkové"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Haně Lipovské",
+        "Lipovské"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutistce",
+        "Ošklivce Betty",
+        "Strašidlu z České Televize",
+        "Reklamě na bouřku",
+        "Wednesday Addamsové",
+        "Frankensteinově nevěstě",
+        "Požíračce duší",
+        "La Muerte",
+        "Carol Pifkové"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Hanu Lipovskou",
+        "Lipovskou"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutistku",
+        "Ošklivku Betty",
+        "Strašidlo z České Televize",
+        "Reklamu na bouřku",
+        "Wednesday Addamsovou",
+        "Frankensteinovu nevěstu",
+        "Požíračku duší",
+        "La Muerte",
+        "Carol Pifkovou"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Hano Lipovská",
+        "Lipovská"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutistko",
+        "Ošklivko Betty",
+        "Strašidlo z České Televize",
+        "Reklamo na bouřku",
+        "Wednesday Addamsová",
+        "Frankensteinova nevěsto",
+        "Požíračko duší",
+        "La Muerte",
+        "Carol Pifková"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Haně Lipovské",
+        "Lipovské"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutistce",
+        "Ošklivce Betty",
+        "Strašidlu z České Televize",
+        "Reklamě na bouřku",
+        "Wednesday Addamsové",
+        "Frankensteinově nevěstě",
+        "Požíračce duší",
+        "La Muerte",
+        "Carol Pifkové"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Hanou Lipovskou",
+        "Lipovskou"
+      ],
+      "replacements": [
+        "Frý sPíč Absolutistkou",
+        "Ošklivkou Betty",
+        "Strašidlem z České Televize",
+        "Reklamou na bouřku",
+        "Wednesday Addamsovou",
+        "Frankensteinovou nevěstou",
+        "Požíračkou duší",
+        "La Muerte",
+        "Carol Pifkovou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

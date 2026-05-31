@@ -1,0 +1,189 @@
+{
+  "name": "vesely",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Luboš Xaver Veselý",
+        "Luboš Veselý",
+        "Xaver",
+        "Luboš „Xaver“ Veselý",
+        "Luboš \"Xaver\" Veselý"
+      ],
+      "replacements": [
+        "Vypasená svině",
+        "Ruský nok",
+        "Ředitel gulagu",
+        "Strůjce genocidy chlebíčků",
+        "Postrach oleje z friťáku",
+        "Otesánek z televize",
+        "Blop"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Luboše Xavera Veselého",
+        "Luboše Veselého",
+        "Xavera",
+        "Luboše „Xavera“ Veselého",
+        "Luboše \"Xavera\" Veselého"
+      ],
+      "replacements": [
+        "Vypasené svině",
+        "Ruského noku",
+        "Ředitele gulagu",
+        "Strůjce genocidy chlebíčků",
+        "Postracha oleje z friťáku",
+        "Otesánka z televize",
+        "Blopa"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Luboši Xaveru Veselému",
+        "Luboši Veselému",
+        "Xaverovi",
+        "Luboši „Xaveru“ Veselému",
+        "Luboši \"Xaveru\" Veselému"
+      ],
+      "replacements": [
+        "Vypasené svini",
+        "Ruskému noku",
+        "Řediteli gulagu",
+        "Strůjci genocidy chlebíčků",
+        "Postrachu oleje z friťáku",
+        "Otesánkovi z televize",
+        "Blopovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Luboše Xavera Veselého",
+        "Luboše Veselého",
+        "Xavera",
+        "Luboše „Xavera“ Veselého",
+        "Luboše \"Xavera\" Veselého"
+      ],
+      "replacements": [
+        "Vypasenou svini",
+        "Ruského noka",
+        "Ředitele gulagu",
+        "Strůjce genocidy chlebíčků",
+        "Postracha oleje z friťáku",
+        "Otesánka z televize",
+        "Blopa"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Luboši Xavere Veselý",
+        "Luboši Veselý",
+        "Xavore",
+        "Luboši „Xavere“ Veselý",
+        "Luboši \"Xavere\" Veselý"
+      ],
+      "replacements": [
+        "Vypasená svině",
+        "Ruský noku",
+        "Řediteli gulagu",
+        "Strůjce genocidy chlebíčků",
+        "Postrachu oleje z friťáku",
+        "Otesánku z televize",
+        "Blope"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Luboši Xaveru Veselém",
+        "Luboši Veselém",
+        "Xaverovi",
+        "Luboši „Xaveru“ Veselém",
+        "Luboši \"Xaveru\" Veselém"
+      ],
+      "replacements": [
+        "Vypasené svini",
+        "Ruském noku",
+        "Řediteli gulagu",
+        "Strůjci genocidy chlebíčků",
+        "Postrachu oleje z friťáku",
+        "Otesánkovi z televize",
+        "Blopovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Lubošem Xaverem Veselým",
+        "Lubošem Veselým",
+        "Xaverem",
+        "Lubošem „Xaverem“ Veselým",
+        "Lubošem \"Xaverem\" Veselým"
+      ],
+      "replacements": [
+        "Vypasenou sviní",
+        "Ruským nokem",
+        "Ředitelem gulagu",
+        "Strůjcem genocidy chlebíčků",
+        "Postrachem oleje z friťáku",
+        "Otesánkem z televize",
+        "Blopem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Xaverovo"
+      ],
+      "replacements": [
+        "Otesánkovo",
+        "Blopovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Xaverova"
+      ],
+      "replacements": [
+        "Otesánkova",
+        "Blopova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Xaverův"
+      ],
+      "replacements": [
+        "Otesánkův",
+        "Blopův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Xaverovi"
+      ],
+      "replacements": [
+        "Otesánkovi",
+        "Blopovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Xaverovy"
+      ],
+      "replacements": [
+        "Otesánkovy",
+        "Blopovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Xaverově"
+      ],
+      "replacements": [
+        "Otesánkově",
+        "Blopově"
+      ]
+    }
+  }
+}

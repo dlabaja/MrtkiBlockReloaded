@@ -1,0 +1,131 @@
+{
+  "name": "bobosikova",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Bobošíková",
+        "Jana Bobošíková"
+      ],
+      "replacements": [
+        "Zoufalá bez koryta",
+        "Politická fosílie",
+        "Oportunistická krysa",
+        "Putinova předkožka",
+        "Kandidátka na všechno a za cokoli",
+        "Influencerka pro dezoláty"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Bobošíkové",
+        "Jany Bobošíkové"
+      ],
+      "replacements": [
+        "Zoufalé bez koryta",
+        "Politické fosílie",
+        "Oportunistické krysy",
+        "Putinovy předkožky",
+        "Kandidátky na všechno a za cokoli",
+        "Influencerky pro dezoláty"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Bobošíkové",
+        "Janě Bobošíkové"
+      ],
+      "replacements": [
+        "Zoufalé bez koryta",
+        "Politické fosílii",
+        "Oportunistické kryse",
+        "Putinově předkožce",
+        "Kandidátce na všechno a za cokoli",
+        "Influencerce pro dezoláty"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Bobošíkovou",
+        "Janu Bobošíkovou"
+      ],
+      "replacements": [
+        "Zoufalou bez koryta",
+        "Politickou fosílii",
+        "Oportunistickou krysu",
+        "Putinovu předkožku",
+        "Kandidátku na všechno a za cokoli",
+        "Influencerku pro dezoláty"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Bobošíková",
+        "Jano Bobošíková"
+      ],
+      "replacements": [
+        "Zoufalá bez koryta",
+        "Politická fosílie",
+        "Oportunistická kryso",
+        "Putinova předkožko",
+        "Kandidátko na všechno a za cokoli",
+        "Influencerko pro dezoláty"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Bobošíkové",
+        "Janě Bobošíkové"
+      ],
+      "replacements": [
+        "Zoufalé bez koryta",
+        "Politické fosílii",
+        "Oportunistické kryse",
+        "Putinově předkožce",
+        "Kandidátce na všechno a za cokoli",
+        "Influencerce pro dezoláty"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Bobošíkovou",
+        "Janou Bobošíkovou"
+      ],
+      "replacements": [
+        "Zoufalou bez koryta",
+        "Politickou fosílií",
+        "Oportunistickou krysou",
+        "Putinovou předkožkou",
+        "Kandidátkou na všechno a za cokoli",
+        "Influencerkou pro dezoláty"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}
