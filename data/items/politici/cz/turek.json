@@ -19,7 +19,8 @@
         "Hranatý parazit",
         "Adolf Driftler",
         "CEO damage controlu",
-        "SSchumacher"
+        "SSchumacher",
+        "Zmoštěnec"
       ]
     },
     "2": {
@@ -38,7 +39,8 @@
         "Hranatého parazita",
         "Adolfa Driftlera",
         "CEO damage controlu",
-        "SSchumachera"
+        "SSchumachera",
+        "Zmoštěnce"
       ]
     },
     "3": {
@@ -57,7 +59,8 @@
         "Hranatému parazitovi",
         "Adolfu Driftlerovi",
         "CEO damage controlu",
-        "SSchumacherovi"
+        "SSchumacherovi",
+        "Zmoštěnci"
       ]
     },
     "4": {
@@ -76,7 +79,8 @@
         "Hranatého parazita",
         "Adolfa Driftlera",
         "CEO damage controlu",
-        "SSchumachera"
+        "SSchumachera",
+        "Zmoštěnce"
       ]
     },
     "5": {
@@ -95,7 +99,8 @@
         "Hranatý parazite",
         "Adolfe Driftlere",
         "CEO damage controlu",
-        "SSchumachere"
+        "SSchumachere",
+        "Zmoštěnče"
       ]
     },
     "6": {
@@ -114,7 +119,8 @@
         "Hranatém parazitovi",
         "Adolfu Driftlerovi",
         "CEO damage controlu",
-        "SSchumacherovi"
+        "SSchumacherovi",
+        "Zmoštěncovi"
       ]
     },
     "7": {
@@ -133,7 +139,8 @@
         "Hranatým parazitem",
         "Adolfem Driftlerem",
         "CEO damage controlem",
-        "SSchumacherem"
+        "SSchumacherem",
+        "Zmoštěncem"
       ]
     }
   },
@@ -145,7 +152,8 @@
       ],
       "replacements": [
         "Tutůrkovo",
-        "SSchumacherovo"
+        "SSchumacherovo",
+        "Zmoštěncovo"
       ]
     },
     "ta": {
@@ -155,7 +163,8 @@
       ],
       "replacements": [
         "Tutůrkova",
-        "SSchumacherova"
+        "SSchumacherova",
+        "Zmoštěncova"
       ]
     },
     "ten": {
@@ -165,7 +174,8 @@
       ],
       "replacements": [
         "Tutůrkův",
-        "SSchumacherův"
+        "SSchumacherův",
+        "Zmoštěncův"
       ]
     },
     "ti": {
@@ -175,7 +185,8 @@
       ],
       "replacements": [
         "Tutůrkovi",
-        "SSchumacherovi"
+        "SSchumacherovi",
+        "Zmoštěncovi"
       ]
     },
     "ty": {
@@ -185,7 +196,8 @@
       ],
       "replacements": [
         "Tutůrkovy",
-        "SSchumacherovy"
+        "SSchumacherovy",
+        "Zmoštěncovy"
       ]
     },
     "te": {
@@ -195,7 +207,8 @@
       ],
       "replacements": [
         "Tutůrkově",
-        "SSchumacherově"
+        "SSchumacherově",
+        "Zmoštěncově"
       ]
     }
   }
