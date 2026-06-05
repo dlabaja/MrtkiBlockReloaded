@@ -1,0 +1,127 @@
+{
+  "name": "blazek",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Pavel Blažek",
+        "Blažek"
+      ],
+      "replacements": [
+        "Don Pablo",
+        "Popularizátor kryptoměn"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Pavla Blažka",
+        "Blažka"
+      ],
+      "replacements": [
+        "Dona Pabla",
+        "Popularizátora kryptoměn"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Pavlu Blažkovi",
+        "Blažkovi"
+      ],
+      "replacements": [
+        "Donu Pablovi",
+        "Popularizátorovi kryptoměn"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Pavla Blažka",
+        "Blažka"
+      ],
+      "replacements": [
+        "Dona Pabla",
+        "Popularizátora kryptoměn"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Pavle Blažku",
+        "Blažku"
+      ],
+      "replacements": [
+        "Done Pablo",
+        "Popularizátore kryptoměn"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Pavlu Blažkovi",
+        "Blažkovi"
+      ],
+      "replacements": [
+        "Donu Pablovi",
+        "Popularizátorovi kryptoměn"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Pavlem Blažkem",
+        "Blažkem"
+      ],
+      "replacements": [
+        "Donem Pablem",
+        "Popularizátorem kryptoměn"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Blažkovo"
+      ],
+      "replacements": [
+        "Pablovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Blažkova"
+      ],
+      "replacements": [
+        "Pablova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Blažkův"
+      ],
+      "replacements": [
+        "Pablův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Blažkovi"
+      ],
+      "replacements": [
+        "Pablovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Blažkovy"
+      ],
+      "replacements": [
+        "Pablovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Blažkově"
+      ],
+      "replacements": [
+        "Pablově"
+      ]
+    }
+  }
+}

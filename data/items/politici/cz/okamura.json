@@ -14,7 +14,8 @@
         "Syn maminky z Moravy",
         "Ten, co mluví i za horečky",
         "Bicák ohýbající realitu",
-        "Česko-japonský sumoraj"
+        "Česko-japonský sumoraj",
+        "Lobotomio Zmrdimůra"
       ]
     },
     "2": {
@@ -28,7 +29,8 @@
         "Syna maminky z Moravy",
         "Toho, co mluví i za horečky",
         "Bicáka ohýbajícího realitu",
-        "Česko-japonského sumoraje"
+        "Česko-japonského sumoraje",
+        "Lobotomia Zmrdimůry"
       ]
     },
     "3": {
@@ -43,7 +45,8 @@
         "Synu maminky z Moravy",
         "Tomu, co mluví i za horečky",
         "Bicáku ohýbajícímu realitu",
-        "Česko-japonskému sumorajovi"
+        "Česko-japonskému sumorajovi",
+        "Lobotomiu Zmrdimůrovi"
       ]
     },
     "4": {
@@ -57,7 +60,8 @@
         "Syna maminky z Moravy",
         "Toho, co mluví i za horečky",
         "Bicáka ohýbajícího realitu",
-        "Česko-japonského sumoraje"
+        "Česko-japonského sumoraje",
+        "Lobotomia Zmrdimůru"
       ]
     },
     "5": {
@@ -71,7 +75,8 @@
         "Synu maminky z Moravy",
         "Ty, co mluvíš i za horečky",
         "Bicáku ohýbající realitu",
-        "Česko-japonský sumoraji"
+        "Česko-japonský sumoraji",
+        "Lobotomio Zmrdimůro"
       ]
     },
     "6": {
@@ -85,7 +90,8 @@
         "Synu maminky z Moravy",
         "Tom, co mluví i za horečky",
         "Bicáku ohýbajícím realitu",
-        "Česko-japonském sumorajovi"
+        "Česko-japonském sumorajovi",
+        "Lobotomiu Zmrdimůrovi"
       ]
     },
     "7": {
@@ -99,7 +105,8 @@
         "Synem maminky z Moravy",
         "Tím, co mluví i za horečky",
         "Bicákem ohýbajícím realitu",
-        "Česko-japonským sumorajem"
+        "Česko-japonským sumorajem",
+        "Lobotomiem Zmrdimůrou"
       ]
     }
   },
@@ -110,7 +117,8 @@
       ],
       "replacements": [
         "Pitomiovo",
-        "Sumorajovo"
+        "Sumorajovo",
+        "Lobotomiovo"
       ]
     },
     "ta": {
@@ -119,7 +127,8 @@
       ],
       "replacements": [
         "Pitomiova",
-        "Sumorajova"
+        "Sumorajova",
+        "Lobotomiova"
       ]
     },
     "ten": {
@@ -128,7 +137,8 @@
       ],
       "replacements": [
         "Pitomiův",
-        "Sumorajův"
+        "Sumorajův",
+        "Lobotomiův"
       ]
     },
     "ti": {
@@ -137,7 +147,8 @@
       ],
       "replacements": [
         "Pitomiovi",
-        "Sumorajovi"
+        "Sumorajovi",
+        "Lobotomiovi"
       ]
     },
     "ty": {
@@ -146,7 +157,8 @@
       ],
       "replacements": [
         "Pitomiovy",
-        "Sumorajovy"
+        "Sumorajovy",
+        "Lobotomiovy"
       ]
     },
     "te": {
@@ -155,7 +167,8 @@
       ],
       "replacements": [
         "Pitomiově",
-        "Sumorajově"
+        "Sumorajově",
+        "Lobotomiově"
       ]
     }
   }

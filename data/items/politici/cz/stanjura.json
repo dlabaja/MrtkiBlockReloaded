@@ -1,0 +1,96 @@
+{
+  "name": "stanjura",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Stanjura",
+        "Zbyněk Stanjura"
+      ],
+      "replacements": [
+        "Elektrikář z Opavy"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Stanjury",
+        "Zbyňka Stanjury"
+      ],
+      "replacements": [
+        "Elektrikáře z Opavy"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Stanjurovi",
+        "Zbyňku Stanjurovi"
+      ],
+      "replacements": [
+        "Elektrikáři z Opavy"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Stanjuru",
+        "Zbyňka Stanjuru"
+      ],
+      "replacements": [
+        "Elektrikáře z Opavy"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Stanjuro",
+        "Zbyňku Stanjuro"
+      ],
+      "replacements": [
+        "Elektrikáři z Opavy"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Stanjurovi",
+        "Zbyňku Stanjurovi"
+      ],
+      "replacements": [
+        "Elektrikáři z Opavy"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Stanjurou",
+        "Zbyňkem Stanjurou"
+      ],
+      "replacements": [
+        "Elektrikářem z Opavy"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}
