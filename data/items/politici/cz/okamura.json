@@ -15,7 +15,9 @@
         "Ten, co mluví i za horečky",
         "Bicák ohýbající realitu",
         "Česko-japonský sumoraj",
-        "Lobotomio Zmrdimůra"
+        "Lobotomio Zmrdimůra",
+        "Podržštafle",
+        "Okanimůra"
       ]
     },
     "2": {
@@ -30,7 +32,9 @@
         "Toho, co mluví i za horečky",
         "Bicáka ohýbajícího realitu",
         "Česko-japonského sumoraje",
-        "Lobotomia Zmrdimůry"
+        "Lobotomia Zmrdimůry",
+        "Podržštafle",
+        "Okanimůry"
       ]
     },
     "3": {
@@ -46,7 +50,9 @@
         "Tomu, co mluví i za horečky",
         "Bicáku ohýbajícímu realitu",
         "Česko-japonskému sumorajovi",
-        "Lobotomiu Zmrdimůrovi"
+        "Lobotomiu Zmrdimůrovi",
+        "Podržštafli",
+        "Okanimůrovi"
       ]
     },
     "4": {
@@ -61,7 +67,9 @@
         "Toho, co mluví i za horečky",
         "Bicáka ohýbajícího realitu",
         "Česko-japonského sumoraje",
-        "Lobotomia Zmrdimůru"
+        "Lobotomia Zmrdimůru",
+        "Podržštafle",
+        "Okanimůru"
       ]
     },
     "5": {
@@ -76,7 +84,9 @@
         "Ty, co mluvíš i za horečky",
         "Bicáku ohýbající realitu",
         "Česko-japonský sumoraji",
-        "Lobotomio Zmrdimůro"
+        "Lobotomio Zmrdimůro",
+        "Podržštafle",
+        "Okanimůro"
       ]
     },
     "6": {
@@ -91,7 +101,9 @@
         "Tom, co mluví i za horečky",
         "Bicáku ohýbajícím realitu",
         "Česko-japonském sumorajovi",
-        "Lobotomiu Zmrdimůrovi"
+        "Lobotomiu Zmrdimůrovi",
+        "Podržštafli",
+        "Okanimůrovi"
       ]
     },
     "7": {
@@ -106,7 +118,9 @@
         "Tím, co mluví i za horečky",
         "Bicákem ohýbajícím realitu",
         "Česko-japonským sumorajem",
-        "Lobotomiem Zmrdimůrou"
+        "Lobotomiem Zmrdimůrou",
+        "Podržštaflí",
+        "Okanimůrou"
       ]
     }
   },
@@ -118,7 +132,9 @@
       "replacements": [
         "Pitomiovo",
         "Sumorajovo",
-        "Lobotomiovo"
+        "Lobotomiovo",
+        "Podržštaflovo",
+        "Okanimůrovo"
       ]
     },
     "ta": {
@@ -128,7 +144,9 @@
       "replacements": [
         "Pitomiova",
         "Sumorajova",
-        "Lobotomiova"
+        "Lobotomiova",
+        "Podržštaflova",
+        "Okanimůrova"
       ]
     },
     "ten": {
@@ -138,7 +156,9 @@
       "replacements": [
         "Pitomiův",
         "Sumorajův",
-        "Lobotomiův"
+        "Lobotomiův",
+        "Podržštaflův",
+        "Okanimůrův"
       ]
     },
     "ti": {
@@ -148,7 +168,9 @@
       "replacements": [
         "Pitomiovi",
         "Sumorajovi",
-        "Lobotomiovi"
+        "Lobotomiovi",
+        "Podržštaflovi",
+        "Okanimůrovi"
       ]
     },
     "ty": {
@@ -158,7 +180,9 @@
       "replacements": [
         "Pitomiovy",
         "Sumorajovy",
-        "Lobotomiovy"
+        "Lobotomiovy",
+        "Podržštaflovy",
+        "Okanimůrovy"
       ]
     },
     "te": {
@@ -168,7 +192,9 @@
       "replacements": [
         "Pitomiově",
         "Sumorajově",
-        "Lobotomiově"
+        "Lobotomiově",
+        "Podržštaflově",
+        "Okanimůrově"
       ]
     }
   }

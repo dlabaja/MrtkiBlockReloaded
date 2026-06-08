@@ -1,0 +1,103 @@
+{
+  "name": "benda",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Benda",
+        "Marek Benda"
+      ],
+      "replacements": [
+        "Inventární číslo sněmovny",
+        "Zaprášený exponát"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Bendy",
+        "Marka Bendy"
+      ],
+      "replacements": [
+        "Inventárního čísla sněmovny",
+        "Zaprášeného exponátu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Bendovi",
+        "Marku Bendovi"
+      ],
+      "replacements": [
+        "Inventárnímu číslu sněmovny",
+        "Zaprášenému exponátu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Bendu",
+        "Marka Bendu"
+      ],
+      "replacements": [
+        "Inventární číslo sněmovny",
+        "Zaprášený exponát"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Bendo",
+        "Marku Bendo"
+      ],
+      "replacements": [
+        "Inventární číslo sněmovny",
+        "Zaprášený exponáte"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Bendovi",
+        "Marku Bendovi"
+      ],
+      "replacements": [
+        "Inventárním čísle sněmovny",
+        "Zaprášeném exponátu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Bendou",
+        "Markem Bendou"
+      ],
+      "replacements": [
+        "Inventárním číslem sněmovny",
+        "Zaprášeným exponátem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [],
+      "replacements": []
+    },
+    "ta": {
+      "matches": [],
+      "replacements": []
+    },
+    "ten": {
+      "matches": [],
+      "replacements": []
+    },
+    "ti": {
+      "matches": [],
+      "replacements": []
+    },
+    "ty": {
+      "matches": [],
+      "replacements": []
+    },
+    "te": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}
