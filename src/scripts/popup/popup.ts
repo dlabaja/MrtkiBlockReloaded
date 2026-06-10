@@ -111,7 +111,7 @@ export function setNameIdsTextArea(nameIds: string[]) {
     if (!element) {
         return;
     }
-    element.innerText = nameIds.join(", ");
+    element.innerText = nameIds.sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0)).join(", ");
 }
 
 function textAreaToArray(x: string) {
