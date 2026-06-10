@@ -174,6 +174,7 @@ export class DataManager {
 
     private fillReplacements(matchGroups: MatchGroup[]) {
         // 4. pád se plní první kvůli konfliktům s 2. pádem. U 3./6. pádu už to je v pořádku
+        // to znamená že nejdřív projdou matche bez předložek (4, 3) a pak až ty s předložkama (2, 6); Duplikáty se vyfiltrují
         const _matchGroups: MatchGroup[] = [
             matchGroups.find(x => x.groupId === "4")!,
             ...matchGroups.filter(x => x.groupId !== "4"),

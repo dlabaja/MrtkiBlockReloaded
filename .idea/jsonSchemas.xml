@@ -25,7 +25,7 @@
             <SchemaInfo>
               <option name="generatedName" value="New Schema" />
               <option name="name" value="data-items" />
-              <option name="relativePathToSchema" value="data/items.schema.json" />
+              <option name="relativePathToSchema" value="data/item.schema.json" />
               <option name="schemaVersion" value="JSON Schema 202,012" />
               <option name="patterns">
                 <list>
