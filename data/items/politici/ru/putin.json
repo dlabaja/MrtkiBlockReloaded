@@ -1,0 +1,175 @@
+{
+  "name": "putin",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Putin",
+        "Vladimír Putin"
+      ],
+      "replacements": [
+        "Berlínský rozvědčík",
+        "5D šachista z Kremlu",
+        "Gerontní Napoleon",
+        "Put-In",
+        "Pootin",
+        "Dědek z bunkru",
+        "Ivan Hrozný z Wishe",
+        "Třídenní operace prostaty"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Putina",
+        "Vladimíra Putina"
+      ],
+      "replacements": [
+        "Berlínského rozvědčíka",
+        "5D šachisty z Kremlu",
+        "Gerontního Napoleona",
+        "Put-Ina",
+        "Pootina",
+        "Dědka z bunkru",
+        "Ivana Hrozného z Wishe",
+        "Třídenní operace prostaty"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Putinovi",
+        "Vladimíru Putinovi"
+      ],
+      "replacements": [
+        "Berlínskému rozvědčíkovi",
+        "5D šachistovi z Kremlu",
+        "Gerontnímu Napoleonovi",
+        "Put-Inovi",
+        "Pootinovi",
+        "Dědkovi z bunkru",
+        "Ivanu Hroznému z Wishe",
+        "Třídenní operaci prostaty"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Putina",
+        "Vladimíra Putina"
+      ],
+      "replacements": [
+        "Berlínského rozvědčíka",
+        "5D šachistu z Kremlu",
+        "Gerontního Napoleona",
+        "Put-Ina",
+        "Pootina",
+        "Dědka z bunkru",
+        "Ivana Hrozného z Wishe",
+        "Třídenní operaci prostaty"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Putine",
+        "Vladimíre Putine"
+      ],
+      "replacements": [
+        "Berlínský rozvědčíku",
+        "5D šachisto z Kremlu",
+        "Gerontní Napoleone",
+        "Put-Ine",
+        "Pootine",
+        "Dědku z bunkru",
+        "Ivane Hrozný z Wishe",
+        "Třídenní operace prostaty"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Putinovi",
+        "Vladimíru Putinovi"
+      ],
+      "replacements": [
+        "Berlínském rozvědčíkovi",
+        "5D šachistovi z Kremlu",
+        "Gerontním Napoleonovi",
+        "Put-Inovi",
+        "Pootinovi",
+        "Dědkovi z bunkru",
+        "Ivanu Hrozném z Wishe",
+        "Třídenní operaci prostaty"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Putinem",
+        "Vladimírem Putinem"
+      ],
+      "replacements": [
+        "Berlínským rozvědčíkem",
+        "5D šachistou z Kremlu",
+        "Gerontním Napoleonem",
+        "Put-Inem",
+        "Pootinem",
+        "Dědkem z bunkru",
+        "Ivanem Hrozným z Wishe",
+        "Třídenní operací prostaty"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Putinovo"
+      ],
+      "replacements": [
+        "Pootinovo",
+        "Put-inovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Putinova"
+      ],
+      "replacements": [
+        "Pootinova",
+        "Put-inova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Putinův"
+      ],
+      "replacements": [
+        "Pootinův",
+        "Put-inův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Putinovi"
+      ],
+      "replacements": [
+        "Pootinovi",
+        "Put-inovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Putinovy"
+      ],
+      "replacements": [
+        "Pootinovy",
+        "Put-inovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Putinově"
+      ],
+      "replacements": [
+        "Pootinově",
+        "Put-inově"
+      ]
+    }
+  }
+}
