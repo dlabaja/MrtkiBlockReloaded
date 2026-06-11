@@ -1,0 +1,183 @@
+{
+  "name": "jong-un",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Kim Čong-un",
+        "Kim Čong un",
+        "Čong-un",
+        "Kim Jong-un",
+        "Kim Jong un",
+        "Jong-un"
+      ],
+      "replacements": [
+        "Rakeťák",
+        "Chudokrevný anorektik",
+        "Obhajoba vtipů o obezitě",
+        "Michael Bay s atomovkou",
+        "Zastánce ideologie Čůčo"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Kim Čong-una",
+        "Kim Čong una",
+        "Čong-una",
+        "Kim Jong-una",
+        "Kim Jong una",
+        "Jong-una"
+      ],
+      "replacements": [
+        "Rakeťáka",
+        "Chudokrevného anorektika",
+        "Obhajoby vtipů o obezitě",
+        "Michaela Baye s atomovkou",
+        "Zastánce ideologie Čůčo"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Kim Čong-unovi",
+        "Kim Čong-unemu",
+        "Kim Čong unovi",
+        "Čong-unovi",
+        "Kim Jong-unovi",
+        "Kim Jong unovi",
+        "Jong-unovi"
+      ],
+      "replacements": [
+        "Rakeťákovi",
+        "Chudokrevnému anorektikovi",
+        "Obhajobě vtipů o obezitě",
+        "Michaelu Bayovi s atomovkou",
+        "Zastánci ideologie Čůčo"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Kim Čong-una",
+        "Kim Čong una",
+        "Čong-una",
+        "Kim Jong-una",
+        "Kim Jong una",
+        "Jong-una"
+      ],
+      "replacements": [
+        "Rakeťáka",
+        "Chudokrevného anorektika",
+        "Obhajobu vtipů o obezitě",
+        "Michaela Baye s atomovkou",
+        "Zastánce ideologie Čůčo"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Kim Čong-une",
+        "Kim Čong une",
+        "Čong-une",
+        "Kim Jong-une",
+        "Kim Jong une",
+        "Jong-une"
+      ],
+      "replacements": [
+        "Rakeťáku",
+        "Chudokrevný anorektiku",
+        "Obhajobo vtipů o obezitě",
+        "Michaeli Bayi s atomovkou",
+        "Zastánce ideologie Čůčo"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Kim Čong-unovi",
+        "Kim Čong unovi",
+        "Čong-unovi",
+        "Kim Jong-unovi",
+        "Kim Jong unovi",
+        "Jong-unovi"
+      ],
+      "replacements": [
+        "Rakeťákovi",
+        "Chudokrevném anorektikovi",
+        "Obhajobě vtipů o obezitě",
+        "Michaelu Bayovi s atomovkou",
+        "Zastánci ideologie Čůčo"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Kim Čong-unem",
+        "Kim Čong unem",
+        "Čong-unem",
+        "Kim Jong-unem",
+        "Kim Jong unem",
+        "Jong-unem"
+      ],
+      "replacements": [
+        "Rakeťákem",
+        "Chudokrevným anorektikem",
+        "Obhajobou vtipů o obezitě",
+        "Michaelem Bayem s atomovkou",
+        "Zastáncem ideologie Čůčo"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Čong-unovo",
+        "Kim Čong-unovo"
+      ],
+      "replacements": [
+        "Rakeťákovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Čong-unova",
+        "Kim Čong-unova"
+      ],
+      "replacements": [
+        "Rakeťákova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Čong-unův",
+        "Kim Čong-unův"
+      ],
+      "replacements": [
+        "Rakeťákův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Čong-unovi",
+        "Kim Čong-unovi"
+      ],
+      "replacements": [
+        "Rakeťákovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Čong-unovy",
+        "Kim Čong-unovy"
+      ],
+      "replacements": [
+        "Rakeťákovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Čong-unově",
+        "Kim Čong-unově"
+      ],
+      "replacements": [
+        "Rakeťákově"
+      ]
+    }
+  }
+}

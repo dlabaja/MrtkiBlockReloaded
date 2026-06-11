@@ -1,6 +1,6 @@
 agrofert - ANOfert, Agrofent
 bobosikova - Zoufalá bez koryta, Politická fosílie, Oportunistická krysa, Putinova předkožka, Kandidátka na všechno a za cokoli, Influencerka pro dezoláty
-babis - Kuní ksicht, Agent Bureš, STBák, 25085, Manžel Motyky, které to dnes moc sluší, Král koblihových lidí, Nejlepší covid premiér, Řepkobaron, Zapírač, Logopedická hříčka, Makake, Český Trump, Bimbiš
+babis - Kuní ksicht, Agent Bureš, STBák, 25085, Manžel Motyky, které to dnes moc sluší, Král koblihových lidí, Nejlepší covid premiér, Řepkobaron, Zapírač, Logopedická hříčka, Makake, Český Trump, Bimbiš, Globus za 15 litrů, Bláboliš
 bartos - Král diskoték, Ten s drony na hlavě, Zkuřka, Harmonikář od Rakušana
 benda - Inventární číslo sněmovny, Zaprášený exponát
 blatny - Gargamel, Zlatonka s ušima, Ministr zdravotnictví číslo 14855
@@ -17,6 +17,8 @@ gross - Křišťálově čistý, Ofina, Myslím to upřímně
 hamacek - Zbytečný šéf zbytečné strany, Babišův patolízal, Rohožka, Věšák na červené svetry, Kapitán Možná, Jan Klauňáček, Jan Haháček, Červený svetr
 havlicek - Chodící insomnie, Sony, Prdel na dvou židlích, Ten, co vstává ve čtyři ráno, Párátko v očích, Ministr nádražek a lokálek, Ministr vlakových srážek, Slepejš, Nudný Borovský
 hrib - Mykologický zázrak, Pražská zácpa, Mám plán
+jinping - Si-panda, Medvídek Pú, Velký skok vzad, Vietnamec z večerky, Etzlerova nemesis
+jong-un - Rakeťák, Chudokrevný anorektik, Obhajoba vtipů o obezitě, Michael Bay s atomovkou, Zastánce ideologie Čůčo
 koudelka - Vrchní čučkař
 krajco - Generátor náhodných slov, Písmenková polévka, Ten co prdí do hrnce
 kalousek - Arcikacíř Mirek, Kalůsek, Ňajvětšej kreminálník, Zloděj zlodějský, Těn ožrala, Padákový zabiják, Viník našich posraných životů
@@ -36,7 +38,7 @@ okamura - Japonský vlastenec, Pitomio, Syn maminky z Moravy, Ten, co mluví i z
 ovcacek - Buzerant s kabelkou, Zaměstnanec hospicu Lány, Twitterový terrorista
 paroubek - Sexy mozek, Mistr dechových cvičení s černým páskem, Prase bradavičnaté, Halíře dělaj talíře
 prymula - Generál zdravotnictví, Promořovatel republiky, Hradfest partylife, Předloha pro kuželkářskou kouli, Zavírač, Návštěvník restaurací, Prymalex
-putin - Berlínský rozvědčík, 5D šachista z Kremlu, Gerontní Napoleon, Put-In, Pootin, Dědek z bunkru, Ivan Hrozný z Wishe, Třídenní operace prostaty
+putin - Berlínský rozvědčík, 5D šachista z Kremlu, Gerontní Napoleon, Put-In, Pootin, Dědek z bunkru, Ivan Hrozný z Wishe, Třídenní operace prostaty, Adolf Putler
 ringo-cech - Ten co držel pero, ale nepodepsal, Autor obrázku Zvířatka obdivují autoportrét, Vepřo knedlo Ringo, Milošův simp
 rajchl - Pornoherec, Bezzubý prostitut, Předseda PoRnO, JáJsemPrávník
 rakusan - Český Steve Buscemi, Gordon Freeman, Bohatá nevěsta, Kup jim ty kalhoty
@@ -52,11 +54,12 @@ spd - SSPD, Strana Pomocných Dělníků, Parlamentní fašistické hnutí
 stacilo - 4% NeStačilo!, 40 let Stačilo!
 topolanek - Buran po Toskánsku, Dalíkova amnestie, Švédská trojka
 turek - Tutůrek, Automat na zvedání pravice, Postrach dětských závodů, Předepisovatel pití Sava, Sběratel zahnutých křížů, Iránský agent, Schumacher mezi páťáky, Hranatý parazit, Adolf Driftler, CEO damage controlu, SSchumacher, Zmoštěnec
-tvrdik - Luftjarda, Je mi z vás na blití
+tvrdik - Luftjarda, Je mi z vás na blití, Stavitel vzdušných zámků
+trump - Oranžgutan, Oranžový tlučhuba, Nejlepší ruský prezident, Alzhajmrista, Bombarduju, nebombarduju, bombarduju..., Ředitel Zeměkoule, Ochmatávač holčiček, Ochmatávač Billa, Donica Lewinsky, No more wars, Velký a krásný stratég, Mírokurvce, peDonald, Agent Krasnov
 vavra - CEO sebereflexe, Gibon v Bentley, Frý Spíč Mafia, Ban Vávra
 vesely - Vypasená svině, Ruský nok, Ředitel gulagu, Strůjce genocidy chlebíčků, Postrach oleje z friťáku, Otesánek z televize, Blop
 vojtech - Ken, Bezpohlavní partner Barbie, Hvězdná pěchota ministerstva zdravotnictví, Řekněte jméno, ABBA revival, Zpívající ministr
 volny - Mgr. Parakotoul vzad, Obchodník s chudobou, Výtržník a taky trochu prase, Medvídek, Král makaků, Lízátkový baron, Flákanec, Volný radikál, DHL práškovací letadlo, Vepřový tělocvikář, Obyvatel SleZka
 vondracek - Burešův marigold, Majitel nejhezčího prostředníčku ve sněmovně, Adrenalinový lezec po lavicích sněmovny, Bard bez talentu
 vystrcil - Agresivní sysel, Taiwanský simp, Kubera light
-zeman - Vepřočlověk, Prognostický nekromancer, Pudinkový baron, Bubble bum, Starý jezevec, Ovar, Beznohý sprinter, Šáteček, Suchozemský plaz
+zeman - Vepřočlověk, Prognostický nekromancer, Pudinkový baron, Bubble bum, Starý jezevec, Ovar, Beznohý sprinter, Šáteček, Suchozemský plaz, Viróza

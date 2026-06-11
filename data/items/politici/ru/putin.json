@@ -17,7 +17,8 @@
         "Pootin",
         "Dědek z bunkru",
         "Ivan Hrozný z Wishe",
-        "Třídenní operace prostaty"
+        "Třídenní operace prostaty",
+        "Adolf Putler"
       ]
     },
     "2": {
@@ -34,7 +35,8 @@
         "Pootina",
         "Dědka z bunkru",
         "Ivana Hrozného z Wishe",
-        "Třídenní operace prostaty"
+        "Třídenní operace prostaty",
+        "Adolfa Putlera"
       ]
     },
     "3": {
@@ -51,7 +53,8 @@
         "Pootinovi",
         "Dědkovi z bunkru",
         "Ivanu Hroznému z Wishe",
-        "Třídenní operaci prostaty"
+        "Třídenní operaci prostaty",
+        "Adolfu Putlerovi"
       ]
     },
     "4": {
@@ -68,7 +71,8 @@
         "Pootina",
         "Dědka z bunkru",
         "Ivana Hrozného z Wishe",
-        "Třídenní operaci prostaty"
+        "Třídenní operaci prostaty",
+        "Adolfa Putlera"
       ]
     },
     "5": {
@@ -85,7 +89,8 @@
         "Pootine",
         "Dědku z bunkru",
         "Ivane Hrozný z Wishe",
-        "Třídenní operace prostaty"
+        "Třídenní operace prostaty",
+        "Adolfe Putlere"
       ]
     },
     "6": {
@@ -102,7 +107,8 @@
         "Pootinovi",
         "Dědkovi z bunkru",
         "Ivanu Hrozném z Wishe",
-        "Třídenní operaci prostaty"
+        "Třídenní operaci prostaty",
+        "Adolfu Putlerovi"
       ]
     },
     "7": {
@@ -119,7 +125,8 @@
         "Pootinem",
         "Dědkem z bunkru",
         "Ivanem Hrozným z Wishe",
-        "Třídenní operací prostaty"
+        "Třídenní operací prostaty",
+        "Adolfem Putlerem"
       ]
     }
   },
@@ -130,7 +137,8 @@
       ],
       "replacements": [
         "Pootinovo",
-        "Put-inovo"
+        "Put-inovo",
+        "Putlerovo"
       ]
     },
     "ta": {
@@ -139,7 +147,8 @@
       ],
       "replacements": [
         "Pootinova",
-        "Put-inova"
+        "Put-inova",
+        "Putlerova"
       ]
     },
     "ten": {
@@ -148,7 +157,8 @@
       ],
       "replacements": [
         "Pootinův",
-        "Put-inův"
+        "Put-inův",
+        "Putlerův"
       ]
     },
     "ti": {
@@ -157,7 +167,8 @@
       ],
       "replacements": [
         "Pootinovi",
-        "Put-inovi"
+        "Put-inovi",
+        "Putlerovi"
       ]
     },
     "ty": {
@@ -166,7 +177,8 @@
       ],
       "replacements": [
         "Pootinovy",
-        "Put-inovy"
+        "Put-inovy",
+        "Putlerovy"
       ]
     },
     "te": {
@@ -175,7 +187,8 @@
       ],
       "replacements": [
         "Pootinově",
-        "Put-inově"
+        "Put-inově",
+        "Putlerově"
       ]
     }
   }

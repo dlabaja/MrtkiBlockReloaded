@@ -1,0 +1,184 @@
+{
+  "name": "jinping",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Si Ťin-pching",
+        "Ťin-pching",
+        "Xi Jinping",
+        "Jinping"
+      ],
+      "replacements": [
+        "Si-panda",
+        "Medvídek Pú",
+        "Velký skok vzad",
+        "Vietnamec z večerky",
+        "Etzlerova nemesis"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Si Ťin-pchinga",
+        "Ťin-pchinga",
+        "Xi Jinpinga",
+        "Jinpinga"
+      ],
+      "replacements": [
+        "Si-pandy",
+        "Medvídka Pú",
+        "Velkého skoku vzad",
+        "Vietnamce z večerky",
+        "Etzlerovy nemesis"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Si Ťin-pchingovi",
+        "Ťin-pchingovi",
+        "Xi Jinpingovi",
+        "Jinpingovi"
+      ],
+      "replacements": [
+        "Si-pandovi",
+        "Medvídku Pú",
+        "Medvídkovi Pú",
+        "Velkému skoku vzad",
+        "Vietnamci z večerky",
+        "Vietnamcovi z večerky",
+        "Etzlerově nemesis"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Si Ťin-pchinga",
+        "Ťin-pchinga",
+        "Xi Jinpinga",
+        "Jinpinga"
+      ],
+      "replacements": [
+        "Si-pandu",
+        "Medvídka Pú",
+        "Velký skok vzad",
+        "Vietnamce z večerky",
+        "Etzlerovu nemesis"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Si Ťin-pchingů",
+        "Ťin-pchingů",
+        "Xi Jinpingu",
+        "Jinpingu"
+      ],
+      "replacements": [
+        "Si-pando",
+        "Medvídku Pú",
+        "Velký skoku vzad",
+        "Vietnamče z večerky",
+        "Etzlerova nemesis"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Si Ťin-pchingovi",
+        "Ťin-pchingovi",
+        "Xi Jinpingovi",
+        "Jinpingovi"
+      ],
+      "replacements": [
+        "Si-pandovi",
+        "Medvídku Pú",
+        "Medvídkovi Pú",
+        "Velkém skoku vzad",
+        "Vietnamci z večerky",
+        "Vietnamcovi z večerky",
+        "Etzlerově nemesis"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Si Ťin-pchingem",
+        "Ťin-pchingem",
+        "Xi Jinpingem",
+        "Jinpingem"
+      ],
+      "replacements": [
+        "Si-pandou",
+        "Medvídkem Pú",
+        "Velkým skokem vzad",
+        "Vietnamcem z večerky",
+        "Etzlerovou nemesis"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Si Ťin-pchingovo",
+        "Ťin-pchingovo",
+        "Xi Jinpingovo",
+        "Jinpingovo"
+      ],
+      "replacements": [
+        "Púovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Si Ťin-pchingova",
+        "Ťin-pchingova",
+        "Xi Jinpingova",
+        "Jinpingova"
+      ],
+      "replacements": [
+        "Púova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Si Ťin-pchingův",
+        "Ťin-pchingův",
+        "Xi Jinpingův",
+        "Jinpingův"
+      ],
+      "replacements": [
+        "Púův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Si Ťin-pchingovi",
+        "Ťin-pchingovi",
+        "Xi Jinpingovi",
+        "Jinpingovi"
+      ],
+      "replacements": [
+        "Púovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Si Ťin-pchingovy",
+        "Ťin-pchingovy",
+        "Xi Jinpingovy",
+        "Jinpingovy"
+      ],
+      "replacements": [
+        "Púovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Si Ťin-pchingově",
+        "Ťin-pchingově",
+        "Xi Jinpingově",
+        "Jinpingově"
+      ],
+      "replacements": [
+        "Púově"
+      ]
+    }
+  }
+}

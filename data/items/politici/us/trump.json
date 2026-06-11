@@ -1,0 +1,229 @@
+{
+  "name": "trump",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Trump",
+        "Donald Trump"
+      ],
+      "replacements": [
+        "Oranžgutan",
+        "Oranžový tlučhuba",
+        "Nejlepší ruský prezident",
+        "Alzhajmrista",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Ředitel Zeměkoule",
+        "Ochmatávač holčiček",
+        "Ochmatávač Billa",
+        "Donica Lewinsky",
+        "No more wars",
+        "Velký a krásný stratég",
+        "Mírokurvce",
+        "peDonald",
+        "Agent Krasnov"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Trumpa",
+        "Donalda Trumpa"
+      ],
+      "replacements": [
+        "Oranžgutana",
+        "Oranžového tlučhuby",
+        "Nejlepšího ruského prezidenta",
+        "Alzhajmristy",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Ředitele Zeměkoule",
+        "Ochmatávače holčiček",
+        "Ochmatávače Billa",
+        "Donicy Lewinsky",
+        "No more wars",
+        "Velkého a krásného stratéga",
+        "Mírokurvce",
+        "peDonalda",
+        "Agenta Krasnova"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Trumpovi",
+        "Donaldu Trumpovi"
+      ],
+      "replacements": [
+        "Oranžgutanovi",
+        "Oranžovému tlučhubovi",
+        "Nejlepšímu ruskému prezidentovi",
+        "Alzhajmristovi",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Řediteli Zeměkoule",
+        "Ochmatávači holčiček",
+        "Ochmatávači Billa",
+        "Donice Lewinsky",
+        "No more wars",
+        "Velkému a krásnému stratégovi",
+        "Mírokurvcovi",
+        "peDonaldovi",
+        "Agentu Krasnovovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Trumpa",
+        "Donalda Trumpa"
+      ],
+      "replacements": [
+        "Oranžgutana",
+        "Oranžového tlučhubu",
+        "Nejlepšího ruského prezidenta",
+        "Alzhajmristu",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Ředitele Zeměkoule",
+        "Ochmatávače holčiček",
+        "Ochmatávače Billa",
+        "Donicu Lewinsky",
+        "No more wars",
+        "Velkého a krásného stratéga",
+        "Mírokurvce",
+        "peDonalda",
+        "Agenta Krasnova"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Trumpe",
+        "Donalde Trumpe"
+      ],
+      "replacements": [
+        "Oranžgutane",
+        "Oranžový tlučhubo",
+        "Nejlepší ruský prezidente",
+        "Alzhajmristo",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Řediteli Zeměkoule",
+        "Ochmatávači holčiček",
+        "Ochmatávači Billa",
+        "Donico Lewinsky",
+        "No more wars",
+        "Velký a krásný stratégu",
+        "Mírokurvce",
+        "peDonalde",
+        "Agente Krasnove"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Trumpovi",
+        "Donaldu Trumpovi"
+      ],
+      "replacements": [
+        "Oranžgutanovi",
+        "Oranžovém tlučhubovi",
+        "Nejlepším ruském prezidentovi",
+        "Alzhajmristovi",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Řediteli Zeměkoule",
+        "Ochmatávači holčiček",
+        "Ochmatávači Billa",
+        "Donice Lewinsky",
+        "No more wars",
+        "Velkém a krásném stratégovi",
+        "Mírokurvcovi",
+        "peDonaldovi",
+        "Agentu Krasnovovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Trumpem",
+        "Donaldem Trumpem"
+      ],
+      "replacements": [
+        "Oranžgutanem",
+        "Oranžovým tlučhubou",
+        "Nejlepším ruským prezidentem",
+        "Alzhajmristou",
+        "Bombarduju, nebombarduju, bombarduju...",
+        "Ředitelem Zeměkoule",
+        "Ochmatávačem holčiček",
+        "Ochmatávačem Billa",
+        "Donicou Lewinsky",
+        "No more wars",
+        "Velkým a krásným stratégem",
+        "Mírokurvcem",
+        "peDonaldem",
+        "Agentem Krasnovem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Trumpovo"
+      ],
+      "replacements": [
+        "Alzhajmristovo",
+        "Krasnovovo",
+        "peDonaldovo",
+        "Mírokurvcovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Trumpova"
+      ],
+      "replacements": [
+        "Alzhajmristova",
+        "Krasnovova",
+        "peDonaldova",
+        "Mírokurvcova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Trumpův"
+      ],
+      "replacements": [
+        "Alzhajmristův",
+        "Krasnovův",
+        "peDonaldův",
+        "Mírokurvcův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Trumpovi"
+      ],
+      "replacements": [
+        "Alzhajmristovi",
+        "Krasnovovi",
+        "peDonaldovi",
+        "Mírokurvcovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Trumpovy"
+      ],
+      "replacements": [
+        "Alzhajmristovy",
+        "Krasnovovy",
+        "peDonaldovy",
+        "Mírokurvcovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Trumpově"
+      ],
+      "replacements": [
+        "Alzhajmristově",
+        "Krasnovově",
+        "peDonaldově",
+        "Mírokurvcově"
+      ]
+    }
+  }
+}
