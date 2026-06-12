@@ -5,11 +5,11 @@ import {firstChar, lastChar, NBSP, trimOne, ZWSP} from "../utils/string-utils";
 export class TrieManager {
     private _dataManager: DataManager;
     private _boundaries = [" ", ".", ",", ";", ":", "!", "?", "„", "“", "'", "\"", "\n", "\t", NBSP, ZWSP];
-    public trie: Trie;
+    private trie: Trie;
 
     constructor(dataManager: DataManager) {
         this._dataManager = dataManager;
-        this.trie = new Trie(this.borderedMatches(this._dataManager.matches, this._boundaries));
+        this.trie = new Trie(this._dataManager.matches);
     }
     
     public getRandomReplacement(borderedMatch: string) {
@@ -20,15 +20,7 @@ export class TrieManager {
         return `${prefix}${replacement}${suffix}`
     }
     
-    private borderedMatches(matches: string[], boundaries: string[]) {
-        const res = [];
-        for (const prefix of boundaries) {
-            for (const suffix of boundaries) {
-                for (const match of matches) {
-                    res.push(`${prefix}${match}${suffix}`);
-                }
-            }
-        }
-        return res;
+    public search(text: string) {
+        return ["a"];
     }
 }

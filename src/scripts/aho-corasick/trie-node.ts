@@ -1,10 +1,9 @@
 export class TrieNode {
-    public readonly char: char;
-    public readonly next: Map<char, TrieNode>;
-    public readonly failureLinks: Map<char, TrieNode>;
-    public failureLinksInit = false;
+    public char: char;
+    public next: Map<char, TrieNode>;
+    public failureLinks: Map<char, TrieNode>;
     public prev: TrieNode|null;
-    public readonly isEnd: boolean;
+    public isEnd: boolean;
     
     constructor(char: char, prev: TrieNode|null, isEnd: boolean) {
         this.char = char;

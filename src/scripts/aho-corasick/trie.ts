@@ -4,8 +4,10 @@
 import {TrieNode} from "./trie-node";
 
 export const EMPTY = "";
+export const WILDCARD = "\0";
 
 // trie vypadá podle wikipedie trošičku jinak, ale v tom algoritmu to funguje stejně
+// Znak \0 se interpretuje jako wildcard
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
     public readonly words: string[];
@@ -20,6 +22,7 @@ export class Trie {
         for (const word of words) {
             this.addWord(word, this.root, 0);
         }
+        this.traverseNodes(this.root, (node) => this.addFailureLinks(node))
     }
 
     private addWord(word: string, prevNode: TrieNode, index: number) {
@@ -56,36 +59,38 @@ export class Trie {
         return result;
     }
     
-    private searchRec(text: string, node: TrieNode, index: number, ir: char[], result: string[]) {
+    private searchRec(text: string, node: TrieNode, index: number, ir: char[], result: string[]): void {
+        if (node.isEnd) {
+            result.push(ir.join(""));
+        }
+        
         if (index >= text.length) {
             return;
         }
 
-        if (node.isEnd) {
-            result.push(ir.join(""));
-            ir = [];
-        }
-        
         const char = text[index];
         let nextNode = node.next.get(char);
         
-        if (!nextNode) { // jdu do failure linku
-            if (!node.failureLinksInit) {
-                this.addFailureLinks(node);
-                node.failureLinksInit = true;
-            }
-            nextNode = node.failureLinks.get(char);
-            if (!nextNode) { // jdu do rootu
-                this.searchRec(text, this.root, index + 1, [], result);
+        if (!nextNode) { 
+            nextNode = node.next.get(WILDCARD);
+            if (nextNode) {
+                ir.push(char);
+                this.searchRec(text, nextNode, index + 1, ir, result);
                 return;
             }
-            ir = [...this.longestSuffixInTree(this.suffixes(node)) + char];
-            this.searchRec(text, nextNode, index + 1, ir, result);
+            
+            nextNode = node.failureLinks.get(char);
+            if (nextNode) {
+                ir = [...this.longestSuffixInTree(this.suffixes(node)) + char];
+                this.searchRec(text, nextNode, index + 1, ir, result);
+                return;
+            }
+            this.searchRec(text, this.root, index + 1, ir, result);
             return;
         }
 
         ir.push(char);
-        this.searchRec(text, nextNode, index + 1, ir, result)
+        this.searchRec(text, nextNode, index + 1, ir, result);
     }
     
     // root->C->A->T -> [CAT, AT, T, EMPTY]
