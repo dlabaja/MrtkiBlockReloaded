@@ -178,6 +178,51 @@
       "replacements": [
         "Rakeťákově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Čong-unovu",
+        "Kim Čong-unovu"
+      ],
+      "replacements": [
+        "Rakeťákovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Čong-unovou",
+        "Kim Čong-unovou"
+      ],
+      "replacements": [
+        "Rakeťákovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Čong-unovým",
+        "Kim Čong-unovým"
+      ],
+      "replacements": [
+        "Rakeťákovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Čong-unových",
+        "Kim Čong-unových"
+      ],
+      "replacements": [
+        "Rakeťákových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Čong-unovými",
+        "Kim Čong-unovými"
+      ],
+      "replacements": [
+        "Rakeťákovými"
+      ]
     }
   }
 }

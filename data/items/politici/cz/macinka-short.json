@@ -161,6 +161,66 @@
         "Nacinkově",
         "Méněcencinkově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Macinkovu"
+      ],
+      "replacements": [
+        "Pacinkovu",
+        "Prcinkovu",
+        "Micinkovu",
+        "Nacinkovu",
+        "Méněcencinkovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Macinkovou"
+      ],
+      "replacements": [
+        "Pacinkovou",
+        "Prcinkovou",
+        "Micinkovou",
+        "Nacinkovou",
+        "Méněcencinkovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Macinkovým"
+      ],
+      "replacements": [
+        "Pacinkovým",
+        "Prcinkovým",
+        "Micinkovým",
+        "Nacinkovým",
+        "Méněcencinkovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Macinkových"
+      ],
+      "replacements": [
+        "Pacinkových",
+        "Prcinkových",
+        "Micinkových",
+        "Nacinkových",
+        "Méněcencinkových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Macinkovými"
+      ],
+      "replacements": [
+        "Pacinkovými",
+        "Prcinkovými",
+        "Micinkovými",
+        "Nacinkovými",
+        "Méněcencinkovými"
+      ]
     }
   }
 }

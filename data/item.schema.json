@@ -55,10 +55,15 @@
         "ten": {"$ref": "#/definitions/declension"},
         "ti": {"$ref": "#/definitions/declension"},
         "ty": {"$ref": "#/definitions/declension"},
-        "te": {"$ref": "#/definitions/declension"}
+        "te": {"$ref": "#/definitions/declension"},
+        "tu": {"$ref": "#/definitions/declension"},
+        "tou": {"$ref": "#/definitions/declension"},
+        "tim": {"$ref": "#/definitions/declension"},
+        "tech": {"$ref": "#/definitions/declension"},
+        "temi": {"$ref": "#/definitions/declension"}
       },
-      "required": ["to", "ta", "ten", "ti", "ty", "te"]
+      "required": ["to", "ta", "ten", "ti", "ty", "te", "tu", "tou", "tim", "tech", "temi"]
     }
   },
-  "required": ["name", "matchUpperCase", "matchLowerCase", "cases", "adjectives"]
+  "required": ["name", "matchUpperCase", "matchLowerCase", "cases"]
 }

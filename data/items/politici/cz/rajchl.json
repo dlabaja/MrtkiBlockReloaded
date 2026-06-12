@@ -136,6 +136,46 @@
       "replacements": [
         "Pornohercově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Rajchlovu"
+      ],
+      "replacements": [
+        "Pornohercovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Rajchlovou"
+      ],
+      "replacements": [
+        "Pornohercovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Rajchlovým"
+      ],
+      "replacements": [
+        "Pornohercovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Rajchlových"
+      ],
+      "replacements": [
+        "Pornohercových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Rajchlovými"
+      ],
+      "replacements": [
+        "Pornohercovými"
+      ]
     }
   }
 }

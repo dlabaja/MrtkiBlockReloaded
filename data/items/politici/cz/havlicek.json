@@ -183,6 +183,56 @@
         "Insomniově",
         "Slepejšově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Havlíčkovu"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovu",
+        "Slepejšovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Havlíčkovou"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovou",
+        "Slepejšovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Havlíčkovým"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovým",
+        "Slepejšovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Havlíčkových"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniových",
+        "Slepejšových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Havlíčkovými"
+      ],
+      "replacements": [
+        "Sonyho",
+        "Insomniovými",
+        "Slepejšovými"
+      ]
     }
   }
 }

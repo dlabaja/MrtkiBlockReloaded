@@ -149,6 +149,51 @@
         "Kyvadélkově",
         "Fízlově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Cibulkovu"
+      ],
+      "replacements": [
+        "Kyvadélkovu",
+        "Fízlovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Cibulkovou"
+      ],
+      "replacements": [
+        "Kyvadélkovou",
+        "Fízlovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Cibulkovým"
+      ],
+      "replacements": [
+        "Kyvadélkovým",
+        "Fízlovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Cibulkových"
+      ],
+      "replacements": [
+        "Kyvadélkových",
+        "Fízlových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Cibulkovými"
+      ],
+      "replacements": [
+        "Kyvadélkovými",
+        "Fízlovými"
+      ]
     }
   }
 }

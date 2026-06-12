@@ -80,43 +80,5 @@
         "Švédskou trojkou"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Topolánkovo"
-      ],
-      "replacements": []
-    },
-    "ta": {
-      "matches": [
-        "Topolánkova"
-      ],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [
-        "Topolánkův"
-      ],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [
-        "Topolánkovi"
-      ],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [
-        "Topolánkovy"
-      ],
-      "replacements": []
-    },
-    "te": {
-      "matches": [
-        "Topolánkově"
-      ],
-      "replacements": []
-    }
   }
 }

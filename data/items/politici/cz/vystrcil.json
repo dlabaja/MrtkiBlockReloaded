@@ -129,6 +129,46 @@
       "replacements": [
         "Syslově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Vystrčilovu"
+      ],
+      "replacements": [
+        "Syslovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Vystrčilovou"
+      ],
+      "replacements": [
+        "Syslovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Vystrčilovým"
+      ],
+      "replacements": [
+        "Syslovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Vystrčilových"
+      ],
+      "replacements": [
+        "Syslových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Vystrčilovými"
+      ],
+      "replacements": [
+        "Syslovými"
+      ]
     }
   }
 }

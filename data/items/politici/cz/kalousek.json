@@ -163,6 +163,51 @@
         "Kalůskově",
         "Ožralově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Kalouskovu"
+      ],
+      "replacements": [
+        "Kalůskovu",
+        "Ožralovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Kalouskovou"
+      ],
+      "replacements": [
+        "Kalůskovou",
+        "Ožralovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Kalouskovým"
+      ],
+      "replacements": [
+        "Kalůskovým",
+        "Ožralovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Kalouskových"
+      ],
+      "replacements": [
+        "Kalůskových",
+        "Ožralových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Kalouskovými"
+      ],
+      "replacements": [
+        "Kalůskovými",
+        "Ožralovými"
+      ]
     }
   }
 }

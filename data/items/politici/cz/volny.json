@@ -137,37 +137,5 @@
         "Obyvatelem SleZka"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Volného"
-      ],
-      "replacements": [
-        "Medvídkovo",
-        "Flákancovo",
-        "Volnoradikálové"
-      ]
-    },
-    "ta": {
-      "matches": [],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [],
-      "replacements": []
-    },
-    "te": {
-      "matches": [],
-      "replacements": []
-    }
   }
 }

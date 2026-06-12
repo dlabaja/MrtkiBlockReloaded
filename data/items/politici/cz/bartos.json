@@ -143,6 +143,51 @@
         "Zkuřkově",
         "Harmonikářově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Bartošovu"
+      ],
+      "replacements": [
+        "Zkuřkovu",
+        "Harmonikářovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Bartošovou"
+      ],
+      "replacements": [
+        "Zkuřkovou",
+        "Harmonikářovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Bartošovým"
+      ],
+      "replacements": [
+        "Zkuřkovým",
+        "Harmonikářovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Bartošových"
+      ],
+      "replacements": [
+        "Zkuřkových",
+        "Harmonikářových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Bartošovými"
+      ],
+      "replacements": [
+        "Zkuřkovými",
+        "Harmonikářovými"
+      ]
     }
   }
 }

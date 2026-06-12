@@ -224,6 +224,61 @@
         "peDonaldově",
         "Mírokurvcově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Trumpovu"
+      ],
+      "replacements": [
+        "Alzhajmristovu",
+        "Krasnovovu",
+        "peDonaldovu",
+        "Mírokurvcovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Trumpovou"
+      ],
+      "replacements": [
+        "Alzhajmristovou",
+        "Krasnovovou",
+        "peDonaldovou",
+        "Mírokurvcovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Trumpovým"
+      ],
+      "replacements": [
+        "Alzhajmristovým",
+        "Krasnovovým",
+        "peDonaldovým",
+        "Mírokurvcovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Trumpových"
+      ],
+      "replacements": [
+        "Alzhajmristových",
+        "Krasnovových",
+        "peDonaldových",
+        "Mírokurvcových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Trumpovými"
+      ],
+      "replacements": [
+        "Alzhajmristovými",
+        "Krasnovovými",
+        "peDonaldovými",
+        "Mírokurvcovými"
+      ]
     }
   }
 }

@@ -138,6 +138,46 @@
       "replacements": [
         "Arciprasmanově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Dukovu"
+      ],
+      "replacements": [
+        "Arciprasmanovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Dukovou"
+      ],
+      "replacements": [
+        "Arciprasmanovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Dukovým"
+      ],
+      "replacements": [
+        "Arciprasmanovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Dukových"
+      ],
+      "replacements": [
+        "Arciprasmanových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Dukovými"
+      ],
+      "replacements": [
+        "Arciprasmanovými"
+      ]
     }
   }
 }

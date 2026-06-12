@@ -117,6 +117,46 @@
       "replacements": [
         "Čučkařově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Koudelkovu"
+      ],
+      "replacements": [
+        "Čučkařovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Koudelkovou"
+      ],
+      "replacements": [
+        "Čučkařovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Koudelkovým"
+      ],
+      "replacements": [
+        "Čučkařovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Koudelkových"
+      ],
+      "replacements": [
+        "Čučkařových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Koudelkovými"
+      ],
+      "replacements": [
+        "Čučkařovými"
+      ]
     }
   }
 }

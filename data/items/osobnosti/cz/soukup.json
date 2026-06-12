@@ -156,6 +156,51 @@
         "Větroplachově",
         "Oportunistově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Soukupovu"
+      ],
+      "replacements": [
+        "Větroplachovu",
+        "Oportunistovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Soukupovou"
+      ],
+      "replacements": [
+        "Větroplachovou",
+        "Oportunistovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Soukupovým"
+      ],
+      "replacements": [
+        "Větroplachovým",
+        "Oportunistovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Soukupových"
+      ],
+      "replacements": [
+        "Větroplachových",
+        "Oportunistových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Soukupovými"
+      ],
+      "replacements": [
+        "Větroplachovými",
+        "Oportunistovými"
+      ]
     }
   }
 }

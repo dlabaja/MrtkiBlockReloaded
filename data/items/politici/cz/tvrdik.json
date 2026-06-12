@@ -129,6 +129,46 @@
       "replacements": [
         "Luftjardově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Tvrdíkovu"
+      ],
+      "replacements": [
+        "Luftjardovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Tvrdíkovou"
+      ],
+      "replacements": [
+        "Luftjardovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Tvrdíkovým"
+      ],
+      "replacements": [
+        "Luftjardovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Tvrdíkových"
+      ],
+      "replacements": [
+        "Luftjardových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Tvrdíkovými"
+      ],
+      "replacements": [
+        "Luftjardovými"
+      ]
     }
   }
 }

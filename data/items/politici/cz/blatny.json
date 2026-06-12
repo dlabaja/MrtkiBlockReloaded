@@ -81,31 +81,5 @@
         "Ministrem zdravotnictví číslo 14855"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [],
-      "replacements": []
-    },
-    "ta": {
-      "matches": [],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [],
-      "replacements": []
-    },
-    "te": {
-      "matches": [],
-      "replacements": []
-    }
   }
 }

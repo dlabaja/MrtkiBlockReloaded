@@ -135,6 +135,51 @@
         "Křišťálově",
         "Ofinově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Grossovu"
+      ],
+      "replacements": [
+        "Křišťálovu",
+        "Ofinovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Grossovou"
+      ],
+      "replacements": [
+        "Křišťálovou",
+        "Ofinovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Grossovým"
+      ],
+      "replacements": [
+        "Křišťálovým",
+        "Ofinovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Grossových"
+      ],
+      "replacements": [
+        "Křišťálových",
+        "Ofinových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Grossovými"
+      ],
+      "replacements": [
+        "Křišťálovými",
+        "Ofinovými"
+      ]
     }
   }
 }

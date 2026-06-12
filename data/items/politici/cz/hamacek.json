@@ -182,6 +182,61 @@
         "Haháčkově",
         "Svetrově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Hamáčkovu"
+      ],
+      "replacements": [
+        "Rohožkovu",
+        "Klauňáčkovu",
+        "Haháčkovu",
+        "Svetrovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Hamáčkovou"
+      ],
+      "replacements": [
+        "Rohožkovou",
+        "Klauňáčkovou",
+        "Haháčkovou",
+        "Svetrovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Hamáčkovým"
+      ],
+      "replacements": [
+        "Rohožkovým",
+        "Klauňáčkovým",
+        "Haháčkovým",
+        "Svetrovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Hamáčkových"
+      ],
+      "replacements": [
+        "Rohožkových",
+        "Klauňáčkových",
+        "Haháčkových",
+        "Svetrových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Hamáčkovými"
+      ],
+      "replacements": [
+        "Rohožkovými",
+        "Klauňáčkovými",
+        "Haháčkovými",
+        "Svetrovými"
+      ]
     }
   }
 }

@@ -95,55 +95,5 @@
         "Generátorem náhodných slov"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Roznerovo"
-      ],
-      "replacements": [
-        "Zabrušovačovo"
-      ]
-    },
-    "ta": {
-      "matches": [
-        "Roznerova"
-      ],
-      "replacements": [
-        "Zabrušovačova"
-      ]
-    },
-    "ten": {
-      "matches": [
-        "Roznerův"
-      ],
-      "replacements": [
-        "Zabrušovačův"
-      ]
-    },
-    "ti": {
-      "matches": [
-        "Roznerovi"
-      ],
-      "replacements": [
-        "Zabrušovačovi"
-      ]
-    },
-    "ty": {
-      "matches": [
-        "Roznerovy"
-      ],
-      "replacements": [
-        "Zabrušovačovy"
-      ]
-    },
-    "te": {
-      "matches": [
-        "Roznerově"
-      ],
-      "replacements": [
-        "Zabrušovačově"
-      ]
-    }
   }
 }

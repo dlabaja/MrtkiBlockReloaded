@@ -249,6 +249,76 @@
         "Bimbišově",
         "Blábolišově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Babišovu"
+      ],
+      "replacements": [
+        "Kunoksichtovu",
+        "Burešovu",
+        "STBákovu",
+        "Řepkobaronovu",
+        "Zapíračovu",
+        "Bimbišovu",
+        "Blábolišovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Babišovou"
+      ],
+      "replacements": [
+        "Kunoksichtovou",
+        "Burešovou",
+        "STBákovou",
+        "Řepkobaronovou",
+        "Zapíračovou",
+        "Bimbišovou",
+        "Blábolišovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Babišovým"
+      ],
+      "replacements": [
+        "Kunoksichtovým",
+        "Burešovým",
+        "STBákovým",
+        "Řepkobaronovým",
+        "Zapíračovým",
+        "Bimbišovým",
+        "Blábolišovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Babišových"
+      ],
+      "replacements": [
+        "Kunoksichtových",
+        "Burešových",
+        "STBákových",
+        "Řepkobaronových",
+        "Zapíračových",
+        "Bimbišových",
+        "Blábolišových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Babišovými"
+      ],
+      "replacements": [
+        "Kunoksichtovými",
+        "Burešovými",
+        "STBákovými",
+        "Řepkobaronovými",
+        "Zapíračovými",
+        "Bimbišovými",
+        "Blábolišovými"
+      ]
     }
   }
 }

@@ -179,6 +179,61 @@
       "replacements": [
         "Púově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Si Ťin-pchingovu",
+        "Ťin-pchingovu",
+        "Xi Jinpingovu",
+        "Jinpingovu"
+      ],
+      "replacements": [
+        "Púovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Si Ťin-pchingovou",
+        "Ťin-pchingovou",
+        "Xi Jinpingovou",
+        "Jinpingovou"
+      ],
+      "replacements": [
+        "Púovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Si Ťin-pchingovým",
+        "Ťin-pchingovým",
+        "Xi Jinpingovým",
+        "Jinpingovým"
+      ],
+      "replacements": [
+        "Púovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Si Ťin-pchingových",
+        "Ťin-pchingových",
+        "Xi Jinpingových",
+        "Jinpingových"
+      ],
+      "replacements": [
+        "Púových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Si Ťin-pchingovými",
+        "Ťin-pchingovými",
+        "Xi Jinpingovými",
+        "Jinpingovými"
+      ],
+      "replacements": [
+        "Púovými"
+      ]
     }
   }
 }

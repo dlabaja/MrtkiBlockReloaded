@@ -175,6 +175,61 @@
         "Hobitově",
         "Trpaslíkově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Nacherovu"
+      ],
+      "replacements": [
+        "Leprikónovu",
+        "Krysaříkovu",
+        "Hobitovu",
+        "Trpaslíkovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Nacherovou"
+      ],
+      "replacements": [
+        "Leprikónovou",
+        "Krysaříkovou",
+        "Hobitovou",
+        "Trpaslíkovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Nacherovým"
+      ],
+      "replacements": [
+        "Leprikónovým",
+        "Krysaříkovým",
+        "Hobitovým",
+        "Trpaslíkovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Nacherových"
+      ],
+      "replacements": [
+        "Leprikónových",
+        "Krysaříkových",
+        "Hobitových",
+        "Trpaslíkových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Nacherovými"
+      ],
+      "replacements": [
+        "Leprikónovými",
+        "Krysaříkovými",
+        "Hobitovými",
+        "Trpaslíkovými"
+      ]
     }
   }
 }

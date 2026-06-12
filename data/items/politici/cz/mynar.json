@@ -135,7 +135,7 @@
         "Mynářovi"
       ],
       "replacements": [
-        "Sjezdovkáři",
+        "Sjezdovkářovi",
         "Cuntcléřovi"
       ]
     },
@@ -155,6 +155,51 @@
       "replacements": [
         "Sjezdovkářově",
         "Cuntcléřově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Mynářovu"
+      ],
+      "replacements": [
+        "Sjezdovkářovu",
+        "Cuntcléřovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Mynářovou"
+      ],
+      "replacements": [
+        "Sjezdovkářovou",
+        "Cuntcléřovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Mynářovým"
+      ],
+      "replacements": [
+        "Sjezdovkářovým",
+        "Cuntcléřovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Mynářových"
+      ],
+      "replacements": [
+        "Sjezdovkářových",
+        "Cuntcléřových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Mynářovými"
+      ],
+      "replacements": [
+        "Sjezdovkářovými",
+        "Cuntcléřovými"
       ]
     }
   }

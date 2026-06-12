@@ -89,56 +89,5 @@
         "Kup jim ty kalhoty"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Rakušanovo"
-      ],
-      "replacements": [
-        "Gordonovo"
-      ]
-    },
-    "ta": {
-      "matches": [
-        "Rakušanova"
-      ],
-      "replacements": [
-        "Gordonova"
-      ]
-    },
-    "ten": {
-      "matches": [
-        "Rakušanův"
-      ],
-      "replacements": [
-        "Gordonův"
-      ]
-    },
-    "ti": {
-      "matches": [
-        "Rakušanovi"
-      ],
-      "replacements": [
-        "Gordonovi"
-      ]
-    },
-    "ty": {
-      "matches": [
-        "Rakušany",
-        "Rakušanovy"
-      ],
-      "replacements": [
-        "Gordonovy"
-      ]
-    },
-    "te": {
-      "matches": [
-        "Rakušanově"
-      ],
-      "replacements": [
-        "Gordonově"
-      ]
-    }
   }
 }

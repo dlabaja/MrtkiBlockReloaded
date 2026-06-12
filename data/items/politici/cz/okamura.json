@@ -196,6 +196,66 @@
         "Podržštaflově",
         "Okanimůrově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Okamurovu"
+      ],
+      "replacements": [
+        "Pitomiovu",
+        "Sumorajovu",
+        "Lobotomiovu",
+        "Podržštaflovu",
+        "Okanimůrovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Okamurovou"
+      ],
+      "replacements": [
+        "Pitomiovou",
+        "Sumorajovou",
+        "Lobotomiovou",
+        "Podržštaflovou",
+        "Okanimůrovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Okamurovým"
+      ],
+      "replacements": [
+        "Pitomiovým",
+        "Sumorajovým",
+        "Lobotomiovým",
+        "Podržštaflovým",
+        "Okanimůrovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Okamurových"
+      ],
+      "replacements": [
+        "Pitomiových",
+        "Sumorajových",
+        "Lobotomiových",
+        "Podržštaflových",
+        "Okanimůrových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Okamurovými"
+      ],
+      "replacements": [
+        "Pitomiovými",
+        "Sumorájovými",
+        "Lobotomiovými",
+        "Podržštaflovými",
+        "Okanimůrovými"
+      ]
     }
   }
 }

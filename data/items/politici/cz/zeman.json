@@ -208,6 +208,71 @@
         "Ovarově",
         "Šátečkově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Zemanovu"
+      ],
+      "replacements": [
+        "Vepřočlověkovu",
+        "Nekromancerovu",
+        "Pudinkobaronovu",
+        "Jezevcovu",
+        "Ovarovu",
+        "Šátečkovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Zemanovou"
+      ],
+      "replacements": [
+        "Vepřočlověkovou",
+        "Nekromancerovou",
+        "Pudinkobaronovou",
+        "Jezevcovou",
+        "Ovarovou",
+        "Šátečkovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Zemanovým"
+      ],
+      "replacements": [
+        "Vepřočlověkovým",
+        "Nekromancerovým",
+        "Pudinkobaronovým",
+        "Jezevcovým",
+        "Ovarovým",
+        "Šátečkovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Zemanových"
+      ],
+      "replacements": [
+        "Vepřočlověkových",
+        "Nekromancerových",
+        "Pudinkobaronových",
+        "Jezevcových",
+        "Ovarových",
+        "Šátečkových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Zemanovými"
+      ],
+      "replacements": [
+        "Vepřočlověkovými",
+        "Nekromancerovými",
+        "Pudinkobaronovými",
+        "Jezevcovými",
+        "Ovarovými",
+        "Šátečkovými"
+      ]
     }
   }
 }

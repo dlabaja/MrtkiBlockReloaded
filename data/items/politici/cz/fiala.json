@@ -157,6 +157,56 @@
         "Nutellově",
         "Skejťákově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Fialovu"
+      ],
+      "replacements": [
+        "Sucharovu",
+        "Nutellovu",
+        "Skejťákovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Fialovou"
+      ],
+      "replacements": [
+        "Sucharovou",
+        "Nutellovou",
+        "Skejťákovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Fialovým"
+      ],
+      "replacements": [
+        "Sucharovým",
+        "Nutellovým",
+        "Skejťákovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Fialových"
+      ],
+      "replacements": [
+        "Sucharových",
+        "Nutellových",
+        "Skejťákových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Fialovými"
+      ],
+      "replacements": [
+        "Sucharovými",
+        "Nutellovými",
+        "Skejťákovými"
+      ]
     }
   }
 }

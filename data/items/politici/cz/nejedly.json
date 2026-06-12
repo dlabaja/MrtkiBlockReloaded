@@ -88,36 +88,5 @@
         "Ruským vyjednavačem"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Nejedlého"
-      ],
-      "replacements": [
-        "Pumpařovo",
-        "Gangsterovo"
-      ]
-    },
-    "ta": {
-      "matches": [],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [],
-      "replacements": []
-    },
-    "te": {
-      "matches": [],
-      "replacements": []
-    }
   }
 }

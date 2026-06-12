@@ -108,37 +108,5 @@
         "Dluženou"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Schillerové",
-        "Aleny Schillerové"
-      ],
-      "replacements": [
-        "Candy crush šampiónky",
-        "Dluženy"
-      ]
-    },
-    "ta": {
-      "matches": [],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [],
-      "replacements": []
-    },
-    "te": {
-      "matches": [],
-      "replacements": []
-    }
   }
 }

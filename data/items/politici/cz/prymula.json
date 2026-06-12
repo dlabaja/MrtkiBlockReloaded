@@ -169,6 +169,56 @@
         "Zavíračově",
         "Prymalexově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Prymulovu"
+      ],
+      "replacements": [
+        "Promořovatelovu",
+        "Zavíračovu",
+        "Prymalexovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Prymulovou"
+      ],
+      "replacements": [
+        "Promořovatelovou",
+        "Zavíračovou",
+        "Prymalexovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Prymulovým"
+      ],
+      "replacements": [
+        "Promořovatelým",
+        "Zavíračovým",
+        "Prymalexovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Prymulových"
+      ],
+      "replacements": [
+        "Promořovatelových",
+        "Zavíračových",
+        "Prymalexových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Prymulovými"
+      ],
+      "replacements": [
+        "Promořovatelovými",
+        "Zavíračovými",
+        "Prymalexovými"
+      ]
     }
   }
 }

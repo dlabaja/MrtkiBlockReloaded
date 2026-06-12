@@ -170,6 +170,51 @@
         "Kikinově",
         "Teploušově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Klausovu"
+      ],
+      "replacements": [
+        "Kikinovu",
+        "Teploušovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Klausovou"
+      ],
+      "replacements": [
+        "Kikinovou",
+        "Teploušovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Klausovým"
+      ],
+      "replacements": [
+        "Kikinovým",
+        "Teploušovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Klausových"
+      ],
+      "replacements": [
+        "Kikinových",
+        "Teploušových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Klausovými"
+      ],
+      "replacements": [
+        "Kikinovými",
+        "Teploušovými"
+      ]
     }
   }
 }

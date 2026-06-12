@@ -122,6 +122,46 @@
       "replacements": [
         "Pablově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Blažkovu"
+      ],
+      "replacements": [
+        "Pablovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Blažkovovou"
+      ],
+      "replacements": [
+        "Pablovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Blažkovým"
+      ],
+      "replacements": [
+        "Pablovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Blažkových"
+      ],
+      "replacements": [
+        "Pablových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Blažkovými"
+      ],
+      "replacements": [
+        "Pablovými"
+      ]
     }
   }
 }

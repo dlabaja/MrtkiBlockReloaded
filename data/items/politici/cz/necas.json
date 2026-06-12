@@ -155,6 +155,56 @@
         "Trafikantově",
         "Kočkopsově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Nečasovu"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovu",
+        "Kočkopsovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Nečasovou"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovou",
+        "Kočkopsovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Nečasovým"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovým",
+        "Kočkopsovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Nečasových"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantových",
+        "Kočkopsových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Nečasovými"
+      ],
+      "replacements": [
+        "Nagyho",
+        "Trafikantovými",
+        "Kočkopsovými"
+      ]
     }
   }
 }

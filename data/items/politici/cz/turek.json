@@ -147,8 +147,7 @@
   "adjectives": {
     "to": {
       "matches": [
-        "Turkovo",
-        "Filipa Turkovo"
+        "Turkovo"
       ],
       "replacements": [
         "Tutůrkovo",
@@ -158,8 +157,7 @@
     },
     "ta": {
       "matches": [
-        "Turkova",
-        "Filipa Turkova"
+        "Turkova"
       ],
       "replacements": [
         "Tutůrkova",
@@ -169,8 +167,7 @@
     },
     "ten": {
       "matches": [
-        "Turkův",
-        "Filipa Turkův"
+        "Turkův"
       ],
       "replacements": [
         "Tutůrkův",
@@ -180,8 +177,7 @@
     },
     "ti": {
       "matches": [
-        "Turkovi",
-        "Filipa Turkovi"
+        "Turkovi"
       ],
       "replacements": [
         "Tutůrkovi",
@@ -191,8 +187,7 @@
     },
     "ty": {
       "matches": [
-        "Turkovy",
-        "Filipa Turkovy"
+        "Turkovy"
       ],
       "replacements": [
         "Tutůrkovy",
@@ -202,13 +197,62 @@
     },
     "te": {
       "matches": [
-        "Turkově",
-        "Filipa Turkově"
+        "Turkově"
       ],
       "replacements": [
         "Tutůrkově",
         "SSchumacherově",
         "Zmoštěncově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Turkovu"
+      ],
+      "replacements": [
+        "Tutůrkovu",
+        "SSchumacherovu",
+        "Zmoštěncovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Turkovou"
+      ],
+      "replacements": [
+        "Tutůrkovou",
+        "SSchumacherovou",
+        "Zmoštěncovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Turkovým"
+      ],
+      "replacements": [
+        "Tutůrkovým",
+        "SSchumacherovým",
+        "Zmoštěncovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Turkových"
+      ],
+      "replacements": [
+        "Tutůrkových",
+        "SSchumacherových",
+        "Zmoštěncových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Turkovými"
+      ],
+      "replacements": [
+        "Tutůrkovými",
+        "SSchumacherovými",
+        "Zmoštěncovými"
       ]
     }
   }

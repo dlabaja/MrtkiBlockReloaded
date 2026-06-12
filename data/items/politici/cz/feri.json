@@ -80,35 +80,5 @@
         "Tím co neuhne"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Feriho"
-      ],
-      "replacements": [
-        "Úplně nahýho"
-      ]
-    },
-    "ta": {
-      "matches": [],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [],
-      "replacements": []
-    },
-    "te": {
-      "matches": [],
-      "replacements": []
-    }
   }
 }

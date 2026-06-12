@@ -136,6 +136,46 @@
       "replacements": [
         "Sexymozkově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Paroubkovu"
+      ],
+      "replacements": [
+        "Sexymozkovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Paroubkovou"
+      ],
+      "replacements": [
+        "Sexymozkovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Paroubkovým"
+      ],
+      "replacements": [
+        "Sexymozkovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Paroubkových"
+      ],
+      "replacements": [
+        "Sexymozkových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Paroubkovými"
+      ],
+      "replacements": [
+        "Sexymozkovými"
+      ]
     }
   }
 }

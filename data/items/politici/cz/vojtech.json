@@ -96,31 +96,5 @@
         "Zpívajícím ministrem"
       ]
     }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [],
-      "replacements": []
-    },
-    "ta": {
-      "matches": [],
-      "replacements": []
-    },
-    "ten": {
-      "matches": [],
-      "replacements": []
-    },
-    "ti": {
-      "matches": [],
-      "replacements": []
-    },
-    "ty": {
-      "matches": [],
-      "replacements": []
-    },
-    "te": {
-      "matches": [],
-      "replacements": []
-    }
   }
 }

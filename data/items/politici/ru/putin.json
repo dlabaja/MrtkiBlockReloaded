@@ -190,6 +190,56 @@
         "Put-inově",
         "Putlerově"
       ]
+    },
+    "tu": {
+      "matches": [
+        "Putinovu"
+      ],
+      "replacements": [
+        "Pootinuva",
+        "Put-inuva",
+        "Putlerovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Putinovou"
+      ],
+      "replacements": [
+        "Pootinovou",
+        "Put-inovou",
+        "Putlerovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Putinovým"
+      ],
+      "replacements": [
+        "Pootinovým",
+        "Put-inovým",
+        "Putlerovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Putnových"
+      ],
+      "replacements": [
+        "Pootinových",
+        "Put-inových",
+        "Putlerových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Putnovými"
+      ],
+      "replacements": [
+        "Pootinovými",
+        "Put-inovými",
+        "Putlerovými"
+      ]
     }
   }
 }
