@@ -3,7 +3,7 @@ import * as Path from "node:path";
 import {Validator} from "jsonschema";
 
 const itemsPath = "./data/items";
-const outputPath = "./data/data.json";
+const outputPath = "./data/data2.json";
 const schemaPath = "./data/item.schema.json";
 const nameListPath = "./data/name-list.txt";
 const schema = JSON.parse(fs.readFileSync(schemaPath, { encoding: 'utf8', flag: 'r' }))

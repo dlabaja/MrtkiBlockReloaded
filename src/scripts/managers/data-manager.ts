@@ -17,13 +17,18 @@ export interface Data {
         6: DataDeclension,
         7: DataDeclension,
     },
-    adjectives: {
+    adjectives?: {
         to: DataDeclension,
         ta: DataDeclension,
         ten: DataDeclension,
         ti: DataDeclension,
         ty: DataDeclension,
-        te: DataDeclension
+        te: DataDeclension,
+        tu: DataDeclension,
+        tou: DataDeclension,
+        tim: DataDeclension,
+        tech: DataDeclension,
+        temi: DataDeclension
     }
 }
 
@@ -124,7 +129,7 @@ export class DataManager {
 
     private getMatchGroups(data: Data): MatchGroup[] {
         const result: MatchGroup[] = [];
-        const entries = [...Object.entries(data.cases), ...Object.entries(data.adjectives)];
+        const entries = [...Object.entries(data.cases), ...Object.entries(data.adjectives ?? [])];
         for (const entry of entries) {
             const id = entry[0] as MatchGroupId;
             const _matches = entry[1].matches;

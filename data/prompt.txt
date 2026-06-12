@@ -1,4 +1,4 @@
-Tohle je schéma mého json souboru. Dělám skloňování jmen politiků na přezdívky, pošlu ti jméno politika a jeho přezdívky a ty mi tenhle soubor vygeneruješ (taky jako json). Jsou tam pády (1-7) a přídavná jména (babišovo, babišova, babišův, babišovi, babišovy, babišově), máš je napsaný dole
+Tohle je schéma mého json souboru. Dělám skloňování jmen politiků na přezdívky, pošlu ti jméno politika a jeho přezdívky a ty mi tenhle soubor vygeneruješ (taky jako json). Jsou tam pády (1-7) a přídavná jména (babišovo, babišova, babišův, babišovi, babišovy, babišově), máš je napsaný dole - generuj je jenom pokud je tam zadám.
 
 tady je příklad:
   "name": "babis", // tohle udělej jednoslovný
@@ -110,12 +110,17 @@ tady je příklad:
         "ten": {"$ref": "#/definitions/declension"},
         "ti": {"$ref": "#/definitions/declension"},
         "ty": {"$ref": "#/definitions/declension"},
-        "te": {"$ref": "#/definitions/declension"}
+        "te": {"$ref": "#/definitions/declension"},
+        "tu": {"$ref": "#/definitions/declension"},
+        "tou": {"$ref": "#/definitions/declension"},
+        "tim": {"$ref": "#/definitions/declension"},
+        "tech": {"$ref": "#/definitions/declension"},
+        "temi": {"$ref": "#/definitions/declension"}
       },
-      "required": ["to", "ta", "ten", "ti", "ty", "te"]
+      "required": ["to", "ta", "ten", "ti", "ty", "te", "tu", "tou", "tim", "tech", "temi"]
     }
   },
-  "required": ["name", "matchUpperCase", "matchLowerCase", "cases", "adjectives"]
+  "required": ["name", "matchUpperCase", "matchLowerCase", "cases"]
 }
 
 vygeneruj mi to pro 
