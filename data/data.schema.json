@@ -1,5 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "array",
-  "items": {"$ref": "./data.schema.json"}
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string", 
+      "format": "date-time"
+    },
+    "items": {
+      "type": "array",
+      "items": {"$ref": "./data.schema.json"}
+    }
+  },
+  "required": ["items"]
 }
