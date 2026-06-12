@@ -3,6 +3,7 @@ import assert from "node:assert";
 
 export function testAhoCorasick() {
     testTutorialExample();
+    testSameStart();
     testSameEnd();
     testWildcard();
 }
@@ -14,4 +15,28 @@ function testTutorialExample() {
     const trie = new Trie(words);
     const found = trie.search(text);
     assert(found.length == 2 && found.includes("cat") && found.includes("atc"))
+}
+
+function testSameStart() {
+    const words = ["abc", "abcd"]
+    const text = "abcde";
+    const trie = new Trie(words);
+    const found = trie.search(text);
+    assert(found.length == 2 && found.includes("abc") && found.includes("abcd"))
+}
+
+function testSameEnd() {
+    const words = ["bcd", "abcd"]
+    const text = "abcde";
+    const trie = new Trie(words);
+    const found = trie.search(text);
+    assert(found.length == 2 && found.includes("bcd") && found.includes("abcd"))
+}
+
+function testWildcard() {
+    const words = ["acc", "atc", "cat\0", "gcg"]
+    const text = "gcatcg";
+    const trie = new Trie(words);
+    const found = trie.search(text);
+    assert(found.length == 2 && found.includes("catc") && found.includes("atc"))
 }

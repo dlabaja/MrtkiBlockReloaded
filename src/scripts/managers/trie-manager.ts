@@ -4,12 +4,12 @@ import {firstChar, lastChar, NBSP, trimOne, ZWSP} from "../utils/string-utils";
 
 export class TrieManager {
     private _dataManager: DataManager;
-    private _boundaries = [" ", ".", ",", ";", ":", "!", "?", "„", "“", "'", "\"", "\n", "\t", NBSP, ZWSP];
-    private trie: Trie;
+    private _boundaries = new Set([" ", ".", ",", ";", ":", "!", "?", "„", "“", "'", "\"", "\n", "\t", NBSP, ZWSP]);
+    private _trie: Trie;
 
     constructor(dataManager: DataManager) {
         this._dataManager = dataManager;
-        this.trie = new Trie(this._dataManager.matches);
+        this._trie = new Trie(this._dataManager.matches.map(x => `\0${x}\0`));
     }
     
     public getRandomReplacement(borderedMatch: string) {
@@ -21,6 +21,7 @@ export class TrieManager {
     }
     
     public search(text: string) {
-        return ["a"];
+        return this._trie.search(text)
+            .filter(x => this._boundaries.has(firstChar(x)) && this._boundaries.has(lastChar(x)));
     }
 }

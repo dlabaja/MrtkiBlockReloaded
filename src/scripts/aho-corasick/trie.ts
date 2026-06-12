@@ -10,11 +10,11 @@ export const WILDCARD = "\0";
 // Znak \0 se interpretuje jako wildcard
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
-    public readonly words: string[];
+    public readonly words: Set<string>;
 
     constructor(words: string[]) {
         this.root.prev = this.root;
-        this.words = words;
+        this.words = new Set(words);
         this.buildTrie(words)
     }
 
@@ -61,7 +61,10 @@ export class Trie {
     
     private searchRec(text: string, node: TrieNode, index: number, ir: char[], result: string[]): void {
         if (node.isEnd) {
-            result.push(ir.join(""));
+            const _substrings = this.substrings(node);
+            const substrings = _substrings.slice(1, _substrings.length - 1);
+            result.push(ir.join(""), 
+                ...substrings.filter(x => this.words.has(x)));
         }
         
         if (index >= text.length) {
