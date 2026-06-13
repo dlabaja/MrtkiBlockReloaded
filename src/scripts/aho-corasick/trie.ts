@@ -1,6 +1,7 @@
 // k tomuhle algoritmu (aho-corasick) mě přivedl chatgpt někdy v 11 večer - napsal jsem si ho sám, ale kdybych o něm nevěděl, musel bych použít regex
 // pomocí datové struktury Trie najde jedním průchodem všechny výskyty slov v textu
 
+import { suffixes } from "../utils/string-utils";
 import {TrieNode} from "./trie-node";
 
 export const EMPTY = "";
@@ -55,16 +56,15 @@ export class Trie {
     
     public search(text: string) {
         const result: string[] = [];
-        this.searchRec(text, this.root, 0, [], result);
+        this.searchRec(text, this.root, 0, [], [], result);
         return result;
     }
     
-    private searchRec(text: string, node: TrieNode, index: number, ir: char[], result: string[]): void {
+    private searchRec(text: string, node: TrieNode, index: number, ir: char[], wildcardStack: string[], result: string[]): void {
         if (node.isEnd) {
-            const _substrings = this.substrings(node);
-            const substrings = _substrings.slice(1, _substrings.length - 1);
-            result.push(ir.join(""), 
-                ...substrings.filter(x => this.words.has(x)));
+            const res = ir.join("");
+            const suffixList = suffixes(res).slice(1);
+            result.push(res, ...suffixList.filter(x => this.words.has(x)));
         }
         
         if (index >= text.length) {
@@ -73,27 +73,38 @@ export class Trie {
 
         const char = text[index];
         let nextNode = node.next.get(char);
-        
         if (!nextNode) { 
             nextNode = node.next.get(WILDCARD);
             if (nextNode) {
                 ir.push(char);
-                this.searchRec(text, nextNode, index + 1, ir, result);
+                wildcardStack.push(char);
+                this.searchRec(text, nextNode, index + 1, ir, wildcardStack, result);
                 return;
             }
             
             nextNode = node.failureLinks.get(char);
             if (nextNode) {
-                ir = [...this.longestSuffixInTree(this.suffixes(node)) + char];
-                this.searchRec(text, nextNode, index + 1, ir, result);
+                ir = [...this.replaceWildcards(this.longestSuffixInTree(this.suffixes(node)), wildcardStack) + char];
+                this.searchRec(text, nextNode, index + 1, ir, wildcardStack, result);
                 return;
             }
-            this.searchRec(text, this.root, index + 1, ir, result);
+            this.searchRec(text, this.root, index + 1, ir, wildcardStack, result);
             return;
         }
 
         ir.push(char);
-        this.searchRec(text, nextNode, index + 1, ir, result);
+        this.searchRec(text, nextNode, index + 1, ir, wildcardStack, result);
+    }
+    
+    private replaceWildcards(text: string, wildcardStack: string[]): string {
+        const wildcardStackCopy = [...wildcardStack]
+        const textArray = text.split("");
+        for (let i = text.length - 1; i >= 0; i--) {
+            if (textArray[i] == WILDCARD) {
+                textArray[i] = wildcardStackCopy.pop() || text[i];
+            }
+        }
+        return textArray.join("");
     }
     
     // root->C->A->T -> [CAT, AT, T, EMPTY]

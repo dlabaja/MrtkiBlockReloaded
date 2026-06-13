@@ -1,5 +1,5 @@
 import {DataManager} from "./data-manager";
-import {Trie} from "../aho-corasick/trie";
+import {Trie, WILDCARD} from "../aho-corasick/trie";
 import {firstChar, lastChar, NBSP, trimOne, ZWSP} from "../utils/string-utils";
 
 export class TrieManager {
@@ -9,7 +9,7 @@ export class TrieManager {
 
     constructor(dataManager: DataManager) {
         this._dataManager = dataManager;
-        this._trie = new Trie(this._dataManager.matches.map(x => `\0${x}\0`));
+        this._trie = new Trie(this._dataManager.matches.map(x => `${WILDCARD}${x}${WILDCARD}`));
     }
     
     public getRandomReplacement(borderedMatch: string) {

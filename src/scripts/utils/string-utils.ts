@@ -27,15 +27,11 @@ export function lastChar(text: string) {
     return text[text.length - 1];
 }
 
-export function toSwappedCase(text: string) {
-    const result = [];
-    for (const char of text) {
-        const upper = char.toUpperCase();
-        if (char === upper) {
-            result.push(char.toLowerCase());
-            continue;
-        }
-        result.push(upper);
+// CAT -> [CAT, AT, T]
+export function suffixes(text: string) {
+    const result: string[] = [];
+    for (let i = 0; i < text.length; i++) {
+        result.push(text.slice(i, text.length));
     }
-    return result.join();
+    return result;
 }

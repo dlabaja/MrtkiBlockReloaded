@@ -5,6 +5,7 @@ export function testAhoCorasick() {
     testTutorialExample();
     testSameStart();
     testSameEnd();
+    testOverlap();
     testWildcard();
 }
 
@@ -33,9 +34,18 @@ function testSameEnd() {
     assert(found.length == 2 && found.includes("bcd") && found.includes("abcd"))
 }
 
+function testOverlap() {
+    const words = ["catc", "catd"]
+    const text = "gcatcatdg";
+    const trie = new Trie(words);
+    const found = trie.search(text);
+    assert(found.length == 2 && found.includes("catc") && found.includes("catd"))
+}
+
 function testWildcard() {
-    const words = ["acc", "atc", "cat\0", "gcg"]
-    const text = "gcatcg";
+    // catc, catd, atc, xyzw, yzwa
+    const words = ["\0cat\0", "xyz\0"]
+    const text = "gcatscatdgxyzwa";
     const trie = new Trie(words);
     const found = trie.search(text);
     assert(found.length == 2 && found.includes("catc") && found.includes("atc"))
