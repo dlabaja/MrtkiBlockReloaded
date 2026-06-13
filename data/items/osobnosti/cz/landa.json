@@ -1,0 +1,206 @@
+{
+  "name": "landa",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Daniel Landa",
+        "Landa"
+      ],
+      "replacements": [
+        "Daniel Kukluxklanda",
+        "Bílej jezdec Rallye",
+        "Kouzelník Glandalf",
+        "Daniel Palanda",
+        "Mr. Proper",
+        "Strýček Fester"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Daniela Landy",
+        "Landy"
+      ],
+      "replacements": [
+        "Daniela Kukluxklandy",
+        "Bílýho jezdce Rallye",
+        "Kouzelníka Glandalfa",
+        "Daniela Palandy",
+        "Mr. Propera",
+        "Strýčka Festera"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Danielu Landovi",
+        "Landovi"
+      ],
+      "replacements": [
+        "Danielu Kukluxklandovi",
+        "Bílému jezdci Rallye",
+        "Kouzelníku Glandalfovi",
+        "Danielu Palandovi",
+        "Mr. Properovi",
+        "Strýčku Festerovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Daniela Landu",
+        "Landu"
+      ],
+      "replacements": [
+        "Daniela Kukluxklandu",
+        "Bílýho jezdce Rallye",
+        "Kouzelníka Glandalfa",
+        "Daniela Palandu",
+        "Mr. Propera",
+        "Strýčka Festera"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Danieli Lando",
+        "Lando"
+      ],
+      "replacements": [
+        "Danieli Kukluxklando",
+        "Bílej jezdče Rallye",
+        "Kouzelníku Glandalfe",
+        "Danieli Palando",
+        "Mr. Propere",
+        "Strýčku Festere"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Danielu Landovi",
+        "Landovi"
+      ],
+      "replacements": [
+        "Danielu Kukluxklandovi",
+        "Bílým jezdci Rallye",
+        "Kouzelníku Glandalfovi",
+        "Danielu Palandovi",
+        "Mr. Properovi",
+        "Strýčku Festerovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Danielem Landou",
+        "Landou"
+      ],
+      "replacements": [
+        "Danielem Kukluxklandou",
+        "Bílým jezdcem Rallye",
+        "Kouzelníkem Glandalfem",
+        "Danielem Palandou",
+        "Mr. Properem",
+        "Strýčkem Festerem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Landovo"
+      ],
+      "replacements": [
+        "Kukluxklandovo",
+        "Glandalfovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Landova"
+      ],
+      "replacements": [
+        "Kukluxklandova",
+        "Glandalfova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Landův"
+      ],
+      "replacements": [
+        "Kukluxklandův",
+        "Glandalfův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Landovi"
+      ],
+      "replacements": [
+        "Kukluxklandovi",
+        "Glandalfovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Landovy"
+      ],
+      "replacements": [
+        "Kukluxklandovy",
+        "Glandalfovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Landově"
+      ],
+      "replacements": [
+        "Kukluxklandově",
+        "Glandalfově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Landovu"
+      ],
+      "replacements": [
+        "Kukluxklandovu",
+        "Glandalfovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Landovou"
+      ],
+      "replacements": [
+        "Kukluxklandovou",
+        "Glandalfovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Landovým"
+      ],
+      "replacements": [
+        "Kukluxklandovým",
+        "Glandalfovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Landových"
+      ],
+      "replacements": [
+        "Kukluxklandových",
+        "Glandalfových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Landovými"
+      ],
+      "replacements": [
+        "Kukluxklandovými",
+        "Glandalfovými"
+      ]
+    }
+  }
+}

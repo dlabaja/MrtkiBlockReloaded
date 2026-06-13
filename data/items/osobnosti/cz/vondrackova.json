@@ -1,0 +1,119 @@
+{
+  "name": "vondrackova",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Helena Vondráčková",
+        "Vondráčková"
+      ],
+      "replacements": [
+        "Pravěká fosílie",
+        "Strážkyně tújí",
+        "Vyschlá mumie",
+        "Rekordmanka trestních oznámení",
+        "Stará raketa",
+        "Osoba z Řiťky",
+        "Hnědé uhlí popmusic",
+        "Bílá paní Krumlovského zámku"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Heleny Vondráčkové",
+        "Vondráčkové"
+      ],
+      "replacements": [
+        "Pravěké fosílie",
+        "Strážkyně tújí",
+        "Vyschlé mumie",
+        "Rekordmanky trestních oznámení",
+        "Staré rakety",
+        "Osoby z Řiťky",
+        "Hnědého uhlí popmusic",
+        "Bílé paní Krumlovského zámku"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Heleně Vondráčkové",
+        "Vondráčkové"
+      ],
+      "replacements": [
+        "Pravěké fosílii",
+        "Strážkyni tújí",
+        "Vyschlé mumii",
+        "Rekordmance trestních oznámení",
+        "Staré raketě",
+        "Osobě z Řiťky",
+        "Hnědému uhlí popmusic",
+        "Bílé paní Krumlovského zámku"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Helenu Vondráčkovou",
+        "Vondráčkovou"
+      ],
+      "replacements": [
+        "Pravěkou fosílii",
+        "Strážkyni tújí",
+        "Vyschlou mumii",
+        "Rekordmanku trestních oznámení",
+        "Starou raketu",
+        "Osobu z Řiťky",
+        "Hnědé uhlí popmusic",
+        "Bílou paní Krumlovského zámku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Heleno Vondráčková",
+        "Vondráčková"
+      ],
+      "replacements": [
+        "Pravěká fosílie",
+        "Strážkyně tújí",
+        "Vyschlá mumie",
+        "Rekordmanko trestních oznámení",
+        "Stará raketo",
+        "Osobo z Řiťky",
+        "Hnědé uhlí popmusic",
+        "Bílá paní Krumlovského zámku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Heleně Vondráčkové",
+        "Vondráčkové"
+      ],
+      "replacements": [
+        "Pravěké fosílii",
+        "Strážkyni tújí",
+        "Vyschlé mumii",
+        "Rekordmance trestních oznámení",
+        "Staré raketě",
+        "Osobě z Řiťky",
+        "Hnědém uhlí popmusic",
+        "Bílé paní Krumlovského zámku"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Helenou Vondráčkovou",
+        "Vondráčkovou"
+      ],
+      "replacements": [
+        "Pravěkou fosílií",
+        "Strážkyní tújí",
+        "Vyschlou mumií",
+        "Rekordmankou trestních oznámení",
+        "Starou raketou",
+        "Osobou z Řiťky",
+        "Hnědým uhlím popmusic",
+        "Bílou paní Krumlovského zámku"
+      ]
+    }
+  }
+}
