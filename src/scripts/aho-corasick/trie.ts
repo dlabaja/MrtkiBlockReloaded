@@ -56,15 +56,13 @@ export class Trie {
     
     public search(text: string) {
         const result: string[] = [];
-        this.searchRec(text, this.root, 0, [], [], result);
+        this.searchRec(text, this.root, 0, [], result);
         return result;
     }
     
-    private searchRec(text: string, node: TrieNode, index: number, ir: char[], wildcardStack: string[], result: string[]): void {
+    private searchRec(text: string, node: TrieNode, index: number, wildcardStack: string[], result: string[]): void {
         if (node.isEnd) {
-            const res = ir.join("");
-            const suffixList = suffixes(res).slice(1);
-            result.push(res, ...suffixList.filter(x => this.words.has(x)));
+            result.push(this.replaceWildcards(this.buildWord(node), wildcardStack));
         }
         
         if (index >= text.length) {
@@ -76,24 +74,21 @@ export class Trie {
         if (!nextNode) { 
             nextNode = node.next.get(WILDCARD);
             if (nextNode) {
-                ir.push(char);
                 wildcardStack.push(char);
-                this.searchRec(text, nextNode, index + 1, ir, wildcardStack, result);
+                this.searchRec(text, nextNode, index + 1, wildcardStack, result);
                 return;
             }
             
             nextNode = node.failureLinks.get(char);
             if (nextNode) {
-                ir = [...this.replaceWildcards(this.longestSuffixInTree(this.suffixes(node)), wildcardStack) + char];
-                this.searchRec(text, nextNode, index + 1, ir, wildcardStack, result);
+                this.searchRec(text, nextNode, index + 1, wildcardStack, result);
                 return;
             }
-            this.searchRec(text, this.root, index + 1, ir, wildcardStack, result);
+            this.searchRec(text, this.root, index + 1, wildcardStack, result);
             return;
         }
 
-        ir.push(char);
-        this.searchRec(text, nextNode, index + 1, ir, wildcardStack, result);
+        this.searchRec(text, nextNode, index + 1, wildcardStack, result);
     }
     
     private replaceWildcards(text: string, wildcardStack: string[]): string {
@@ -105,6 +100,16 @@ export class Trie {
             }
         }
         return textArray.join("");
+    }
+    
+    private buildWord(node: TrieNode): string {
+        const result = [];
+        let currentNode = node;
+        while (currentNode != this.root) {
+            result.push(currentNode.char);
+            currentNode = currentNode.prev || this.root;
+        }
+        return result.reverse().join("");
     }
     
     // root->C->A->T -> [CAT, AT, T, EMPTY]
