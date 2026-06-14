@@ -17,11 +17,7 @@ export class ContentScriptContext extends SharedContext {
     public connectionManager: ConnectionManager;
 
     constructor(managers: ContentScriptManagers) {
-        super({
-            storageManager: managers.storageManager,
-            configManager: managers.configManager,
-            errorManager: managers.errorManager
-        });
+        super(managers);
         this.connectionManager = managers.connectionManager;
         this.domManager = managers.domManager;
     }
@@ -39,17 +35,19 @@ export function getContentScriptContext() {
 async function initContentScriptContext() {
     const errorManager = new ErrorManager();
     const storageManager = new StorageManager();
-    const connectionManager = new ConnectionManager(ConnectionName.ContentScript);
     const configManager = new ConfigManagerContent(storageManager);
-    await configManager.loadConfig();
-
-    const domManager = new DomManager();
     
-    return new ContentScriptContext({
+    const connectionManager = new ConnectionManager(ConnectionName.ContentScript);
+    const domManager = new DomManager();
+
+    const context = new ContentScriptContext({
         storageManager,
-        connectionManager,
+        errorManager,
         configManager,
-        domManager,
-        errorManager
+        connectionManager,
+        domManager
     });
+    
+    await context.init();
+    return context;
 }

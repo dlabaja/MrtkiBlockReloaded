@@ -4,24 +4,31 @@ import {SharedContext, SharedManagers} from "./shared-context";
 import {ConfigManagerBackground} from "../managers/config-manager/config-manager-background";
 import {StorageManager} from "../managers/storage-manager";
 import {ErrorManager} from "../managers/error-manager";
+import {DataFetchManager} from "../managers/data-fetch-manager";
 
 export interface BackgroundManagers extends SharedManagers {
+    dataFetchManager: DataFetchManager,
     dataManager: DataManager,
-    trieManager: TrieManager,
+    trieManager: TrieManager
 }
 
 export class BackgroundContext extends SharedContext {
+    public dataFetchManager: DataFetchManager;
     public dataManager: DataManager;
     public trieManager: TrieManager;
 
     constructor(managers: BackgroundManagers) {
-        super({
-            storageManager: managers.storageManager,
-            configManager: managers.configManager,
-            errorManager: managers.errorManager
-        });
+        super(managers);
+        this.dataFetchManager = managers.dataFetchManager;
         this.dataManager = managers.dataManager;
         this.trieManager = managers.trieManager;
+    }
+
+    protected async onInit(): Promise<void> {
+        await super.onInit();
+        await this.dataFetchManager.init();
+        await this.dataManager.init();
+        await this.trieManager.init();
     }
 }
 
@@ -37,20 +44,20 @@ export function getBackgroundContext(): Promise<BackgroundContext> {
 }
 
 async function initBackgroundContext() {
-    const errorManager = new ErrorManager();
     const storageManager = new StorageManager();
+    const errorManager = new ErrorManager();
     const configManager = new ConfigManagerBackground(storageManager);
-    await configManager.loadConfig();
     
-    const dataManager = new DataManager(storageManager, configManager);
-    await dataManager.init();
+    const dataFetchManager = new DataFetchManager(storageManager, configManager, errorManager);
+    const dataManager = new DataManager(configManager, dataFetchManager);
     const trieManager = new TrieManager(dataManager);
 
     return new BackgroundContext({
         storageManager,
+        errorManager,
         configManager,
+        dataFetchManager,
         dataManager,
-        trieManager,
-        errorManager
+        trieManager
     });
 }
