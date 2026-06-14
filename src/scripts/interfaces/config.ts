@@ -2,6 +2,7 @@ export interface Config {
     disableExtension: boolean,
     disableTooltips: boolean,
     disableUpdates: boolean,
+    dataSources: string[],
     ignoredWebsites: string[],
     ignoredNames: string[]
 }
@@ -11,6 +12,7 @@ export function defaultConfig(): Config {
         disableExtension: false,
         disableTooltips: false,
         disableUpdates: false,
+        dataSources: [],
         ignoredWebsites: [],
         ignoredNames: []
     }
