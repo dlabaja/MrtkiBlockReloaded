@@ -5,6 +5,7 @@ import {ConfigManagerBackground} from "../managers/config-manager/config-manager
 import {StorageManager} from "../managers/storage-manager";
 import {ErrorManager} from "../managers/error-manager";
 import {DataFetchManager} from "../managers/data-fetch-manager";
+import {Context} from "../enums/context.enum";
 
 export interface BackgroundManagers extends SharedManagers {
     dataFetchManager: DataFetchManager,
@@ -45,7 +46,7 @@ export function getBackgroundContext(): Promise<BackgroundContext> {
 
 async function initBackgroundContext() {
     const storageManager = new StorageManager();
-    const errorManager = new ErrorManager();
+    const errorManager = new ErrorManager(Context.Background, storageManager);
     const configManager = new ConfigManagerBackground(storageManager);
     
     const dataFetchManager = new DataFetchManager(storageManager, configManager, errorManager);

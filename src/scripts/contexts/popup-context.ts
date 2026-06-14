@@ -4,6 +4,7 @@ import {StorageManager} from "../managers/storage-manager";
 import {ConnectionManager} from "../managers/connection-manager";
 import {ConfigManagerPopup} from "../managers/config-manager/config-manager-popup";
 import {ErrorManager} from "../managers/error-manager";
+import {Context} from "../enums/context.enum";
 
 export interface PopupManagers extends SharedManagers {
     connectionManager: ConnectionManager
@@ -29,7 +30,7 @@ export function getPopupContext() {
 
 async function initPopupContext() {
     const storageManager = new StorageManager();
-    const errorManager = new ErrorManager();
+    const errorManager = new ErrorManager(Context.Popup, storageManager);
     const configManager = new ConfigManagerPopup(storageManager);
 
     const connectionManager = new ConnectionManager(ConnectionName.Popup);
