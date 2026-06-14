@@ -5,6 +5,7 @@ import {StorageManager} from "../managers/storage-manager";
 import {ConfigManagerContent} from "../managers/config-manager/config-manager-content";
 import {ConnectionName} from "../enums/connection-name.enum";
 import {BackgroundContext} from "./background-context";
+import {ErrorManager} from "../managers/error-manager";
 
 export interface ContentScriptManagers extends SharedManagers {
     domManager: DomManager,
@@ -18,7 +19,8 @@ export class ContentScriptContext extends SharedContext {
     constructor(managers: ContentScriptManagers) {
         super({
             storageManager: managers.storageManager,
-            configManager: managers.configManager
+            configManager: managers.configManager,
+            errorManager: managers.errorManager
         });
         this.connectionManager = managers.connectionManager;
         this.domManager = managers.domManager;
@@ -35,6 +37,7 @@ export function getContentScriptContext() {
 }
 
 async function initContentScriptContext() {
+    const errorManager = new ErrorManager();
     const storageManager = new StorageManager();
     const connectionManager = new ConnectionManager(ConnectionName.ContentScript);
     const configManager = new ConfigManagerContent(storageManager);
@@ -46,6 +49,7 @@ async function initContentScriptContext() {
         storageManager,
         connectionManager,
         configManager,
-        domManager
+        domManager,
+        errorManager
     });
 }

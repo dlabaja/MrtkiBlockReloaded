@@ -4,19 +4,22 @@ import {getRandomItem} from "../utils/random-utils";
 import {Message} from "../interfaces/messages";
 import {processResponse} from "./router";
 import {MessageType} from "../enums/message-type.enum";
+import {ErrorManager} from "../managers/error-manager";
+import {ExtensionError} from "../enums/error.enum";
 
 const ids = ["disableExtension", "disableTooltips", "disableUpdates", "ignoredWebsites", "ignoredNames"];
 const buttons = new Map([
     ["ignoredWebsitesButton", "ignoredWebsites"],
     ["ignoredNamesButton", "ignoredNames"]
 ]);
+const errorElem = document.getElementById("error");
 const subtitles = [
     "Pro čtení Novinek bez zvýšeného tlaku...",
     "Pro čtení příspěvků Miroslavy Tymlové",
+    "Pro čtení příspěvků Zdeňka Svobody",
     "Pro čtení diskuzí bez újmy na zdraví",
     "Pro blokování hnoje na webu",
     "Pro sledování porna bez zmínky Rajchlova jména",
-    
 ]
 
 getPopupContext().then(async (context) => {
@@ -86,12 +89,17 @@ getPopupContext().then(async (context) => {
         element.value = value;
     }
     
+    function onErrorsUpdate(errors: ExtensionError[]) {
+        errorElem!.innerText = `Error: ${errors.map(x => ErrorManager.getErrorMessage(x)).join("; ")}`
+    }
+    
     function init() {
         context.connectionManager.port.onMessage.addListener(async (m) => {
             await processResponse(m as Message)
         });
         
         context.connectionManager.postMessage({type: MessageType.NameIds});
+        context.errorManager.onErrorsUpdate.addListener(onErrorsUpdate)
         
         document.getElementById("subtitle")!.innerText = getRandomItem(subtitles)!;
         loadConfig();

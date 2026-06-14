@@ -38,6 +38,18 @@ body {
     color: gray;
 }
 
+#error:empty {
+    position: absolute;
+    visibility: hidden;
+}
+
+#error {
+    position: relative;
+    visibility: visible;
+    color: red;
+    font-weight: 600;
+}
+
 .choices {
     display: flex;
     flex-direction: column;
