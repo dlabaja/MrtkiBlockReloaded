@@ -1,5 +1,5 @@
-import {IMessageReplace} from "../interfaces/messages";
-import {getContentScriptContext} from "../contexts/content-script-context";
+import {IMessageReplace} from "../../interfaces/messages";
+import {getContentScriptContext} from "../../contexts/content-script-context";
 
 export async function handleReplaceResponse(message: IMessageReplace) {
     const context = await getContentScriptContext();
@@ -7,14 +7,14 @@ export async function handleReplaceResponse(message: IMessageReplace) {
     if (!context.domManager.processingNodes) {
         return;
     }
-    
+
     const nodes = context.domManager.processedNodes;
     for (const item of message.content.filter(x => x.changed)) {
         const node = item.id < nodes.length ? nodes[item.id] : null;
         if (!node || node.hasReplacedText) {
             continue;
         }
-        
+
         const original = node.textContent;
         node.hasReplacedText = true;
         node.textContent = item.text;
@@ -22,7 +22,7 @@ export async function handleReplaceResponse(message: IMessageReplace) {
             node.parentElement.title = original.trim();
         }
     }
-    
+
     context.domManager.processedNodes = [];
     context.domManager.processingNodes = false;
 }
