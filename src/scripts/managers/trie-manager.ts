@@ -1,5 +1,5 @@
 import {DataManager} from "./data-manager";
-import {Trie, WILDCARD} from "../aho-corasick/trie";
+import {Trie, WILDCARD} from "../data-structures/aho-corasick/trie";
 import {firstChar, lastChar, NBSP, trimOne, ZWSP} from "../utils/string-utils";
 
 export class TrieManager {

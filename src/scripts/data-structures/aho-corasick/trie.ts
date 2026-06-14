@@ -1,7 +1,6 @@
 // k tomuhle algoritmu (aho-corasick) mě přivedl chatgpt někdy v 11 večer - napsal jsem si ho sám, ale kdybych o něm nevěděl, musel bych použít regex
 // pomocí datové struktury Trie najde jedním průchodem všechny výskyty slov v textu
 
-import { suffixes } from "../utils/string-utils";
 import {TrieNode} from "./trie-node";
 
 export const EMPTY = "";

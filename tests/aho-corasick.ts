@@ -1,4 +1,4 @@
-import {Trie} from "../src/scripts/aho-corasick/trie";
+import {Trie} from "../src/scripts/data-structures/aho-corasick/trie";
 import assert from "node:assert";
 
 export function testAhoCorasick() {
