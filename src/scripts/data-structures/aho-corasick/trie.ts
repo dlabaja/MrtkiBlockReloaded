@@ -6,7 +6,6 @@ import {TrieNode} from "./trie-node";
 export const EMPTY = "";
 export const WILDCARD = "\0";
 
-// trie vypadá podle wikipedie trošičku jinak, ale v tom algoritmu to funguje stejně
 // Znak \0 se interpretuje jako wildcard
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
@@ -71,7 +70,7 @@ export class Trie {
         const char = text[index];
         let nextNode = node.next.get(char);
         if (!nextNode) { 
-            nextNode = node.next.get(WILDCARD);
+            nextNode = node.next.get(WILDCARD) || node.failureLinks.get(WILDCARD);
             if (nextNode) {
                 wildcardStack.push(char);
                 this.searchRec(text, nextNode, index + 1, wildcardStack, result);

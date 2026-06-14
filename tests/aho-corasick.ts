@@ -1,5 +1,6 @@
 import {Trie} from "../src/scripts/data-structures/aho-corasick/trie";
 import assert from "node:assert";
+import {pad, ZWSP} from "../src/scripts/utils/string-utils";
 
 export function testAhoCorasick() {
     testTutorialExample();
@@ -8,6 +9,8 @@ export function testAhoCorasick() {
     testOverlap();
     testWildcard();
     testWildcard2();
+    testWildcard3();
+    testWildcard4();
 }
 
 // přebráno odsud: https://www.youtube.com/watch?v=O7_w001f58c
@@ -58,4 +61,25 @@ function testWildcard2() {
     const trie = new Trie(words);
     const found = trie.search(text);
     assert(found.length == 1 && found.includes(" Andrej Babiš;"));
+}
+
+function testWildcard3() {
+    const words = ["Babiše", "Andreje Babiše", 
+        "ve andreji babišovi", 
+        "na Babišovi"
+    ]
+    const text = " Andreje Babiše";
+    const trie = new Trie(words.map(x => pad(x, "\0")));
+    const found = trie.search(pad(text, ZWSP));
+    assert(found.length == 1 && found.includes(` Andreje Babiše${ZWSP}`));
+}
+
+function testWildcard4() {
+    const words = ["Babiše", "Andreje Babiše",
+        "ve andreji babišovi",
+    ]
+    const text = "    vidím Andreje Babiše";
+    const trie = new Trie(words.map(x => pad(x, "\0")));
+    const found = trie.search(pad(text, ZWSP));
+    assert(found.length == 1 && found.includes(` Andreje Babiše${ZWSP}`));
 }
