@@ -16,6 +16,12 @@ body {
     gap: 4px;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
 .text-choices {
     margin: 8px 0;
 }
@@ -23,6 +29,22 @@ body {
 .invisible-link {
     text-decoration: none;
     color: black;
+}
+
+.discord {
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    background: #5865f2;
+    border-radius: 8px;
+}
+
+.buy-me-a-coffee {
+    padding: 6px;
+    width: 36px;
+    height: 36px;
+    background: #ffe53f;
+    border-radius: 8px;
 }
 
 #title {

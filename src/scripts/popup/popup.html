@@ -8,10 +8,16 @@
 </head>
 <body>
 <div class="content">
-    <div class="flex-column">
-        <h2 id="title"><a class="invisible-link" href="https://github.com/dlabaja/MrtkiBlockReloaded">MrtkiBlock Reloaded</a></h2>
-        <div id="subtitle">Pro čtení Novinek bez zvýšeného tlaku...</div>
-        <span>Změny se projeví po znovunačtení stránky</span>
+    <div class="flex-row">
+        <div class="flex-column" style="flex: 1">
+            <h2 id="title"><a class="invisible-link" href="https://github.com/dlabaja/MrtkiBlockReloaded">MrtkiBlock Reloaded</a></h2>
+            <div id="subtitle">Pro čtení Novinek bez zvýšeného tlaku...</div>
+            <span>Změny se projeví po znovunačtení stránky</span>
+        </div>
+        <div class="flex-row">
+            <a href="https://buymeacoffee.com/dlabaja"><img src="../../assets/buy-me-a-coffee.png" class="buy-me-a-coffee"></a>
+            <a href="https://discord.com/invite/zGRafMnhBM"><img src="../../assets/discord.svg" class="discord"></a>
+        </div>
     </div>
     <span id="error"></span>
     <div class="choices">
@@ -26,6 +32,14 @@
         <div>
             <input type="checkbox" id="disableUpdates">
             <label for="disableUpdates">Neaktualizovat databázi jmen (jinak se aktualizuje pokaždé při startu)</label>
+        </div>
+        <div class="flex-column text-choices">
+            <label for="dataSources">Zdroje dat dodržující <a href="https://github.com/dlabaja/MrtkiBlockReloaded/blob/master/data/data.schema.json">tento JSON formát</a>, oddělené čárkami</label>
+            <textarea id="dataSources" rows="5" cols="20" placeholder="např. https://www.example.com/.../data.json"></textarea>
+            <div>
+                <button id="dataSourcesConfirm">Potvrdit</button>
+                <button id="dataSourcesReset">Resetovat</button>
+            </div>
         </div>
         <div class="flex-column text-choices">
             <label for="ignoredWebsites">Ignorované domény, oddělené čárkami</label>
