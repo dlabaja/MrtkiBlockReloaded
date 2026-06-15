@@ -47,7 +47,7 @@ export class DataFetchManager extends Initiable {
         const responses = await Promise.all(links.map(x => fetch(x)))
         if (!responses.every(x => x.ok)) {
             this._errorManager.addError(ExtensionError.DataFetchFailed);
-            throw new Error(ErrorManager.getErrorMessage(ExtensionError.DataFetchFailed));
+            return [];
         }
 
         const jsons = await Promise.all(responses.map(x => x.json() as Promise<Data[]>));

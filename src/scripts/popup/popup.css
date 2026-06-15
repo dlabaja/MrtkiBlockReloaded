@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding: 4px;
     min-width: 400px;
     max-width: 550px;
 }
@@ -47,6 +48,12 @@ body {
     border-radius: 8px;
 }
 
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 #title {
     margin: unset;
 }
@@ -70,10 +77,4 @@ body {
     visibility: visible;
     color: red;
     font-weight: 600;
-}
-
-.choices {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
 }
