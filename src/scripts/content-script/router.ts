@@ -7,7 +7,5 @@ export async function processResponse(message: Message) {
         case MessageType.Replace:
             await handleReplaceResponse(message as IMessageReplace);
             break;
-        case MessageType.Error:
-            
     }
 }

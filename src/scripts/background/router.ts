@@ -5,6 +5,7 @@ import Port = Runtime.Port;
 import {handleReplaceRequest} from "./request-handlers/replace-request";
 import {handleConfigChangedRequest} from "./request-handlers/config-changed-request";
 import {handleNameIdsRequest} from "./request-handlers/name-ids-request";
+import {handleErrorsRequest} from "./request-handlers/errors-request";
 
 export async function processRequest(message: Message, port: Port): Promise<void> {
     switch (message.type) {
@@ -17,5 +18,7 @@ export async function processRequest(message: Message, port: Port): Promise<void
         case MessageType.NameIds:
             await handleNameIdsRequest(port);
             break;
+        case MessageType.Errors:
+            await handleErrorsRequest(port)
     }
 }

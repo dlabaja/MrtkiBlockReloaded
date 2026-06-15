@@ -1,3 +1,5 @@
+import {DataFetchManager} from "../managers/data-fetch-manager";
+
 export interface Config {
     disableExtension: boolean,
     disableTooltips: boolean,
@@ -12,7 +14,7 @@ export function defaultConfig(): Config {
         disableExtension: false,
         disableTooltips: false,
         disableUpdates: false,
-        dataSources: [],
+        dataSources: [DataFetchManager.defaultFetchUrl],
         ignoredWebsites: [],
         ignoredNames: []
     }
