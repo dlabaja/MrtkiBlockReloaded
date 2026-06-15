@@ -6,7 +6,6 @@ import {TrieNode} from "./trie-node";
 export const EMPTY = "";
 export const WILDCARD = "\0";
 
-// Znak \0 se interpretuje jako wildcard
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
     public readonly words: Set<string>;

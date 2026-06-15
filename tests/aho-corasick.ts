@@ -1,4 +1,4 @@
-import {Trie} from "../src/scripts/data-structures/aho-corasick/trie";
+import {Trie, WILDCARD} from "../src/scripts/data-structures/aho-corasick/trie";
 import assert from "node:assert";
 import {pad, ZWSP} from "../src/scripts/utils/string-utils";
 
@@ -11,6 +11,7 @@ export function testAhoCorasick() {
     testWildcard2();
     testWildcard3();
     testWildcard4();
+    testWildcard5();
 }
 
 // přebráno odsud: https://www.youtube.com/watch?v=O7_w001f58c
@@ -48,7 +49,7 @@ function testOverlap() {
 }
 
 function testWildcard() {
-    const words = ["\0cat\0", "xyz\0"]
+    const words = [`${WILDCARD}cat${WILDCARD}`, `xyz${WILDCARD}`]
     const text = "gcatscatdgxyzwa";
     const trie = new Trie(words);
     const found = trie.search(text);
@@ -56,7 +57,7 @@ function testWildcard() {
 }
 
 function testWildcard2() {
-    const words = ["\0Andrej Babiš\0", "\0Babiš\0"]
+    const words = [`${WILDCARD}Andrej Babiš${WILDCARD}`, `${WILDCARD}Babiš${WILDCARD}`]
     const text = " Andrej Babiš;";
     const trie = new Trie(words);
     const found = trie.search(text);
@@ -69,7 +70,7 @@ function testWildcard3() {
         "na Babišovi"
     ]
     const text = " Andreje Babiše";
-    const trie = new Trie(words.map(x => pad(x, "\0")));
+    const trie = new Trie(words.map(x => pad(x, WILDCARD)));
     const found = trie.search(pad(text, ZWSP));
     assert(found.length == 1 && found.includes(` Andreje Babiše${ZWSP}`));
 }
@@ -79,7 +80,16 @@ function testWildcard4() {
         "ve andreji babišovi",
     ]
     const text = "    vidím Andreje Babiše";
-    const trie = new Trie(words.map(x => pad(x, "\0")));
+    const trie = new Trie(words.map(x => pad(x, WILDCARD)));
     const found = trie.search(pad(text, ZWSP));
     assert(found.length == 1 && found.includes(` Andreje Babiše${ZWSP}`));
+}
+
+// kvůli tomuhle testu musím všechny mezery replacnout wildcardem
+function testWildcard5() {
+    const words = ["na Babišovi", "Babišově"]
+    const text = "na Babišově farmě";
+    const trie = new Trie(words.map(x => pad(x, WILDCARD).replace(" ", WILDCARD)));
+    const found = trie.search(pad(text, ZWSP));
+    assert(found.length == 1 && found.includes(" Babišově "));
 }

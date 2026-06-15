@@ -1,6 +1,6 @@
 import {DataManager} from "./data-manager";
 import {Trie, WILDCARD} from "../data-structures/aho-corasick/trie";
-import {firstChar, lastChar, NBSP, trimOne, ZWSP} from "../utils/string-utils";
+import {firstChar, lastChar, NBSP, pad, trimOne, ZWSP} from "../utils/string-utils";
 import {Initiable} from "../data-structures/initiable";
 
 export class TrieManager extends Initiable {
@@ -14,7 +14,9 @@ export class TrieManager extends Initiable {
     }
     
     public async onInit() {
-        this._trie = new Trie(this._dataManager.matches.map(x => `${WILDCARD}${x}${WILDCARD}`));
+        this._trie = new Trie(this._dataManager.matches
+            .map(x => pad(x.replace(" ", WILDCARD), WILDCARD)) // viz testWildcard5
+        );
     }
     
     public getRandomReplacement(borderedMatch: string) {
