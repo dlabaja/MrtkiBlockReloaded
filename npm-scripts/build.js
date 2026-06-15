@@ -35,7 +35,7 @@ await esbuild.build({
 
 // POPUP
 await esbuild.build({
-    entryPoints: ["src/scripts/popup/popup.ts"],
+    entryPoints: ["src/scripts/popup/scripts/popup.ts"],
     bundle: true,
     format: "iife",
     outfile: `dist/${target}/scripts/popup/popup.js`,
