@@ -5,21 +5,23 @@ import {ConfigManagerBackground} from "../managers/config-manager/config-manager
 import {StorageManager} from "../managers/storage-manager";
 import {ErrorManager} from "../managers/error-manager";
 import {DataFetchManager} from "../managers/data-fetch-manager";
-import {Context} from "../enums/context.enum";
 
 export interface BackgroundManagers extends SharedManagers {
+    errorManager: ErrorManager,
     dataFetchManager: DataFetchManager,
     dataManager: DataManager,
-    trieManager: TrieManager
+    trieManager: TrieManager,
 }
 
 export class BackgroundContext extends SharedContext {
+    public errorManager: ErrorManager;
     public dataFetchManager: DataFetchManager;
     public dataManager: DataManager;
     public trieManager: TrieManager;
 
     constructor(managers: BackgroundManagers) {
         super(managers);
+        this.errorManager = managers.errorManager;
         this.dataFetchManager = managers.dataFetchManager;
         this.dataManager = managers.dataManager;
         this.trieManager = managers.trieManager;
@@ -46,14 +48,14 @@ export function getBackgroundContext(): Promise<BackgroundContext> {
 
 async function initBackgroundContext() {
     const storageManager = new StorageManager();
-    const errorManager = new ErrorManager(Context.Background, storageManager);
     const configManager = new ConfigManagerBackground(storageManager);
-    
+
+    const errorManager = new ErrorManager();
     const dataFetchManager = new DataFetchManager(storageManager, configManager, errorManager);
     const dataManager = new DataManager(configManager, dataFetchManager);
     const trieManager = new TrieManager(dataManager);
 
-    return new BackgroundContext({
+    const context = new BackgroundContext({
         storageManager,
         errorManager,
         configManager,
@@ -61,4 +63,6 @@ async function initBackgroundContext() {
         dataManager,
         trieManager
     });
+    await context.init();
+    return context;
 }
