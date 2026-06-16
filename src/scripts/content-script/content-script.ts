@@ -12,9 +12,10 @@ async function init() {
         return;
     }
 
-    context.connectionManager.port.onMessage.addListener(async (m) => {
+    context.connectionManager.establishConnection(async (m) => {
         await processResponse(m as Message)
     });
+    context.domManager.clearObservers();
     // po triggernutí observeru projde celou stránku znovu
     context.domManager.startNewObserver(document.body, execute);
     await execute();
@@ -70,6 +71,14 @@ function nodeToObject(node: Node, index: number): IMessageReplaceContent {
         changed: false
     }
 }
+
+document.addEventListener("visibilitychange", async () => {
+    await init();
+});
+
+window.addEventListener("pageshow", async () => {
+    await init(); 
+});
 
 (async () => {
     await init()

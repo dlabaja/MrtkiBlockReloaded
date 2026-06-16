@@ -6,6 +6,7 @@ export class DomManager {
     public observerConfig = { attributes: false, childList: true, subtree: true };
     public processedNodes: ProcessedNode[] = [];
     public processingNodes = false;
+    private _observers: MutationObserver[] = [];
     
     public traverseNodes(fun: (node: Node) => void) {
         const walker = document.createTreeWalker(
@@ -31,6 +32,14 @@ export class DomManager {
             }, 1000);
         })
         observer.observe(target, this.observerConfig);
+        this._observers.push(observer);
+    }
+    
+    public clearObservers() {
+        for (const observer of this._observers) {
+            observer.disconnect();
+        }
+        this._observers = [];
     }
 }
 
