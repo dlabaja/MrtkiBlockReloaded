@@ -1,3 +1,5 @@
+import {ProcessedNode} from "../interfaces/processed-node";
+
 const excludedTags = new Set(["SCRIPT", "STYLE"]);
 
 export class DomManager {

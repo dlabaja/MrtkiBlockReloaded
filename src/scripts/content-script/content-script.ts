@@ -3,10 +3,11 @@ import {IMessageReplaceContent, Message} from "../interfaces/messages";
 import {getContentScriptContext} from "../contexts/content-script-context";
 import {MessageType} from "../enums/message-type.enum";
 import {Config} from "../interfaces/config";
+import {ProcessedNode} from "../interfaces/processed-node";
 
 async function init() {
     const context = await getContentScriptContext();
-    const config = context.configManager.config!;
+    const config = context.configManager.config;
     if (!canRun(config)) {
         return;
     }
@@ -14,6 +15,7 @@ async function init() {
     context.connectionManager.port.onMessage.addListener(async (m) => {
         await processResponse(m as Message)
     });
+    // po triggernutí observeru projde celou stránku znovu
     context.domManager.startNewObserver(document.body, execute);
     await execute();
 }
@@ -27,11 +29,15 @@ function canRun(config: Config) {
 async function execute() {
     const context = await getContentScriptContext();
     const nodes: Node[] = [];
-    context.domManager.traverseNodes(node => {
+    context.domManager.traverseNodes((node: ProcessedNode) => {
         // zabraňuje nekonečným matchům -> [Babiš := Stbák Babiš] -> Stbák [Babiš := Stbák Babiš] -> Stbák Stbák Stbák ... Babiš
-        if ((node as ProcessedNode).hasReplacedText) {
+        // pokud je false, znamená to že už se zpracovává
+        if (node.hasReplacedText !== undefined) {
             return;
         }
+        // ochrana před manipulací DOMu Reactem
+        node.originalParentNode = node.parentNode;
+        node.originalTextContent = node.textContent;
         nodes.push(node);
     })
     const title = document.head.getElementsByTagName("title").item(0);

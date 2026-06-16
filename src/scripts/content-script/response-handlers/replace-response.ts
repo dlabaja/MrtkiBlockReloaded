@@ -3,7 +3,7 @@ import {getContentScriptContext} from "../../contexts/content-script-context";
 
 export async function handleReplaceResponse(message: IMessageReplace) {
     const context = await getContentScriptContext();
-    const config = context.configManager.config!;
+    const config = context.configManager.config;
     if (!context.domManager.processingNodes) {
         return;
     }
@@ -11,7 +11,11 @@ export async function handleReplaceResponse(message: IMessageReplace) {
     const nodes = context.domManager.processedNodes;
     for (const item of message.content.filter(x => x.changed)) {
         const node = item.id < nodes.length ? nodes[item.id] : null;
-        if (!node || node.hasReplacedText) {
+        if (!node || !node.isConnected || node.hasReplacedText) {
+            continue;
+        }
+        
+        if (node.originalParentNode != node.parentNode || node.originalTextContent != node.textContent) {
             continue;
         }
 
