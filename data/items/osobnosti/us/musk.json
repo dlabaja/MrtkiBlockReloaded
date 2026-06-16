@@ -1,0 +1,107 @@
+{
+  "name": "musk",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Musk",
+        "Elon Musk"
+      ],
+      "replacements": [
+        "Progejmr v Diablu",
+        "Ministr ketaminu",
+        "Just one more lane bro",
+        "fElon Musk",
+        "Pravičák tělem i duší",
+        "Boring Companion"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Muska",
+        "Elona Muska"
+      ],
+      "replacements": [
+        "Progejmra v Diablu",
+        "Ministra ketaminu",
+        "Just one more lane bro",
+        "fElona Muska",
+        "Pravičáka tělem i duší",
+        "Boring Companiona"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Muskovi",
+        "Elonu Muskovi",
+        "Musku"
+      ],
+      "replacements": [
+        "Progejmrovi v Diablu",
+        "Ministru ketaminu",
+        "Just one more lane bro",
+        "fElonu Muskovi",
+        "Pravičákovi tělem i duší",
+        "Boring Companionovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Muska",
+        "Elona Muska"
+      ],
+      "replacements": [
+        "Progejmra v Diablu",
+        "Ministra ketaminu",
+        "Just one more lane bro",
+        "fElona Muska",
+        "Pravičáka tělem i duší",
+        "Boring Companiona"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Musku",
+        "Elone Musku"
+      ],
+      "replacements": [
+        "Progejmre v Diablu",
+        "Ministře ketaminu",
+        "Just one more lane bro",
+        "fElone Musku",
+        "Pravičáku tělem i duší",
+        "Boring Companione"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Muskovi",
+        "Elonu Muskovi",
+        "Musku"
+      ],
+      "replacements": [
+        "Progejmrovi v Diablu",
+        "Ministru ketaminu",
+        "Just one more lane bro",
+        "fElonu Muskovi",
+        "Pravičákovi tělem i duší",
+        "Boring Companionovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Muskem",
+        "Elonem Muskem"
+      ],
+      "replacements": [
+        "Progejmrem v Diablu",
+        "Ministrem ketaminu",
+        "Just one more lane bro",
+        "fElonem Muskem",
+        "Pravičákem tělem i duší",
+        "Boring Companionem"
+      ]
+    }
+  }
+}

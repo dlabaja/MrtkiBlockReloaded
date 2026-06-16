@@ -1,0 +1,115 @@
+{
+  "name": "vance",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Vance",
+        "J. D. Vance",
+        "J.D. Vance"
+      ],
+      "replacements": [
+        "Pan Vajíčko",
+        "DJ Vance",
+        "Gaučový deviant",
+        "Americká elegie",
+        "Příčina globálního oteplování",
+        "Houbička v kelímku"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Vance",
+        "J. D. Vance",
+        "J.D. Vance"
+      ],
+      "replacements": [
+        "Pana Vajíčka",
+        "DJ Vance",
+        "Gaučového devianta",
+        "Americké elegie",
+        "Příčiny globálního oteplování",
+        "Houbičky v kelímku"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Vanceovi",
+        "J. D. Vanceovi",
+        "J.D. Vanceovi"
+      ],
+      "replacements": [
+        "Panu Vajíčkovi",
+        "DJ Vanceovi",
+        "Gaučovému deviantovi",
+        "Americké elegii",
+        "Příčině globálního oteplování",
+        "Houbičce v kelímku"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Vance",
+        "J. D. Vance",
+        "J.D. Vance"
+      ],
+      "replacements": [
+        "Pana Vajíčka",
+        "DJ Vance",
+        "Gaučového devianta",
+        "Americkou elegii",
+        "Příčinu globálního oteplování",
+        "Houbičku v kelímku"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Vance",
+        "J. D. Vance",
+        "J.D. Vance"
+      ],
+      "replacements": [
+        "Pane Vajíčko",
+        "DJ Vance",
+        "Gaučový deviante",
+        "Americká elegie",
+        "Příčino globálního oteplování",
+        "Houbičko v kelímku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Vanceovi",
+        "Vancem",
+        "J. D. Vanceovi",
+        "J. D. Vanceem",
+        "J.D. Vanceovi",
+        "J.D. Vanceem"
+      ],
+      "replacements": [
+        "Panu Vajíčkovi",
+        "DJ Vanceovi",
+        "Gaučovém deviantovi",
+        "Americké elegii",
+        "Příčině globálního oteplování",
+        "Houbičce v kelímku"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Vancem",
+        "J. D. Vancem",
+        "J.D. Vancem"
+      ],
+      "replacements": [
+        "Panem Vajíčkem",
+        "DJ Vancem",
+        "Gaučovým deviantem",
+        "Americkou elegií",
+        "Příčinou globálního oteplování",
+        "Houbičkou v kelímku"
+      ]
+    }
+  }
+}
