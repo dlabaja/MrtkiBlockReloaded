@@ -8,7 +8,7 @@ import "./name-ids";
 import "./subtitle";
 
 getPopupContext().then(async (context) => {
-    context.connectionManager.port.onMessage.addListener(async (m) => {
+    context.connectionManager.establishConnection(async (m) => {
         await processResponse(m as Message)
-    });
+    })
 });
