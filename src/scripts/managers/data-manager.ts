@@ -56,6 +56,8 @@ export class DataManager extends Initiable {
         return getRandomItem(replacements) || match;
     }
 
+    // dostane match, projde ignorovaná jména -> koukne do {name: match[]} slovníku, pokud dict[name].includes(match), pak se má ignorovat
+    // šlo by to napsat líp, ale zatím to nechám tak
     public isIgnoredMatch(match: string) {
         const ignoredNames = this._configManager.config?.ignoredNames || [];
         for (const ignoredName of ignoredNames) {

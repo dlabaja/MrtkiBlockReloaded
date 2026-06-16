@@ -66,8 +66,9 @@ export class DataFetchManager extends Initiable {
     }
     
     private getUniqueName(name: string, attempt: number, usedNames: Set<string>): string {
-        if (!usedNames.has(name)) {
-            return attempt ? `${name}-${attempt}` : name;
+        const newName = attempt ? `${name}-${attempt}` : name;
+        if (!usedNames.has(newName)) {
+            return newName;
         }
         return this.getUniqueName(name, attempt + 1, usedNames);
     }
