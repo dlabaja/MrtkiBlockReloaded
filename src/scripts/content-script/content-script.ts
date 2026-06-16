@@ -36,9 +36,6 @@ async function execute() {
         if (node.hasReplacedText !== undefined) {
             return;
         }
-        // ochrana před manipulací DOMu Reactem
-        node.originalParentNode = node.parentNode;
-        node.originalTextContent = node.textContent;
         nodes.push(node);
     })
     const title = document.head.getElementsByTagName("title").item(0);
@@ -53,6 +50,9 @@ async function updateNodes(nodes: ProcessedNode[]) {
     const content: IMessageReplaceContent[] = [];
     for (const [index, node] of nodes.entries()) {
         node.hasReplacedText = false;
+        // ochrana před manipulací DOMu Reactem
+        node.originalParentNode = node.parentNode;
+        node.originalTextContent = node.textContent;
         content.push(nodeToObject(node, index));
     }
     context.domManager.processedNodes = nodes;
