@@ -15,9 +15,6 @@ const ignoredNamesConfirm = getInputElement("ignoredNamesConfirm")
 
 getPopupContext().then(context => {
     const config = context.configManager.config;
-    if (!config) {
-        throw new Error("Nejde načíst config");
-    }
     loadConfig(config)
     registerCallbacks(context.configManager);
 })

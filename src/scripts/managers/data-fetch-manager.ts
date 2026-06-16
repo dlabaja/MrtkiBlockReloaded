@@ -26,7 +26,7 @@ export class DataFetchManager extends Initiable {
     }
     
     private async loadData(): Promise<void> {
-        if (!this._configManager.config?.disableUpdates) {
+        if (!this._configManager.config.disableUpdates) {
             this._data = await this.fetchData();
             return;
         }
@@ -43,7 +43,7 @@ export class DataFetchManager extends Initiable {
     }
 
     private async fetchData(): Promise<Data[]> {
-        const links = this._configManager.config?.dataSources || [DataFetchManager.defaultFetchUrl];
+        const links = this._configManager.config.dataSources || [DataFetchManager.defaultFetchUrl];
         const responses = await Promise.all(links.map(x => fetch(x)))
         if (!responses.every(x => x.ok)) {
             this._errorManager.addError(ExtensionError.DataFetchFailed);

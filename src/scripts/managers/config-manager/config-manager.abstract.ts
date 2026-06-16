@@ -7,7 +7,7 @@ import {Initiable} from "../../data-structures/initiable";
 // popup uloží config a pošle zprávu, background ji odchytí a aktualizuje config -> content se po reloadu už aktualizuje správně
 export abstract class ConfigManager extends Initiable {
     protected _storageManager: StorageManager;
-    public config: Config|null = null;
+    private _config: Config|null = null;
 
     protected constructor(storageManager: StorageManager) {
         super();
@@ -23,8 +23,12 @@ export abstract class ConfigManager extends Initiable {
         if (!config) {
             config = defaultConfig();
         }
-        this.config = config;
+        this._config = config;
     }
     
     public abstract setConfig<K extends keyof Config>(key: K, value: Config[K]): Promise<void>;
+    
+    public get config() {
+        return this._config || defaultConfig();
+    }
 }

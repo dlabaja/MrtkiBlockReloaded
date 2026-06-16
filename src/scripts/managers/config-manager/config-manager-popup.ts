@@ -18,10 +18,6 @@ export class ConfigManagerPopup extends ConfigManager {
     // jen popup posílá zprávy
     public async setConfig<K extends keyof Config>(key: K, value: Config[K]) {
         const context = await getContentScriptContext();
-        if (!this.config) {
-            return
-        }
-
         this.config[key] = value;
         await this.saveConfig();
         context.connectionManager.postMessage({type: MessageType.ConfigChanged});
