@@ -12,6 +12,7 @@ export function testAhoCorasick() {
     testWildcard3();
     testWildcard4();
     testWildcard5();
+    testEndInMiddle();
 }
 
 // přebráno odsud: https://www.youtube.com/watch?v=O7_w001f58c
@@ -92,4 +93,16 @@ function testWildcard5() {
     const trie = new Trie(words.map(x => pad(x, WILDCARD).replace(" ", WILDCARD)));
     const found = trie.search(pad(text, ZWSP));
     assert(found.length == 1 && found.includes(" Babišově "));
+}
+
+// musí tam být wildcard místo mezer, tak jak je to výš
+function testEndInMiddle() {
+    const words = [
+        "Motoristé sobě",
+        "Motoristé",
+    ]
+    const text = ";Motoristé potom";
+    const trie = new Trie(words.map(x => pad(x, WILDCARD).replace(" ", WILDCARD)));
+    const found = trie.search(pad(text, ZWSP));
+    assert(found.length == 1 && found.includes(";Motoristé "));
 }

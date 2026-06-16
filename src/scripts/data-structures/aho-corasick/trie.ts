@@ -35,6 +35,9 @@ export class Trie {
             node = new TrieNode(char, prevNode, isEnd);
             prevNode.next.set(char, node);
         }
+        if (isEnd) {
+            node.isEnd = isEnd;
+        }
 
         this.addWord(word, node, index + 1);
     }
