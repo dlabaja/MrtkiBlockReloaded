@@ -1,5 +1,6 @@
 import {MessageType} from "../enums/message-type.enum";
 import {ExtensionError} from "../enums/error.enum";
+import {NameIdsWithSource} from "./name-ids-with-source";
 
 export type Message = IMessageReplace | IMessageConfigChanged
 
@@ -22,7 +23,7 @@ export interface IMessageConfigChanged extends IMessage {}
 
 export interface IMessageNameIdsRequest extends IMessage {}
 export interface IMessageNameIdsResponse extends IMessage {
-    nameIds: string[]
+    nameIdsWithSources: NameIdsWithSource[]
 }
 
 export interface IMessageErrors extends IMessage {

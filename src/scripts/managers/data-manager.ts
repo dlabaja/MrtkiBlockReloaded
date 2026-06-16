@@ -19,8 +19,8 @@ export class DataManager extends Initiable {
     private _data: Data[] = [];
     private _sixthCasePrepositions = ["O", "o", "V", "v", "Ve", "ve", "Na", "na", "Po", "po", "Při", "při"];
     private _secondCasePrepositions = ["Bez", "bez", "Do", "do", "Od", "od", "Z", "z", "U", "u"]
-    public nameIds: string[] = [];
     public matches: string[] = [];
+    public sourceToNameIds = new Map<string, string[]>();
     public namesToMatches = new Map<string, string[]>; // name: matches
     public replacements = new Map<string, string[]>(); // match: replacements
 
@@ -33,13 +33,15 @@ export class DataManager extends Initiable {
     public async onInit() {
         this._data = this._dataFetchManager.data;
         this.replacements = new Map<string, string[]>();
-        this.nameIds = [];
         this.matches = [];
-
+        
         for (const data of this._data) {
             const matchGroups = this.getMatchGroups(data);
             const matches = this.getMatches(matchGroups);
-            this.nameIds.push(data.name);
+            if (!this.sourceToNameIds.get(data.sourceName)) {
+                this.sourceToNameIds.set(data.sourceName, []);
+            }
+            this.sourceToNameIds.get(data.sourceName)!.push(data.name);
             this.namesToMatches.set(data.name, matches)
             this.matches.push(...matches);
             this.fillReplacements(matchGroups);

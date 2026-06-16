@@ -51,11 +51,25 @@ export class DataFetchManager extends Initiable {
         }
 
         const jsons = await Promise.all(responses.map(x => x.json() as Promise<Data[]>));
+        const usedNames = new Set<string>();
         const result: Data[] = [];
-        for (const json of jsons) {
+        for (const [index, json] of jsons.entries()) {
+            for (const data of json) {
+                data.sourceName = `Zdroj #${index + 1}`;
+                data.name = this.getUniqueName(data.name, 0, usedNames);
+                usedNames.add(data.name);
+            }
             result.push(...json);
         }
+        
         return result;
+    }
+    
+    private getUniqueName(name: string, attempt: number, usedNames: Set<string>): string {
+        if (!usedNames.has(name)) {
+            return attempt ? `${name}-${attempt}` : name;
+        }
+        return this.getUniqueName(name, attempt + 1, usedNames);
     }
     
     public get data(): Data[] {

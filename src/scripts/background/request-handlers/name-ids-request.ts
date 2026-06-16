@@ -8,7 +8,10 @@ export async function handleNameIdsRequest(port: Port) {
     const context = await getBackgroundContext();
     const message: IMessageNameIdsResponse = {
         type: MessageType.NameIds,
-        nameIds: context.dataManager.nameIds
+        nameIdsWithSources: [...context.dataManager.sourceToNameIds.keys()].map(x => ({
+            sourceName: x,
+            nameIds: context.dataManager.sourceToNameIds.get(x) || []
+        }))
     };
     port.postMessage(message);
 }

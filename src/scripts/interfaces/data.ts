@@ -1,5 +1,6 @@
 export interface Data {
     name: string,
+    sourceName: string,
     matchUpperCase: boolean,
     matchLowerCase: boolean,
     cases: {
