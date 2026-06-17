@@ -17,7 +17,7 @@ export class TrieManager extends Initiable {
     
     public async onInit() {
         this._trie = new Trie(this._dataManager.matches
-            .map(x => pad(x.replace(" ", WILDCARD), WILDCARD)) // viz testWildcard5
+            .map(x => pad(x.replaceAll(" ", WILDCARD), WILDCARD)) // viz testWildcard5
         );
     }
     
@@ -30,7 +30,7 @@ export class TrieManager extends Initiable {
     }
     
     public search(text: string) : string[] {
-        return this._trie?.search(text)
+        return this._trie?.search(pad(text, ZWSP))
             .filter(x => this._boundaries.has(firstChar(x)) && this._boundaries.has(lastChar(x))) ?? [];
     }
 }

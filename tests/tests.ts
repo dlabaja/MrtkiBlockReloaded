@@ -3,9 +3,9 @@ import {testTrieManager} from "./trie-manager";
 
 const testModules = [testAhoCorasick, testTrieManager]
 
-export function testAll() {
+export async function testAll() {
     for (const testModule of testModules) {
-        testModule();
+        await testModule();
         console.log(`${testModule.name} prošel`)
     }
     console.log("Testy prošly");
