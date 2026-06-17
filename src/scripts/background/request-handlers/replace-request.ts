@@ -18,7 +18,7 @@ function processText(content: IMessageReplaceContent, context: BackgroundContext
     }
 
     let tempText = pad(content.text, `${ZWSP}${ZWSP}`);
-    const matches = context.trieManager.search(tempText).sort((a, b) => b.length - a.length); // delší stringy mají prioritu
+    const matches = context.trieManager.search(tempText, true).sort((a, b) => b.length - a.length); // delší stringy mají prioritu
     if (!matches.length) {
         return;
     }

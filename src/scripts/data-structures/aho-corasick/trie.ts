@@ -3,8 +3,15 @@
 
 import {TrieNode} from "./trie-node";
 
-export const EMPTY = "";
-export const WILDCARD = "\0";
+const EMPTY = "";
+
+interface SearchResult {
+    startIndex: number,
+    endIndex: number,
+    charBeforeStart: char|null,
+    charAfterEnd: char|null,
+    content: string
+}
 
 export class Trie {
     public readonly root = new TrieNode(EMPTY, null, false);
@@ -54,15 +61,23 @@ export class Trie {
         }
     }
     
-    public search(text: string) {
-        const result: string[] = [];
-        this.searchRec(text, this.root, 0, [], result);
+    public search(text: string): SearchResult[] {
+        const result: SearchResult[] = [];
+        this.searchRec(text, this.root, 0, result);
         return result;
     }
     
-    private searchRec(text: string, node: TrieNode, index: number, wildcardStack: string[], result: string[]): void {
+    private searchRec(text: string, node: TrieNode, index: number, result: SearchResult[]): void {
         if (node.isEnd) {
-            result.push(this.replaceWildcards(this.buildWord(node), wildcardStack));
+            const word = this.buildWord(node);
+            const startIndex = index - word.length;
+            result.push({
+                startIndex: startIndex,
+                endIndex: index - 1,
+                charBeforeStart: text[startIndex - 1] ?? null,
+                charAfterEnd: text[index] ?? null,
+                content: word
+            });
         }
         
         if (index >= text.length) {
@@ -71,35 +86,17 @@ export class Trie {
 
         const char = text[index];
         let nextNode = node.next.get(char);
-        if (!nextNode) { 
-            nextNode = node.next.get(WILDCARD) || node.failureLinks.get(WILDCARD);
-            if (nextNode) {
-                wildcardStack.push(char);
-                this.searchRec(text, nextNode, index + 1, wildcardStack, result);
-                return;
-            }
-            
+        if (!nextNode) {
             nextNode = node.failureLinks.get(char);
             if (nextNode) {
-                this.searchRec(text, nextNode, index + 1, wildcardStack, result);
+                this.searchRec(text, nextNode, index + 1, result);
                 return;
             }
-            this.searchRec(text, this.root, index + 1, wildcardStack, result);
+            this.searchRec(text, this.root, index + 1, result);
             return;
         }
 
-        this.searchRec(text, nextNode, index + 1, wildcardStack, result);
-    }
-    
-    private replaceWildcards(text: string, wildcardStack: string[]): string {
-        const wildcardStackCopy = [...wildcardStack]
-        const textArray = text.split("");
-        for (let i = text.length - 1; i >= 0; i--) {
-            if (textArray[i] == WILDCARD) {
-                textArray[i] = wildcardStackCopy.pop() || text[i];
-            }
-        }
-        return textArray.join("");
+        this.searchRec(text, nextNode, index + 1, result);
     }
     
     private buildWord(node: TrieNode): string {
