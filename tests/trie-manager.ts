@@ -25,6 +25,7 @@ export async function testTrieManager() {
     await testEndInMiddle();
     await testTextInBrackets();
     await testMatchesAfterEachOther();
+    await testMatchInsideMatch();
 }
 
 async function testWildcard3() {
@@ -32,7 +33,7 @@ async function testWildcard3() {
     const text = " Andreje Babiše ";
     const trieManager = await getTrieManager(words);
     const found = trieManager.search(text, true);
-    assert(found.length == 1 && found.includes(` Andreje Babiše `));
+    assert(found.length == 1 && found.includes(" Andreje Babiše "));
 }
 
 async function testWildcard4() {
@@ -75,4 +76,12 @@ async function testMatchesAfterEachOther() {
     const trieManager = await getTrieManager(words);
     const found = trieManager.search(text, true);
     assert(found.length == 2 && found.includes(" Tomio Okamura ") && found.includes("(SPD)"));
+}
+
+async function testMatchInsideMatch() {
+    const words = ["Putin", "o Putinovi"]
+    const text = "to Putin. ";
+    const trieManager = await getTrieManager(words);
+    const found = trieManager.search(text, true);
+    assert(found.length == 1 && found.includes(" Putin."));
 }

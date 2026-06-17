@@ -2,6 +2,7 @@
 // pomocí datové struktury Trie najde jedním průchodem všechny výskyty slov v textu
 
 import {TrieNode} from "./trie-node";
+import {suffixes} from "../../utils/string-utils";
 
 const EMPTY = "";
 
@@ -92,6 +93,16 @@ export class Trie {
                 this.searchRec(text, nextNode, index + 1, result);
                 return;
             }
+
+            if (!node.isEnd) {
+                const longestSuffix = this.longestSuffixInTree(suffixes(this.buildWord(node)).slice(1))
+                if (longestSuffix) {
+                    nextNode = this.findSubstring(longestSuffix, this.root) || this.root;
+                    this.searchRec(text, nextNode, index, result);
+                    return;
+                }
+            }
+            
             this.searchRec(text, this.root, index + 1, result);
             return;
         }
