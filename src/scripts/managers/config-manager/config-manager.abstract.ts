@@ -21,21 +21,11 @@ export abstract class ConfigManager extends Initiable {
     public async reloadConfig() {
         let config = await this._storageManager.get<Config>(StorageType.Sync, StorageKey.Config);
         const defConfig = defaultConfig();
-
-        if (!config) {
-            config = defConfig;
-        }
-        else {
-            // přepíše starý configy
-            for (const key in config) {
-                // @ts-ignore
-                if (config[key] == undefined) {
-                    // @ts-ignore
-                    config[key] = defConfig[key];
-                }
-            }
-        }
-        this._config = config;
+        
+        this._config = {
+            ...defConfig,
+            ...config
+        };
     }
     
     public abstract setConfig<K extends keyof Config>(key: K, value: Config[K]): Promise<void>;
