@@ -5,7 +5,9 @@ import {Initiable} from "../data-structures/initiable";
 
 export class TrieManager extends Initiable {
     private _dataManager: DataManager;
-    private _boundaries = new Set([" ", ".", ",", ";", ":", "!", "?", "„", "“", "'", "\"", "\n", "\t", NBSP, ZWSP]);
+    private _boundaries = new Set([" ", ".", ",", ";", ":", "!", "?", "„", "“", "'", "\"",
+        "(", ")", "[", "]", "{", "}",
+        "\n", "\t", NBSP, ZWSP]);
     private _trie: Trie|null = null;
 
     constructor(dataManager: DataManager) {
