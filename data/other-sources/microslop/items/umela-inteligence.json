@@ -1,0 +1,70 @@
+{
+  "name": "umela-inteligence",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Umělá inteligence"
+      ],
+      "replacements": [
+        "Umělá demence",
+        "Umělá slopteligence"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Umělé inteligence"
+      ],
+      "replacements": [
+        "Umělé demence",
+        "Umělé slopteligence"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Umělé inteligenci"
+      ],
+      "replacements": [
+        "Umělé demenci",
+        "Umělé slopteligenci"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Umělou inteligenci"
+      ],
+      "replacements": [
+        "Umělou demenci",
+        "Umělou slopteligenci"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Umělá inteligence"
+      ],
+      "replacements": [
+        "Umělá demence",
+        "Umělá slopteligence"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Umělé inteligenci"
+      ],
+      "replacements": [
+        "Umělé demenci",
+        "Umělé slopteligenci"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Umělou inteligencí"
+      ],
+      "replacements": [
+        "Umělou demencí",
+        "Umělou slopteligencí"
+      ]
+    }
+  }
+}

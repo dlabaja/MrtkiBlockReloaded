@@ -13,7 +13,8 @@
     },
     "2": {
       "matches": [
-        "Copilotu"
+        "Copilotu",
+        "Copilota"
       ],
       "replacements": [
         "Slopilotu"
@@ -21,7 +22,8 @@
     },
     "3": {
       "matches": [
-        "Copilotu"
+        "Copilotu",
+        "Copilotovi"
       ],
       "replacements": [
         "Slopilotu"
@@ -45,7 +47,8 @@
     },
     "6": {
       "matches": [
-        "Copilotu"
+        "Copilotu",
+        "Copilotovi"
       ],
       "replacements": [
         "Slopilotu"
