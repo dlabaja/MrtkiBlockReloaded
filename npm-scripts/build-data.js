@@ -39,11 +39,8 @@ function processJsonItem(path, jsonItems) {
 }
 
 function generateJson(jsonItems) {
-    return JSON.stringify({
-        timestamp: new Date().toISOString(),
-        items: jsonItems
-    })
+    return JSON.stringify(jsonItems);
 }
 
-buildData("./data/items", "./data/data2.json", "./data/name-list.txt");
+buildData("./data/items", "./data/data.json", "./data/name-list.txt");
 buildData("./data/other-sources/microslop/items", "./data/other-sources/microslop/data.json")
