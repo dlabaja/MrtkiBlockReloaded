@@ -1,0 +1,119 @@
+{
+  "name": "kajumi",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Kajumi",
+        "Adam Kajumi"
+      ],
+      "replacements": [
+        "Adam Kamiony",
+        "Tiktoker z Mírova",
+        "Kuplíř z Tiktoku",
+        "Digitální pasák",
+        "Majitel odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Ten co žije svůj sen"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Kajumiho",
+        "Adama Kajumiho"
+      ],
+      "replacements": [
+        "Adama Kamionyho",
+        "Tiktokera z Mírova",
+        "Kuplíře z Tiktoku",
+        "Digitálního pasáka",
+        "Majitele odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Toho, co žije svůj sen"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Kajumimu",
+        "Adamu Kajumimu"
+      ],
+      "replacements": [
+        "Adamu Kamionymu",
+        "Tiktokerovi z Mírova",
+        "Kuplíři z Tiktoku",
+        "Digitálnímu pasákovi",
+        "Majiteli odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Tomu, co žije svůj sen"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Kajumiho",
+        "Adama Kajumiho"
+      ],
+      "replacements": [
+        "Adama Kamionyho",
+        "Tiktokera z Mírova",
+        "Kuplíře z Tiktoku",
+        "Digitálního pasáka",
+        "Majitele odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Toho, co žije svůj sen"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Kajumi",
+        "Adame Kajumi"
+      ],
+      "replacements": [
+        "Adame Kamiony",
+        "Tiktokere z Mírova",
+        "Kuplíři z Tiktoku",
+        "Digitální pasáku",
+        "Majiteli odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Ty, co žiješ svůj sen"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Kajumim",
+        "Adamu Kajumim"
+      ],
+      "replacements": [
+        "Adamu Kamionym",
+        "Tiktokerovi z Mírova",
+        "Kuplíři z Tiktoku",
+        "Digitálním pasákovi",
+        "Majiteli odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Tom, co žije svůj sen"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Kajumim",
+        "Adamem Kajumim"
+      ],
+      "replacements": [
+        "Adamem Kamionym",
+        "Tiktokerem z Mírova",
+        "Kuplířem z Tiktoku",
+        "Digitálním pasákem",
+        "Majitelem odtaženého lamba",
+        "Všechno není alright",
+        "\"Adame z tebe nikdy nic nebude\"",
+        "Tím, co žije svůj sen"
+      ]
+    }
+  }
+}

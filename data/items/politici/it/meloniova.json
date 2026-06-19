@@ -1,0 +1,77 @@
+{
+  "name": "meloniova",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Meloniová",
+        "Giorgia Meloniová"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussolini v sukni"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Meloniové",
+        "Giorgii Meloniové"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussoliniho v sukni"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Meloniové",
+        "Giorgii Meloniové"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussolinimu v sukni"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Meloniovou",
+        "Giorgiu Meloniovou"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussoliniho v sukni"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Meloniová",
+        "Giorgio Meloniová"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussolini v sukni"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Meloniové",
+        "Giorgii Meloniové"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussolinim v sukni"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Meloniovou",
+        "Giorgiou Meloniovou"
+      ],
+      "replacements": [
+        "La Duce",
+        "Mussolinim v sukni"
+      ]
+    }
+  }
+}

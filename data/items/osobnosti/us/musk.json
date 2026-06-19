@@ -6,7 +6,8 @@
     "1": {
       "matches": [
         "Musk",
-        "Elon Musk"
+        "Elon Musk",
+        "Elon Reeve Musk"
       ],
       "replacements": [
         "Progejmr v Diablu",
@@ -21,7 +22,8 @@
     "2": {
       "matches": [
         "Muska",
-        "Elona Muska"
+        "Elona Muska",
+        "Elona Reeva Muska"
       ],
       "replacements": [
         "Progejmra v Diablu",
@@ -37,6 +39,7 @@
       "matches": [
         "Muskovi",
         "Elonu Muskovi",
+        "Elonu Reevu Muskovi",
         "Musku"
       ],
       "replacements": [
@@ -52,7 +55,8 @@
     "4": {
       "matches": [
         "Muska",
-        "Elona Muska"
+        "Elona Muska",
+        "Elona Reeva Muska"
       ],
       "replacements": [
         "Progejmra v Diablu",
@@ -67,7 +71,8 @@
     "5": {
       "matches": [
         "Musku",
-        "Elone Musku"
+        "Elone Musku",
+        "Elone Reeve Musku"
       ],
       "replacements": [
         "Progejmre v Diablu",
@@ -83,6 +88,7 @@
       "matches": [
         "Muskovi",
         "Elonu Muskovi",
+        "Elonu Reevu Muskovi",
         "Musku"
       ],
       "replacements": [
@@ -98,7 +104,8 @@
     "7": {
       "matches": [
         "Muskem",
-        "Elonem Muskem"
+        "Elonem Muskem",
+        "Elonem Reevem Muskem"
       ],
       "replacements": [
         "Progejmrem v Diablu",
