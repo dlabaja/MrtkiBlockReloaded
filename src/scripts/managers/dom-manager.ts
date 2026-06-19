@@ -29,7 +29,7 @@ export class DomManager {
             if (timer) clearTimeout(timer);
             timer = setTimeout(() => {
                 onDebounce();
-            }, 1000);
+            }, 300);
         })
         observer.observe(target, this.observerConfig);
         this._observers.push(observer);
