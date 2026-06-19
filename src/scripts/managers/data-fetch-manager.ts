@@ -53,16 +53,31 @@ export class DataFetchManager extends Initiable {
         const jsons = await Promise.all(responses.map(x => x.json() as Promise<Data[]>));
         const usedNames = new Set<string>();
         const result: Data[] = [];
-        for (const [index, json] of jsons.entries()) {
-            for (const data of json) {
-                data.sourceName = `Zdroj #${index + 1}`;
-                data.name = this.getUniqueName(data.name, 0, usedNames);
-                usedNames.add(data.name);
+        try {
+            for (const [index, json] of jsons.entries()) {
+                try {
+                    for (const data of json) {
+                        data.sourceName = `Zdroj #${index + 1}`;
+                        data.name = this.getUniqueName(data.name, 0, usedNames);
+                        usedNames.add(data.name);
+                    }
+                    result.push(...json);
+                }
+                catch (e) {
+                    this.handleParseException();
+                }
             }
-            result.push(...json);
+        }
+        catch (e) {
+            this.handleParseException();
         }
         
+        
         return result;
+    }
+    
+    private handleParseException() {
+        this._errorManager.addError(ExtensionError.DataParseFailed);
     }
     
     private getUniqueName(name: string, attempt: number, usedNames: Set<string>): string {

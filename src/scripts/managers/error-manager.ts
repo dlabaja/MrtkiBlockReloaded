@@ -1,16 +1,12 @@
 import {ExtensionError} from "../enums/error.enum";
-import {Context} from "../enums/context.enum";
-
-interface SavedErrors {
-    sender: Context,
-    errors: ExtensionError[]
-}
 
 export class ErrorManager {
-    private _errors: ExtensionError[] = [];
+    private _errors: Set<ExtensionError> = new Set<ExtensionError>();
     
     public addError(error: ExtensionError) {
-        this._errors.push(error);
+        if (!this._errors.has(error)) {
+            this._errors.add(error);
+        }
     }
 
     public get errors() {
