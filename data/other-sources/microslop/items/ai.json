@@ -1,0 +1,39 @@
+{
+  "name": "ai",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Artificial Intelligence"
+      ],
+      "replacements": [
+        "Actually Indians"
+      ]
+    },
+    "2": {
+      "matches": [],
+      "replacements": []
+    },
+    "3": {
+      "matches": [],
+      "replacements": []
+    },
+    "4": {
+      "matches": [],
+      "replacements": []
+    },
+    "5": {
+      "matches": [],
+      "replacements": []
+    },
+    "6": {
+      "matches": [],
+      "replacements": []
+    },
+    "7": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

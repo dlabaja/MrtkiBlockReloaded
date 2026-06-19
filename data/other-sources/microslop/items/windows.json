@@ -1,0 +1,70 @@
+{
+  "name": "windows",
+  "matchUpperCase": false,
+  "matchLowerCase": false,
+  "cases": {
+    "1": {
+      "matches": [
+        "Windows"
+      ],
+      "replacements": [
+        "Cringedows",
+        "nejlepší Linux propaganda"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Windowsů"
+      ],
+      "replacements": [
+        "Cringedowsů",
+        "nejlepší Linux propagandy"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Windowsům"
+      ],
+      "replacements": [
+        "Cringedowsům",
+        "nejlepší Linux propagandě"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Windows"
+      ],
+      "replacements": [
+        "Cringedows",
+        "nejlepší Linux propagandu"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Windows"
+      ],
+      "replacements": [
+        "Cringedows",
+        "nejlepší Linux propagando"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Windowsech"
+      ],
+      "replacements": [
+        "Cringedowsech",
+        "nejlepší Linux propagandě"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Windowsy"
+      ],
+      "replacements": [
+        "Cringedowsy",
+        "nejlepší Linux propagandou"
+      ]
+    }
+  }
+}

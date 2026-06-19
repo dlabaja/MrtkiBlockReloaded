@@ -1,0 +1,63 @@
+{
+  "name": "xbox",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Xbox"
+      ],
+      "replacements": [
+        "GreedYbox"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Xboxu"
+      ],
+      "replacements": [
+        "GreedYboxu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Xboxu"
+      ],
+      "replacements": [
+        "GreedYboxu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Xbox"
+      ],
+      "replacements": [
+        "GreedYbox"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Xboxe"
+      ],
+      "replacements": [
+        "GreedYboxe"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Xboxu"
+      ],
+      "replacements": [
+        "GreedYboxu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Xboxem"
+      ],
+      "replacements": [
+        "GreedYboxem"
+      ]
+    }
+  }
+}

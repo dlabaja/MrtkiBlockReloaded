@@ -1,0 +1,41 @@
+{
+  "name": "genai",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Generative AI",
+        "Gen AI"
+      ],
+      "replacements": [
+        "Degenerative AI",
+        "Degen AI"
+      ]
+    },
+    "2": {
+      "matches": [],
+      "replacements": []
+    },
+    "3": {
+      "matches": [],
+      "replacements": []
+    },
+    "4": {
+      "matches": [],
+      "replacements": []
+    },
+    "5": {
+      "matches": [],
+      "replacements": []
+    },
+    "6": {
+      "matches": [],
+      "replacements": []
+    },
+    "7": {
+      "matches": [],
+      "replacements": []
+    }
+  }
+}

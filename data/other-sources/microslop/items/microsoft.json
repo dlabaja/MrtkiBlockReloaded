@@ -1,0 +1,73 @@
+{
+  "name": "microsoft",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Microsoft"
+      ],
+      "replacements": [
+        "Microslop",
+        "Macroslop"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Microsoftu"
+      ],
+      "replacements": [
+        "Microslopu",
+        "Macroslopu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Microsoftu"
+      ],
+      "replacements": [
+        "Microslopu",
+        "Macroslopu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Microsoft"
+      ],
+      "replacements": [
+        "Microslop",
+        "Macroslop"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Microsofte"
+      ],
+      "replacements": [
+        "Microslope",
+        "Macroslope"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Microsoftu",
+        "Microsoftě"
+      ],
+      "replacements": [
+        "Microslopu",
+        "Macroslopu",
+        "Microslope",
+        "Macroslope"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Microsoftem"
+      ],
+      "replacements": [
+        "Microslopem",
+        "Macroslopem"
+      ]
+    }
+  }
+}

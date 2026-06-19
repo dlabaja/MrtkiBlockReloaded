@@ -1,0 +1,76 @@
+{
+  "name": "onedrive",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "OneDrive",
+        "Onedrive"
+      ],
+      "replacements": [
+        "CloudTumor"
+      ]
+    },
+    "2": {
+      "matches": [
+        "OneDriveu",
+        "Onedriveu",
+        "OneDrivu",
+        "Onedrivu"
+      ],
+      "replacements": [
+        "CloudTumoru"
+      ]
+    },
+    "3": {
+      "matches": [
+        "OneDriveu",
+        "Onedriveu",
+        "OneDrivu",
+        "Onedrivu"
+      ],
+      "replacements": [
+        "CloudTumoru"
+      ]
+    },
+    "4": {
+      "matches": [
+        "OneDrive",
+        "Onedrive"
+      ],
+      "replacements": [
+        "CloudTumor"
+      ]
+    },
+    "5": {
+      "matches": [
+        "OneDrive",
+        "Onedrive"
+      ],
+      "replacements": [
+        "CloudTumore"
+      ]
+    },
+    "6": {
+      "matches": [
+        "OneDriveu",
+        "Onedriveu",
+        "OneDrivu",
+        "Onedrivu"
+      ],
+      "replacements": [
+        "CloudTumoru"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Onedrivem",
+        "OneDrivem"
+      ],
+      "replacements": [
+        "CloudTumorem"
+      ]
+    }
+  }
+}

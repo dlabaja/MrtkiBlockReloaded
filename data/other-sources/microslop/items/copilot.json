@@ -1,0 +1,63 @@
+{
+  "name": "copilot",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Copilot"
+      ],
+      "replacements": [
+        "Slopilot"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Copilotu"
+      ],
+      "replacements": [
+        "Slopilotu"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Copilotu"
+      ],
+      "replacements": [
+        "Slopilotu"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Copilot"
+      ],
+      "replacements": [
+        "Slopilot"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Copilote"
+      ],
+      "replacements": [
+        "Slopilote"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Copilotu"
+      ],
+      "replacements": [
+        "Slopilotu"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Copilotem"
+      ],
+      "replacements": [
+        "Slopilotem"
+      ]
+    }
+  }
+}

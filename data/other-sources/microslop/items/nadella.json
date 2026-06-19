@@ -1,0 +1,169 @@
+{
+  "name": "nadella",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Satya Narayana Nadella",
+        "Satya Nadella",
+        "Nadella"
+      ],
+      "replacements": [
+        "Slopya Nutella"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Satya Narayana Nadelly",
+        "Satya Nadelly",
+        "Nadelly"
+      ],
+      "replacements": [
+        "Slopya Nutelly"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Satyu Narayana Nadellovi",
+        "Satyu Nadellovi",
+        "Nadellovi"
+      ],
+      "replacements": [
+        "Slopyu Nutellovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Satyu Narayana Nadellu",
+        "Satyu Nadellu",
+        "Nadellu"
+      ],
+      "replacements": [
+        "Slopyu Nutellu"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Satyo Narayana Nadello",
+        "Satyo Nadello",
+        "Nadello"
+      ],
+      "replacements": [
+        "Slopyo Nutello"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Satyu Narayana Nadellovi",
+        "Satyu Nadellovi",
+        "Nadellovi"
+      ],
+      "replacements": [
+        "Slopyu Nutellovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Satyem Narayana Nadellou",
+        "Satyem Nadellou",
+        "Nadellou"
+      ],
+      "replacements": [
+        "Slopyem Nutellou"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Nadellovo"
+      ],
+      "replacements": [
+        "Nutellovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Nadellova"
+      ],
+      "replacements": [
+        "Nutellova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Nadellův"
+      ],
+      "replacements": [
+        "Nutellův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Nadellovi"
+      ],
+      "replacements": [
+        "Nutellovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Nadellovy"
+      ],
+      "replacements": [
+        "Nutellovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Nadellově",
+        "Nadellové"
+      ],
+      "replacements": [
+        "Nutellově",
+        "Nutellové"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Nadellovu"
+      ],
+      "replacements": [
+        "Nutellovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Nadellovou"
+      ],
+      "replacements": [
+        "Nutellovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Nadellovým"
+      ],
+      "replacements": [
+        "Nutellovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Nadellových"
+      ],
+      "replacements": [
+        "Nutellových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Nadellovými"
+      ],
+      "replacements": [
+        "Nutellovými"
+      ]
+    }
+  }
+}
