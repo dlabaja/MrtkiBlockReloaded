@@ -2,23 +2,20 @@ import * as fs from "node:fs";
 import * as Path from "node:path";
 import {Validator} from "jsonschema";
 
-const itemsPath = "./data/items";
-const outputPath = "./data/data2.json";
 const schemaPath = "./data/item.schema.json";
-const nameListPath = "./data/name-list.txt";
 const schema = JSON.parse(fs.readFileSync(schemaPath, { encoding: 'utf8', flag: 'r' }))
 const validator = new Validator();
 const matchesAndReplacements = [];
 
-function buildData() {
+function buildData(path, outputPath, nameListPath) {
     const jsonItems = [];
-    fs.readdirSync(itemsPath, {recursive: true}).forEach(name => {
+    fs.readdirSync(path, {recursive: true}).forEach(name => {
         if (!name.endsWith(".json")) {
             return;
         }
         
         try {
-            processJsonItem(Path.join(itemsPath, name), jsonItems);
+            processJsonItem(Path.join(path, name), jsonItems);
         }
         catch (e) {
             throw new Error(`Cannot process ${name}`)
@@ -26,7 +23,9 @@ function buildData() {
     })
     
     fs.writeFileSync(outputPath, generateJson(jsonItems), {encoding: "utf-8"});
-    fs.writeFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0]} - ${x[1].join("; ")}`).sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0)).join("\n"), {encoding: "utf-8"})
+    if (nameListPath) {
+        fs.writeFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0]} - ${x[1].join("; ")}`).sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0)).join("\n"), {encoding: "utf-8"});
+    }
 }
 
 function processJsonItem(path, jsonItems) {
@@ -46,4 +45,5 @@ function generateJson(jsonItems) {
     })
 }
 
-buildData();
+buildData("./data/items", "./data/data2.json", "./data/name-list.txt");
+buildData("./data/other-sources/microslop/items", "./data/other-sources/microslop/data.json")

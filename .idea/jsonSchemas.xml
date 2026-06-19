@@ -33,6 +33,11 @@
               <option name="patterns">
                 <list>
                   <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="data/other-sources/*.json" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                  <Item>
                     <option name="directory" value="true" />
                     <option name="path" value="data/items" />
                     <option name="mappingKind" value="Directory" />
