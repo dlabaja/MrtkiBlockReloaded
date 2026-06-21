@@ -123,22 +123,19 @@ export class DataManager extends Initiable {
     }
 
     private fillReplacements(matchGroups: MatchGroup[]) {
-        // 4. pád se plní první kvůli konfliktům s 2. pádem. U 3./6. pádu už to je v pořádku
-        // to znamená že nejdřív projdou matche bez předložek (4, 3) a pak až ty s předložkama (2, 6); Duplikáty se vyfiltrují
-        const _matchGroups: MatchGroup[] = [
-            matchGroups.find(x => x.groupId === "4")!,
-            ...matchGroups.filter(x => x.groupId !== "4"),
-        ]
-        for (const matchGroup of _matchGroups) {
+        // nejdřív přidá matche s předložkama, pak bez předložek
+        for (const matchGroup of matchGroups) {
             for (const match of matchGroup.matches) {
-                if (!this.replacements.has(match)) {
-                    this.replacements.set(match, matchGroup.replacements);
-                }
                 for (const prep of matchGroup.prepositions) {
                     const matchWithPrep = `${prep} ${match}`;
                     if (!this.replacements.has(matchWithPrep)) {
                         this.replacements.set(matchWithPrep, matchGroup.replacements.map(x => `${prep} ${x}`));
                     }
+                }
+            }
+            for (const match of matchGroup.matches) {
+                if (!this.replacements.has(match)) {
+                    this.replacements.set(match, matchGroup.replacements);
                 }
             }
         }
