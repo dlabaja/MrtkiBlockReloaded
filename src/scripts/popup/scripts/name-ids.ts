@@ -17,5 +17,8 @@ export function updateNameIds(nameIdsWithSources: NameIdsWithSource[]) {
         result.push(`${nameIdWithSource.sourceName}:
         ${nameIdWithSource.nameIds.sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0)).join(", ")}`)
     }
+    if (!result.length) {
+        return;
+    }
     element.innerText = result.join("\n\n");
 }
