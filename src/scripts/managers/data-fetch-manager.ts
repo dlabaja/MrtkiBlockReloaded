@@ -1,7 +1,7 @@
 import {ConfigManager} from "./config-manager/config-manager.abstract";
 import {ErrorManager} from "./error-manager";
 import {ExtensionError} from "../enums/error.enum";
-import {Data} from "../interfaces/data";
+import {Data, DataDeclension} from "../interfaces/data";
 import {StorageType} from "../enums/storage-type.enum";
 import {StorageKey} from "../enums/storage-key.enum";
 import {Initiable} from "../data-structures/initiable";
@@ -51,10 +51,19 @@ export class DataFetchManager extends Initiable {
         }
 
         const jsons = await Promise.all(responses.map(x => x.json() as Promise<Data[]>));
+        let validatedJsons: Data[][] = [];
+        for (const json of jsons) {
+            if (!this.validateJson(json)) {
+                this.handleParseException()
+                continue;
+            }
+            validatedJsons.push(json);
+        }
+        
         const usedNames = new Set<string>();
         const result: Data[] = [];
         try {
-            for (const [index, json] of jsons.entries()) {
+            for (const [index, json] of validatedJsons.entries()) {
                 try {
                     for (const data of json) {
                         data.sourceName = `Zdroj #${index + 1}`;
@@ -78,6 +87,27 @@ export class DataFetchManager extends Initiable {
     
     private handleParseException() {
         this._errorManager.addError(ExtensionError.DataParseFailed);
+    }
+    
+    private validateJson(json: Data[]): boolean {
+        let ir = Array.isArray(json);
+        if (!ir) {
+            return false;
+        }
+        for (const item of json) {
+            ir = ir && this.validateDataJson(item);
+        }
+        return ir;
+    }
+    
+    private validateDataJson(data: Data): boolean {
+        let ir: boolean = !!data.name && data.matchLowerCase !== undefined && data.matchUpperCase !== undefined && !!data.cases
+        for (const caseKey of [1, 2, 3, 4, 5, 6, 7]) {
+            // @ts-ignore
+            const caseItem: DataDeclension|undefined = data.cases[`${caseKey}`];
+            ir = ir && caseItem !== undefined && caseItem.matches !== undefined && caseItem.replacements !== undefined;
+        }
+        return ir;
     }
     
     private getUniqueName(name: string, attempt: number, usedNames: Set<string>): string {
