@@ -5,7 +5,6 @@
   "cases": {
     "1": {
       "matches": [
-        "Konečná",
         "Kateřina Konečná"
       ],
       "replacements": [
@@ -17,7 +16,6 @@
     },
     "2": {
       "matches": [
-        "Konečné",
         "Kateřiny Konečné"
       ],
       "replacements": [
@@ -29,7 +27,6 @@
     },
     "3": {
       "matches": [
-        "Konečné",
         "Kateřině Konečné"
       ],
       "replacements": [
@@ -41,7 +38,6 @@
     },
     "4": {
       "matches": [
-        "Konečnou",
         "Kateřinu Konečnou"
       ],
       "replacements": [
@@ -53,7 +49,6 @@
     },
     "5": {
       "matches": [
-        "Konečná",
         "Kateřino Konečná"
       ],
       "replacements": [
@@ -65,7 +60,6 @@
     },
     "6": {
       "matches": [
-        "Konečné",
         "Kateřině Konečné"
       ],
       "replacements": [
@@ -77,7 +71,6 @@
     },
     "7": {
       "matches": [
-        "Konečnou",
         "Kateřinou Konečnou"
       ],
       "replacements": [
