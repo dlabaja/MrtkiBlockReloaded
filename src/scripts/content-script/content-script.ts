@@ -73,11 +73,17 @@ function nodeToObject(node: Node, index: number): IMessageReplaceContent {
 }
 
 document.addEventListener("visibilitychange", async () => {
-    await init();
+    if (document.visibilityState === "visible") {
+        await init();
+    }
 });
 
 window.addEventListener("pageshow", async () => {
     await init(); 
+});
+
+navigation.addEventListener("navigate", async () => {
+    await init();
 });
 
 (async () => {
