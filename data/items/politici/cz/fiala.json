@@ -13,7 +13,10 @@
         "Ztělesnění nudy",
         "Reklama na Ferrero",
         "Profesor \"Jedu poprvé na eskalátoru\"",
-        "Skejťák v saku"
+        "Skejťák v saku",
+        "Petr Piala",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     },
     "2": {
@@ -26,7 +29,10 @@
         "Ztělesnění nudy",
         "Reklamy na Ferrero",
         "Profesora \"Jedu poprvé na eskalátoru\"",
-        "Skejťáka v saku"
+        "Skejťáka v saku",
+        "Petra Pialy",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     },
     "3": {
@@ -40,7 +46,10 @@
         "Ztělesnění nudy",
         "Reklamě na Ferrero",
         "Profesorovi \"Jedu poprvé na eskalátoru\"",
-        "Skejťákovi v saku"
+        "Skejťákovi v saku",
+        "Petru Pialovi",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     },
     "4": {
@@ -53,7 +62,10 @@
         "Ztělesnění nudy",
         "Reklamu na Ferrero",
         "Profesora \"Jedu poprvé na eskalátoru\"",
-        "Skejťáka v saku"
+        "Skejťáka v saku",
+        "Petra Pialu",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     },
     "5": {
@@ -66,7 +78,10 @@
         "Ztělesnění nudy",
         "Reklamo na Ferrero",
         "Profesore \"Jedu poprvé na eskalátoru\"",
-        "Skejťáku v saku"
+        "Skejťáku v saku",
+        "Petře Pialo",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     },
     "6": {
@@ -80,7 +95,10 @@
         "Ztělesnění nudy",
         "Reklamě na Ferrero",
         "Profesorovi \"Jedu poprvé na eskalátoru\"",
-        "Skejťákovi v saku"
+        "Skejťákovi v saku",
+        "Petru Pialovi",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     },
     "7": {
@@ -93,7 +111,10 @@
         "Ztělesněním nudy",
         "Reklamou na Ferrero",
         "Profesorem \"Jedu poprvé na eskalátoru\"",
-        "Skejťákem v saku"
+        "Skejťákem v saku",
+        "Petrem Pialou",
+        "6-7 piv",
+        "\"My neseme Staropramen\""
       ]
     }
   },
@@ -105,7 +126,8 @@
       "replacements": [
         "Sucharovo",
         "Nutellovo",
-        "Skejťákovo"
+        "Skejťákovo",
+        "Pialovo"
       ]
     },
     "ta": {
@@ -115,7 +137,8 @@
       "replacements": [
         "Sucharova",
         "Nutellova",
-        "Skejťákova"
+        "Skejťákova",
+        "Pialova"
       ]
     },
     "ten": {
@@ -125,7 +148,8 @@
       "replacements": [
         "Sucharův",
         "Nutellův",
-        "Skejťákův"
+        "Skejťákův",
+        "Pialův"
       ]
     },
     "ti": {
@@ -135,7 +159,8 @@
       "replacements": [
         "Sucharovi",
         "Nutellovi",
-        "Skejťákovi"
+        "Skejťákovi",
+        "Pialovi"
       ]
     },
     "ty": {
@@ -145,7 +170,8 @@
       "replacements": [
         "Sucharovy",
         "Nutellovy",
-        "Skejťákovy"
+        "Skejťákovy",
+        "Pialovy"
       ]
     },
     "te": {
@@ -155,7 +181,8 @@
       "replacements": [
         "Sucharově",
         "Nutellově",
-        "Skejťákově"
+        "Skejťákově",
+        "Pialově"
       ]
     },
     "tu": {
@@ -165,7 +192,8 @@
       "replacements": [
         "Sucharovu",
         "Nutellovu",
-        "Skejťákovu"
+        "Skejťákovu",
+        "Pialovu"
       ]
     },
     "tou": {
@@ -175,7 +203,8 @@
       "replacements": [
         "Sucharovou",
         "Nutellovou",
-        "Skejťákovou"
+        "Skejťákovou",
+        "Pialovou"
       ]
     },
     "tim": {
@@ -185,7 +214,8 @@
       "replacements": [
         "Sucharovým",
         "Nutellovým",
-        "Skejťákovým"
+        "Skejťákovým",
+        "Pialovým"
       ]
     },
     "tech": {
@@ -195,7 +225,8 @@
       "replacements": [
         "Sucharových",
         "Nutellových",
-        "Skejťákových"
+        "Skejťákových",
+        "Pialových"
       ]
     },
     "temi": {
@@ -205,7 +236,8 @@
       "replacements": [
         "Sucharovými",
         "Nutellovými",
-        "Skejťákovými"
+        "Skejťákovými",
+        "Pialovými"
       ]
     }
   }

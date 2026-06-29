@@ -1,0 +1,84 @@
+{
+  "name": "stastny",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Boris Šťastný",
+        "Šťastný"
+      ],
+      "replacements": [
+        "Ministr kotrmelců",
+        "s ministerstvem Šťastný",
+        "Ve výtahu neŠťastný"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Borise Šťastného",
+        "Šťastného"
+      ],
+      "replacements": [
+        "Ministra kotrmelců",
+        "s ministerstvem Šťastného",
+        "Ve výtahu neŠťastného"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Borisi Šťastnému",
+        "Šťastnému"
+      ],
+      "replacements": [
+        "Ministrovi kotrmelců",
+        "s ministerstvem Šťastnému",
+        "Ve výtahu neŠťastnému"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Borise Šťastného",
+        "Šťastného"
+      ],
+      "replacements": [
+        "Ministra kotrmelců",
+        "s ministerstvem Šťastného",
+        "Ve výtahu neŠťastného"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Borisi Šťastný",
+        "Šťastný"
+      ],
+      "replacements": [
+        "Ministro kotrmelců",
+        "s ministerstvem Šťastný",
+        "Ve výtahu neŠťastný"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Borisi Šťastném",
+        "Šťastném"
+      ],
+      "replacements": [
+        "Ministrovi kotrmelců",
+        "s ministerstvem Šťastném",
+        "Ve výtahu neŠťastném"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Borisem Šťastným",
+        "Šťastným"
+      ],
+      "replacements": [
+        "Ministrem kotrmelců",
+        "s ministerstvem Šťastným",
+        "Ve výtahu neŠťastným"
+      ]
+    }
+  }
+}
