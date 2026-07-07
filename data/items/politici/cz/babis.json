@@ -25,7 +25,9 @@
         "Globus za 15 litrů",
         "Bláboliš",
         "Chovatel motýle",
-        "Planeta Měsíc"
+        "Planeta Měsíc",
+        "Slabiš",
+        "Chemický Alí"
       ]
     },
     "2": {
@@ -50,7 +52,9 @@
         "Globusu za 15 litrů",
         "Bláboliše",
         "Chovatele motýle",
-        "Planety Měsíc"
+        "Planety Měsíc",
+        "Slabiše",
+        "Chemického Alího"
       ]
     },
     "3": {
@@ -75,7 +79,9 @@
         "Globusu za 15 litrů",
         "Blábolišovi",
         "Chovateli motýle",
-        "Planetě Měsíc"
+        "Planetě Měsíc",
+        "Slabišovi",
+        "Chemickému Alímu"
       ]
     },
     "4": {
@@ -100,7 +106,9 @@
         "Globus za 15 litrů",
         "Bláboliše",
         "Chovatele motýle",
-        "Planetu Měsíc"
+        "Planetu Měsíc",
+        "Slabiše",
+        "Chemického Alího"
       ]
     },
     "5": {
@@ -125,7 +133,9 @@
         "Globuse za 15 litrů",
         "Bláboliši",
         "Chovateli motýle",
-        "Planeto Měsíc"
+        "Planeto Měsíc",
+        "Slabiši",
+        "Chemický Alí"
       ]
     },
     "6": {
@@ -150,7 +160,9 @@
         "Globusu za 15 litrů",
         "Blábolišovi",
         "Chovateli motýle",
-        "Planetě Měsíc"
+        "Planetě Měsíc",
+        "Slabišovi",
+        "Chemickém Alím"
       ]
     },
     "7": {
@@ -175,7 +187,9 @@
         "Globusem za 15 litrů",
         "Blábolišem",
         "Chovatelem motýle",
-        "Planetou Měsíc"
+        "Planetou Měsíc",
+        "Slabišem",
+        "Chemickým Alím"
       ]
     }
   },
@@ -191,7 +205,8 @@
         "Řepkobaronovo",
         "Zapíračovo",
         "Bimbišovo",
-        "Blábolišovo"
+        "Blábolišovo",
+        "Slabišovo"
       ]
     },
     "ta": {
@@ -205,7 +220,8 @@
         "Řepkobaronova",
         "Zapíračova",
         "Bimbišova",
-        "Blábolišova"
+        "Blábolišova",
+        "Slabišova"
       ]
     },
     "ten": {
@@ -219,7 +235,8 @@
         "Řepkobaronův",
         "Zapíračův",
         "Bimbišův",
-        "Blábolišův"
+        "Blábolišův",
+        "Slabišův"
       ]
     },
     "ti": {
@@ -233,7 +250,8 @@
         "Řepkobaronovi",
         "Zapíračovi",
         "Bimbišovi",
-        "Blábolišovi"
+        "Blábolišovi",
+        "Slabišovi"
       ]
     },
     "ty": {
@@ -247,7 +265,8 @@
         "Řepkobaronovy",
         "Zapíračovy",
         "Bimbišovy",
-        "Blábolišovy"
+        "Blábolišovy",
+        "Slabišovy"
       ]
     },
     "te": {
@@ -261,7 +280,8 @@
         "Řepkobaronově",
         "Zapíračově",
         "Bimbišově",
-        "Blábolišově"
+        "Blábolišově",
+        "Slabišově"
       ]
     },
     "tu": {
@@ -275,7 +295,8 @@
         "Řepkobaronovu",
         "Zapíračovu",
         "Bimbišovu",
-        "Blábolišovu"
+        "Blábolišovu",
+        "Slabišovu"
       ]
     },
     "tou": {
@@ -289,7 +310,8 @@
         "Řepkobaronovou",
         "Zapíračovou",
         "Bimbišovou",
-        "Blábolišovou"
+        "Blábolišovou",
+        "Slabišovou"
       ]
     },
     "tim": {
@@ -303,7 +325,8 @@
         "Řepkobaronovým",
         "Zapíračovým",
         "Bimbišovým",
-        "Blábolišovým"
+        "Blábolišovým",
+        "Slabišovým"
       ]
     },
     "tech": {
@@ -317,7 +340,8 @@
         "Řepkobaronových",
         "Zapíračových",
         "Bimbišových",
-        "Blábolišových"
+        "Blábolišových",
+        "Slabišových"
       ]
     },
     "temi": {
@@ -331,7 +355,8 @@
         "Řepkobaronovými",
         "Zapíračovými",
         "Bimbišovými",
-        "Blábolišovými"
+        "Blábolišovými",
+        "Slabišovými"
       ]
     }
   }
