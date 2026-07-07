@@ -24,7 +24,8 @@ function buildData(path, outputPath, nameListPath) {
     
     fs.writeFileSync(outputPath, generateJson(jsonItems), {encoding: "utf-8"});
     if (nameListPath) {
-        fs.writeFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0]} - ${x[1].join("; ")}`).sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0)).join("\n"), {encoding: "utf-8"});
+        fs.writeFileSync(nameListPath, "Část přezdívek byla převzata z původního MrtkiBlock rozšíření, část vymyslela komunita nebo lidé v diskuzích na Novinkách...\n\n")
+        fs.appendFileSync(nameListPath, matchesAndReplacements.map(x => `${x[0]} - ${x[1].join("; ")}`).sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0)).join("\n"), {encoding: "utf-8"});
     }
 }
 
