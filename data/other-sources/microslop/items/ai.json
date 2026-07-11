@@ -1,14 +1,14 @@
 {
-  "name": "artificial-intelligence",
+  "name": "ai",
   "matchUpperCase": true,
   "matchLowerCase": true,
   "cases": {
     "1": {
       "matches": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "replacements": [
-        "Actually Indians"
+        "GayEye"
       ]
     },
     "2": {
