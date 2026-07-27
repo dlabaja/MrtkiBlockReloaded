@@ -8,6 +8,7 @@ benda - Inventární číslo sněmovny; Zaprášený exponát; Poslanec s prošl
 blatny - Gargamel; Zlatonka s ušima; Ministr zdravotnictví číslo 14855
 blazek - Don Pablo; Popularizátor kryptoměn
 cibulka - Agent KGB/GRU; Pravý BLOK na Facebooku; Siderické kyvadélko; Psychotronik; Ruský fízl
+david - Vladimír Štencl; Born to be Klub 27; Kulturní hříšník; Ten co chce rakovinu způsobovat nonstop; Zpěvák ČSSD; Český Slavík Penny Market; Vykopávka z Penny Marketu; Prodavač hrnců a kompotů; Dítě rudého Ráje; Největší z nálezů a ztrát
 duka - Pedofilní arcibiskup; Církevní zatajovač; Arciprasman Duka; Ztělesnění obžerství
 feri - Úplně nahej; Predátor z Teplic; Ten co neuhne
 ferjencik - Ježíš Torrentus; Piratebay admin
@@ -39,6 +40,7 @@ motoriste - Motoristé v sobě; Šalinisté sobě; Močůristé; Motopedisté; V
 nacher - Krysí žokej; Leprikón; Jeho maličkost osobně; Pražský krysařík; Hobit; Sádrový trpaslík; Schumacher z angličáku
 necas - Trafikant; Petr Nagy; Nákupčí kabelek ze státního rozpočtu; Kočkopes; Kočkopsoidní kočkopes
 nejedly - Pumpař; Lánský gangster; Obchoďák Lukoilu; Ruský vyjednavač
+nerudova - Banuše Nerudná; DanusHE; Královna komunitních poznámek
 novotny - Nesplněný cíl GRU; Zhouba Koněva; Mistr rýsování bez pravítka; Vorvaň z Řeporyjí; Vokální kulomet; Degustátor novičoku; Hrochodýl
 okamura - Japonský vlastenec; Pitomio; Syn maminky z Moravy; Ten, co mluví i za horečky; Bicák ohýbající realitu; Česko-japonský sumoraj; Lobotomio Zmrdimůra; Podržštafle; Okanimůra
 ovcacek - Buzerant s kabelkou; Zaměstnanec hospicu Lány; Twitterový terrorista
@@ -54,15 +56,16 @@ starobrno - Starobahno
 soukup - Větroplach; Debatér sám se sebou; Dvouprocentní premiér; Oportunistická svině; Majitel největší čínské investice v ČR; Hvězda ČSFD
 schillerova - Ministryně Instagramu; Candy crush šampiónka; Miss Gerontia; Dluhový schodek; Tiktok tanečnice; Hranolka; Dlužena; Alenka v říši dluhů; Dluhová víla
 semelova - Kuřba za pade; Rudá Marta; Krvavá Mary; Red Widow; Jsem Váš hlas; Zhouba Horákové; Gulagmamá
+smarda - Poslední zhasne; Ten co zbyl po ČSSD
 sobotka - Dluhoslav Nedělej; Zubopleš z OKD; Žalud s brýlemi; Der frenc
 stanjura - Elektrikář z Opavy
 stastny - Ministr kotrmelců; S ministerstvem Šťastný; Ve výtahu Nešťastný; Bez dotací pro Strážnici Šťastný; Plukovník Schod; Bez záznamníku Nešťastný
-spd - SSPD; Strana Pomocných Dělníků; Parlamentní fašistické hnutí
+spd - SSPD; Strana Pomocných Dělníků; Parlamentní fašistické hnutí; Svoboda a Přímá Demagogie
 stacilo - 4% NeStačilo!; 40 let Stačilo!
 topolanek - Buran po Toskánsku; Dalíkova amnestie; Švédská trojka
 turek - Tutůrek; Automat na zvedání pravice; Postrach dětských závodů; Předepisovatel pití Sava; Sběratel zahnutých křížů; Iránský agent; Schumacher mezi páťáky; Hranatý parazit; Adolf Driftler; CEO damage controlu; SSchumacher; Zmoštěnec; Motopuberťák; Ministr moštárny; Postrach Zelené vlny; Nemotorný Motorista
 tvrdik - Luftjarda; Je mi z vás na blití; Stavitel vzdušných zámků
-trump - Oranžgutan; Oranžový tlučhuba; Nejlepší ruský prezident; Alzhajmrista; Bombarduju, nebombarduju, bombarduju...; Ředitel Zeměkoule; Ochmatávač holčiček; Ochmatávač Billa; Donica Lewinsky; No more wars; Velký a krásný stratég; Mírokurvce; peDonald; Agent Krasnov; Cvičný terč
+trump - Oranžgutan; Oranžový tlučhuba; Nejlepší ruský prezident; Alzhajmrista; Bombarduju, nebombarduju, bombarduju...; Ředitel Zeměkoule; Ochmatávač holčiček; Ochmatávač Billa; Donica Lewinsky; No more wars; Velký a krásný stratég; Mírokurvce; peDonald; Agent Krasnov; Cvičný terč; Don Tzu
 vavra - CEO sebereflexe; Gibon v Bentley; Frý Spíč Mafia; Ban Vávra
 vondrackova - Pravěká fosílie; Strážkyně tújí; Vyschlá mumie; Rekordmanka trestních oznámení; Stará raketa; Osoba z Řiťky; Hnědé uhlí popmusic; Bílá paní Krumlovského zámku
 vesely - Vypasená svině; Ruský nok; Ředitel gulagu; Strůjce genocidy chlebíčků; Postrach oleje z friťáku; Otesánek z televize; Blop
