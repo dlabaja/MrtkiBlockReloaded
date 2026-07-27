@@ -1,7 +1,7 @@
 {
   "name": "stastny",
-  "matchUpperCase": true,
-  "matchLowerCase": true,
+  "matchUpperCase": false,
+  "matchLowerCase": false,
   "cases": {
     "1": {
       "matches": [
