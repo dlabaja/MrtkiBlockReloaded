@@ -1,0 +1,236 @@
+{
+  "name": "david",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Michal David",
+        "David"
+      ],
+      "replacements": [
+        "Vladimír Štencl",
+        "Born to be Klub 27",
+        "Kulturní hříšník",
+        "Ten co chce rakovinu způsobovat nonstop",
+        "Zpěvák ČSSD",
+        "Český Slavík Penny Market",
+        "Vykopávka z Penny Marketu",
+        "Prodavač hrnců a kompotů",
+        "Dítě rudého Ráje",
+        "Největší z nálezů a ztrát"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Michala Davida",
+        "Davida"
+      ],
+      "replacements": [
+        "Vladimíra Štencla",
+        "Born to be Klub 27",
+        "Kulturního hříšníka",
+        "Toho co chce rakovinu způsobovat nonstop",
+        "Zpěváka ČSSD",
+        "Českého Slavíka Penny Market",
+        "Vykopávky z Penny Marketu",
+        "Prodavače hrnců a kompotů",
+        "Dítěte rudého Ráje",
+        "Největšího z nálezů a ztrát"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Michalu Davidovi",
+        "Michalovi Davidovi",
+        "Davidovi"
+      ],
+      "replacements": [
+        "Vladimíru Štenclovi",
+        "Born to be Klub 27",
+        "Kulturnímu hříšníkovi",
+        "Tomu co chce rakovinu způsobovat nonstop",
+        "Zpěváku ČSSD",
+        "Českému Slavíku Penny Market",
+        "Vykopávce z Penny Marketu",
+        "Prodavači hrnců a kompotů",
+        "Dítěti rudého Ráje",
+        "Největšímu z nálezů a ztrát"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Michala Davida",
+        "Davida"
+      ],
+      "replacements": [
+        "Vladimíra Štencla",
+        "Born to be Klub 27",
+        "Kulturního hříšníka",
+        "Toho co chce rakovinu způsobovat nonstop",
+        "Zpěváka ČSSD",
+        "Českého Slavíka Penny Market",
+        "Vykopávku z Penny Marketu",
+        "Prodavače hrnců a kompotů",
+        "Dítě rudého Ráje",
+        "Největšího z nálezů a ztrát"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Michale Davide",
+        "Davide"
+      ],
+      "replacements": [
+        "Vladimíre Štencle",
+        "Born to be Klub 27",
+        "Kulturní hříšníku",
+        "Ten co chce rakovinu způsobovat nonstop",
+        "Zpěváku ČSSD",
+        "Český Slavíku Penny Market",
+        "Vykopávko z Penny Marketu",
+        "Prodavači hrnců a kompotů",
+        "Dítě rudého Ráje",
+        "Největší z nálezů a ztrát"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Michalu Davidovi",
+        "Michalovi Davidovi",
+        "Davidovi"
+      ],
+      "replacements": [
+        "Vladimíru Štenclovi",
+        "Born to be Klub 27",
+        "Kulturním hříšníkovi",
+        "Tom co chce rakovinu způsobovat nonstop",
+        "Zpěváku ČSSD",
+        "Českém Slavíku Penny Market",
+        "Vykopávce z Penny Marketu",
+        "Prodavači hrnců a kompotů",
+        "Dítěti rudého Ráje",
+        "Největším z nálezů a ztrát"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Michalem Davidem",
+        "Davidem"
+      ],
+      "replacements": [
+        "Vladimírem Štenclem",
+        "Born to be Klub 27",
+        "Kulturním hříšníkem",
+        "Tím co chce rakovinu způsobovat nonstop",
+        "Zpěvákem ČSSD",
+        "Českým Slavíkem Penny Market",
+        "Vykopávkou z Penny Marketu",
+        "Prodavačem hrnců a kompotů",
+        "Dítětem rudého Ráje",
+        "Největším z nálezů a ztrát"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Davidovo"
+      ],
+      "replacements": [
+        "Štenclovo",
+        "Kompotovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Davidova"
+      ],
+      "replacements": [
+        "Štenclova",
+        "Kompotova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Davidův"
+      ],
+      "replacements": [
+        "Štenclův",
+        "Kompotův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Davidovi"
+      ],
+      "replacements": [
+        "Štenclovi",
+        "Kompotovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Davidovy"
+      ],
+      "replacements": [
+        "Štenclovy",
+        "Kompotovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Davidově"
+      ],
+      "replacements": [
+        "Štenclově",
+        "Kompotově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Davidovu"
+      ],
+      "replacements": [
+        "Štenclovu",
+        "Kompotovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Davidovou"
+      ],
+      "replacements": [
+        "Štenclovou",
+        "Kompotovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Davidovým"
+      ],
+      "replacements": [
+        "Štenclovým",
+        "Kompotovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Davidových"
+      ],
+      "replacements": [
+        "Štenclových",
+        "Kompotových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Davidovými"
+      ],
+      "replacements": [
+        "Štenclovými",
+        "Kompotovými"
+      ]
+    }
+  }
+}

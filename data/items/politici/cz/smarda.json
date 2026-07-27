@@ -1,0 +1,79 @@
+{
+  "name": "smarda",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Michal Šmarda",
+        "Šmarda"
+      ],
+      "replacements": [
+        "Poslední zhasne",
+        "Ten co zbyl po ČSSD"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Michala Šmardy",
+        "Šmardy"
+      ],
+      "replacements": [
+        "Posledního co zhasne",
+        "Toho co zbyl po ČSSD"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Michalu Šmardovi",
+        "Michalovi Šmardovi",
+        "Šmardovi"
+      ],
+      "replacements": [
+        "Poslednímu co zhasne",
+        "Tomu co zbyl po ČSSD"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Michala Šmardu",
+        "Šmardu"
+      ],
+      "replacements": [
+        "Posledního co zhasne",
+        "Toho co zbyl po ČSSD"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Michale Šmardo",
+        "Šmardo"
+      ],
+      "replacements": [
+        "Poslední co zhasne",
+        "Ten co zbyl po ČSSD"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Michalu Šmardovi",
+        "Michalovi Šmardovi",
+        "Šmardovi"
+      ],
+      "replacements": [
+        "Posledním co zhasne",
+        "Tom co zbyl po ČSSD"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Michalem Šmardou",
+        "Šmardou"
+      ],
+      "replacements": [
+        "Posledním co zhasne",
+        "Tím co zbyl po ČSSD"
+      ]
+    }
+  }
+}

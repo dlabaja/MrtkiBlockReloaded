@@ -1,0 +1,84 @@
+{
+  "name": "nerudova",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Danuše Nerudová",
+        "Nerudová"
+      ],
+      "replacements": [
+        "Banuše Nerudná",
+        "DanusHE",
+        "Královna komunitních poznámek"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Danuše Nerudové",
+        "Nerudové"
+      ],
+      "replacements": [
+        "Banuše Nerudné",
+        "DanusHE",
+        "Královny komunitních poznámek"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Danuši Nerudové",
+        "Nerudové"
+      ],
+      "replacements": [
+        "Banuši Nerudné",
+        "DanusHE",
+        "Královně komunitních poznámek"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Danuši Nerudovou",
+        "Nerudovou"
+      ],
+      "replacements": [
+        "Banuši Nerudnou",
+        "DanusHE",
+        "Královnu komunitních poznámek"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Danuše Nerudová",
+        "Nerudová"
+      ],
+      "replacements": [
+        "Banuše Nerudná",
+        "DanusHE",
+        "Královno komunitních poznámek"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Danuši Nerudové",
+        "Nerudové"
+      ],
+      "replacements": [
+        "Banuši Nerudné",
+        "DanusHE",
+        "Královně komunitních poznámek"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Danuší Nerudovou",
+        "Nerudovou"
+      ],
+      "replacements": [
+        "Banuší Nerudnou",
+        "DanusHE",
+        "Královnou komunitních poznámek"
+      ]
+    }
+  }
+}
