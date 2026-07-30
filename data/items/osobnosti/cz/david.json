@@ -5,8 +5,7 @@
   "cases": {
     "1": {
       "matches": [
-        "Michal David",
-        "David"
+        "Michal David"
       ],
       "replacements": [
         "Vladimír Štencl",
@@ -23,8 +22,7 @@
     },
     "2": {
       "matches": [
-        "Michala Davida",
-        "Davida"
+        "Michala Davida"
       ],
       "replacements": [
         "Vladimíra Štencla",
@@ -42,8 +40,7 @@
     "3": {
       "matches": [
         "Michalu Davidovi",
-        "Michalovi Davidovi",
-        "Davidovi"
+        "Michalovi Davidovi"
       ],
       "replacements": [
         "Vladimíru Štenclovi",
@@ -60,8 +57,7 @@
     },
     "4": {
       "matches": [
-        "Michala Davida",
-        "Davida"
+        "Michala Davida"
       ],
       "replacements": [
         "Vladimíra Štencla",
@@ -78,8 +74,7 @@
     },
     "5": {
       "matches": [
-        "Michale Davide",
-        "Davide"
+        "Michale Davide"
       ],
       "replacements": [
         "Vladimíre Štencle",
@@ -97,8 +92,7 @@
     "6": {
       "matches": [
         "Michalu Davidovi",
-        "Michalovi Davidovi",
-        "Davidovi"
+        "Michalovi Davidovi"
       ],
       "replacements": [
         "Vladimíru Štenclovi",
@@ -115,8 +109,7 @@
     },
     "7": {
       "matches": [
-        "Michalem Davidem",
-        "Davidem"
+        "Michalem Davidem"
       ],
       "replacements": [
         "Vladimírem Štenclem",
@@ -129,107 +122,6 @@
         "Prodavačem hrnců a kompotů",
         "Dítětem rudého Ráje",
         "Největším z nálezů a ztrát"
-      ]
-    }
-  },
-  "adjectives": {
-    "to": {
-      "matches": [
-        "Davidovo"
-      ],
-      "replacements": [
-        "Štenclovo",
-        "Kompotovo"
-      ]
-    },
-    "ta": {
-      "matches": [
-        "Davidova"
-      ],
-      "replacements": [
-        "Štenclova",
-        "Kompotova"
-      ]
-    },
-    "ten": {
-      "matches": [
-        "Davidův"
-      ],
-      "replacements": [
-        "Štenclův",
-        "Kompotův"
-      ]
-    },
-    "ti": {
-      "matches": [
-        "Davidovi"
-      ],
-      "replacements": [
-        "Štenclovi",
-        "Kompotovi"
-      ]
-    },
-    "ty": {
-      "matches": [
-        "Davidovy"
-      ],
-      "replacements": [
-        "Štenclovy",
-        "Kompotovy"
-      ]
-    },
-    "te": {
-      "matches": [
-        "Davidově"
-      ],
-      "replacements": [
-        "Štenclově",
-        "Kompotově"
-      ]
-    },
-    "tu": {
-      "matches": [
-        "Davidovu"
-      ],
-      "replacements": [
-        "Štenclovu",
-        "Kompotovu"
-      ]
-    },
-    "tou": {
-      "matches": [
-        "Davidovou"
-      ],
-      "replacements": [
-        "Štenclovou",
-        "Kompotovou"
-      ]
-    },
-    "tim": {
-      "matches": [
-        "Davidovým"
-      ],
-      "replacements": [
-        "Štenclovým",
-        "Kompotovým"
-      ]
-    },
-    "tech": {
-      "matches": [
-        "Davidových"
-      ],
-      "replacements": [
-        "Štenclových",
-        "Kompotových"
-      ]
-    },
-    "temi": {
-      "matches": [
-        "Davidovými"
-      ],
-      "replacements": [
-        "Štenclovými",
-        "Kompotovými"
       ]
     }
   }
