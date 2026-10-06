@@ -1,0 +1,98 @@
+{
+  "name": "thunberg",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Greta Thunberg",
+        "Greta Thunbergová",
+        "Thunbergová",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi lover",
+        "How Dare you",
+        "Greatest Hamas soldier"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Grety Thunbergové",
+        "Grety Thunberg",
+        "Thunbergové",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi lovera",
+        "How Dare you",
+        "Greatest Hamas soldiera"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Gretě Thunbergové",
+        "Gretě Thunberg",
+        "Thunbergové",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi loverovi",
+        "How Dare you",
+        "Greatest Hamas soldierovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Gretu Thunbergovou",
+        "Gretu Thunberg",
+        "Thunbergovou",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi lovera",
+        "How Dare you",
+        "Greatest Hamas soldiera"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Greto Thunbergová",
+        "Greto Thunberg",
+        "Thunbergová",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi lovere",
+        "How Dare you",
+        "Greatest Hamas soldiere"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Gretě Thunbergové",
+        "Gretě Thunberg",
+        "Thunbergové",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi loverovi",
+        "How Dare you",
+        "Greatest Hamas soldierovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Gretou Thunbergovou",
+        "Gretou Thunberg",
+        "Thunbergovou",
+        "Thunberg"
+      ],
+      "replacements": [
+        "1.9 tdi loverem",
+        "How Dare you",
+        "Greatest Hamas soldierem"
+      ]
+    }
+  }
+}
