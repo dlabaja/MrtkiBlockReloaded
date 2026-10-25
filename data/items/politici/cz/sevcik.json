@@ -1,0 +1,91 @@
+{
+  "name": "sevcik",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Ševčík",
+        "Miroslav Ševčík"
+      ],
+      "replacements": [
+        "Menopauza",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Ševčíka",
+        "Miroslava Ševčíka"
+      ],
+      "replacements": [
+        "Menopauzy",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Ševčíkovi",
+        "Miroslavu Ševčíkovi"
+      ],
+      "replacements": [
+        "Menopauze",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Ševčíka",
+        "Miroslava Ševčíka"
+      ],
+      "replacements": [
+        "Menopauzu",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Ševčíku",
+        "Miroslave Ševčíku"
+      ],
+      "replacements": [
+        "Menopauzo",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Ševčíkovi",
+        "Miroslavu Ševčíkovi"
+      ],
+      "replacements": [
+        "Menopauze",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Ševčíkem",
+        "Miroslavem Ševčíkem"
+      ],
+      "replacements": [
+        "Menopauzou",
+        "JáJsemEkonom",
+        "Just one more dluh bro",
+        "Šel jsem zrovna kolem"
+      ]
+    }
+  }
+}
