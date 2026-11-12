@@ -1,0 +1,273 @@
+﻿{
+  "name": "orban",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Viktor Orbán",
+        "Orbán"
+      ],
+      "replacements": [
+        "Viktátor",
+        "Deutschebán",
+        "Orbanescu",
+        "Ropucha na evropském penězovodu",
+        "Dicktátor",
+        "Fidezs Castro",
+        "Vektor Orkán",
+        "Dictor Orbman",
+        "Loser Orbman"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Viktora Orbána",
+        "Orbána"
+      ],
+      "replacements": [
+        "Viktátora",
+        "Deutschebána",
+        "Orbanescua",
+        "Ropuchy na evropském penězovodu",
+        "Dicktátora",
+        "Fidezse Castra",
+        "Vektora Orkána",
+        "Dictora Orbmana",
+        "Losera Orbmana"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Viktoru Orbánovi",
+        "Viktorovi Orbánovi",
+        "Orbánovi"
+      ],
+      "replacements": [
+        "Viktátorovi",
+        "Deutschebánovi",
+        "Orbanescuovi",
+        "Ropuse na evropském penězovodu",
+        "Dicktátorovi",
+        "Fidezsu Castrovi",
+        "Vektoru Orkánovi",
+        "Dictoru Orbmanovi",
+        "Loseru Orbmanovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Viktora Orbána",
+        "Orbána"
+      ],
+      "replacements": [
+        "Viktátora",
+        "Deutschebána",
+        "Orbanescua",
+        "Ropuchu na evropském penězovodu",
+        "Dicktátora",
+        "Fidezse Castra",
+        "Vektora Orkána",
+        "Dictora Orbmana",
+        "Losera Orbmana"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Viktore Orbáne",
+        "Orbáne"
+      ],
+      "replacements": [
+        "Viktátore",
+        "Deutschebáne",
+        "Orbanescu",
+        "Ropucho na evropském penězovodu",
+        "Dicktátore",
+        "Fidezsi Castro",
+        "Vektore Orkáne",
+        "Dictore Orbmane",
+        "Losere Orbmane"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Viktoru Orbánovi",
+        "Viktorovi Orbánovi",
+        "Orbánovi"
+      ],
+      "replacements": [
+        "Viktátorovi",
+        "Deutschebánovi",
+        "Orbanescuovi",
+        "Ropuse na evropském penězovodu",
+        "Dicktátorovi",
+        "Fidezsu Castrovi",
+        "Vektoru Orkánovi",
+        "Dictoru Orbmanovi",
+        "Loseru Orbmanovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Viktorem Orbánem",
+        "Orbánem"
+      ],
+      "replacements": [
+        "Viktátorem",
+        "Deutschebánem",
+        "Orbanescuem",
+        "Ropuchou na evropském penězovodu",
+        "Dicktátorem",
+        "Fidsezem Castrem",
+        "Vektorem Orkánem",
+        "Dictorem Orbmanem",
+        "Loserem Orbmanem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Orbánovo"
+      ],
+      "replacements": [
+        "Viktátorovo",
+        "Deutschebánovo",
+        "Orbanescovo",
+        "Dicktátorovo",
+        "Orbmanovo",
+        "Dictorovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Orbánova"
+      ],
+      "replacements": [
+        "Viktátorova",
+        "Deutschebánova",
+        "Orbanescova",
+        "Dicktátorova",
+        "Orbmanova",
+        "Dictorova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Orbánův"
+      ],
+      "replacements": [
+        "Viktátorův",
+        "Deutschebánův",
+        "Orbanescův",
+        "Dicktátorův",
+        "Orbmanův",
+        "Dictorův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Orbánovi"
+      ],
+      "replacements": [
+        "Viktátorovi",
+        "Deutschebánovi",
+        "Orbanescovi",
+        "Dicktátorovi",
+        "Orbmanovi",
+        "Dictorovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Orbánovy"
+      ],
+      "replacements": [
+        "Viktátorovy",
+        "Deutschebánovy",
+        "Orbanescovy",
+        "Dicktátorovy",
+        "Orbmanovy",
+        "Dictorovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Orbánově"
+      ],
+      "replacements": [
+        "Viktátorově",
+        "Deutschebánově",
+        "Orbanescově",
+        "Dicktátorově",
+        "Orbmanově",
+        "Dictorově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Orbánovu"
+      ],
+      "replacements": [
+        "Viktátorovu",
+        "Deutschebánovu",
+        "Orbanescovu",
+        "Dicktátorovu",
+        "Orbmanovu",
+        "Dictorovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Orbánovou"
+      ],
+      "replacements": [
+        "Viktátorovou",
+        "Deutschebánovou",
+        "Orbanescovou",
+        "Dicktátorovou",
+        "Orbmanovou",
+        "Dictorovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Orbánovým"
+      ],
+      "replacements": [
+        "Viktátorovým",
+        "Deutschebánovým",
+        "Orbanescovým",
+        "Dicktátorovým",
+        "Orbmanovým",
+        "Dictorovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Orbánových"
+      ],
+      "replacements": [
+        "Viktátorových",
+        "Deutschebánových",
+        "Orbanescových",
+        "Dicktátorových",
+        "Orbmanových",
+        "Dictorových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Orbánovými"
+      ],
+      "replacements": [
+        "Viktátorovými",
+        "Deutschebánovými",
+        "Orbanescovými",
+        "Dicktátorovými",
+        "Orbmanovými",
+        "Dictorovými"
+      ]
+    }
+  }
+}

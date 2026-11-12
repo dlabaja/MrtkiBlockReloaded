@@ -18,12 +18,14 @@
         "Nicinka",
         "Plačinka",
         "Palačinka",
-        "Turkova Maminka",
+        "Turkova maminka",
         "Alkoholová hladinka",
         "Vztyčená pacinka",
         "Výfuková splodinka",
         "Klausova subinka",
-        "Klausova fanynka"
+        "Klausova fanynka",
+        "Vypitá lahvinka",
+        "Mužinka"
       ]
     },
     "2": {
@@ -41,12 +43,14 @@
         "Nicinky",
         "Plačinky",
         "Palačinky",
-        "Turkovy Maminky",
+        "Turkovy maminky",
         "Alkoholové hladinky",
         "Vztyčené pacinky",
         "Výfukové splodinky",
         "Klausovy subinky",
-        "Klausovy fanynky"
+        "Klausovy fanynky",
+        "Vypité lahvinky",
+        "Mužinky"
       ]
     },
     "3": {
@@ -64,12 +68,14 @@
         "Nicinkovi",
         "Plačince",
         "Palačince",
-        "Turkově Mamince",
+        "Turkově mamince",
         "Alkoholové hladince",
         "Vztyčené pacince",
         "Výfukové splodince",
         "Klausově subince",
-        "Klausově fanynce"
+        "Klausově fanynce",
+        "Vypité lahvince",
+        "Mužinkovi"
       ]
     },
     "4": {
@@ -87,12 +93,14 @@
         "Nicinku",
         "Plačinku",
         "Palačinku",
-        "Turkovu Maminku",
+        "Turkovu maminku",
         "Alkoholovou hladinku",
         "Vztyčenou pacinku",
         "Výfukovou splodinku",
         "Klausovu subinku",
-        "Klausovu fanynku"
+        "Klausovu fanynku",
+        "Vypitou lahvinku",
+        "Mužinku"
       ]
     },
     "5": {
@@ -110,12 +118,14 @@
         "Nicinko",
         "Plačinko",
         "Palačinko",
-        "Turkova Maminko",
+        "Turkova maminko",
         "Alkoholová hladinko",
         "Vztyčená pacinko",
         "Výfuková splodinko",
         "Klausova subinko",
-        "Klausova fanynko"
+        "Klausova fanynko",
+        "Vypitá lahvinko",
+        "Mužinko"
       ]
     },
     "6": {
@@ -134,12 +144,14 @@
         "Nicinkovi",
         "Plačince",
         "Palačince",
-        "Turkově Mamince",
+        "Turkově mamince",
         "Alkoholové hladince",
         "Vztyčené pacince",
         "Výfukové splodince",
         "Klausově subince",
-        "Klausově fanynce"
+        "Klausově fanynce",
+        "Vypité lahvince",
+        "Mužinkovi"
       ]
     },
     "7": {
@@ -157,12 +169,14 @@
         "Nicinkou",
         "Plačinkou",
         "Palačinkou",
-        "Turkovou Maminkou",
+        "Turkovou maminkou",
         "Alkoholovou hladinkou",
         "Vztyčenou pacinkou",
         "Výfukovou splodinkou",
         "Klausovou subinkou",
-        "Klausovou fanynkou"
+        "Klausovou fanynkou",
+        "Vypitou lahvinkou",
+        "Mužinkou"
       ]
     }
   },
@@ -181,7 +195,8 @@
         "Narcinkovo",
         "Nicinkovo",
         "Plačinkovo",
-        "Palačinkovo"
+        "Palačinkovo",
+        "Mužinkovo"
       ]
     },
     "ta": {
@@ -198,7 +213,8 @@
         "Narcinkova",
         "Nicinkova",
         "Plačinkova",
-        "Palačinkova"
+        "Palačinkova",
+        "Mužinkova"
       ]
     },
     "ten": {
@@ -215,7 +231,8 @@
         "Narcinkův",
         "Nicinkův",
         "Plačinkův",
-        "Palačinkův"
+        "Palačinkův",
+        "Mužinkův"
       ]
     },
     "ti": {
@@ -232,7 +249,8 @@
         "Narcinkovi",
         "Nicinkovi",
         "Plačinkovi",
-        "Palačinkovi"
+        "Palačinkovi",
+        "Mužinkovi"
       ]
     },
     "ty": {
@@ -249,7 +267,8 @@
         "Narcinkovi",
         "Nicinkovy",
         "Plačinkovy",
-        "Palačinkovy"
+        "Palačinkovy",
+        "Mužinkovy"
       ]
     },
     "te": {
@@ -266,7 +285,8 @@
         "Narcinkově",
         "Nicinkově",
         "Plačinkově",
-        "Palačinkově"
+        "Palačinkově",
+        "Mužinkově"
       ]
     },
     "tu": {
@@ -283,7 +303,8 @@
         "Narcinkovu",
         "Nicinkovu",
         "Plačinkovu",
-        "Palačinkovu"
+        "Palačinkovu",
+        "Mužinkovu"
       ]
     },
     "tou": {
@@ -300,7 +321,8 @@
         "Narcinkovou",
         "Nicinkovou",
         "Plačinkovou",
-        "Palačinkovou"
+        "Palačinkovou",
+        "Mužinkovou"
       ]
     },
     "tim": {
@@ -317,7 +339,8 @@
         "Narcinkovým",
         "Nicinkovým",
         "Plačinkovým",
-        "Palačinkovým"
+        "Palačinkovým",
+        "Mužinkovým"
       ]
     },
     "tech": {
@@ -334,7 +357,8 @@
         "Narcinkových",
         "Nicinkových",
         "Plačinkových",
-        "Palačinkových"
+        "Palačinkových",
+        "Mužinkových"
       ]
     },
     "temi": {
@@ -351,7 +375,8 @@
         "Narcinkovými",
         "Nicinkovými",
         "Plačinkovými",
-        "Palačinkovými"
+        "Palačinkovými",
+        "Mužinkovými"
       ]
     }
   }
