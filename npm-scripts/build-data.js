@@ -18,7 +18,7 @@ function buildData(path, outputPath, nameListPath) {
             processJsonItem(Path.join(path, name), jsonItems);
         }
         catch (e) {
-            throw new Error(`Cannot process ${name}`)
+            throw new Error(`Cannot process ${name}: ` +  e)
         }
     })
     

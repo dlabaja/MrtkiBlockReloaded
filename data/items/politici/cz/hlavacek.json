@@ -1,0 +1,162 @@
+{
+  "name": "hlavacek",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Petr Hlaváček",
+        "Hlaváček"
+      ],
+      "replacements": [
+        "Petr Zdražáček"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Petra Hlaváčka",
+        "Hlaváčka"
+      ],
+      "replacements": [
+        "Petra Zdražáčka"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Petru Hlaváčkovi",
+        "Petrovi Hlaváčkovi",
+        "Hlaváčkovi"
+      ],
+      "replacements": [
+        "Petru Zdražáčkovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Petra Hlaváčka",
+        "Hlaváčka"
+      ],
+      "replacements": [
+        "Petra Zdražáčka"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Petře Hlaváčku",
+        "Hlaváčku"
+      ],
+      "replacements": [
+        "Petře Zdražáčku"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Petru Hlaváčkovi",
+        "Petrovi Hlaváčkovi",
+        "Hlaváčkovi"
+      ],
+      "replacements": [
+        "Petru Zdražáčkovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Petrem Hlaváčkem",
+        "Hlaváčkem"
+      ],
+      "replacements": [
+        "Petrem Zdražáčkem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Hlaváčkovo"
+      ],
+      "replacements": [
+        "Zdražáčkovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Hlaváčkova"
+      ],
+      "replacements": [
+        "Zdražáčkova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Hlaváčkův"
+      ],
+      "replacements": [
+        "Zdražáčkův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Hlaváčkovi"
+      ],
+      "replacements": [
+        "Zdražáčkovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Hlaváčkovy"
+      ],
+      "replacements": [
+        "Zdražáčkovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Hlaváčkově"
+      ],
+      "replacements": [
+        "Zdražáčkově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Hlaváčkovu"
+      ],
+      "replacements": [
+        "Zdražáčkovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Hlaváčkovou"
+      ],
+      "replacements": [
+        "Zdražáčkovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Hlaváčkovým"
+      ],
+      "replacements": [
+        "Zdražáčkovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Hlaváčkových"
+      ],
+      "replacements": [
+        "Zdražáčkových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Hlaváčkovými"
+      ],
+      "replacements": [
+        "Zdražáčkovými"
+      ]
+    }
+  }
+}

@@ -22,7 +22,10 @@
         "Polibek smrti",
         "Vysočinský pirát",
         "Loch Ness",
-        "Vodní tvor co nemá rád vodu"
+        "Vodní tvor co nemá rád vodu",
+        "Lihoš Eman",
+        "Jožin z vysočinských bažin",
+        "Chrápající kupa hnoje nasáklá chlastem"
       ]
     },
     "2": {
@@ -44,7 +47,10 @@
         "Polibku smrti",
         "Vysočinského piráta",
         "Loch Ness",
-        "Vodního tvora co nemá rád vodu"
+        "Vodního tvora co nemá rád vodu",
+        "Lihoše Emana",
+        "Jožina z vysočinských bažin",
+        "Chrápající kupy hnoje nasáklé chlastem"
       ]
     },
     "3": {
@@ -66,7 +72,10 @@
         "Polibku smrti",
         "Vysočinskému pirátovi",
         "Loch Ness",
-        "Vodnímu tvoru co nemá rád vodu"
+        "Vodnímu tvoru co nemá rád vodu",
+        "Lihošovi Emanovi",
+        "Jožinovi z vysočinských bažin",
+        "Chrápající kupě hnoje nasáklé chlastem"
       ]
     },
     "4": {
@@ -88,7 +97,10 @@
         "Polibek smrti",
         "Vysočinského piráta",
         "Loch Ness",
-        "Vodního tvora co nemá rád vodu"
+        "Vodního tvora co nemá rád vodu",
+        "Lihoše Emana",
+        "Jožina z vysočinských bažin",
+        "Chrápající kupu hnoje nasáklou chlastem"
       ]
     },
     "5": {
@@ -110,7 +122,10 @@
         "Polibku smrti",
         "Vysočinský piráte",
         "Loch Ness",
-        "Vodní tvore co nemá rád vodu"
+        "Vodní tvore co nemá rád vodu",
+        "Lihoši Emane",
+        "Jožine z vysočinských bažin",
+        "Chrápající kupo hnoje nasáklá chlastem"
       ]
     },
     "6": {
@@ -132,7 +147,10 @@
         "Polibku smrti",
         "Vysočinském pirátovi",
         "Loch Ness",
-        "Vodním tvoru co nemá rád vodu"
+        "Vodním tvoru co nemá rád vodu",
+        "Lihošovi Emanovi",
+        "Jožinovi z vysočinských bažin",
+        "Chrápající kupě hnoje nasáklé chlastem"
       ]
     },
     "7": {
@@ -154,7 +172,10 @@
         "Polibkem smrti",
         "Vysočinským pirátem",
         "Loch Ness",
-        "Vodním tvorem co nemá rád vodu"
+        "Vodním tvorem co nemá rád vodu",
+        "Lihošem Emanem",
+        "Jožinem z vysočinských bažin",
+        "Chrápající kupou hnoje nasáklou chlastem"
       ]
     }
   },
@@ -169,7 +190,9 @@
         "Pudinkobaronovo",
         "Jezevcovo",
         "Ovarovo",
-        "Šátečkovo"
+        "Šátečkovo",
+        "Emanovo",
+        "Jožinovo"
       ]
     },
     "ta": {
@@ -182,7 +205,9 @@
         "Pudinkobaronova",
         "Jezevcova",
         "Ovarova",
-        "Šátečkova"
+        "Šátečkova",
+        "Emanova",
+        "Jožinova"
       ]
     },
     "ten": {
@@ -195,7 +220,9 @@
         "Pudinkobaronův",
         "Jezevcův",
         "Ovarův",
-        "Šátečkův"
+        "Šátečkův",
+        "Emanův",
+        "Jožinův"
       ]
     },
     "ti": {
@@ -208,7 +235,9 @@
         "Pudinkobaronovi",
         "Jezevcovi",
         "Ovarovi",
-        "Šátečkovi"
+        "Šátečkovi",
+        "Emanovi",
+        "Jožinovi"
       ]
     },
     "ty": {
@@ -221,7 +250,9 @@
         "Pudinkobaronovy",
         "Jezevcovy",
         "Ovarovy",
-        "Šátečkovy"
+        "Šátečkovy",
+        "Emanovy",
+        "Jožinovy"
       ]
     },
     "te": {
@@ -234,7 +265,9 @@
         "Pudinkobaronově",
         "Jezevcově",
         "Ovarově",
-        "Šátečkově"
+        "Šátečkově",
+        "Emanově",
+        "Jožinově"
       ]
     },
     "tu": {
@@ -247,7 +280,9 @@
         "Pudinkobaronovu",
         "Jezevcovu",
         "Ovarovu",
-        "Šátečkovu"
+        "Šátečkovu",
+        "Emanovu",
+        "Jožinovu"
       ]
     },
     "tou": {
@@ -260,7 +295,9 @@
         "Pudinkobaronovou",
         "Jezevcovou",
         "Ovarovou",
-        "Šátečkovou"
+        "Šátečkovou",
+        "Emanovou",
+        "Jožinovou"
       ]
     },
     "tim": {
@@ -273,7 +310,9 @@
         "Pudinkobaronovým",
         "Jezevcovým",
         "Ovarovým",
-        "Šátečkovým"
+        "Šátečkovým",
+        "Emanovým",
+        "Jožinovým"
       ]
     },
     "tech": {
@@ -286,7 +325,9 @@
         "Pudinkobaronových",
         "Jezevcových",
         "Ovarových",
-        "Šátečkových"
+        "Šátečkových",
+        "Emanových",
+        "Jožinových"
       ]
     },
     "temi": {
@@ -299,7 +340,9 @@
         "Pudinkobaronovými",
         "Jezevcovými",
         "Ovarovými",
-        "Šátečkovými"
+        "Šátečkovými",
+        "Emanovými",
+        "Jožinovými"
       ]
     }
   }

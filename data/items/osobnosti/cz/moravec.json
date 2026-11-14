@@ -1,0 +1,198 @@
+{
+  "name": "moravec",
+  "matchUpperCase": true,
+  "matchLowerCase": true,
+  "cases": {
+    "1": {
+      "matches": [
+        "Václav Moravec",
+        "Moravec"
+      ],
+      "replacements": [
+        "Václav Hlodavec",
+        "Václav otázek odstavec",
+        "Václav otázek dravec"
+      ]
+    },
+    "2": {
+      "matches": [
+        "Václava Moravce",
+        "Moravce"
+      ],
+      "replacements": [
+        "Václava Hlodavce",
+        "Václava otázek odstavce",
+        "Václava otázek dravce"
+      ]
+    },
+    "3": {
+      "matches": [
+        "Václavu Moravcovi",
+        "Václavovi Moravcovi",
+        "Moravcovi"
+      ],
+      "replacements": [
+        "Václavu Hlodavcovi",
+        "Václavu otázek odstavcovi",
+        "Václavu otázek dravcovi"
+      ]
+    },
+    "4": {
+      "matches": [
+        "Václava Moravce",
+        "Moravce"
+      ],
+      "replacements": [
+        "Václava Hlodavce",
+        "Václava otázek odstavce",
+        "Václava otázek dravce"
+      ]
+    },
+    "5": {
+      "matches": [
+        "Václave Moravci",
+        "Moravci"
+      ],
+      "replacements": [
+        "Václave Hlodavci",
+        "Václave otázek odstavci",
+        "Václave otázek dravci"
+      ]
+    },
+    "6": {
+      "matches": [
+        "Václavu Moravcovi",
+        "Václavovi Moravcovi",
+        "Moravcovi"
+      ],
+      "replacements": [
+        "Václavu Hlodavcovi",
+        "Václavu otázek odstavcovi",
+        "Václavu otázek dravcovi"
+      ]
+    },
+    "7": {
+      "matches": [
+        "Václavem Moravcem",
+        "Moravcem"
+      ],
+      "replacements": [
+        "Václavem Hlodavcem",
+        "Václavem otázek odstavcem",
+        "Václavem otázek dravcem"
+      ]
+    }
+  },
+  "adjectives": {
+    "to": {
+      "matches": [
+        "Moravcovo"
+      ],
+      "replacements": [
+        "Hlodavcovo",
+        "Odstavcovo",
+        "Dravcovo"
+      ]
+    },
+    "ta": {
+      "matches": [
+        "Moravcova"
+      ],
+      "replacements": [
+        "Hlodavcova",
+        "Odstavcova",
+        "Dravcova"
+      ]
+    },
+    "ten": {
+      "matches": [
+        "Moravcův"
+      ],
+      "replacements": [
+        "Hlodavcův",
+        "Odstavcův",
+        "Dravcův"
+      ]
+    },
+    "ti": {
+      "matches": [
+        "Moravcovi"
+      ],
+      "replacements": [
+        "Hlodavcovi",
+        "Odstavcovi",
+        "Dravcovi"
+      ]
+    },
+    "ty": {
+      "matches": [
+        "Moravcovy"
+      ],
+      "replacements": [
+        "Hlodavcovy",
+        "Odstavcovy",
+        "Dravcovy"
+      ]
+    },
+    "te": {
+      "matches": [
+        "Moravcově"
+      ],
+      "replacements": [
+        "Hlodavcově",
+        "Odstavcově",
+        "Dravcově"
+      ]
+    },
+    "tu": {
+      "matches": [
+        "Moravcovu"
+      ],
+      "replacements": [
+        "Hlodavcovu",
+        "Odstavcovu",
+        "Dravcovu"
+      ]
+    },
+    "tou": {
+      "matches": [
+        "Moravcovou"
+      ],
+      "replacements": [
+        "Hlodavcovou",
+        "Odstavcovou",
+        "Dravcovou"
+      ]
+    },
+    "tim": {
+      "matches": [
+        "Moravcovým"
+      ],
+      "replacements": [
+        "Hlodavcovým",
+        "Odstavcovým",
+        "Dravcovým"
+      ]
+    },
+    "tech": {
+      "matches": [
+        "Moravcových"
+      ],
+      "replacements": [
+        "Hlodavcových",
+        "Odstavcových",
+        "Dravcových"
+      ]
+    },
+    "temi": {
+      "matches": [
+        "Moravcovými"
+      ],
+      "replacements": [
+        "Hlodavcovými",
+        "Odstavcovými",
+        "Dravcovými"
+      ]
+    }
+  }
+}
